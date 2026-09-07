@@ -33,7 +33,7 @@
 3. **Capa 3 [API]**：微观主角（射正率、射门转化率、主力对抗胜率与门将扑救率）。理论支撑见 [2019 Nature PlayeRank 框架](./温故而知新学习资料/2019_Nature_PlayeRank_Data_Driven_Framework.md) 与 [2025 Success Score 深度架构](./温故而知新学习资料/2025_Success_Score_Deep_Learning_Football_Prediction.md)。
 4. **Capa 4 [IND]**：综合指标（泊松分布联合概率计算，检验数据与盘面一致性）。理论支撑见 [1802.08848 分层贝叶斯泊松模型](./温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md) 与 [2017 平局预测难题](./温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md)。
 5. **Capa 5 [IND]**：根因机制（为什么打平/分胜负？揭示战术动机与保守保分心理）。理论支撑见 [2008 散户情绪与庄家定价偏见](./温故而知新学习资料/2008_Sentiment_and_Bookmaker_Pricing_Bias.md) 与 [2025 战术犯规与平局预测](./温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md)。
-6. **Capa 6**：信号权重（区分强信号、中信号与无效噪音）。理论支撑见 [2403.16282 机器学习预测演进](./温故而知新学习资料/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md)。
+6. **Capa 6**：信号权重（平局六维加权评估体系：中场犯规割裂25%、盘口实防/阻盘25%、终结匮乏20%、保守保分战意15%、交锋平局基因10%、逆风扳平韧性5%）。理论支撑见 [2403.16282 机器学习预测演进](./温故而知新学习资料/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md) 与 [2026-09-06全量平局复盘战报](./分析复盘记录/2026-09-06_全量平局复盘与机构操盘手法深度精算报告.md)。
 7. **Capa 7**：赛前预测（严谨概率分布与置信度，严禁使用“稳赢”字眼）。理论支撑见 [2505.21275 滚球盘口进球感知](./温故而知新学习资料/2505.21275_Do_Betting_Markets_Sense_a_Goal_Coming.md) 与 [2604.17194 冷门偏差模型](./温故而知新学习资料/2604.17194_Forecast_Sports_Outcomes_under_EMH_Odds_Only_Models.md)。
 8. **Capa 8**：最终决策（最具性价比落点剧本与严厉避坑指南）。理论支撑见 [2003.09384 让球盘因果网络](./温故而知新学习资料/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md)。实战案例见 [分析复盘记录档案](./分析复盘记录/2026-09-06_周日体彩平局精算分析与复盘档案.md)。
 
