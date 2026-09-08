@@ -1,5 +1,118 @@
 {
-  "generated_at": "2026-09-08T07:45:03.992934+00:00",
-  "nodes": {},
+  "generated_at": "2026-09-08T09:36:01.847469+00:00",
+  "nodes": {
+    "agents_eight_capas_model": {
+      "code_fingerprint": "dadc9100f4ad9db31b3a85791967b15868dc543c32fa97ea264c48d7a4876350",
+      "label": "8层博彩推演模型 (8 Capas)",
+      "last": "2026-09-08T09:36:01.212901+00:00",
+      "provenance": [
+        {
+          "date": "2026-09-08T09:36:01.212901+00:00",
+          "outcome": "useful",
+          "q": "系统规范README与智慧大脑AGENTS协同架构"
+        }
+      ],
+      "score": 0.99999983,
+      "source_file": "AGENTS.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "agents_karpathy_flywheel": {
+      "code_fingerprint": "dadc9100f4ad9db31b3a85791967b15868dc543c32fa97ea264c48d7a4876350",
+      "label": "Karpathy 技能自进化飞轮",
+      "last": "2026-09-08T09:36:01.212901+00:00",
+      "provenance": [
+        {
+          "date": "2026-09-08T09:36:01.212901+00:00",
+          "outcome": "useful",
+          "q": "系统规范README与智慧大脑AGENTS协同架构"
+        }
+      ],
+      "score": 0.99999983,
+      "source_file": "AGENTS.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "agents_three_red_lines": {
+      "code_fingerprint": "dadc9100f4ad9db31b3a85791967b15868dc543c32fa97ea264c48d7a4876350",
+      "label": "赛前三道金刚一票否决红线",
+      "last": "2026-09-08T09:36:01.212901+00:00",
+      "provenance": [
+        {
+          "date": "2026-09-08T09:36:01.212901+00:00",
+          "outcome": "useful",
+          "q": "系统规范README与智慧大脑AGENTS协同架构"
+        }
+      ],
+      "score": 0.99999983,
+      "source_file": "AGENTS.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "readme": {
+      "code_fingerprint": "1902a246121e122b7241aaec8344aef5ca2f84581790875dfbb1bffafa138807",
+      "label": "README.md",
+      "last": "2026-09-08T09:36:01.212901+00:00",
+      "provenance": [
+        {
+          "date": "2026-09-08T09:36:01.212901+00:00",
+          "outcome": "useful",
+          "q": "系统规范README与智慧大脑AGENTS协同架构"
+        }
+      ],
+      "score": 0.99999983,
+      "source_file": "README.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "readme_1_核心架构与系统规范": {
+      "code_fingerprint": "1902a246121e122b7241aaec8344aef5ca2f84581790875dfbb1bffafa138807",
+      "label": "1. 核心架构与系统规范",
+      "last": "2026-09-08T09:36:01.212901+00:00",
+      "provenance": [
+        {
+          "date": "2026-09-08T09:36:01.212901+00:00",
+          "outcome": "useful",
+          "q": "系统规范README与智慧大脑AGENTS协同架构"
+        }
+      ],
+      "score": 0.99999983,
+      "source_file": "README.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "脚本_对账机": {
+      "code_fingerprint": "e42275fd290be560ccfa67e1d4bd9ce2358e1386aff4f627089d5800ab0bd990",
+      "label": "对账机.py",
+      "last": "2026-09-08T09:36:01.212901+00:00",
+      "provenance": [
+        {
+          "date": "2026-09-08T09:36:01.212901+00:00",
+          "outcome": "useful",
+          "q": "系统规范README与智慧大脑AGENTS协同架构"
+        }
+      ],
+      "score": 0.99999983,
+      "source_file": "脚本/对账机.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "脚本_心电图录像机": {
+      "code_fingerprint": "a574564cabe8025de8a1f9289c2234302be4b6d0f344ecc058a48982598d28c3",
+      "label": "心电图录像机.py",
+      "last": "2026-09-08T09:36:01.212901+00:00",
+      "provenance": [
+        {
+          "date": "2026-09-08T09:36:01.212901+00:00",
+          "outcome": "useful",
+          "q": "系统规范README与智慧大脑AGENTS协同架构"
+        }
+      ],
+      "score": 0.99999983,
+      "source_file": "脚本/心电图录像机.py",
+      "status": "tentative",
+      "uses": 1
+    }
+  },
   "version": 1
 }

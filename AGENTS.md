@@ -1,98 +1,117 @@
-# AGENTS.md — 足球倍率精算与赛事预测项目工作指南
+# AGENTS.md — 足球倍率精算智能体大脑：自进化飞轮、算法分析与推演模型
 
-> **项目定位**：基于“数据为王 + 庄家倍率精算”的足球赛事量化分析与预测工作区。  
-> **核心哲学**：只要有庄家在，任何足球比赛本质上都是有黑幕的资本局；庄家不可能亏，庄家是一定要赚钱的。彻底拒绝赌徒主观臆断与竞技情怀，以“庄家必赚、利益最大化”为唯一推演公理。
-
----
-
-## 1. 核心架构与数据管道
-
-### 1.1 官方赔率数据管道（体彩直连）
-* **连接实现**：由 [心电图录像机](脚本/心电图录像机.py) 与 [体彩官方适配器](脚本/适配器/体彩接口.py) 驱动，直供 [Capa 1 ODDS](#2-核心分析范式8-层博彩推演模型8-capas)。
-* **免密端点**：`https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c`
-* **覆盖范围**：当日开售全部场次，涵盖胜平负(`had`)、让球(`hhad`)、总进球(`ttg`)、比分(`crs`)、半全场(`hafu`)。
-* **时效性**：分钟级同步，带精确到秒的 `updateTime` 时间戳。
-
-### 1.2 全球微观数据管道（API-Sports）
-* **连接实现**：直供 [Capa 2 IND 与 Capa 3 API](#2-核心分析范式8-层博彩推演模型8-capas)，由 [预测推演报告](分析复盘记录/2026-09-08_预测.md) 全量消费。
-* **接口地址**：`https://v3.football.api-sports.io/`
-* **双 Key 自动轮换**：
-  * 主 Key：`832130dcfdadb0aac6af9e19300f74ec` (100次/天)
-  * 备 Key：`d3ee3cb753c07c442d7d3fd16bb6dceb` (100次/天)
-* **核心价值**：提取日职联(98)、韩职联(292)、挪超(103)等次级赛事的射门转化率、零封率与白卷率。
-
-### 1.3 学术文献引擎（Microsoft MarkItDown）
-* **文献库链接**：用于将 [温故而知新学习资料库](温故而知新学习资料/README_学习资料索引与经典论文导读.md) 转化为纯净 Markdown，支撑 [Capa 1 至 Capa 8 推演模型](#2-核心分析范式8-层博彩推演模型8-capas)。
-* **调用方式**：`MarkItDown().convert("file.pdf").text_content`
-* **作用**：自动将学术研究 PDF 转化为结构化 Markdown，供大模型精准读取公式与数据表。
+> **大脑定位**：本文件是智能体的“认知与智慧大脑”。专门沉淀能自我进化、自我飞轮迭代的博弈智慧、精算算法分析与多维推演模型。  
+> **系统契约与操作规范**：请参阅根目录 [系统使用手册与运行规范 (README.md)](./README.md) 及 [分析复盘规程档案 (分析复盘记录/README.md)](./分析复盘记录/README.md)。
 
 ---
 
-## 2. 核心分析范式：8 层博彩推演模型（8 Capas）
+## 1. 核心博弈哲学与底层公理
 
-任何赛事深度分析必须严格遵守 8 层标准流程，并与学术文献与实战复盘库双向锚定：
-1. **Capa 1 [ODDS]**：市场底牌（**强制双向对账：中国体彩官方赔率 vs 国际四大权威机构 Pinnacle/Bet365/William Hill/Betfair**，反推无抽水概率，计算平赔压制差、大小球盘口防范度）。理论支撑见 [1710.02824 庄家倍率策略](温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md)、[Shin 算法专卷](温故而知新学习资料/Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md) 与 [2604.17194 赔率转化模型](温故而知新学习资料/2604.17194_Forecast_Sports_Outcomes_under_EMH_Odds_Only_Models.md)。
-2. **Capa 2 [IND]**：球队画像（主客场真实得失球均值、平局率与交锋历史）。理论支撑见 [1802.08848 攻防联合建模](温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md) 与 [2018 BORS 战力评级](温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md)。
-3. **Capa 3 [API]**：微观主角（射正率、射门转化率、主力对抗胜率与门将扑救率）。理论支撑见 [2019 Nature PlayeRank 框架](温故而知新学习资料/2019_Nature_PlayeRank_Data_Driven_Framework.md) 与 [2025 Success Score 深度架构](温故而知新学习资料/2025_Success_Score_Deep_Learning_Football_Prediction.md)。
-4. **Capa 4 [IND]**：综合指标（泊松分布联合概率计算，检验数据与盘面一致性）。理论支撑见 [1802.08848 分层贝叶斯泊松模型](温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md) 与 [2017 平局预测难题](温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md)。
-5. **Capa 5 [IND]**：根因机制（为什么打平/分胜负？揭示战术动机与保守保分心理）。理论支撑见 [2008 散户情绪与庄家定价偏见](温故而知新学习资料/2008_Sentiment_and_Bookmaker_Pricing_Bias.md) 与 [2025 战术犯规与平局预测](温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md)。
-6. **Capa 6**：信号权重（平局 3.0 加权评估体系：中场犯规割裂20%、终结匮乏与白卷25%、机构实防/阻盘意图30%、保守保分战意15%、交锋平局基因10%）。融入“胜负单边倾斜否决”、“客强伪降水诱平否决”与“防线核心伤停扣分”三道赛前一票否决红线。理论支撑见 [2403.16282 机器学习预测演进](温故而知新学习资料/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md)、[2024 KTH 盘口流动性](温故而知新学习资料/2024_KTH_Predicting_Odds_Movement_Betting_Exchange_Liquidity.md) 与 [2026-09-07全量平局复盘战报](分析复盘记录/2026-09-07_复盘.md)。
-7. **Capa 7**：赛前预测（严谨概率分布与置信度，严禁使用“稳赢”字眼）。理论支撑见 [2505.21275 滚球盘口进球感知](温故而知新学习资料/2505.21275_Do_Betting_Markets_Sense_a_Goal_Coming.md) 与 [2604.17194 冷门偏差模型](温故而知新学习资料/2604.17194_Forecast_Sports_Outcomes_under_EMH_Odds_Only_Models.md)。
-8. **Capa 8**：最终决策（最具性价比落点剧本与严厉避坑指南）。理论支撑见 [2003.09384 让球盘因果网络](温故而知新学习资料/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md)。实战案例见 [分析复盘记录档案](分析复盘记录/2026-09-06_预测.md)、[总复盘总结](分析复盘记录/总复盘总结.md) 与 [总准确率看板](分析复盘记录/总准确率.md)。包含实战驱动工具 [自动化对账机](脚本/对账机.py)。
+### 1.1 庄家必赚与通杀收割公理（第一铁律）
+* **资本控盘局本质**：只要有庄家在，任何足球比赛本质上都是有黑幕的资本博弈局。庄家绝不可能亏损，其核心商业模式是“利益最大化”。
+* **人性的非对称弱点**：90% 的普通散户倾向于投注“分胜负”（主胜或客胜），投注平局的筹码通常不足 15%。
+* **平局是终极通杀武器**：平局是庄家消灭胜负两头巨量筹码、实现单场高达 50%~60% 净利润的核武器。模型推演彻底抛弃主观竞技情怀，唯一聚焦于**“庄家如何通过打平杀多赔少、实现利益最大化”**。
 
 ---
 
-## 3. 工作区目录资产规范
+## 2. Karpathy 技能自进化飞轮（闭环演化机制）
 
 ```
-D:\100-工作\200-交易\足球预测\
-├── AGENTS.md                                   # 本文件：智能体协同与项目全景指南
-├── 分析复盘记录\                               # 每日实盘精算推演与赛后复盘追踪档案
-│   ├── README.md                               # 档案库使用手册与三位一体自驱动规程
-│   ├── 总准确率.md                             # 每日自动聚合刷新的战绩胜率实时看板
-│   ├── 总复盘总结.md                           # 机构操盘手法百科与赛前盲区教训总库
-│   ├── YYYY-MM-DD_预测.md                      # 每日赛前精算推演报告 (文首内嵌标准JSON)
-│   └── YYYY-MM-DD_复盘.md                      # 每日赛后全量复盘报告 (文首内嵌标准JSON)
-└── 温故而知新学习资料\                          # 国际学术经典文献资料库（12篇 MarkItDown .md）
-    ├── README_学习资料索引与经典论文导读.md      # 12篇文献导读索引与交叉拓扑
-    ├── 1710.02824_Beating_the_Bookies...md      # 用庄家数据击败庄家(实盘验证神作)
-    ├── 1802.08848_Combining_Historical...md     # 历史战绩与赔率联合贝叶斯泊松模型
-    ├── 2003.09384_Asian_Handicap_Market...md    # 让球盘(亚盘)有效性检验与贝叶斯网络
-    ├── 2008_Sentiment_and_Bookmaker...md        # 散户情绪与庄家定价偏见
-    ├── 2017_Problem_of_Correctly_Predicting...md# 平局预测的世界难题
-    ├── 2018_PLOS_Betting_Odds_Rating...md       # BORS 庄家赔率反向战力评级体系
-    ├── 2019_Nature_PlayeRank_Data_Driven...md   # Nature PlayeRank 球员量化框架
-    ├── 2025_Springer_Predicting_Draws...md      # 战术粗暴犯规与平局联合预测
-    ├── 2025_Success_Score_Deep_Learning...md    # 深度学习球队与球员表现架构
-    ├── 2403.16282_The_Evolution_of_Football...md# 足球博彩机器学习预测演进(2024最新综述)
-    ├── 2505.21275_Do_Betting_Markets_Sense...md # 滚球赔率进球感知模型
-    ├── 2604.17194_Forecast_Sports_Outcomes...md # 2026有效市场假说纯赔率模型
-    └── Shin_1993_and_Strumbelj_2014_庄家赔率...md# Shin 破译内幕与去水算法专卷
+                     ┌───────────────────────────────┐
+                     │ 1. 赛前推演 (Pre-Match)        │
+                     │  - graphify query 检索历史操盘  │
+                     │  - 8层精算模型 + 3道硬红线初筛  │
+                     └──────────────┬────────────────┘
+                                    │
+                                    ▼
+                     ┌───────────────────────────────┐
+                     │ 2. 物理封盘 (Lock-in T-2h)    │
+                     │  - 写入 预测.md 文首 JSON 卡片  │
+                     │  - 心电图录像机锁定即时赔率流水 │
+                     └──────────────┬────────────────┘
+                                    │
+                                    ▼
+                     ┌───────────────────────────────┐
+                     │ 3. 赛后真实对账 (Reconcile)   │
+                     │  - 自动调用 对账机.py 物理刷新  │
+                     │  - 战绩看板与胜率实时核算      │
+                     └──────────────┬────────────────┘
+                                    │
+                                    ▼
+                     ┌───────────────────────────────┐
+                     │ 4. 赛前盲区审计 (Post-Mortem) │
+                     │  - 严禁赛中叙事，100%审计开赛前│
+                     │  - 提炼新红线 -> 写入知识图谱  │
+                     │  - graphify reflect 沉淀经验锁 │
+                     └───────────────────────────────┘
 ```
+
+1. **赛前查脑**：推演前必须强制执行 `graphify query` 检索历史类似盘口与操盘手法（实防、诱盘、阻盘）。
+2. **赛后绝不马后炮**：复盘严禁复述赛中进球、红牌或运气过程，必须 100% 审计开赛前（T-2h）已知数据盲区（胜负倾斜、伪降水、0球极值等）。
+3. **经验物理固化**：每一个失误都转化为一道“赛前一票否决硬红线”，并通过 `graphify save-result` 与 `graphify reflect` 织入知识图谱，形成胜率逼近 100% 的飞轮效应。
 
 ---
 
-## 4. 智能体行为守则
-1. **庄家必赚与通杀收割公理（第一铁律）**：只要有庄家在，任何足球比赛本质上都是有黑幕的资本控盘局。庄家绝不可能亏，是一定要赚钱的。90% 的散户非买胜即买负，买平局的筹码往往不足 15%；**平局是庄家消灭胜负两头筹码、实现通杀暴利的终极核武器**。一切预测推演必须以“庄家如何通过打平杀多赔少、收割韭菜利益最大化”为唯一核心底层逻辑。
-2. **数据在先，结论在后**：严禁无数据凭空推测，每一次推演必须调取官方赔率与 API 真实进球/白卷率。
-3. **强制全局开启 Graphify 暴力超强模式（--mode deep）与零孤岛铁律**：所有建图、提取与增量更新必须全局强制附带 `--mode deep` 并调用旗舰模型 `gemini-3.8-flash-high`。**严禁产生孤岛节点与孤岛连通分量**：新建任何文档（预测/复盘）或代码必须包含显式双向引用（Markdown 相对链接），并执行 `graphify cluster-only .` 校验连通分量数严格等于 1。赛后必须通过 `graphify save-result` 与 `graphify reflect` 将实际赛果沉淀入知识库，形成复盘进化闭环。
-4. **零残留与极简主义**：不产生无用临时脚本，用完即清，保持环境极度整洁。
-5. **盘口异动敏感**：紧盯“破3超低平赔（<3.00）”与“0球超低赔率（<9.00）”的庄家避险与割韭菜异动。
-6. **Karpathy 技能自进化飞轮（推演与复盘闭环铁律）**：
-   * **赛前推演先查大脑**：做任何分析、预测与推演前，必须强制前置执行 `graphify query` 检索历史操盘手法（实防/诱盘/阻盘）与学术证据，拒绝无图谱盲推。
-   * **赛后复盘绝不马后炮**：严禁叙述赛中进球或红牌过程，必须 100% 审计开赛前（T-2h）已知数据盲区（如胜负倾斜赔率、客强伪降水），并将赛前失误提炼为“一票否决硬红线”。
-   * **对账与总控看板物理刷新**：赛后复盘生成后，必须立刻自动调用 `脚本/对账机.py` 刷新《总准确率.md》与《总复盘总结.md》。
-   * **知识图谱复利演化**：复盘结果必须通过 `graphify update .` 或 `save-result` 深度织入图谱，每一个漏洞都变成物理锁，驱动胜率像飞轮一样持续向 100% 逼近！
+## 3. 核心分析范式：8 层博彩推演模型（8 Capas）
 
-## graphify
+深度分析必须严格遵循 8 层标准流程，并与国际学术文献及实战复盘库双向锚定：
 
-This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+### Capa 1 [ODDS]：市场底牌与全球四大机构对账
+* **精算逻辑**：强制双向对账——中国体彩官方赔率 vs 国际四大权威机构（Pinnacle 平博、Bet365、William Hill 威廉希尔、Betfair 必发）。
+* **破译算法**：
+  * **Shin (1993) & Štrumbelj (2014) 去水算法**：反推知情内幕交易比例 $z$ 与无抽水真实概率 $p_i$。详见 [Shin 算法专卷](温故而知新学习资料/Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md)。
+  * **EMH 纯赔率模型**：利用 OO-EPC 与 FL-GLM 校正冷门偏差与平局偏差。详见 [2604.17194 赔率转化模型](温故而知新学习资料/2604.17194_Forecast_Sports_Outcomes_under_EMH_Odds_Only_Models.md) 与 [1710.02824 庄家倍率破译策略](温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md)。
+  * **压制差识别**：若国际大庄平赔高挂 3.60+ 而体彩断崖压制在 3.30，视为体彩内幕避险实防。
 
-When the user types `/graphify`, use the installed graphify skill or instructions before doing anything else.
+### Capa 2 [IND]：球队画像与战力评级
+* **精算逻辑**：主客场真实得失球均值、平局率与交锋历史。
+* **模型支撑**：
+  * **BORS 战力评级体系**：利用赔率反向提炼球队动态战力评级。详见 [2018 BORS 战力评级](温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md)。
+  * **历史战绩攻防联合建模**：结合长周期得失球均值回归。详见 [1802.08848 攻防联合建模](温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md)。
 
-Rules:
-- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
-- Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
-- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
-- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
-- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+### Capa 3 [API]：关键球员微观主角硬核数据
+* **精算逻辑**：利用 API-Sports 深度挖掘门将扑救率、中卫对抗胜率、中场破坏性犯规与前锋转化率。
+* **模型支撑**：
+  * **PlayeRank 量化框架**：评估球员全维度事件对比赛结果的边际贡献。详见 [2019 Nature PlayeRank 框架](温故而知新学习资料/2019_Nature_PlayeRank_Data_Driven_Framework.md)。
+  * **Success Score 深度学习架构**：高维球员表现与阵型克制评估。详见 [2025 Success Score 深度架构](温故而知新学习资料/2025_Success_Score_Deep_Learning_Football_Prediction.md)。
+
+### Capa 4 [IND]：综合指标与泊松联合概率
+* **精算逻辑**：双参数泊松分布（Poisson）与 Skellam 分布计算精确比分概率矩阵（0:0, 1:1, 2:2）。
+* **模型支撑**：
+  * **分层贝叶斯泊松模型**：联合得失球强度模拟。详见 [1802.08848 分层贝叶斯泊松模型](温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md)。
+  * **平局预测概率修正**：针对足球平局低估难题进行常数膨胀校准。详见 [2017 平局预测难题](温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md)。
+
+### Capa 5 [IND]：根因机制与心理战术博弈
+* **精算逻辑**：揭示战术动机、保守保分心理与散户投注偏见。
+* **模型支撑**：
+  * **散户情绪与庄家定价偏见**：机构利用名气球队吸引胜负投注，诱导筹码失衡。详见 [2008 散户情绪与庄家定价偏见](温故而知新学习资料/2008_Sentiment_and_Bookmaker_Pricing_Bias.md)。
+  * **战术犯规与平局相关性**：高频中场战术粗暴犯规切碎进攻节奏导致打平。详见 [2025 战术犯规与平局预测](温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md)。
+
+### Capa 6：平局 3.0 六维加权决策模型
+* **六维权重分配体系**：
+  * 机构实防/阻盘意图（30%）
+  * 终结匮乏与白卷率（25%）
+  * 中场犯规与节奏割裂（20%）
+  * 保守保分战意（15%）
+  * 历史交锋平局基因（10%）
+* **综合评分阈值**：总分 $\ge 75$ 分方可列为候选，$\ge 85$ 分列入黄金猎物。理论支撑见 [2403.16282 机器学习预测演进](温故而知新学习资料/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md) 与 [2024 KTH 盘口流动性](温故而知新学习资料/2024_KTH_Predicting_Odds_Movement_Betting_Exchange_Liquidity.md)。
+
+### Capa 7：赛前预测与概率置信度
+* **精算逻辑**：输出去vig后真实概率、期望值（EV）与置信度区间，严禁使用“稳赢”主观词汇。
+* **模型支撑**：滚球进球感知模型与实时态势评估。详见 [2505.21275 滚球盘口进球感知](温故而知新学习资料/2505.21275_Do_Betting_Markets_Sense_a_Goal_Coming.md)。
+
+### Capa 8：最终决策与避坑指南
+* **精算逻辑**：锁定最高性价比落点剧本（如单挑 1:1，或双平对冲“平局 + 让球平”）。
+* **模型支撑**：
+  * **让球盘（亚盘）贝叶斯因果网络**：检验让球盘与标准盘的一致性与套利空间。详见 [2003.09384 让球盘因果网络](温故而知新学习资料/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md)。
+  * 实战决策库详见 [分析复盘记录档案](分析复盘记录/2026-09-08_预测.md) 与 [总复盘总结](分析复盘记录/总复盘总结.md)。
+
+---
+
+## 4. 赛前三道金刚一票否决红线（物理断路器）
+
+赛前筛选必须逐条严密过筛，触犯任意一条立刻一票否决：
+
+1. 🚫 **红线 1（拒绝倾斜盘）**：只要主胜或客胜有一方赔率 **$< 2.00$**（且不存在 0球超低水极值实防），一票否决，绝不单挑平局（彻底杜绝卡利亚里类强行看平失误）。
+2. 🎭 **红线 2（辨别伪降水）**：客队水位显著低于主队时（如客 2.40 vs 主 2.76），平赔突发下降视为“诱平掩护客胜”，严禁看平（彻底杜绝乌迪内斯类诱平误读）。
+3. 🪤 **红线 3（豪门防守反差雷达）**：强队深盘主胜低至 1.60 且平赔高挂 3.60+ 时，若客队单季场均失球 $\le 0.8$，强制启动高平狙击（彻底捕获马尔默类高平阻盘冷门）。
