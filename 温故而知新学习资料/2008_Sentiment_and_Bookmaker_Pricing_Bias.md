@@ -1,3 +1,5 @@
+> **文献定位**：收录于 [README 学习资料索引与导读](./README_学习资料索引与经典论文导读.md)，理论支撑 [AGENTS Capa 5 散户情绪与偏见](../AGENTS.md) 与 [总复盘总结](../分析复盘记录/总复盘总结.md)。
+
 This article was downloaded by: [Lancaster University Library]
 On: 17 April 2013, At: 06:42
 Publisher: Routledge

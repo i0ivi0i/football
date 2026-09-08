@@ -1,0 +1,134 @@
+{
+  "AGENTS.md": {
+    "mtime": 1788746585.9617572,
+    "seen": 1788755099.8657682,
+    "ast_hash": "2c037d76f06d075a4655ffde55b20eb7",
+    "semantic_hash": ""
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md": {
+    "mtime": 1788687531.9175017,
+    "seen": 1788688581.1083448,
+    "ast_hash": "c5f2b3ad62bd7a4b25babc3af0393bfb",
+    "semantic_hash": "c5f2b3ad62bd7a4b25babc3af0393bfb"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md": {
+    "mtime": 1788687546.7832775,
+    "seen": 1788688581.1083448,
+    "ast_hash": "9054b00bea9657ff2d6cdcf9526166b6",
+    "semantic_hash": "9054b00bea9657ff2d6cdcf9526166b6"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/README_\u5b66\u4e60\u8d44\u6599\u7d22\u5f15\u4e0e\u7ecf\u5178\u8bba\u6587\u5bfc\u8bfb.md": {
+    "mtime": 1788759066.7500293,
+    "seen": 1788759389.1862652,
+    "ast_hash": "85fda8e8c4275183c4721077ac3e57a8",
+    "semantic_hash": ""
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md": {
+    "mtime": 1788687540.1330607,
+    "seen": 1788688581.1083448,
+    "ast_hash": "36fb0cca2b0fc02b54e4fef7b33dd891",
+    "semantic_hash": "36fb0cca2b0fc02b54e4fef7b33dd891"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md": {
+    "mtime": 1788687560.586915,
+    "seen": 1788688581.1083448,
+    "ast_hash": "eaf821529906df4d900959dfcb6b757b",
+    "semantic_hash": "eaf821529906df4d900959dfcb6b757b"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2505.21275_Do_Betting_Markets_Sense_a_Goal_Coming.md": {
+    "mtime": 1788689523.0419643,
+    "seen": 1788689554.1093037,
+    "ast_hash": "53dd9c059dd0414f4e9f59d2f9f30780",
+    "semantic_hash": "53dd9c059dd0414f4e9f59d2f9f30780"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2604.17194_Forecast_Sports_Outcomes_under_EMH_Odds_Only_Models.md": {
+    "mtime": 1788689519.158307,
+    "seen": 1788689554.1093037,
+    "ast_hash": "d772b76d6dec7cefe01db0a6da7141e8",
+    "semantic_hash": "d772b76d6dec7cefe01db0a6da7141e8"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2008_Sentiment_and_Bookmaker_Pricing_Bias.md": {
+    "mtime": 1788692071.9537714,
+    "seen": 1788701471.7479558,
+    "ast_hash": "5e40f568b92ed5e66a5ccfbb957d9ca9",
+    "semantic_hash": "5e40f568b92ed5e66a5ccfbb957d9ca9"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2019_Nature_PlayeRank_Data_Driven_Framework.md": {
+    "mtime": 1788693298.025766,
+    "seen": 1788701471.7489557,
+    "ast_hash": "aa6d01c753b5b9f7ffd6128e34a3e160",
+    "semantic_hash": "aa6d01c753b5b9f7ffd6128e34a3e160"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2025_Success_Score_Deep_Learning_Football_Prediction.md": {
+    "mtime": 1788693326.5335402,
+    "seen": 1788701471.749956,
+    "ast_hash": "15555a91b4ff0057d71ba9359cf3e9e0",
+    "semantic_hash": "15555a91b4ff0057d71ba9359cf3e9e0"
+  },
+  "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-06_\u5468\u65e5\u4f53\u5f69\u5e73\u5c40\u7cbe\u7b97\u5206\u6790\u4e0e\u590d\u76d8\u6863\u6848.md": {
+    "mtime": 1788701570.182978,
+    "seen": 1788701617.4240973,
+    "ast_hash": "2cac7c86bf93c788fb58dea3820fae31",
+    "semantic_hash": "2cac7c86bf93c788fb58dea3820fae31"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md": {
+    "mtime": 1788702253.52736,
+    "seen": 1788702556.2505336,
+    "ast_hash": "d9c088ad0d75a06eb2ed1a568bd664bb",
+    "semantic_hash": "d9c088ad0d75a06eb2ed1a568bd664bb"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md": {
+    "mtime": 1788702263.1677527,
+    "seen": 1788702556.2525437,
+    "ast_hash": "efd67e7ede8690ec0a3ff5bdb2dc09dc",
+    "semantic_hash": "efd67e7ede8690ec0a3ff5bdb2dc09dc"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2018_PLOS_Betting_Odds_Rating_System_BORS.md": {
+    "mtime": 1788703028.4928708,
+    "seen": 1788703667.0640748,
+    "ast_hash": "f1f5dae16d88171a8ff98dd8a6214777",
+    "semantic_hash": "f1f5dae16d88171a8ff98dd8a6214777"
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/Shin_1993_and_Strumbelj_2014_\u5e84\u5bb6\u8d54\u7387\u53cd\u5411\u7834\u8bd1\u7b97\u6cd5\u7cbe\u8981.md": {
+    "mtime": 1788703299.249259,
+    "seen": 1788703667.0660748,
+    "ast_hash": "470992f3dd450afb2341226654c682d8",
+    "semantic_hash": "470992f3dd450afb2341226654c682d8"
+  },
+  "graphify-out/memory/query_20260907_015600_501eac2d_2026_09_06_\u4e2d\u56fd\u4f53\u5f69\u5468\u65e5\u5e73\u5c40\u9884\u6d4b\u8d5b\u679c\u590d\u76d8.md": {
+    "mtime": 1788746160.1355495,
+    "seen": 1788755099.8657682,
+    "ast_hash": "c3f82dff4afaa981166de217798d379d",
+    "semantic_hash": ""
+  },
+  "graphify-out/memory/query_20260907_020311_10d0c068_2026_09_06_9\u573a\u5e73\u5c40\u5168\u666f\u6df1\u5ea6\u590d\u76d8\u4e0e\u673a\u6784\u64cd\u76d8\u624b\u6cd5.md": {
+    "mtime": 1788746591.9652977,
+    "seen": 1788755099.8657682,
+    "ast_hash": "43704e0ab5b847094703a516a40cc136",
+    "semantic_hash": ""
+  },
+  "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-06_\u5168\u91cf\u5e73\u5c40\u590d\u76d8\u4e0e\u673a\u6784\u64cd\u76d8\u624b\u6cd5\u6df1\u5ea6\u7cbe\u7b97\u62a5\u544a.md": {
+    "mtime": 1788746568.0734499,
+    "seen": 1788755099.8657682,
+    "ast_hash": "e815b107a62db480d080ddf0c2c0ba08",
+    "semantic_hash": ""
+  },
+  "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-07_\u5468\u4e00\u4f53\u5f69\u5e73\u5c40\u7cbe\u7b97\u5206\u6790\u4e0e\u63a8\u6f14\u6863\u6848.md": {
+    "mtime": 1788755203.197376,
+    "seen": 1788759389.1862652,
+    "ast_hash": "5b85a87e134f78a365c52836a60be356",
+    "semantic_hash": ""
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2024_KTH_Predicting_Odds_Movement_Betting_Exchange_Liquidity.md": {
+    "mtime": 1788759045.2272558,
+    "seen": 1788759389.1862652,
+    "ast_hash": "30486d1e009319c9f925507d9d43fa3c",
+    "semantic_hash": ""
+  },
+  "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2605.30209_Betting_Against_Integrity_Identifying_Match_Fixing_Market_Dynamics.md": {
+    "mtime": 1788758953.449268,
+    "seen": 1788759389.1862652,
+    "ast_hash": "1005b38e3ce799353cade5f846dd365f",
+    "semantic_hash": ""
+  }
+}

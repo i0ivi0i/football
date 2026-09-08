@@ -1,3 +1,5 @@
+> **文献定位**：本论文收录于 [README 学习资料索引与经典论文导读](./README_学习资料索引与经典论文导读.md)，理论支撑 [AGENTS Capa 3 球员微观画像](../AGENTS.md) 与 [今日预测报告](../分析复盘记录/2026-09-08_预测.md)。
+
 oPEN
 
 Data DESCRiPto R

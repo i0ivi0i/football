@@ -1,1 +1,14 @@
-{"0": "Match Actuarial Analysis Pipeline", "1": "Odds Modeling and Calibration", "2": "Bayesian Football Match Modeling", "3": "Betting Market Efficiency Modeling", "4": "Favourite-Longshot Bias Adjustments", "5": "Logit Match Outcome Prediction", "6": "Player Performance Analytics", "7": "Tactical Play Style Evaluation", "8": "Consensus Odds Rating Systems", "9": "Betting Inference and Sentiment"}
+{
+  "0": "赔率数值",
+  "1": "心电图录像机.py",
+  "2": "赔率快照",
+  "3": "Odds-Only-Equal-Profitability-Confidence (OO-EPC)",
+  "4": "赛前 3 道金刚硬红线",
+  "5": "Skellam Convex Combination Model",
+  "6": "体彩官方适配器",
+  "7": "8 层博彩推演模型 (8 Capas)",
+  "8": "Success Score Metric",
+  "9": "ELO-Odds Rating System",
+  "12": "Bettor State-Space Model with Inflated Beta Distribution",
+  "13": "对账机.py"
+}
