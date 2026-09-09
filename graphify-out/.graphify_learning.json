@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-09T02:30:03.103325+00:00",
+  "generated_at": "2026-09-09T02:35:14.445048+00:00",
   "nodes": {
     "agents_karpathy_flywheel": {
-      "code_fingerprint": "8ac304d915d793456d13b9ddc7cda29ad6c816ecec34aab01f8b5cfd3c57498c",
+      "code_fingerprint": "f4f6d039e28d084e2fc2c225bd2b1d46f705c93f0e561ebe0421252a637d393e",
       "label": "Karpathy 技能自进化飞轮",
       "last": "2026-09-08T09:36:01.212901+00:00",
       "provenance": [
@@ -12,13 +12,13 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.983861435,
+      "score": 0.983779523,
       "source_file": "AGENTS.md",
       "status": "tentative",
       "uses": 1
     },
     "agents_three_red_lines": {
-      "code_fingerprint": "8ac304d915d793456d13b9ddc7cda29ad6c816ecec34aab01f8b5cfd3c57498c",
+      "code_fingerprint": "f4f6d039e28d084e2fc2c225bd2b1d46f705c93f0e561ebe0421252a637d393e",
       "label": "赛前三道金刚一票否决红线",
       "last": "2026-09-08T09:36:01.212901+00:00",
       "provenance": [
@@ -28,7 +28,7 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.983861435,
+      "score": 0.983779523,
       "source_file": "AGENTS.md",
       "status": "tentative",
       "uses": 1
@@ -44,7 +44,7 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.983861435,
+      "score": 0.983779523,
       "source_file": "graphify-out/memory/query_20260908_093601_0ac4764b_系统规范readme与智慧大脑agents协同架构.md",
       "status": "tentative",
       "uses": 1
@@ -60,7 +60,7 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.983861435,
+      "score": 0.983779523,
       "source_file": "README.md",
       "status": "tentative",
       "uses": 1
@@ -76,7 +76,7 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.983861435,
+      "score": 0.983779523,
       "source_file": "脚本/对账机.py",
       "status": "tentative",
       "uses": 1
@@ -92,7 +92,7 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.983861435,
+      "score": 0.983779523,
       "source_file": "脚本/心电图录像机.py",
       "status": "tentative",
       "uses": 1
