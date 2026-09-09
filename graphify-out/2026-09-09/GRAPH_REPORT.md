@@ -1,4 +1,4 @@
-# Graph Report - 足球预测  (2026-09-09)
+# Graph Report - 足球预测  (2026-09-08)
 
 ## Corpus Check
 - cluster-only mode — file stats not available

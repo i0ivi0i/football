@@ -83,8 +83,8 @@ def 刷新总对账看板():
             "平局总命中率": hit_rate,
             "1-1波胆比分命中": total_score_hits,
             "波胆比分命中率": score_rate,
-            "头号王牌命中率": 1.0000,
-            "头号王牌胜绩": f"{len(daily_records)}战{top1_hits}中 (每日第一王牌全中)"
+            "头号王牌命中率": round(top1_hits / len(daily_records), 4) if daily_records else 0,
+            "头号王牌胜绩": f"{len(daily_records)}战{top1_hits}中"
         },
         "逐日精算流水": daily_records
     }
@@ -92,6 +92,9 @@ def 刷新总对账看板():
     # 物理重写 总准确率.md
     acc_path = os.path.join(RECORD_DIR, "总准确率.md")
     json_block = json.dumps(summary_json, ensure_ascii=False, indent=2)
+    
+    top1_rate = round(top1_hits / len(daily_records), 4) if daily_records else 0
+    top1_comment = "第一王牌保持稳健" if top1_hits == len(daily_records) else f"第一王牌累计 {len(daily_records)} 战 {top1_hits} 中"
     
     table_rows = "\n".join([
         f"| **{r['日期']} ({r['星期']})** | {r['开售场次']} 场 | {r['实际打出平局']} 场 | 主推 {r['爱马仕推荐数']} 场 | **{r['命中平局数']} 场** | **{r['比分命中']} 场** | **{r['单日命中率']*100:.1f}%** | 稳健运行 |"
@@ -117,20 +120,21 @@ def 刷新总对账看板():
 | 核心统计指标 | 精算实况数值 | 行业基准与散户平均水平 | 战绩评级与收益穿透 |
 | :--- | :---: | :---: | :--- |
 | **累计主推平局场次** | **{total_picks} 场** | - | 严格执行 75 分门槛，宁缺毋滥 |
-| **平局总命中场次** | **{total_draw_hits} 场** | 约 1.5 场 (25%) | **总胜率 {hit_rate*100:.1f}%**（远超市场平局期望概率） |
-| **1:1 终场波胆比分命中** | **{total_score_hits} 场** | 约 0.4 场 (7%) | **波胆命中率 {score_rate*100:.1f}%**（命中平局全部打穿 1:1 比分） |
-| **🥇 每日头号第一王牌命中率** | **100.0%** | 约 33% | **{len(daily_records)} 战 {top1_hits} 中**（每日头号核心保持不败） |
+| **平局总命中场次** | **{total_draw_hits} 场** | 约 {total_picks * 0.25:.1f} 场 (25%) | **总胜率 {hit_rate*100:.1f}%**（跑赢大盘 {total_draws/total_matches*100:.1f}% 平局发生率） |
+| **1:1 终场波胆比分命中** | **{total_score_hits} 场** | 约 {total_picks * 0.08:.1f} 场 (8%) | **波胆命中率 {score_rate*100:.1f}%** |
+| **🥇 每日头号第一王牌命中率** | **{top1_rate*100:.1f}%** | 约 33% | **{len(daily_records)} 战 {top1_hits} 中** |
 
 ---
 
 ## 二、 逐日实战精算对账流水明细
 
-每日赛果复盘详见 [2026-09-06_复盘](./2026-09-06_复盘.md) 与 [2026-09-07_复盘](./2026-09-07_复盘.md)。
+每日赛果复盘详见 [2026-09-06_复盘](./2026-09-06_复盘.md)、[2026-09-07_复盘](./2026-09-07_复盘.md) 与 [2026-09-08_复盘](./2026-09-08_复盘.md)。
 
 | 比赛日期 | 开售总数 | 实际平局 | 推荐场次 | 平局命中 | 比分命中 | 单日命中率 | 操盘点评 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 {table_rows}
-| **合计 / 总战绩** | **{total_matches} 场** | **{total_draws} 场** | **{total_picks} 场** | **{total_draw_hits} 场** | **{total_score_hits} 场** | **{hit_rate*100:.1f}%** | **第一王牌保持 100% 胜率，平局与 1:1 比分双丰收！** |
+| **合计 / 总战绩** | **{total_matches} 场** | **{total_draws} 场** | **{total_picks} 场** | **{total_draw_hits} 场** | **{total_score_hits} 场** | **{hit_rate*100:.1f}%** | **实盘 100% 真实对账，无缝驱动飞轮持续自我纠偏！** |
+
 
 """
     with open(acc_path, "w", encoding="utf-8") as f:
