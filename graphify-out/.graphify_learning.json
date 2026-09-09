@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T09:36:57.922984+00:00",
+  "generated_at": "2026-09-09T02:26:50.829132+00:00",
   "nodes": {
     "agents_karpathy_flywheel": {
-      "code_fingerprint": "dadc9100f4ad9db31b3a85791967b15868dc543c32fa97ea264c48d7a4876350",
+      "code_fingerprint": "8ac304d915d793456d13b9ddc7cda29ad6c816ecec34aab01f8b5cfd3c57498c",
       "label": "Karpathy 技能自进化飞轮",
       "last": "2026-09-08T09:36:01.212901+00:00",
       "provenance": [
@@ -12,13 +12,13 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.999984835,
+      "score": 0.983912024,
       "source_file": "AGENTS.md",
       "status": "tentative",
       "uses": 1
     },
     "agents_three_red_lines": {
-      "code_fingerprint": "dadc9100f4ad9db31b3a85791967b15868dc543c32fa97ea264c48d7a4876350",
+      "code_fingerprint": "8ac304d915d793456d13b9ddc7cda29ad6c816ecec34aab01f8b5cfd3c57498c",
       "label": "赛前三道金刚一票否决红线",
       "last": "2026-09-08T09:36:01.212901+00:00",
       "provenance": [
@@ -28,7 +28,7 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.999984835,
+      "score": 0.983912024,
       "source_file": "AGENTS.md",
       "status": "tentative",
       "uses": 1
@@ -44,7 +44,7 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.999984835,
+      "score": 0.983912024,
       "source_file": "graphify-out/memory/query_20260908_093601_0ac4764b_系统规范readme与智慧大脑agents协同架构.md",
       "status": "tentative",
       "uses": 1
@@ -60,13 +60,13 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.999984835,
+      "score": 0.983912024,
       "source_file": "README.md",
       "status": "tentative",
       "uses": 1
     },
     "脚本_对账机": {
-      "code_fingerprint": "e42275fd290be560ccfa67e1d4bd9ce2358e1386aff4f627089d5800ab0bd990",
+      "code_fingerprint": "e63f44d6505c8d39bedb0237960bb680a1f503c3576f79fcad85d2cc1f7ec2c7",
       "label": "对账机.py",
       "last": "2026-09-08T09:36:01.212901+00:00",
       "provenance": [
@@ -76,7 +76,7 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.999984835,
+      "score": 0.983912024,
       "source_file": "脚本/对账机.py",
       "status": "tentative",
       "uses": 1
@@ -92,7 +92,7 @@
           "q": "系统规范README与智慧大脑AGENTS协同架构"
         }
       ],
-      "score": 0.999984835,
+      "score": 0.983912024,
       "source_file": "脚本/心电图录像机.py",
       "status": "tentative",
       "uses": 1
