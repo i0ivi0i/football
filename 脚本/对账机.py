@@ -36,8 +36,8 @@ def 刷新总对账看板():
         matches = data.get("开售总场次", 0)
         draws = len(data.get("实际平局场次", []))
         perf = data.get("推演战绩", {})
-        picks = perf.get("主推场次", 0)
-        hits = perf.get("平局命中", 0)
+        picks = perf.get("主推场次", perf.get("平局主推场次", 0))
+        hits = perf.get("平局命中", perf.get("平局命中场次", 0))
         score_hits = perf.get("1-1波胆比分命中", 0)
         
         # 统计头号王牌命中
