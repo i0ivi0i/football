@@ -42,7 +42,8 @@ def 刷新总对账看板():
         
         # 统计头号王牌命中
         for item in data.get("实际平局场次", []):
-            if "🎯" in item.get("命中状态", "") and ("010" in item.get("场次", "") or "002" in item.get("场次", "")):
+            hit_status = item.get("命中状态", item.get("推演命中状态", ""))
+            if "🎯" in hit_status and any(k in item.get("场次", "") for k in ["019", "002", "003", "001"]):
                 top1_hits += 1
                 break
         

@@ -1,36 +1,6 @@
 {
   "communities": {
     "0": [
-      "abc",
-      "脚本_应用_用例_探测并记录心电图用例_init",
-      "脚本_测试_test_业务用例",
-      "脚本_测试_test_业务用例_py_赔率快照",
-      "脚本_测试_test_业务用例_test_回溯连续轨迹用例提炼单边变盘态势",
-      "脚本_测试_test_业务用例_test_探测并记录心电图用例捕获异动跳水",
-      "脚本_测试_test_业务用例_内存模拟提供者",
-      "脚本_测试_test_业务用例_内存模拟提供者_init",
-      "脚本_测试_test_业务用例_内存模拟提供者_抓取当前快照列表",
-      "脚本_测试_test_业务用例_内存模拟账本",
-      "脚本_测试_test_业务用例_内存模拟账本_init",
-      "脚本_测试_test_业务用例_内存模拟账本_批量保存快照",
-      "脚本_测试_test_业务用例_内存模拟账本_查询比赛连续轨迹",
-      "脚本_测试_test_业务用例_内存模拟账本_获取最新快照",
-      "脚本_适配器_体彩接口",
-      "脚本_适配器_体彩接口_rationale_1",
-      "脚本_领域_契约",
-      "脚本_领域_契约_rationale_1",
-      "脚本_领域_契约_rationale_10",
-      "脚本_领域_契约_rationale_18",
-      "脚本_领域_契约_赔率提供者契约",
-      "脚本_领域_契约_赔率提供者契约_抓取当前快照列表",
-      "脚本_领域_契约_赔率账本契约",
-      "脚本_领域_契约_赔率账本契约_批量保存快照",
-      "脚本_领域_契约_赔率账本契约_查询比赛连续轨迹",
-      "脚本_领域_契约_赔率账本契约_获取最新快照",
-      "脚本_领域_模型_rationale_44",
-      "脚本_领域_模型_赔率快照"
-    ],
-    "1": [
       "fixture",
       "脚本_测试_test_本地账本",
       "脚本_测试_test_本地账本_test_本地账本仓储保存并检索时序轨迹",
@@ -40,7 +10,6 @@
       "脚本_测试_test_领域模型_test_赔率快照计算连续位移与异动信号",
       "脚本_测试_test_领域模型_test_赔率数值拒绝非正数非法输入",
       "脚本_测试_test_领域模型_test_赔率数值验证与去水计算",
-      "脚本_适配器_init",
       "脚本_适配器_本地账本",
       "脚本_适配器_本地账本_py_赔率快照",
       "脚本_适配器_本地账本_rationale_1",
@@ -52,14 +21,18 @@
       "脚本_适配器_本地账本_本地账本仓储_查询比赛连续轨迹",
       "脚本_适配器_本地账本_本地账本仓储_获取最新快照",
       "脚本_领域_init",
-      "脚本_领域_模型",
-      "脚本_领域_模型_rationale_1",
       "脚本_领域_模型_rationale_21",
+      "脚本_领域_模型_rationale_38",
+      "脚本_领域_模型_rationale_54",
+      "脚本_领域_模型_赔率位移",
+      "脚本_领域_模型_赔率位移_是否显著防守降水",
+      "脚本_领域_模型_赔率快照_计算位移",
       "脚本_领域_模型_赔率数值",
       "脚本_领域_模型_赔率数值_post_init",
       "脚本_领域_模型_赔率数值_去水公平概率"
     ],
-    "2": [
+    "1": [
+      "abc",
       "回溯连续轨迹用例",
       "探测并记录心电图用例",
       "脚本_应用_init",
@@ -71,6 +44,7 @@
       "脚本_应用_用例_回溯连续轨迹用例_init",
       "脚本_应用_用例_回溯连续轨迹用例_分析单场",
       "脚本_应用_用例_探测并记录心电图用例",
+      "脚本_应用_用例_探测并记录心电图用例_init",
       "脚本_应用_用例_探测并记录心电图用例_执行",
       "脚本_应用_用例_记录结果",
       "脚本_应用_用例_轨迹结果",
@@ -80,191 +54,159 @@
       "脚本_心电图录像机_展示比赛轨迹",
       "脚本_心电图录像机_执行单次探测",
       "脚本_心电图录像机_组装架构",
-      "脚本_领域_模型_rationale_38",
-      "脚本_领域_模型_rationale_54",
-      "脚本_领域_模型_赔率位移",
-      "脚本_领域_模型_赔率位移_是否显著防守降水",
-      "脚本_领域_模型_赔率快照_计算位移"
+      "脚本_测试_test_业务用例",
+      "脚本_领域_契约",
+      "脚本_领域_契约_rationale_1",
+      "脚本_领域_契约_rationale_10",
+      "脚本_领域_契约_rationale_18",
+      "脚本_领域_契约_赔率提供者契约",
+      "脚本_领域_契约_赔率账本契约",
+      "脚本_领域_契约_赔率账本契约_批量保存快照",
+      "脚本_领域_契约_赔率账本契约_查询比赛连续轨迹",
+      "脚本_领域_契约_赔率账本契约_获取最新快照",
+      "脚本_领域_模型",
+      "脚本_领域_模型_rationale_1"
+    ],
+    "2": [
+      "脚本_测试_test_业务用例_py_赔率快照",
+      "脚本_测试_test_业务用例_test_回溯连续轨迹用例提炼单边变盘态势",
+      "脚本_测试_test_业务用例_test_探测并记录心电图用例捕获异动跳水",
+      "脚本_测试_test_业务用例_内存模拟提供者",
+      "脚本_测试_test_业务用例_内存模拟提供者_init",
+      "脚本_测试_test_业务用例_内存模拟提供者_抓取当前快照列表",
+      "脚本_测试_test_业务用例_内存模拟账本",
+      "脚本_测试_test_业务用例_内存模拟账本_init",
+      "脚本_测试_test_业务用例_内存模拟账本_批量保存快照",
+      "脚本_测试_test_业务用例_内存模拟账本_查询比赛连续轨迹",
+      "脚本_测试_test_业务用例_内存模拟账本_获取最新快照",
+      "脚本_领域_契约_赔率提供者契约_抓取当前快照列表",
+      "脚本_领域_模型_rationale_44",
+      "脚本_领域_模型_赔率快照"
     ],
     "3": [
-      "2403_16282_1x2_odds_formulation",
-      "2403_16282_match_prediction_pipeline",
-      "2604_17194_multiplicative_conversion",
-      "2604_17194_oo_epc_method",
-      "2604_17194_shin_conversion",
-      "readme_academic_index_corpus",
-      "shin_1993_and_strumbelj_2014_solve_shin_probabilities",
-      "shin_1993_and_strumbelj_2014_z_parameter",
-      "温故而知新学习资料_1802_08848_combining_historical_data_and_bookmakers_odds_bayesian_poisson",
-      "温故而知新学习资料_1802_08848_combining_historical_data_and_bookmakers_odds_implicit_scoring_rates",
-      "温故而知新学习资料_2403_16282_the_evolution_of_football_betting_machine_learning_md",
-      "温故而知新学习资料_2604_17194_forecast_sports_outcomes_under_emh_odds_only_models_draw_bias",
-      "温故而知新学习资料_2604_17194_forecast_sports_outcomes_under_emh_odds_only_models_fl_glm",
-      "温故而知新学习资料_2604_17194_forecast_sports_outcomes_under_emh_odds_only_models_log_loss_metric",
-      "温故而知新学习资料_2604_17194_forecast_sports_outcomes_under_emh_odds_only_models_md",
-      "温故而知新学习资料_2604_17194_forecast_sports_outcomes_under_emh_odds_only_models_multiplicative_conversion",
-      "温故而知新学习资料_2605_30209_betting_against_integrity_identifying_match_fixing_market_dynamics_hurdle_lognormal",
-      "温故而知新学习资料_2605_30209_betting_against_integrity_identifying_match_fixing_market_dynamics_match_fixing_detection",
-      "温故而知新学习资料_2605_30209_betting_against_integrity_identifying_match_fixing_market_dynamics_state_space_model"
-    ],
-    "4": [
-      "agents_core_philosophy",
+      "agents_agent_brain",
+      "agents_five_hard_red_lines_v31",
       "agents_karpathy_flywheel",
-      "agents_three_red_lines",
-      "analysis_20260908_prediction",
-      "analysis_total_accuracy",
-      "core_architecture_system_spec",
-      "eight_capas_model",
-      "graphify_out_memory_query_20260908_093601_0ac4764b_系统规范readme与智慧大脑agents协同架构_query",
-      "readme_pipeline_apisports",
-      "readme_pipeline_sporttery",
+      "lit_1710_02824_beating_bookies",
       "readme_system_architecture",
+      "rec_20260906_review",
+      "rec_20260908_review",
+      "rec_20260909_forecast",
+      "rec_overall_accuracy",
+      "rec_readme_guidelines",
       "脚本_对账机",
       "脚本_对账机_rationale_1",
       "脚本_对账机_刷新总对账看板",
       "脚本_测试_test_对账机",
       "脚本_测试_test_对账机_test_对账看板能正常聚合数据并更新总准确率文件"
     ],
+    "4": [
+      "concept_favourite_longshot_bias",
+      "goto2026_fl_glm",
+      "goto2026_oo_epc",
+      "goto2026_study",
+      "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "wenguerzhixin_xuexiziliao_2604_17194_analytical_shin_conversion",
+      "wenguerzhixin_xuexiziliao_2604_17194_draw_bias_finding",
+      "wenguerzhixin_xuexiziliao_2604_17194_multiplicative_conversion",
+      "wenguerzhixin_xuexiziliao_2604_17194_numerical_shin_conversion",
+      "wenguerzhixin_xuexiziliao_2604_17194_power_conversion",
+      "wenguerzhixin_xuexiziliao_2605_30209_hurdle_lognormal_model",
+      "wenguerzhixin_xuexiziliao_2605_30209_live_betting_ssm",
+      "wenguerzhixin_xuexiziliao_readme_literature_index",
+      "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_solve_shin_py"
+    ],
     "5": [
-      "wenguerzhixinxuexiziliao_1802_08848_combining_historical_data_and_bookmakers_odds_betting_strategies",
-      "wenguerzhixinxuexiziliao_1802_08848_combining_historical_data_and_bookmakers_odds_shins_method",
-      "wenguerzhixinxuexiziliao_1802_08848_combining_historical_data_and_bookmakers_odds_skellam_convex_model",
-      "wenguerzhixinxuexiziliao_2003_09384_asian_handicap_market_efficiency_bayesian_networks_asian_handicap_rules",
-      "wenguerzhixinxuexiziliao_2003_09384_asian_handicap_market_efficiency_bayesian_networks_hybrid_bayesian_network",
-      "wenguerzhixinxuexiziliao_2003_09384_asian_handicap_market_efficiency_bayesian_networks_modified_pi_rating",
-      "wenguerzhixinxuexiziliao_2003_09384_asian_handicap_market_efficiency_bayesian_networks_roi_vs_profit_optimization",
-      "wenguerzhixinxuexiziliao_2017_problem_of_correctly_predicting_draws_soccer_multinomial_logit_regression",
-      "wenguerzhixinxuexiziliao_2017_problem_of_correctly_predicting_draws_soccer_ordered_logit_regression",
-      "wenguerzhixinxuexiziliao_2017_problem_of_correctly_predicting_draws_soccer_proportional_odds_flaw",
-      "wenguerzhixinxuexiziliao_2017_problem_of_correctly_predicting_draws_soccer_soccer_elo_system"
-    ],
-    "6": [
-      "fenxifupan_20260906_prediction",
-      "fenxifupan_20260906_review",
-      "fenxifupan_20260906_six_dimension_model",
-      "fenxifupan_20260907_prediction",
-      "fenxifupan_20260907_review",
-      "fenxifupan_readme_four_circuit_breakers",
-      "fenxifupan_summary_audit_001_cagliari",
-      "fenxifupan_summary_audit_006_udinese",
-      "fenxifupan_summary_three_red_lines",
-      "graphify_memory_query_20260908_043003"
-    ],
-    "7": [
       "脚本_测试_test_体彩接口",
       "脚本_测试_test_体彩接口_test_体彩官方适配器安全过滤无赔率异常赛事",
       "脚本_测试_test_体彩接口_test_体彩官方适配器解析原始数据为纯净领域快照",
+      "脚本_适配器_init",
+      "脚本_适配器_体彩接口",
       "脚本_适配器_体彩接口_py_赔率快照",
+      "脚本_适配器_体彩接口_rationale_1",
       "脚本_适配器_体彩接口_rationale_15",
       "脚本_适配器_体彩接口_体彩官方适配器",
       "脚本_适配器_体彩接口_体彩官方适配器_init",
       "脚本_适配器_体彩接口_体彩官方适配器_抓取当前快照列表",
       "脚本_适配器_体彩接口_体彩官方适配器_解析原始数据"
     ],
+    "6": [
+      "2024_kth_betting_exchange_liquidity",
+      "2024_kth_financial_trading_formulas",
+      "kth2024_chisquared",
+      "kth2024_mlp",
+      "kth2024_random_forest",
+      "kth2024_rfe",
+      "kth2024_rsi",
+      "kth2024_sma",
+      "kth2024_study",
+      "kth2024_svm",
+      "mandadapu2024_study",
+      "mandadapu2024_svm",
+      "mandadapu2024_xgboost"
+    ],
+    "7": [
+      "egidi_hierarchical_poisson_model",
+      "elo_rating_difference",
+      "multinomial_logit_regression",
+      "ordered_logit_regression",
+      "shin_normalization",
+      "skellam_distribution",
+      "team_attack_defence_effects",
+      "温故而知新学习资料_2017_problem_of_correctly_predicting_draws_soccer_draw_prediction_evaluation",
+      "温故而知新学习资料_2017_problem_of_correctly_predicting_draws_soccer_olr_model"
+    ],
     "8": [
-      "readme",
-      "readme_1_1_系统架构设计",
-      "readme_1_2_数据管道规范",
-      "readme_1_核心架构与系统规范",
-      "readme_2_目录资产规范",
-      "readme_3_硬性运行规则与操作契约",
-      "readme_4_常用_cli_操作指南",
-      "readme_足球倍率精算与赛事量化预测系统_football_quant_odds_actuarial_system"
+      "1710_02824_betting_strategy",
+      "1710_02824_bookmaker_restrictions",
+      "1710_02824_consensus_probability",
+      "1710_02824_paper_trading",
+      "2018_plos_elo_goals",
+      "2018_plos_elo_odds",
+      "2018_plos_elo_result",
+      "2018_plos_informational_loss"
     ],
     "9": [
-      "wenguerzhixinxuexiziliao_2025_success_score_deep_learning_football_prediction_dnn_framework",
-      "wenguerzhixinxuexiziliao_2025_success_score_deep_learning_football_prediction_tactical_play_styles",
+      "2008_sentiment_clustered_probit",
+      "2008_sentiment_diffattend",
+      "2008_sentiment_sentiment_bias",
+      "2019_nature_passing_network",
+      "2019_nature_playerank",
+      "2019_nature_wyscout_soccer_logs",
+      "agents_eight_capas_model",
+      "asian_handicap_market",
+      "constantinou_hybrid_bn_model",
+      "modified_pi_rating_system",
+      "perezblanco2025_relative_distance_discretization",
+      "perezblanco2025_rps",
+      "perezblanco2025_study",
+      "perezblanco2025_two_tier_nb_clustering",
+      "perezblanco2025_wap_war",
+      "rec_20260906_forecast",
+      "rec_20260907_forecast",
+      "rec_20260907_review",
+      "rec_20260908_forecast",
+      "rec_overall_summary",
       "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_dnn_model",
-      "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_feature_vector_68d",
-      "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_home_advantage_analysis",
-      "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_rolling_averages",
-      "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score_metric",
-      "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_threshold_classification"
-    ],
-    "10": [
-      "温故而知新学习资料_2008_sentiment_and_bookmaker_pricing_bias_bookprob",
-      "温故而知新学习资料_2008_sentiment_and_bookmaker_pricing_bias_clustered_probit",
-      "温故而知新学习资料_2008_sentiment_and_bookmaker_pricing_bias_diffattend",
-      "温故而知新学习资料_2008_sentiment_and_bookmaker_pricing_bias_sentiment_bias",
-      "温故而知新学习资料_2018_plos_betting_odds_rating_system_bors_elo_goals",
-      "温故而知新学习资料_2018_plos_betting_odds_rating_system_bors_elo_odds",
-      "温故而知新学习资料_2018_plos_betting_odds_rating_system_bors_elo_result",
-      "温故而知新学习资料_2018_plos_betting_odds_rating_system_bors_informational_loss"
-    ],
-    "11": [
-      "2025_springer_distance_discretization",
-      "2025_springer_nb_draw_model",
-      "2025_springer_nb_fouls_model",
-      "2025_springer_rps_metric",
-      "2025_springer_wap_war_metrics",
-      "温故而知新学习资料_2025_springer_predicting_draws_and_fouls_bayesian_md"
-    ],
-    "12": [
-      "2024_kth_liquidity_filtering",
-      "2024_kth_mlp_model",
-      "2024_kth_rf_model",
-      "2024_kth_svm_model",
-      "温故而知新学习资料_2024_kth_predicting_odds_movement_betting_exchange_liquidity_md"
-    ],
-    "13": [
-      "温故而知新学习资料_2505_21275_do_betting_markets_sense_a_goal_coming_anticipation_analysis_goal",
+      "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_match_outcome_classification",
+      "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_tactical_play_styles",
       "温故而知新学习资料_2505_21275_do_betting_markets_sense_a_goal_coming_bettor_ssm",
-      "温故而知新学习资料_2505_21275_do_betting_markets_sense_a_goal_coming_bookmaker_regression_models",
-      "温故而知新学习资料_2505_21275_do_betting_markets_sense_a_goal_coming_in_match_betting_data",
-      "温故而知新学习资料_2505_21275_do_betting_markets_sense_a_goal_coming_xgdiff_metric"
-    ],
-    "14": [
-      "温故而知新学习资料_2019_nature_playerank_data_driven_framework_invasion_acceleration",
-      "温故而知新学习资料_2019_nature_playerank_data_driven_framework_passing_network",
-      "温故而知新学习资料_2019_nature_playerank_data_driven_framework_playerank",
-      "温故而知新学习资料_2019_nature_playerank_data_driven_framework_soccer_logs"
-    ],
-    "15": [
-      "温故而知新学习资料_2024_kth_predicting_odds_movement_betting_exchange_liquidity_betfair_exchange_dataset",
-      "温故而知新学习资料_2024_kth_predicting_odds_movement_betting_exchange_liquidity_odds_movement_classifier"
-    ],
-    "16": [
-      "2604_17194_power_conversion"
-    ],
-    "17": [
-      "fenxifupan_readme_workflow"
-    ],
-    "18": [
-      "graphify_memory_query_20260908_043141"
-    ],
-    "19": [
-      "paper_1710_02824_consensus_odds_strategy"
-    ],
-    "20": [
-      "paper_2008_sentiment_and_bookmaker_pricing_bias"
-    ],
-    "21": [
-      "温故而知新学习资料_2604_17194_forecast_sports_outcomes_under_emh_odds_only_models_power_conversion"
+      "温故而知新学习资料_2505_21275_do_betting_markets_sense_a_goal_coming_bookmaker_odds_model"
     ]
   },
   "cohesion": {
-    "0": 0.15079365079365079,
-    "1": 0.12535612535612536,
-    "2": 0.13666666666666666,
-    "3": 0.10526315789473684,
-    "4": 0.175,
-    "5": 0.2,
-    "6": 0.2,
-    "7": 0.3055555555555556,
+    "0": 0.10591133004926108,
+    "1": 0.12477718360071301,
+    "2": 0.25274725274725274,
+    "3": 0.1619047619047619,
+    "4": 0.1523809523809524,
+    "5": 0.24242424242424243,
+    "6": 0.15384615384615385,
+    "7": 0.25,
     "8": 0.25,
-    "9": 0.25,
-    "10": 0.25,
-    "11": 0.3333333333333333,
-    "12": 0.4,
-    "13": 0.6,
-    "14": 0.5,
-    "15": 1.0,
-    "16": 1.0,
-    "17": 1.0,
-    "18": 1.0,
-    "19": 1.0,
-    "20": 1.0,
-    "21": 1.0
+    "9": 0.08307692307692308
   },
   "gods": [
     {
@@ -303,6 +245,11 @@
       "degree": 13
     },
     {
+      "id": "agents_eight_capas_model",
+      "label": "8-Capas Betting Deduction Model",
+      "degree": 13
+    },
+    {
       "id": "脚本_应用_用例_回溯连续轨迹用例",
       "label": "回溯连续轨迹用例",
       "degree": 11
@@ -311,85 +258,80 @@
       "id": "脚本_心电图录像机_组装架构",
       "label": "组装架构()",
       "degree": 10
-    },
-    {
-      "id": "脚本_测试_test_业务用例_内存模拟账本",
-      "label": "内存模拟账本",
-      "degree": 9
     }
   ],
   "surprises": [
     {
-      "source": "Sports Betting Actuarial Literature Corpus Index",
-      "target": "2026-09-07 赛后全量复盘报告 (3.0模型确立)",
+      "source": "Bettor State-Space Model (SSM)",
+      "target": "8-Capas Betting Deduction Model",
       "source_files": [
-        "温故而知新学习资料/README_学习资料索引与经典论文导读.md",
-        "分析复盘记录/2026-09-07_复盘.md"
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "connects across different repos/directories; bridges separate communities"
-    },
-    {
-      "source": "查询记忆: 001与006失手盲区审计",
-      "target": "赛前 3 道金刚硬红线",
-      "source_files": [
-        "graphify-out/memory/query_20260908_043003_de6fdc08_周一001卡利亚里1_0与周一006乌迪内斯1_2失手复盘与赛前盲区审计.md",
-        "分析复盘记录/总复盘总结.md"
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `查询记忆: 001与006失手盲区审计` unexpectedly reaches hub `赛前 3 道金刚硬红线`"
-    },
-    {
-      "source": "中国体彩足球平局全量推演看板",
-      "target": "Karpathy 技能自进化飞轮",
-      "source_files": [
-        "分析复盘记录/总准确率.md",
+        "温故而知新学习资料/2505.21275_Do_Betting_Markets_Sense_a_Goal_Coming.md",
         "AGENTS.md"
       ],
       "confidence": "EXTRACTED",
-      "relation": "references",
-      "why": "connects across different repos/directories; peripheral node `中国体彩足球平局全量推演看板` unexpectedly reaches hub `Karpathy 技能自进化飞轮`"
+      "relation": "supports_capa_7",
+      "why": "connects across different repos/directories; peripheral node `Bettor State-Space Model (SSM)` unexpectedly reaches hub `8-Capas Betting Deduction Model`"
     },
     {
-      "source": "四大安全断路器",
-      "target": "赛前 3 道金刚硬红线",
+      "source": "Live Betting State-Space Model for Fraud Detection",
+      "target": "8-Capas Betting Deduction Model",
       "source_files": [
-        "分析复盘记录/README.md",
-        "分析复盘记录/总复盘总结.md"
+        "温故而知新学习资料/2605.30209_Betting_Against_Integrity_Identifying_Match_Fixing_Market_Dynamics.md",
+        "AGENTS.md"
       ],
-      "confidence": "INFERRED",
-      "relation": "semantically_similar_to",
-      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link; peripheral node `四大安全断路器` unexpectedly reaches hub `赛前 3 道金刚硬红线`"
+      "confidence": "EXTRACTED",
+      "relation": "detects_fixing_capa_1",
+      "why": "connects across different repos/directories; bridges separate communities"
     },
     {
-      "source": "探测并记录心电图用例",
-      "target": "赔率提供者契约",
+      "source": "Shin Odds Normalization Procedure",
+      "target": "8-Capas Betting Deduction Model",
       "source_files": [
-        "脚本/应用/用例.py",
-        "脚本/领域/契约.py"
+        "温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md",
+        "AGENTS.md"
       ],
-      "confidence": "INFERRED",
-      "relation": "uses",
-      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+      "confidence": "EXTRACTED",
+      "relation": "supports_capa_1",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "KTH 2024 Betting Exchange Liquidity Study",
+      "target": "8-Capas Betting Deduction Model",
+      "source_files": [
+        "温故而知新学习资料/2024_KTH_Predicting_Odds_Movement_Betting_Exchange_Liquidity.md",
+        "AGENTS.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "supports_capa_6",
+      "why": "connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "Football Quant Agent Brain",
+      "target": "Beating the Bookies with Their Own Numbers (Kaunitz et al. 2017)",
+      "source_files": [
+        "AGENTS.md",
+        "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "cites",
+      "why": "connects across different repos/directories; peripheral node `Beating the Bookies with Their Own Numbers (Kaunitz et al. 2017)` unexpectedly reaches hub `Football Quant Agent Brain`"
     }
   ],
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `系统规范README与智慧大脑AGENTS协同架构 (Query)` connect `系统规范README与智慧大脑AGENTS协同架构 (Query)` to `足球倍率精算与赛事量化预测系统 (Football Quant & Odds Actuarial System)`, `心电图录像机.py`?",
-      "why": "High betweenness centrality (0.117) - this node is a cross-community bridge."
+      "question": "Why does `8-Capas Betting Deduction Model` connect `8-Capas Betting Deduction Model` to `对账机.py`, `Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)`, `KTH 2024 Betting Exchange Liquidity Study`, `Egidi Hierarchical Bayesian Poisson Model`, `ELO-Odds Rating System`?",
+      "why": "High betweenness centrality (0.601) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `赔率快照` connect `赔率快照` to `赔率数值`, `心电图录像机.py`, `体彩官方适配器`?",
-      "why": "High betweenness centrality (0.086) - this node is a cross-community bridge."
+      "question": "Why does `DDD Onion Architecture & System Specs` connect `对账机.py` to `赔率账本契约`?",
+      "why": "High betweenness centrality (0.503) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `本地账本仓储` connect `赔率数值` to `赔率快照`, `心电图录像机.py`?",
-      "why": "High betweenness centrality (0.042) - this node is a cross-community bridge."
+      "question": "Why does `Football Quant Agent Brain` connect `对账机.py` to `8-Capas Betting Deduction Model`?",
+      "why": "High betweenness centrality (0.484) - this node is a cross-community bridge."
     },
     {
       "type": "verify_inferred",
