@@ -65,3 +65,29 @@ class 微观球员适配器:
         except Exception as e:
             return {"休赛天数": 5, "体能评级": f"估算中性 (接口异常: {str(e)})"}
 
+    def 提取比赛微观高阶数据(self, event_id: str) -> Dict[str, Any]:
+        """从 sports-skills (Understat / ESPN) 提取 xG、射正、门将扑救与战术犯规微观指标"""
+        try:
+            from sports_skills import football
+            stats = football.get_event_statistics(event_id=event_id)
+            xg_data = football.get_event_xg(event_id=event_id)
+            players = football.get_event_players_statistics(event_id=event_id)
+            
+            teams_stat = stats.get("data", {}).get("teams", [])
+            xg_teams = xg_data.get("data", {}).get("teams", [])
+            
+            summary = {
+                "event_id": event_id,
+                "team1_xg": xg_teams[0].get("xg", 0.0) if len(xg_teams) > 0 else 0.0,
+                "team2_xg": xg_teams[1].get("xg", 0.0) if len(xg_teams) > 1 else 0.0,
+                "team1_saves": teams_stat[0].get("statistics", {}).get("goalkeeper_saves", "0") if len(teams_stat) > 0 else "0",
+                "team2_saves": teams_stat[1].get("statistics", {}).get("goalkeeper_saves", "0") if len(teams_stat) > 1 else "0",
+                "team1_fouls": teams_stat[0].get("statistics", {}).get("fouls", "0") if len(teams_stat) > 0 else "0",
+                "team2_fouls": teams_stat[1].get("statistics", {}).get("fouls", "0") if len(teams_stat) > 1 else "0",
+                "players_available": bool(players.get("data", {}).get("teams"))
+            }
+            return summary
+        except Exception as e:
+            return {"error": f"提取高阶数据失败: {str(e)}"}
+
+

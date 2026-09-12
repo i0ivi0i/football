@@ -40,3 +40,35 @@ def test_微观球员适配器计算体能负荷():
         assert res["休赛天数"] == 3
         assert "体能重度透支" in res["体能评级"]
 
+
+def test_微观球员适配器提取比赛微观高阶数据():
+    适配器 = 微观球员适配器()
+    with patch("sports_skills.football.get_event_statistics") as mock_stats, \
+         patch("sports_skills.football.get_event_xg") as mock_xg, \
+         patch("sports_skills.football.get_event_players_statistics") as mock_players:
+        mock_stats.return_value = {
+            "data": {
+                "teams": [
+                    {"statistics": {"goalkeeper_saves": "3", "fouls": "14"}},
+                    {"statistics": {"goalkeeper_saves": "5", "fouls": "11"}}
+                ]
+            }
+        }
+        mock_xg.return_value = {
+            "data": {
+                "teams": [
+                    {"xg": 0.95},
+                    {"xg": 1.05}
+                ]
+            }
+        }
+        mock_players.return_value = {"data": {"teams": [{"players": []}]}}
+
+        res = 适配器.提取比赛微观高阶数据("401882909")
+        assert res["team1_xg"] == 0.95
+        assert res["team2_xg"] == 1.05
+        assert res["team1_saves"] == "3"
+        assert res["team2_saves"] == "5"
+        assert res["players_available"] is True
+
+
