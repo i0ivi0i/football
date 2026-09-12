@@ -1,6 +1,6 @@
 {
-  "0": "赔率快照",
-  "1": "赔率账本契约",
+  "0": "赔率数值",
+  "1": "赔率快照",
   "2": "微观球员适配器",
   "3": "对账机.py",
   "4": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
@@ -10,7 +10,6 @@
   "8": "ELO-Odds Rating System",
   "9": "Analysis Review Records Manual",
   "10": "2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告",
-  "11": "体彩官方适配器",
   "12": "Success Score Metric",
   "13": "一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）",
   "14": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
