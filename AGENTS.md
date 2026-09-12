@@ -27,20 +27,20 @@
    * `graphify`：**超级深度模式（--mode deep）**——全景穿透历史相似盘口操盘手法、顶刊学术因果与赛后闭环固化；
    * `football-betting-analysis`：8 层博彩推演模型、去水隐含概率、四大庄家盘口共识；
    * `football-match-analysis`：Elo 战力差距、泊松联合比分矩阵、三层爆冷判据。
-3. **关键球员微观主角硬核数据（物理硬闸门：无球员数据严禁出票）**：
-   * 候选平局必须 100% 强制调用 API-Sports 双Key轮换管道（`脚本/适配器/微观球员接口.py`）核验球员，未核验一票否决：
-   * **伤停折损度**：核心进攻发动机缺阵削弱破门创造力；后腰防守屏障坍塌极易被打穿分胜负（一票否决）；
-   * **终结转化与射正率**：两队锋线射门转化率 $\le 10\%$、射正率 $\le 35\%$ 时，严重加固 0:0/1:1 闷平基底；
-   * **门将扑救与防线争顶对抗**：门将扑救率 $\ge 75\%$、中卫空中对抗胜率 $\ge 65\%$ 时，构成抵御绝杀的坚实护城河；
-   * **赛程密集与体能透支**：休赛天数 $\le 3$ 天（双线周中作战）直接诱发下半场攻力衰竭、战术犯规飙升（切碎节奏助推保平打慢）。
+3. **球队与球员微观数据（庄家控盘收割视角·无球员数据严禁出票）**：
+   * 候选平局必须 100% 强制调用 API-Sports 双Key轮换管道（`脚本/适配器/微观球员接口.py`）核验，未核验一票否决。审视数据绝非看竞技表现，唯独看**庄家如何利用球队与球员作为控盘杀多赔少的工具**：
+   * **伤停折损度**：核心进攻发动机缺阵创造力断崖（庄家借球队虚名诱胜实则收割）；后腰屏障坍塌易被打穿分胜负（庄家难以控平，一票否决）；
+   * **终结转化与射正率**：锋线转化率 $\le 10\%$、射正率 $\le 35\%$ 时，构成庄家打造 0:0/1:1 闷平通杀胜负两头的天然温床；
+   * **门将扑救与防线争顶**：门将扑救率 $\ge 75\%$、中卫对抗胜率 $\ge 65\%$ 是庄家抵御意外绝杀、维系平局通杀的物理护城河；
+   * **赛程密集与体能透支**：休赛天数 $\le 3$ 天直接诱发下半场体能衰竭、战术犯规飙升（庄家利用切碎节奏稳稳保平收割）。
 
 ---
 
 ## 3. 核心分析范式：8 层精算推演模型（8 Capas）
 分析推演前必须先看【总复盘总结】，随后严格遵循 8 层流程并与顶刊文献双向锚定：
 * **Capa 1 [ODDS] 市场底牌与机构对账**：中国体彩官方赔率 vs 国际四大（Pinnacle、Bet365、William Hill、Betfair）。调用 [Shin 算法专卷](温故而知新学习资料/Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md) 反推内幕交易量 $z$ 与无抽水真实概率；应用 [EMH 纯赔率模型](温故而知新学习资料/2604.17194_Forecast_Sports_Outcomes_under_EMH_Odds_Only_Models.md) 与 [1710.02824 庄家共识策略](温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md) 校正冷门与平局偏差；捕捉威廉希尔等老牌庄家平赔逆势压水实防（如低于平博 0.25+）。
-* **Capa 2 [IND] 球队画像与战力评级**：主客场真实得失球均值、平局率与交锋历史，结合 [BORS 战力评级体系](温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md) 与 [1802.08848 历史攻防联合建模](温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md)。
-* **Capa 3 [API] 球员微观画像**：基于 [2019 Nature PlayeRank 框架](温故而知新学习资料/2019_Nature_PlayeRank_Data_Driven_Framework.md) 与 [2025 Success Score 深度架构](温故而知新学习资料/2025_Success_Score_Deep_Learning_Football_Prediction.md) 评估球员进攻链参与度（xg_chain/xg_buildup）与攻防阵型克制。
+* **Capa 2 [IND] 球队画像与战力评级（庄家收割视角）**：主客真实得失球、平局率与交锋史，解构庄家如何利用名气偏差诱导两头筹码失衡，结合 [BORS 评级](温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md) 与 [1802.08848 攻防建模](温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md)。
+* **Capa 3 [API] 球员微观画像（庄家控盘抓手）**：基于 [2019 Nature PlayeRank 框架](温故而知新学习资料/2019_Nature_PlayeRank_Data_Driven_Framework.md) 与 [2025 Success Score 架构](温故而知新学习资料/2025_Success_Score_Deep_Learning_Football_Prediction.md) 评估球员推进链（xg_chain/xg_buildup）与阵型克制，测算庄家能否稳控平局。
 * **Capa 4 [IND] 综合指标与泊松联合概率**：双参数 Poisson 与 Skellam 分布计算精确比分矩阵（0:0, 1:1, 2:2），依托 [分层贝叶斯泊松模型](温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md) 与 [2017 平局预测难题修正](温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md) 膨胀校准平局。
 * **Capa 5 [IND] 根因机制与心理战术博弈**：依据 [2008 散户情绪与庄家定价偏见](温故而知新学习资料/2008_Sentiment_and_Bookmaker_Pricing_Bias.md) 识别胜负两头筹码失衡；结合 [2025 战术犯规与平局预测](温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md) 量化高频中场战术粗暴犯规对进攻节奏的切碎致平效果。
 * **Capa 6 平局 3.0 六维加权决策模型**：实防意图(30%) + 白卷率(25%) + 中场犯规(20%) + 保分战意(15%) + 历史平局基因(10%)，总分 $\ge 75$ 候选，$\ge 85$ 黄金猎物（理论见 [2403.16282 机器学习演进](温故而知新学习资料/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md) 与 [2024 KTH 盘口流动性](温故而知新学习资料/2024_KTH_Predicting_Odds_Movement_Betting_Exchange_Liquidity.md)）。
