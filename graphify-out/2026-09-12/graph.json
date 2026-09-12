@@ -222,6 +222,19 @@
       "source_location": "L17"
     },
     {
+      "id": "脚本_适配器_体彩接口_体彩官方适配器",
+      "label": "体彩官方适配器",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": "体彩官方适配器",
+      "source_file": "脚本/适配器/体彩接口.py",
+      "source_location": "L14"
+    },
+    {
       "id": "脚本_领域_契约_赔率提供者契约",
       "label": "赔率提供者契约",
       "_callable": true,
@@ -259,19 +272,6 @@
       "norm_label": "赔率快照",
       "source_file": "脚本/领域/模型.py",
       "source_location": "L45"
-    },
-    {
-      "id": "脚本_适配器_体彩接口_体彩官方适配器",
-      "label": "体彩官方适配器",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": "体彩官方适配器",
-      "source_file": "脚本/适配器/体彩接口.py",
-      "source_location": "L14"
     },
     {
       "id": "脚本_适配器_微观球员接口_微观球员适配器",
@@ -695,6 +695,66 @@
       "source_location": "L27"
     },
     {
+      "id": "脚本_测试_test_体彩接口_test_体彩官方适配器安全过滤无赔率异常赛事",
+      "label": "test_体彩官方适配器安全过滤无赔率异常赛事()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": "test_体彩官方适配器安全过滤无赔率异常赛事()",
+      "source_file": "脚本/测试/test_体彩接口.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "脚本_测试_test_体彩接口_test_体彩官方适配器解析原始数据为纯净领域快照",
+      "label": "test_体彩官方适配器解析原始数据为纯净领域快照()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": "test_体彩官方适配器解析原始数据为纯净领域快照()",
+      "source_file": "脚本/测试/test_体彩接口.py",
+      "source_location": "L6"
+    },
+    {
+      "id": "脚本_适配器_体彩接口_体彩官方适配器_init",
+      "label": ".__init__()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": ".__init__()",
+      "source_file": "脚本/适配器/体彩接口.py",
+      "source_location": "L19"
+    },
+    {
+      "id": "脚本_适配器_体彩接口_体彩官方适配器_抓取当前快照列表",
+      "label": ".抓取当前快照列表()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": ".抓取当前快照列表()",
+      "source_file": "脚本/适配器/体彩接口.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "脚本_适配器_体彩接口_体彩官方适配器_解析原始数据",
+      "label": ".解析原始数据()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": ".解析原始数据()",
+      "source_file": "脚本/适配器/体彩接口.py",
+      "source_location": "L32"
+    },
+    {
       "id": "脚本_领域_契约_赔率提供者契约_抓取当前快照列表",
       "label": ".抓取当前快照列表()",
       "_callable": true,
@@ -741,66 +801,6 @@
       "norm_label": ".获取最新快照()",
       "source_file": "脚本/领域/契约.py",
       "source_location": "L29"
-    },
-    {
-      "id": "脚本_测试_test_体彩接口_test_体彩官方适配器安全过滤无赔率异常赛事",
-      "label": "test_体彩官方适配器安全过滤无赔率异常赛事()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": "test_体彩官方适配器安全过滤无赔率异常赛事()",
-      "source_file": "脚本/测试/test_体彩接口.py",
-      "source_location": "L49"
-    },
-    {
-      "id": "脚本_测试_test_体彩接口_test_体彩官方适配器解析原始数据为纯净领域快照",
-      "label": "test_体彩官方适配器解析原始数据为纯净领域快照()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": "test_体彩官方适配器解析原始数据为纯净领域快照()",
-      "source_file": "脚本/测试/test_体彩接口.py",
-      "source_location": "L6"
-    },
-    {
-      "id": "脚本_适配器_体彩接口_体彩官方适配器_init",
-      "label": ".__init__()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": ".__init__()",
-      "source_file": "脚本/适配器/体彩接口.py",
-      "source_location": "L19"
-    },
-    {
-      "id": "脚本_适配器_体彩接口_体彩官方适配器_抓取当前快照列表",
-      "label": ".抓取当前快照列表()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": ".抓取当前快照列表()",
-      "source_file": "脚本/适配器/体彩接口.py",
-      "source_location": "L23"
-    },
-    {
-      "id": "脚本_适配器_体彩接口_体彩官方适配器_解析原始数据",
-      "label": ".解析原始数据()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": ".解析原始数据()",
-      "source_file": "脚本/适配器/体彩接口.py",
-      "source_location": "L32"
     },
     {
       "id": "脚本_测试_test_微观球员接口_test_微观球员适配器严格断言完场比分",
@@ -1215,6 +1215,50 @@
       "source_location": ""
     },
     {
+      "id": "脚本_测试_test_体彩接口",
+      "label": "test_体彩接口.py",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": "test_体彩接口.py",
+      "source_file": "脚本/测试/test_体彩接口.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "脚本_适配器_init",
+      "label": "适配器/__init__.py",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": "适配器/__init__.py",
+      "source_file": "脚本/适配器/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "脚本_适配器_体彩接口",
+      "label": "体彩接口.py",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": "体彩接口.py",
+      "source_file": "脚本/适配器/体彩接口.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "脚本_适配器_体彩接口_py_赔率快照",
+      "label": "赔率快照",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "code",
+      "norm_label": "赔率快照",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
       "id": "脚本_适配器_本地账本",
       "label": "本地账本.py",
       "_origin": "ast",
@@ -1279,6 +1323,28 @@
       "norm_label": "足球倍率心电图连续录像机 - 组装根 (composition root) 纯正 10/10 ddd 洋葱整洁架构,信达雅全中文命名",
       "source_file": "脚本/心电图录像机.py",
       "source_location": "L1"
+    },
+    {
+      "id": "脚本_适配器_体彩接口_rationale_1",
+      "label": "DDD 适配器防腐层 - 中国体彩官方 API 适配器 负责将不可控的外部体彩原始 JSON 清洗转化为优雅纯净的领域实体",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "rationale",
+      "norm_label": "ddd 适配器防腐层 - 中国体彩官方 api 适配器 负责将不可控的外部体彩原始 json 清洗转化为优雅纯净的领域实体",
+      "source_file": "脚本/适配器/体彩接口.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "脚本_适配器_体彩接口_rationale_15",
+      "label": "实现赔率提供者契约，直连国家体彩中心官方网关",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "赔率快照",
+      "file_type": "rationale",
+      "norm_label": "实现赔率提供者契约,直连国家体彩中心官方网关",
+      "source_file": "脚本/适配器/体彩接口.py",
+      "source_location": "L15"
     },
     {
       "id": "脚本_适配器_本地账本_rationale_1",
@@ -1432,72 +1498,6 @@
       "source_location": "L68"
     },
     {
-      "id": "脚本_测试_test_体彩接口",
-      "label": "test_体彩接口.py",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": "test_体彩接口.py",
-      "source_file": "脚本/测试/test_体彩接口.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "脚本_适配器_init",
-      "label": "适配器/__init__.py",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": "适配器/__init__.py",
-      "source_file": "脚本/适配器/__init__.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "脚本_适配器_体彩接口",
-      "label": "体彩接口.py",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": "体彩接口.py",
-      "source_file": "脚本/适配器/体彩接口.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "脚本_适配器_体彩接口_py_赔率快照",
-      "label": "赔率快照",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "code",
-      "norm_label": "赔率快照",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "脚本_适配器_体彩接口_rationale_1",
-      "label": "DDD 适配器防腐层 - 中国体彩官方 API 适配器 负责将不可控的外部体彩原始 JSON 清洗转化为优雅纯净的领域实体",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "rationale",
-      "norm_label": "ddd 适配器防腐层 - 中国体彩官方 api 适配器 负责将不可控的外部体彩原始 json 清洗转化为优雅纯净的领域实体",
-      "source_file": "脚本/适配器/体彩接口.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "脚本_适配器_体彩接口_rationale_15",
-      "label": "实现赔率提供者契约，直连国家体彩中心官方网关",
-      "_origin": "ast",
-      "community": 11,
-      "community_name": "体彩官方适配器",
-      "file_type": "rationale",
-      "norm_label": "实现赔率提供者契约,直连国家体彩中心官方网关",
-      "source_file": "脚本/适配器/体彩接口.py",
-      "source_location": "L15"
-    },
-    {
       "id": "分析复盘记录_2026_09_11_预测_1_周五012_巴甲_科里蒂巴_vs_巴拉纳竞技_黄金第一猎物",
       "label": "1. 周五012 巴甲：科里蒂巴 vs 巴拉纳竞技【黄金第一猎物 ⬆️】",
       "_origin": "ast",
@@ -1574,7 +1574,7 @@
       "label": "query_20260908_043003_de6fdc08_周一001卡利亚里1_0与周一006乌迪内斯1_2失手复盘与赛前盲区审计.md",
       "_origin": "ast",
       "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
+      "community_name": "Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计",
       "file_type": "document",
       "frontmatter": {
         "type": "query",
@@ -1594,7 +1594,7 @@
       "label": "Answer",
       "_origin": "ast",
       "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
+      "community_name": "Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "answer",
@@ -1606,7 +1606,7 @@
       "label": "Outcome",
       "_origin": "ast",
       "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
+      "community_name": "Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "outcome",
@@ -1618,7 +1618,7 @@
       "label": "Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计",
       "_origin": "ast",
       "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
+      "community_name": "Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计",
@@ -1630,7 +1630,7 @@
       "label": "Source Nodes",
       "_origin": "ast",
       "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
+      "community_name": "Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "source nodes",
@@ -2180,7 +2180,7 @@
       "label": "2026-09-09_复盘.md",
       "_origin": "ast",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "2026-09-09_复盘.md",
@@ -2192,7 +2192,7 @@
       "label": "2026-09-10_复盘.md",
       "_origin": "ast",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "2026-09-10_复盘.md",
@@ -2204,7 +2204,7 @@
       "label": "2026-09-10_预测.md",
       "_origin": "ast",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "2026-09-10_预测.md",
@@ -2216,7 +2216,7 @@
       "label": "2026-09-11_复盘.md",
       "_origin": "ast",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "2026-09-11_复盘.md",
@@ -2228,7 +2228,7 @@
       "label": "2026-09-11_预测.md",
       "_origin": "ast",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "2026-09-11_预测.md",
@@ -2241,8 +2241,8 @@
       "_origin": "semantic",
       "author": "Anthony C. Constantinou",
       "captured_at": null,
-      "community": 19,
-      "community_name": "Constantinou Hybrid Bayesian Network Model",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "constantinou hybrid bayesian network model",
@@ -2257,8 +2257,8 @@
       "_origin": "semantic",
       "author": "Anthony C. Constantinou",
       "captured_at": null,
-      "community": 19,
-      "community_name": "Constantinou Hybrid Bayesian Network Model",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "modified pi-rating system",
@@ -2273,8 +2273,8 @@
       "_origin": "semantic",
       "author": "David Winkelmann, Christian Deutscher",
       "captured_at": null,
-      "community": 12,
-      "community_name": "Success Score Metric",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "bettor state-space model (ssm)",
@@ -2289,8 +2289,8 @@
       "_origin": "semantic",
       "author": "David Winkelmann, Christian Deutscher",
       "captured_at": null,
-      "community": 12,
-      "community_name": "Success Score Metric",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "bookmaker implied probability regression models",
@@ -2305,8 +2305,8 @@
       "_origin": "semantic",
       "author": "David Winkelmann, Maya Vienken, Christian Deutscher, Roland Langrock",
       "captured_at": null,
-      "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "live betting state-space model for fraud detection",
@@ -2322,7 +2322,7 @@
       "author": "Erik Strumbelj",
       "captured_at": null,
       "community": 4,
-      "community_name": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "numerical variant of shin conversion",
@@ -2337,8 +2337,8 @@
       "_origin": "semantic",
       "author": "Farzam Manafzadeh, Changiz Eslahchi, Hadi Nobari",
       "captured_at": null,
-      "community": 12,
-      "community_name": "Success Score Metric",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "deep neural network (dnn) architecture",
@@ -2353,8 +2353,8 @@
       "_origin": "semantic",
       "author": "Farzam Manafzadeh, Changiz Eslahchi, Hadi Nobari",
       "captured_at": null,
-      "community": 12,
-      "community_name": "Success Score Metric",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "match outcome classification via thresholds",
@@ -2369,8 +2369,8 @@
       "_origin": "semantic",
       "author": "Farzam Manafzadeh, Changiz Eslahchi, Hadi Nobari",
       "captured_at": null,
-      "community": 12,
-      "community_name": "Success Score Metric",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "success score metric",
@@ -2385,8 +2385,8 @@
       "_origin": "semantic",
       "author": "Farzam Manafzadeh, Changiz Eslahchi, Hadi Nobari",
       "captured_at": null,
-      "community": 12,
-      "community_name": "Success Score Metric",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "tactical play styles framework",
@@ -2401,8 +2401,8 @@
       "_origin": "semantic",
       "author": "H. S. Shin",
       "captured_at": null,
-      "community": 7,
-      "community_name": "Egidi Hierarchical Bayesian Poisson Model",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "shin odds normalization procedure",
@@ -2417,8 +2417,8 @@
       "_origin": "semantic",
       "author": "Hyun Song Shin",
       "captured_at": null,
-      "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "shin insider trading odds inversion model",
@@ -2450,7 +2450,7 @@
       "author": "Kaito Goto, Naoya Takeishi, Takehisa Yairi",
       "captured_at": null,
       "community": 4,
-      "community_name": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "paper",
       "norm_label": "goto et al. (2026) odds-only and fl-glm conversion study",
@@ -2465,8 +2465,8 @@
       "_origin": "semantic",
       "author": "L. M. Hvattum",
       "captured_at": null,
-      "community": 7,
-      "community_name": "Egidi Hierarchical Bayesian Poisson Model",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "multinomial logit regression (mlr) for soccer",
@@ -2481,8 +2481,8 @@
       "_origin": "semantic",
       "author": "L. M. Hvattum",
       "captured_at": null,
-      "community": 7,
-      "community_name": "Egidi Hierarchical Bayesian Poisson Model",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "ordered logit regression (olr) for soccer",
@@ -2497,8 +2497,8 @@
       "_origin": "semantic",
       "author": "Leonardo Egidi, Francesco Pauli, Nicola Torelli",
       "captured_at": null,
-      "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "hierarchical bayesian poisson football score model",
@@ -2514,7 +2514,7 @@
       "author": "Lisandro Kaunitz, Shenjun Zhong, Javier Kreiner",
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "paper",
       "norm_label": "beating the bookies with their own numbers (kaunitz et al. 2017)",
@@ -2530,7 +2530,7 @@
       "author": "M. Kizildemir et al.",
       "captured_at": null,
       "community": 4,
-      "community_name": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "analytical variant of shin conversion",
@@ -2545,8 +2545,8 @@
       "_origin": "semantic",
       "author": "Nicolás Pérez-Blanco, Antonio Salmerón",
       "captured_at": null,
-      "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "paper",
       "norm_label": "perez-blanco & salmeron (2025) bayesian classifier study",
@@ -2561,8 +2561,8 @@
       "_origin": "semantic",
       "author": "Purnachandra Mandadapu",
       "captured_at": null,
-      "community": 6,
-      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "paper",
       "norm_label": "mandadapu (2024) football match outcome forecasting study",
@@ -2578,7 +2578,7 @@
       "author": "S. Clarke et al.",
       "captured_at": null,
       "community": 4,
-      "community_name": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "power conversion method",
@@ -2588,67 +2588,19 @@
       "source_url": null
     },
     {
-      "id": "perezblanco2025_relative_distance_discretization",
-      "label": "Relative-Distance Centroid Discretization",
+      "id": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_solve_shin_py",
+      "label": "solve_shin_probabilities Solver",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
-      "file_type": "concept",
-      "norm_label": "relative-distance centroid discretization",
-      "rationale": "Assigns continuous elements membership weights to adjacent cluster centroids to capture local variability for Naive Bayes.",
-      "source_file": "温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md",
-      "source_location": "195-196",
-      "source_url": null
-    },
-    {
-      "id": "perezblanco2025_rps",
-      "label": "Ranked Probability Score (RPS)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "ranked probability score (rps)",
-      "rationale": "Penalizes probability forecast errors based on distance between ordinal categories.",
-      "source_file": "温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md",
-      "source_location": "193-194",
-      "source_url": null
-    },
-    {
-      "id": "perezblanco2025_two_tier_nb_clustering",
-      "label": "Two-Tier Naive Bayes Cluster Optimization",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "two-tier naive bayes cluster optimization",
-      "rationale": "Uses a meta-NB classifier trained on cluster quality measures to select optimal discretization configurations for draw prediction.",
-      "source_file": "温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md",
-      "source_location": "196",
-      "source_url": null
-    },
-    {
-      "id": "perezblanco2025_wap_war",
-      "label": "Weighted Accuracy & Recall (WAP & WAR)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 14,
-      "community_name": "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "weighted accuracy & recall (wap & war)",
-      "rationale": "Class-frequency weighted metrics countering skewness in binary draw classification (IR 3.02:1).",
-      "source_file": "温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md",
-      "source_location": "194-195",
+      "file_type": "code",
+      "norm_label": "solve_shin_probabilities solver",
+      "rationale": null,
+      "source_file": "温故而知新学习资料/Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md",
+      "source_location": null,
       "source_url": null
     },
     {
@@ -2657,8 +2609,8 @@
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 18,
-      "community_name": "Passing Network Centrality",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "passing network centrality",
@@ -2673,8 +2625,8 @@
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 18,
-      "community_name": "Passing Network Centrality",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "playerank framework",
@@ -2689,8 +2641,8 @@
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 18,
-      "community_name": "Passing Network Centrality",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "wyscout spatio-temporal match events dataset",
@@ -2700,34 +2652,18 @@
       "source_url": null
     },
     {
-      "id": "asian_handicap_market",
-      "label": "Asian Handicap (AH) Betting Market",
+      "id": "agents_eight_capas_model",
+      "label": "8-Capas Betting Deduction Model",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 19,
-      "community_name": "Constantinou Hybrid Bayesian Network Model",
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
-      "norm_label": "asian handicap (ah) betting market",
-      "rationale": null,
-      "source_file": "温故而知新学习资料/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_system_architecture",
-      "label": "DDD Onion Architecture & System Specs",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 3,
-      "community_name": "对账机.py",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "ddd onion architecture & system specs",
-      "rationale": "10/10 pure domain-driven design with Domain, Application, Adapter layers in Chinese naming convention.",
-      "source_file": "README.md",
+      "norm_label": "8-capas betting deduction model",
+      "rationale": "Standard 8-tier deduction framework spanning ODDS benchmark, team profile, micro player API, Poisson probability, root motivation, 6D weighted score, confidence, and final decision.",
+      "source_file": "AGENTS.md",
       "source_location": null,
       "source_url": null
     },
@@ -2738,7 +2674,7 @@
       "author": null,
       "captured_at": null,
       "community": 4,
-      "community_name": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "favourite-longshot bias (flb)",
@@ -2748,13 +2684,45 @@
       "source_url": null
     },
     {
+      "id": "egidi_hierarchical_poisson_model",
+      "label": "Egidi Hierarchical Bayesian Poisson Model",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "egidi hierarchical bayesian poisson model",
+      "rationale": "Combines historical match results and bookmakers' odds via a convex combination of Poisson scoring rates to improve football score predictions and capture betting market information",
+      "source_file": "温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "elo_rating_difference",
+      "label": "Elo Rating Difference",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "elo rating difference",
+      "rationale": null,
+      "source_file": "温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
       "id": "goto2026_fl_glm",
       "label": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 4,
-      "community_name": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "favourite-longshot-bias-adjusted glm (fl-glm)",
@@ -2770,7 +2738,7 @@
       "author": null,
       "captured_at": null,
       "community": 4,
-      "community_name": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "odds-only equal profitability confidence (oo-epc)",
@@ -2780,13 +2748,141 @@
       "source_url": null
     },
     {
+      "id": "mandadapu2024_svm",
+      "label": "SVM Match Outcome Classifier",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "svm match outcome classifier",
+      "rationale": "Achieved top accuracy (up to 72.67%) on 1-season data, though struggled with the draw outcome.",
+      "source_file": "温故而知新学习资料/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md",
+      "source_location": "5.2",
+      "source_url": null
+    },
+    {
+      "id": "mandadapu2024_xgboost",
+      "label": "XGBoost Match Outcome Classifier",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "xgboost match outcome classifier",
+      "rationale": null,
+      "source_file": "温故而知新学习资料/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md",
+      "source_location": "5.4",
+      "source_url": null
+    },
+    {
+      "id": "perezblanco2025_relative_distance_discretization",
+      "label": "Relative-Distance Centroid Discretization",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "relative-distance centroid discretization",
+      "rationale": "Assigns continuous elements membership weights to adjacent cluster centroids to capture local variability for Naive Bayes.",
+      "source_file": "温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md",
+      "source_location": "195-196",
+      "source_url": null
+    },
+    {
+      "id": "perezblanco2025_rps",
+      "label": "Ranked Probability Score (RPS)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "ranked probability score (rps)",
+      "rationale": "Penalizes probability forecast errors based on distance between ordinal categories.",
+      "source_file": "温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md",
+      "source_location": "193-194",
+      "source_url": null
+    },
+    {
+      "id": "perezblanco2025_two_tier_nb_clustering",
+      "label": "Two-Tier Naive Bayes Cluster Optimization",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "two-tier naive bayes cluster optimization",
+      "rationale": "Uses a meta-NB classifier trained on cluster quality measures to select optimal discretization configurations for draw prediction.",
+      "source_file": "温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md",
+      "source_location": "196",
+      "source_url": null
+    },
+    {
+      "id": "perezblanco2025_wap_war",
+      "label": "Weighted Accuracy & Recall (WAP & WAR)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "weighted accuracy & recall (wap & war)",
+      "rationale": "Class-frequency weighted metrics countering skewness in binary draw classification (IR 3.02:1).",
+      "source_file": "温故而知新学习资料/2025_Springer_Predicting_Draws_and_Fouls_Bayesian.md",
+      "source_location": "194-195",
+      "source_url": null
+    },
+    {
+      "id": "skellam_distribution",
+      "label": "Skellam Distribution (Poisson-Difference)",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "skellam distribution (poisson-difference)",
+      "rationale": null,
+      "source_file": "温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "team_attack_defence_effects",
+      "label": "Dynamic Seasonal Team Attack and Defence Effects",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "dynamic seasonal team attack and defence effects",
+      "rationale": "Assumes seasonal normal distribution centered at previous seasonal effect plus fixed component with a zero-sum identifiability constraint, avoiding static team effect assumptions",
+      "source_file": "温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
       "id": "wenguerzhixin_xuexiziliao_2604_17194_draw_bias_finding",
       "label": "Draw Bias in Odds Conversion Models",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 4,
-      "community_name": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "draw bias in odds conversion models",
@@ -2802,12 +2898,188 @@
       "author": null,
       "captured_at": null,
       "community": 4,
-      "community_name": "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)",
+      "community_name": "8-Capas Betting Deduction Model",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "multiplicative odds conversion",
       "rationale": null,
       "source_file": "温故而知新学习资料/2604.17194_Forecast_Sports_Outcomes_under_EMH_Odds_Only_Models.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "wenguerzhixin_xuexiziliao_2605_30209_hurdle_lognormal_model",
+      "label": "Hurdle Log-Normal Stake Distribution Model",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "hurdle log-normal stake distribution model",
+      "rationale": "Combines a point mass at zero with a log-normal continuous distribution to accommodate periods with zero bets placed despite open betting markets.",
+      "source_file": "温故而知新学习资料/2605.30209_Betting_Against_Integrity_Identifying_Match_Fixing_Market_Dynamics.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "温故而知新学习资料_2017_problem_of_correctly_predicting_draws_soccer_draw_prediction_evaluation",
+      "label": "Draw Prediction Evaluation Framework",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "draw prediction evaluation framework",
+      "rationale": null,
+      "source_file": "温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "温故而知新学习资料_2017_problem_of_correctly_predicting_draws_soccer_olr_model",
+      "label": "Ordered Logit Regression (OLR) Model",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 4,
+      "community_name": "8-Capas Betting Deduction Model",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "ordered logit regression (olr) model",
+      "rationale": "Commonly used in academic literature to forecast match outcomes; only justifiable when independent variable influence on log odds is proportional across outcomes.",
+      "source_file": "温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "1710_02824_betting_strategy",
+      "label": "Consensus Odds-Based Betting Strategy",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 6,
+      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "consensus odds-based betting strategy",
+      "rationale": "Built on the premise that bookmakers possess highly accurate predictive models; exploits mispricings using aggregate market odds rather than competing against them.",
+      "source_file": "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "1710_02824_bookmaker_restrictions",
+      "label": "Bookmaker Account Limiting / Discriminatory Practices",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 6,
+      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "bookmaker account limiting / discriminatory practices",
+      "rationale": "Compensates for market inefficiency by restricting stakes or banning successful bettors, forcing experiment termination.",
+      "source_file": "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "1710_02824_consensus_probability",
+      "label": "Bookmakers' Consensus Probability",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 6,
+      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "bookmakers' consensus probability",
+      "rationale": "Serves as an accurate proxy (up to constant intercept) for the actual probability of game outcomes, reflecting aggregated forecasting models.",
+      "source_file": "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "1710_02824_paper_trading",
+      "label": "Paper Trading Validation",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 6,
+      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "paper trading validation",
+      "rationale": "Empirically tests odds availability and latency effects before committing real funds without execution risk.",
+      "source_file": "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "2018_plos_elo_goals",
+      "label": "ELO-Goals Rating System",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 6,
+      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "elo-goals rating system",
+      "rationale": "Extended ELO weighting updates by absolute goal margin to capture more nuance than win/loss.",
+      "source_file": "温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "2018_plos_elo_odds",
+      "label": "ELO-Odds Rating System",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 6,
+      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "elo-odds rating system",
+      "rationale": "Replaces post-match actual outcomes with pre-match consensus betting odds within an ELO framework, isolating underlying team quality from single-match randomness.",
+      "source_file": "温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "2018_plos_elo_result",
+      "label": "ELO-Result Rating System",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 6,
+      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "elo-result rating system",
+      "rationale": "Traditional ELO updating based strictly on categorical match results (win/draw/loss).",
+      "source_file": "温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "2018_plos_informational_loss",
+      "label": "Informational Loss Metric",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 6,
+      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "informational loss metric",
+      "rationale": "Used to evaluate probabilistic soccer match forecasts; equivalent to maximizing the likelihood function.",
+      "source_file": "温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md",
       "source_location": null,
       "source_url": null
     },
@@ -2956,285 +3228,13 @@
       "source_url": null
     },
     {
-      "id": "mandadapu2024_svm",
-      "label": "SVM Match Outcome Classifier",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 6,
-      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "svm match outcome classifier",
-      "rationale": "Achieved top accuracy (up to 72.67%) on 1-season data, though struggled with the draw outcome.",
-      "source_file": "温故而知新学习资料/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md",
-      "source_location": "5.2",
-      "source_url": null
-    },
-    {
-      "id": "mandadapu2024_xgboost",
-      "label": "XGBoost Match Outcome Classifier",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 6,
-      "community_name": "KTH 2024 Betting Exchange Liquidity Study",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "xgboost match outcome classifier",
-      "rationale": null,
-      "source_file": "温故而知新学习资料/2403.16282_The_Evolution_of_Football_Betting_Machine_Learning.md",
-      "source_location": "5.4",
-      "source_url": null
-    },
-    {
-      "id": "egidi_hierarchical_poisson_model",
-      "label": "Egidi Hierarchical Bayesian Poisson Model",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 7,
-      "community_name": "Egidi Hierarchical Bayesian Poisson Model",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "egidi hierarchical bayesian poisson model",
-      "rationale": "Combines historical match results and bookmakers' odds via a convex combination of Poisson scoring rates to improve football score predictions and capture betting market information",
-      "source_file": "温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "elo_rating_difference",
-      "label": "Elo Rating Difference",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 7,
-      "community_name": "Egidi Hierarchical Bayesian Poisson Model",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "elo rating difference",
-      "rationale": null,
-      "source_file": "温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "skellam_distribution",
-      "label": "Skellam Distribution (Poisson-Difference)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 7,
-      "community_name": "Egidi Hierarchical Bayesian Poisson Model",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "skellam distribution (poisson-difference)",
-      "rationale": null,
-      "source_file": "温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "team_attack_defence_effects",
-      "label": "Dynamic Seasonal Team Attack and Defence Effects",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 7,
-      "community_name": "Egidi Hierarchical Bayesian Poisson Model",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "dynamic seasonal team attack and defence effects",
-      "rationale": "Assumes seasonal normal distribution centered at previous seasonal effect plus fixed component with a zero-sum identifiability constraint, avoiding static team effect assumptions",
-      "source_file": "温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "温故而知新学习资料_2017_problem_of_correctly_predicting_draws_soccer_draw_prediction_evaluation",
-      "label": "Draw Prediction Evaluation Framework",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 7,
-      "community_name": "Egidi Hierarchical Bayesian Poisson Model",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "draw prediction evaluation framework",
-      "rationale": null,
-      "source_file": "温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "温故而知新学习资料_2017_problem_of_correctly_predicting_draws_soccer_olr_model",
-      "label": "Ordered Logit Regression (OLR) Model",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 7,
-      "community_name": "Egidi Hierarchical Bayesian Poisson Model",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "ordered logit regression (olr) model",
-      "rationale": "Commonly used in academic literature to forecast match outcomes; only justifiable when independent variable influence on log odds is proportional across outcomes.",
-      "source_file": "温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "1710_02824_betting_strategy",
-      "label": "Consensus Odds-Based Betting Strategy",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 8,
-      "community_name": "ELO-Odds Rating System",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "consensus odds-based betting strategy",
-      "rationale": "Built on the premise that bookmakers possess highly accurate predictive models; exploits mispricings using aggregate market odds rather than competing against them.",
-      "source_file": "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "1710_02824_bookmaker_restrictions",
-      "label": "Bookmaker Account Limiting / Discriminatory Practices",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 8,
-      "community_name": "ELO-Odds Rating System",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "bookmaker account limiting / discriminatory practices",
-      "rationale": "Compensates for market inefficiency by restricting stakes or banning successful bettors, forcing experiment termination.",
-      "source_file": "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "1710_02824_consensus_probability",
-      "label": "Bookmakers' Consensus Probability",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 8,
-      "community_name": "ELO-Odds Rating System",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "bookmakers' consensus probability",
-      "rationale": "Serves as an accurate proxy (up to constant intercept) for the actual probability of game outcomes, reflecting aggregated forecasting models.",
-      "source_file": "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "1710_02824_paper_trading",
-      "label": "Paper Trading Validation",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 8,
-      "community_name": "ELO-Odds Rating System",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "paper trading validation",
-      "rationale": "Empirically tests odds availability and latency effects before committing real funds without execution risk.",
-      "source_file": "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "2018_plos_elo_goals",
-      "label": "ELO-Goals Rating System",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 8,
-      "community_name": "ELO-Odds Rating System",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "elo-goals rating system",
-      "rationale": "Extended ELO weighting updates by absolute goal margin to capture more nuance than win/loss.",
-      "source_file": "温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "2018_plos_elo_odds",
-      "label": "ELO-Odds Rating System",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 8,
-      "community_name": "ELO-Odds Rating System",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "elo-odds rating system",
-      "rationale": "Replaces post-match actual outcomes with pre-match consensus betting odds within an ELO framework, isolating underlying team quality from single-match randomness.",
-      "source_file": "温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "2018_plos_elo_result",
-      "label": "ELO-Result Rating System",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 8,
-      "community_name": "ELO-Odds Rating System",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "elo-result rating system",
-      "rationale": "Traditional ELO updating based strictly on categorical match results (win/draw/loss).",
-      "source_file": "温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "2018_plos_informational_loss",
-      "label": "Informational Loss Metric",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 8,
-      "community_name": "ELO-Odds Rating System",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "informational loss metric",
-      "rationale": "Used to evaluate probabilistic soccer match forecasts; equivalent to maximizing the likelihood function.",
-      "source_file": "温故而知新学习资料/2018_PLOS_Betting_Odds_Rating_System_BORS.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_solve_shin_py",
-      "label": "solve_shin_probabilities Solver",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 9,
-      "community_name": "Analysis Review Records Manual",
-      "contributor": null,
-      "file_type": "code",
-      "norm_label": "solve_shin_probabilities solver",
-      "rationale": null,
-      "source_file": "温故而知新学习资料/Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
       "id": "2008_sentiment_clustered_probit",
       "label": "Clustered Probit Model",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "clustered probit model",
@@ -3250,7 +3250,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "diffattend proxy",
@@ -3266,7 +3266,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "sentiment bias in betting odds",
@@ -3282,27 +3282,11 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "football quant agent brain",
       "rationale": "Specialized cognition and actuarial model repository designed for self-evolutionary flywheel updates and draw hunting.",
-      "source_file": "AGENTS.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "agents_eight_capas_model",
-      "label": "8-Capas Betting Deduction Model",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 9,
-      "community_name": "Analysis Review Records Manual",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "8-capas betting deduction model",
-      "rationale": "Standard 8-tier deduction framework spanning ODDS benchmark, team profile, micro player API, Poisson probability, root motivation, 6D weighted score, confidence, and final decision.",
       "source_file": "AGENTS.md",
       "source_location": null,
       "source_url": null
@@ -3314,7 +3298,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "five hard red lines (v3.1 physical circuit breakers)",
@@ -3330,7 +3314,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "concept",
       "norm_label": "karpathy skill self-evolution flywheel",
@@ -3340,18 +3324,34 @@
       "source_url": null
     },
     {
-      "id": "wenguerzhixin_xuexiziliao_2605_30209_hurdle_lognormal_model",
-      "label": "Hurdle Log-Normal Stake Distribution Model",
+      "id": "asian_handicap_market",
+      "label": "Asian Handicap (AH) Betting Market",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "concept",
-      "norm_label": "hurdle log-normal stake distribution model",
-      "rationale": "Combines a point mass at zero with a log-normal continuous distribution to accommodate periods with zero bets placed despite open betting markets.",
-      "source_file": "温故而知新学习资料/2605.30209_Betting_Against_Integrity_Identifying_Match_Fixing_Market_Dynamics.md",
+      "norm_label": "asian handicap (ah) betting market",
+      "rationale": null,
+      "source_file": "温故而知新学习资料/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "readme_system_architecture",
+      "label": "DDD Onion Architecture & System Specs",
+      "_origin": "semantic",
+      "author": null,
+      "captured_at": null,
+      "community": 9,
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "ddd onion architecture & system specs",
+      "rationale": "10/10 pure domain-driven design with Domain, Application, Adapter layers in Chinese naming convention.",
+      "source_file": "README.md",
       "source_location": null,
       "source_url": null
     },
@@ -3362,7 +3362,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "2026-09-06 pre-match forecast",
@@ -3378,7 +3378,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "2026-09-06 post-match review",
@@ -3394,7 +3394,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "2026-09-07 pre-match forecast",
@@ -3410,7 +3410,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "2026-09-07 post-match review",
@@ -3426,7 +3426,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "2026-09-08 pre-match forecast",
@@ -3442,7 +3442,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "2026-09-08 post-match review",
@@ -3458,7 +3458,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "2026-09-09 pre-match forecast",
@@ -3474,7 +3474,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "overall accuracy & real-time scoreboard",
@@ -3490,7 +3490,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "general post-mortem manual & blind-spot audit",
@@ -3506,7 +3506,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "analysis review records manual",
@@ -3522,7 +3522,7 @@
       "author": null,
       "captured_at": null,
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "contributor": null,
       "file_type": "document",
       "norm_label": "literature index and topological network",
@@ -3536,7 +3536,7 @@
       "label": "2026-09-10 Pre-Match Forecast",
       "_origin": "semantic",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "norm_label": "2026-09-10 pre-match forecast",
       "source_file": "分析复盘记录/2026-09-10_预测.md"
@@ -3546,7 +3546,7 @@
       "label": "2026-09-10 Post-Match Review",
       "_origin": "semantic",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "norm_label": "2026-09-10 post-match review",
       "source_file": "分析复盘记录/2026-09-10_复盘.md"
@@ -3556,7 +3556,7 @@
       "label": "2026-09-11 Pre-Match Forecast",
       "_origin": "semantic",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "norm_label": "2026-09-11 pre-match forecast",
       "source_file": "分析复盘记录/2026-09-11_预测.md"
@@ -3566,7 +3566,7 @@
       "label": "2026-09-11 Post-Match Review",
       "_origin": "semantic",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "norm_label": "2026-09-11 post-match review",
       "source_file": "分析复盘记录/2026-09-11_复盘.md"
@@ -3576,7 +3576,7 @@
       "label": "2026-09-12 Pre-Match Forecast",
       "_origin": "semantic",
       "community": 9,
-      "community_name": "Analysis Review Records Manual",
+      "community_name": "General Post-Mortem Manual & Blind-Spot Audit",
       "file_type": "document",
       "norm_label": "2026-09-12 pre-match forecast",
       "source_file": "分析复盘记录/2026-09-12_预测.md"
@@ -7748,6 +7748,26 @@
       "weight": 1.0
     },
     {
+      "source": "rec_20260910_review",
+      "target": "rec_overall_accuracy",
+      "relation": "aggregates_into_scoreboard",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-10_复盘.md",
+      "weight": 2.0
+    },
+    {
+      "source": "rec_20260911_review",
+      "target": "rec_overall_accuracy",
+      "relation": "aggregates_into_scoreboard",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-11_复盘.md",
+      "weight": 2.0
+    },
+    {
       "source": "2024_kth_betting_exchange_liquidity",
       "target": "kth2024_study",
       "relation": "analyzed_in",
@@ -7759,6 +7779,46 @@
       "weight": 1.0
     },
     {
+      "source": "rec_20260912_forecast",
+      "target": "asian_handicap_market",
+      "relation": "applies_redline7_open_book_handicap_hedge",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-12_预测.md",
+      "weight": 2.0
+    },
+    {
+      "source": "rec_20260910_review",
+      "target": "2018_plos_elo_odds",
+      "relation": "audits_away_bus_redline3_evolution",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-10_复盘.md",
+      "weight": 2.0
+    },
+    {
+      "source": "rec_20260911_review",
+      "target": "asian_handicap_market",
+      "relation": "audits_derby_resilience_and_false_deep_handicap",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-11_复盘.md",
+      "weight": 2.0
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "target": "goto2026_fl_glm",
+      "relation": "benchmarks_shin_against_fl_glm",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "温故而知新学习资料/Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md",
+      "weight": 1.8
+    },
+    {
       "source": "goto2026_oo_epc",
       "target": "wenguerzhixin_xuexiziliao_2604_17194_multiplicative_conversion",
       "relation": "calls",
@@ -7768,6 +7828,206 @@
       "source_file": "温故而知新学习资料/2604.17194_Forecast_Sports_Outcomes_under_EMH_Odds_Only_Models.md",
       "source_location": null,
       "weight": 1.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "lit_1710_02824_beating_bookies",
+      "relation": "capa1_benchmarks_consensus_odds",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "goto2026_fl_glm",
+      "relation": "capa1_calibrates_favourite_longshot_bias",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_solve_shin_py",
+      "relation": "capa1_computes_fair_probabilities",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "goto2026_study",
+      "relation": "capa1_emh_pure_odds_models",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "capa1_inverts_insider_trading_z",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "elo_rating_difference",
+      "relation": "capa2_evaluates_strength_gap",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "relation": "capa2_models_attack_defence_effects",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "team_attack_defence_effects",
+      "relation": "capa2_quantifies_team_form",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "2018_plos_elo_odds",
+      "relation": "capa2_rates_bors_team_strength",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "relation": "capa3_deep_learning_success_score",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "脚本_适配器_微观球员接口_微观球员适配器",
+      "relation": "capa3_executes_api_sports_dual_key",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "2019_nature_playerank",
+      "relation": "capa3_measures_player_xg_chain",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "skellam_distribution",
+      "relation": "capa4_calculates_goal_difference_skellam",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "egidi_hierarchical_poisson_model",
+      "relation": "capa4_hierarchical_poisson_score_matrix",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "multinomial_logit_regression",
+      "relation": "capa4_inflates_underestimated_draw_prob",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "2008_sentiment_sentiment_bias",
+      "relation": "capa5_identifies_retail_sentiment_bias",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "2024_kth_betting_exchange_liquidity",
+      "relation": "capa6_incorporates_liquidity_weight",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "mandadapu2024_study",
+      "relation": "capa6_machine_learning_feature_synthesis",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "goto2026_oo_epc",
+      "relation": "capa7_computes_equal_profitability_ev",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "asian_handicap_market",
+      "relation": "capa8_asian_handicap_arbitrage",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
     },
     {
       "source": "agents_agent_brain",
@@ -7891,6 +8151,46 @@
       "weight": 1.0
     },
     {
+      "source": "1710_02824_consensus_probability",
+      "target": "2024_kth_betting_exchange_liquidity",
+      "relation": "consensus_odds_drive_liquidity_flow",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_agent_brain",
+      "target": "rec_overall_summary",
+      "relation": "cooperates_as_cognitive_trinity",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "rec_20260910_review",
+      "target": "rec_overall_summary",
+      "relation": "crystallizes_into_wisdom_chip",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-10_复盘.md",
+      "weight": 2.0
+    },
+    {
+      "source": "rec_20260911_review",
+      "target": "rec_overall_summary",
+      "relation": "crystallizes_into_wisdom_chip",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-11_复盘.md",
+      "weight": 2.0
+    },
+    {
       "source": "wenguerzhixin_xuexiziliao_2605_30209_live_betting_ssm",
       "target": "agents_eight_capas_model",
       "relation": "detects_fixing_capa_1",
@@ -7900,6 +8200,16 @@
       "source_file": "AGENTS.md",
       "source_location": "Section 3 & 4",
       "weight": 1.0
+    },
+    {
+      "source": "rec_overall_summary",
+      "target": "readme_system_architecture",
+      "relation": "encapsulates_wisdom_chip",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/总复盘总结.md",
+      "weight": 1.5
     },
     {
       "source": "perezblanco2025_rps",
@@ -7913,6 +8223,216 @@
       "weight": 1.0
     },
     {
+      "source": "rec_20260906_forecast",
+      "target": "rec_20260907_forecast",
+      "relation": "evolves_decision_to_next_day",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-06_预测.md",
+      "weight": 1.5
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "rec_20260908_forecast",
+      "relation": "evolves_decision_to_next_day",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-07_预测.md",
+      "weight": 1.5
+    },
+    {
+      "source": "rec_20260908_forecast",
+      "target": "rec_20260909_forecast",
+      "relation": "evolves_decision_to_next_day",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-08_预测.md",
+      "weight": 1.5
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "rec_20260910_forecast",
+      "relation": "evolves_decision_to_next_day",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-09_预测.md",
+      "weight": 1.5
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "rec_20260911_forecast",
+      "relation": "evolves_decision_to_next_day",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-10_预测.md",
+      "weight": 1.5
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "rec_20260912_forecast",
+      "relation": "evolves_decision_to_next_day",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-11_预测.md",
+      "weight": 1.5
+    },
+    {
+      "source": "2019_nature_playerank",
+      "target": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "relation": "evolves_event_features_to_deep_success_score",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "温故而知新学习资料/2019_Nature_PlayeRank_Data_Driven_Framework.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_karpathy_flywheel",
+      "target": "rec_overall_summary",
+      "relation": "evolves_through_post_mortem",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "agents_eight_capas_model",
+      "relation": "executes_pre_match_8capas",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-09_预测.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260907_review",
+      "target": "2008_sentiment_sentiment_bias",
+      "relation": "exemplifies_pseudo_drop_trap_genesis",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-07_复盘.md",
+      "weight": 2.0
+    },
+    {
+      "source": "rec_20260906_review",
+      "target": "agents_karpathy_flywheel",
+      "relation": "feeds_experience_to_flywheel",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-06_复盘.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260907_review",
+      "target": "agents_karpathy_flywheel",
+      "relation": "feeds_experience_to_flywheel",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-07_复盘.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260908_review",
+      "target": "agents_karpathy_flywheel",
+      "relation": "feeds_experience_to_flywheel",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-08_复盘.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260910_review",
+      "target": "agents_karpathy_flywheel",
+      "relation": "feeds_experience_to_flywheel",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-10_复盘.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260911_review",
+      "target": "agents_karpathy_flywheel",
+      "relation": "feeds_experience_to_flywheel",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-11_复盘.md",
+      "weight": 1.8
+    },
+    {
+      "source": "脚本_适配器_微观球员接口_微观球员适配器",
+      "target": "rec_20260912_forecast",
+      "relation": "feeds_micro_player_data",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "脚本/适配器/微观球员接口.py",
+      "weight": 2.0
+    },
+    {
+      "source": "rec_20260906_forecast",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "filtered_by_red_lines",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-06_预测.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "filtered_by_red_lines",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-07_预测.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260908_forecast",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "filtered_by_red_lines",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-08_预测.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "filtered_by_red_lines",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-10_预测.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "filtered_by_red_lines",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-11_预测.md",
+      "weight": 1.8
+    },
+    {
       "source": "rec_overall_accuracy",
       "target": "脚本_对账机",
       "relation": "generated_by",
@@ -7922,6 +8442,16 @@
       "source_file": "AGENTS.md",
       "source_location": "Section 3 & 4",
       "weight": 1.0
+    },
+    {
+      "source": "agents_agent_brain",
+      "target": "readme_system_architecture",
+      "relation": "governed_by_system_spec",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.5
     },
     {
       "source": "goto2026_study",
@@ -8111,6 +8641,16 @@
       "weight": 1.0
     },
     {
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "target": "perezblanco2025_study",
+      "relation": "insider_z_correlates_with_tactical_fouls",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "温故而知新学习资料/Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md",
+      "weight": 1.8
+    },
+    {
       "source": "rec_overall_accuracy",
       "target": "agents_karpathy_flywheel",
       "relation": "monitors",
@@ -8122,6 +8662,26 @@
       "weight": 1.0
     },
     {
+      "source": "脚本_领域_模型_赔率快照",
+      "target": "agents_eight_capas_model",
+      "relation": "provides_capa1_data_structure",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "脚本/领域/模型.py",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260906_forecast",
+      "target": "rec_20260906_review",
+      "relation": "reconciled_by_post_mortem",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-06_预测.md",
+      "weight": 2.0
+    },
+    {
       "source": "rec_20260906_review",
       "target": "rec_overall_accuracy",
       "relation": "recorded_in",
@@ -8131,6 +8691,76 @@
       "source_file": "AGENTS.md",
       "source_location": "Section 3 & 4",
       "weight": 1.0
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "2008_sentiment_sentiment_bias",
+      "relation": "redline1_prevents_heavy_favourite_bias",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "redline2_detects_pseudo_drop_trap",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "team_attack_defence_effects",
+      "relation": "redline3_gates_away_bus_defence_limit",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "skellam_distribution",
+      "relation": "redline4_enforces_even_under_lock",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "perezblanco2025_study",
+      "relation": "redline5_monitors_high_score_draws",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "lit_1710_02824_beating_bookies",
+      "relation": "redline6_captures_heritage_bookie_defensive_drop",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 1.8
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "asian_handicap_market",
+      "relation": "redline7_open_book_exam_handicap_hedge",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "weight": 2.0
     },
     {
       "source": "1710_02824_betting_strategy",
@@ -8573,6 +9203,56 @@
       "weight": 1.0
     },
     {
+      "source": "2008_sentiment_sentiment_bias",
+      "target": "2018_plos_elo_odds",
+      "relation": "sentiment_distorts_elo_odds_ratings",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "温故而知新学习资料/2008_Sentiment_and_Bookmaker_Pricing_Bias.md",
+      "weight": 1.8
+    },
+    {
+      "source": "温故而知新学习资料_2505_21275_do_betting_markets_sense_a_goal_coming_bettor_ssm",
+      "target": "wenguerzhixin_xuexiziliao_2605_30209_live_betting_ssm",
+      "relation": "shares_state_space_formulation",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "温故而知新学习资料/2505.21275_Do_Betting_Markets_Sense_a_Goal_Coming.md",
+      "weight": 1.8
+    },
+    {
+      "source": "multinomial_logit_regression",
+      "target": "perezblanco2025_study",
+      "relation": "solves_draw_underestimation_via_foul_features",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "温故而知新学习资料/2017_Problem_of_Correctly_Predicting_Draws_Soccer.md",
+      "weight": 1.8
+    },
+    {
+      "source": "脚本_适配器_本地账本_本地账本仓储",
+      "target": "rec_20260912_forecast",
+      "relation": "stores_odds_heartbeat_series",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "脚本/适配器/本地账本.py",
+      "weight": 1.8
+    },
+    {
+      "source": "脚本_适配器_体彩接口_体彩官方适配器",
+      "target": "rec_20260912_forecast",
+      "relation": "streams_sporttery_live_odds",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "脚本/适配器/体彩接口.py",
+      "weight": 2.0
+    },
+    {
       "source": "1710_02824_betting_strategy",
       "target": "agents_eight_capas_model",
       "relation": "supports_capa_1",
@@ -8659,6 +9339,46 @@
       "source_file": "AGENTS.md",
       "source_location": "Section 3 & 4",
       "weight": 1.0
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "target": "constantinou_hybrid_bn_model",
+      "relation": "synthesizes_poisson_into_bayesian_network",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md",
+      "weight": 1.8
+    },
+    {
+      "source": "脚本_领域_模型_赔率位移",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "triggers_pseudo_drop_redline2",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "脚本/领域/模型.py",
+      "weight": 2.0
+    },
+    {
+      "source": "rec_20260906_review",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "validates_shin_defensive_draw",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-06_复盘.md",
+      "weight": 1.8
+    },
+    {
+      "source": "rec_20260908_review",
+      "target": "perezblanco2025_study",
+      "relation": "validates_tactical_fouls_disruption",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "分析复盘记录/2026-09-08_复盘.md",
+      "weight": 2.0
     },
     {
       "source": "wenguerzhixin_xuexiziliao_2604_17194_analytical_shin_conversion",
@@ -8974,508 +9694,1586 @@
       "source_file": "分析复盘记录/2026-09-11_复盘.md"
     },
     {
-      "source": "agents_agent_brain",
-      "target": "rec_overall_summary",
-      "relation": "cooperates_as_cognitive_trinity",
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "target": "wenguerzhixin_xuexiziliao_2604_17194_analytical_shin_conversion",
+      "relation": "provides_analytical_baseline",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "agents_agent_brain",
-      "target": "readme_system_architecture",
-      "relation": "governed_by_system_spec",
-      "weight": 1.5,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_overall_summary",
-      "target": "readme_system_architecture",
-      "relation": "encapsulates_wisdom_chip",
-      "weight": 1.5,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_karpathy_flywheel",
-      "target": "rec_overall_summary",
-      "relation": "evolves_through_post_mortem",
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "target": "shin_normalization",
+      "relation": "formalizes_normalization_procedure",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "agents_eight_capas_model",
-      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
-      "relation": "capa1_inverts_insider_trading_z",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_solve_shin_py",
-      "relation": "capa1_computes_fair_probabilities",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "lit_1710_02824_beating_bookies",
-      "relation": "capa1_benchmarks_consensus_odds",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "goto2026_study",
-      "relation": "capa1_emh_pure_odds_models",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "goto2026_fl_glm",
-      "relation": "capa1_calibrates_favourite_longshot_bias",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
       "target": "2018_plos_elo_odds",
-      "relation": "capa2_rates_bors_team_strength",
+      "relation": "supplies_unvigged_odds_to_bors",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "agents_eight_capas_model",
-      "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
-      "relation": "capa2_models_attack_defence_effects",
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "target": "constantinou_hybrid_bn_model",
+      "relation": "supplies_fair_probabilities_to_bayesian_net",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "agents_eight_capas_model",
-      "target": "team_attack_defence_effects",
-      "relation": "capa2_quantifies_team_form",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "elo_rating_difference",
-      "relation": "capa2_evaluates_strength_gap",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "2019_nature_playerank",
-      "relation": "capa3_measures_player_xg_chain",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
-      "relation": "capa3_deep_learning_success_score",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "脚本_适配器_微观球员接口_微观球员适配器",
-      "relation": "capa3_executes_api_sports_dual_key",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "egidi_hierarchical_poisson_model",
-      "relation": "capa4_hierarchical_poisson_score_matrix",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "skellam_distribution",
-      "relation": "capa4_calculates_goal_difference_skellam",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "multinomial_logit_regression",
-      "relation": "capa4_inflates_underestimated_draw_prob",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "2008_sentiment_sentiment_bias",
-      "relation": "capa5_identifies_retail_sentiment_bias",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "mandadapu2024_study",
-      "relation": "capa6_machine_learning_feature_synthesis",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "2024_kth_betting_exchange_liquidity",
-      "relation": "capa6_incorporates_liquidity_weight",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
-      "target": "goto2026_oo_epc",
-      "relation": "capa7_computes_equal_profitability_ev",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_eight_capas_model",
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
       "target": "asian_handicap_market",
-      "relation": "capa8_asian_handicap_arbitrage",
+      "relation": "detects_asian_handicap_arbitrage_margins",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "agents_five_hard_red_lines_v31",
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "target": "1710_02824_consensus_probability",
+      "relation": "contrasts_insider_z_with_market_consensus",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
       "target": "2008_sentiment_sentiment_bias",
-      "relation": "redline1_prevents_heavy_favourite_bias",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_five_hard_red_lines_v31",
-      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
-      "relation": "redline2_detects_pseudo_drop_trap",
+      "relation": "separates_insider_z_from_retail_sentiment",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "agents_five_hard_red_lines_v31",
-      "target": "team_attack_defence_effects",
-      "relation": "redline3_gates_away_bus_defence_limit",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "target": "wenguerzhixin_xuexiziliao_2605_30209_live_betting_ssm",
+      "relation": "identifies_anomalous_insider_stakes",
+      "weight": 2.0,
+      "confidence": "INFERRED"
     },
     {
-      "source": "agents_five_hard_red_lines_v31",
-      "target": "skellam_distribution",
-      "relation": "redline4_enforces_even_under_lock",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "target": "wenguerzhixin_xuexiziliao_2604_17194_draw_bias_finding",
+      "relation": "calibrates_systematic_draw_bias",
+      "weight": 2.0,
+      "confidence": "INFERRED"
     },
     {
-      "source": "agents_five_hard_red_lines_v31",
-      "target": "perezblanco2025_study",
-      "relation": "redline5_monitors_high_score_draws",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "agents_five_hard_red_lines_v31",
+      "source": "goto2026_study",
       "target": "lit_1710_02824_beating_bookies",
-      "relation": "redline6_captures_heritage_bookie_defensive_drop",
+      "relation": "benchmarks_emh_against_kaunitz_strategy",
       "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "agents_five_hard_red_lines_v31",
-      "target": "asian_handicap_market",
-      "relation": "redline7_open_book_exam_handicap_hedge",
+      "source": "goto2026_study",
+      "target": "concept_favourite_longshot_bias",
+      "relation": "mathematically_models_flb",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
-      "target": "perezblanco2025_study",
-      "relation": "insider_z_correlates_with_tactical_fouls",
+      "source": "goto2026_oo_epc",
+      "target": "1710_02824_betting_strategy",
+      "relation": "defines_equal_profitability_confidence_bounds",
       "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
-      "target": "goto2026_fl_glm",
-      "relation": "benchmarks_shin_against_fl_glm",
+      "source": "wenguerzhixin_xuexiziliao_2604_17194_power_conversion",
+      "target": "wenguerzhixin_xuexiziliao_2604_17194_multiplicative_conversion",
+      "relation": "compares_power_vs_multiplicative_devigging",
       "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "1710_02824_consensus_probability",
-      "target": "2024_kth_betting_exchange_liquidity",
-      "relation": "consensus_odds_drive_liquidity_flow",
+      "source": "goto2026_fl_glm",
+      "target": "multinomial_logit_regression",
+      "relation": "replaces_naive_mlr_with_fl_glm",
       "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
       "source": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
-      "target": "constantinou_hybrid_bn_model",
-      "relation": "synthesizes_poisson_into_bayesian_network",
+      "target": "skellam_distribution",
+      "relation": "derives_exact_score_matrix_and_goal_diff",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "target": "team_attack_defence_effects",
+      "relation": "hierarchically_estimates_attack_defence_parameters",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "target": "2018_plos_elo_goals",
+      "relation": "unifies_poisson_rate_with_elo_goals",
       "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "target": "ordered_logit_regression",
+      "relation": "contrasts_poisson_counts_with_ordered_outcomes",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "egidi_hierarchical_poisson_model",
+      "target": "constantinou_hybrid_bn_model",
+      "relation": "feeds_simulated_goal_intensity",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2018_plos_elo_odds",
+      "target": "elo_rating_difference",
+      "relation": "maps_bors_ratings_to_match_win_draw_loss",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2018_plos_elo_odds",
+      "target": "mandadapu2024_study",
+      "relation": "supplies_rating_features_to_ml_classifiers",
+      "weight": 1.8,
+      "confidence": "INFERRED"
     },
     {
       "source": "2019_nature_playerank",
-      "target": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
-      "relation": "evolves_event_features_to_deep_success_score",
+      "target": "2019_nature_passing_network",
+      "relation": "constructs_network_centrality_metrics",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2019_nature_playerank",
+      "target": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_tactical_play_styles",
+      "relation": "correlates_playerank_with_tactical_styles",
       "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "target": "2019_nature_passing_network",
+      "relation": "augments_deep_architecture_with_centrality",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "perezblanco2025_study",
+      "target": "ordered_logit_regression",
+      "relation": "surpasses_olr_in_draw_detection_rate",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "perezblanco2025_study",
+      "target": "温故而知新学习资料_2017_problem_of_correctly_predicting_draws_soccer_draw_prediction_evaluation",
+      "relation": "validates_draw_evaluation_metrics",
+      "weight": 1.8,
+      "confidence": "INFERRED"
     },
     {
       "source": "2008_sentiment_sentiment_bias",
-      "target": "2018_plos_elo_odds",
-      "relation": "sentiment_distorts_elo_odds_ratings",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "target": "2008_sentiment_diffattend",
+      "relation": "measures_attendance_popularity_divergence",
+      "weight": 2.0,
+      "confidence": "INFERRED"
     },
     {
-      "source": "multinomial_logit_regression",
-      "target": "perezblanco2025_study",
-      "relation": "solves_draw_underestimation_via_foul_features",
+      "source": "2008_sentiment_sentiment_bias",
+      "target": "1710_02824_consensus_probability",
+      "relation": "reveals_why_consensus_beats_individual_bookie",
       "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2008_sentiment_sentiment_bias",
+      "target": "1710_02824_betting_strategy",
+      "relation": "exploits_sentiment_distortions_via_consensus",
+      "weight": 2.0,
+      "confidence": "INFERRED"
     },
     {
       "source": "温故而知新学习资料_2505_21275_do_betting_markets_sense_a_goal_coming_bettor_ssm",
-      "target": "wenguerzhixin_xuexiziliao_2605_30209_live_betting_ssm",
-      "relation": "shares_state_space_formulation",
+      "target": "2024_kth_betting_exchange_liquidity",
+      "relation": "correlates_goal_anticipation_with_liquidity_surge",
       "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "rec_20260906_forecast",
+      "source": "agents_eight_capas_model",
+      "target": "脚本_适配器_体彩接口_体彩官方适配器",
+      "relation": "capa1_fetches_realtime_odds",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "脚本_领域_模型_赔率数值",
+      "relation": "capa1_parses_value_object",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "脚本_领域_模型_赔率位移",
+      "relation": "capa1_detects_drift_signal",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "wenguerzhixin_xuexiziliao_2604_17194_numerical_shin_conversion",
+      "relation": "capa1_inverts_vig_via_numerical_shin",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "wenguerzhixin_xuexiziliao_2604_17194_analytical_shin_conversion",
+      "relation": "capa1_benchmarks_analytical_shin",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "2018_plos_elo_goals",
+      "relation": "capa2_benchmarks_historical_goal_rates",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "2018_plos_elo_result",
+      "relation": "capa2_cross_references_match_result_elo",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_dnn_model",
+      "relation": "capa3_evaluates_deep_player_performance",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_tactical_play_styles",
+      "relation": "capa3_checks_formation_style_clash",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "ordered_logit_regression",
+      "relation": "capa4_compares_olr_with_poisson",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "温故而知新学习资料_2017_problem_of_correctly_predicting_draws_soccer_olr_model",
+      "relation": "capa4_uses_olr_draw_thresholds",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "2008_sentiment_diffattend",
+      "relation": "capa5_gauges_popular_club_distortion",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "perezblanco2025_two_tier_nb_clustering",
+      "relation": "capa5_two_tier_foul_clustering",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "mandadapu2024_xgboost",
+      "relation": "capa6_weights_xgboost_importances",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "kth2024_random_forest",
+      "relation": "capa6_validates_random_forest_weights",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "温故而知新学习资料_2505_21275_do_betting_markets_sense_a_goal_coming_bookmaker_odds_model",
+      "relation": "capa7_tracks_in_play_odds_decay",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "concept_favourite_longshot_bias",
+      "relation": "capa7_strips_longshot_overpricing",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_eight_capas_model",
+      "target": "modified_pi_rating_system",
+      "relation": "capa8_cross_checks_pi_ratings",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "goto2026_fl_glm",
+      "relation": "redline1_prevents_favourite_longshot_bias_trap",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "脚本_测试_test_领域模型_test_极热假深盘诱主阻平形态识别",
+      "relation": "redline1_physically_tested_in_domain",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "脚本_测试_test_领域模型_test_客优于主且平赔下降精准识别为伪降水诱平",
+      "relation": "redline2_physically_tested_in_domain",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "rec_20260907_review",
+      "relation": "redline2_originates_from_udinese_loss",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "2018_plos_elo_goals",
+      "relation": "redline3_checks_underdog_conceded_goals",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
       "target": "rec_20260906_review",
-      "relation": "reconciled_by_post_mortem",
+      "relation": "redline3_captures_away_bus_draw",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "rec_20260906_review",
-      "target": "agents_karpathy_flywheel",
-      "relation": "feeds_experience_to_flywheel",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "rec_20260910_review",
+      "relation": "redline3_audits_defensive_bus_threshold",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "relation": "redline4_derives_under_over_boundary",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "1710_02824_consensus_probability",
+      "relation": "redline6_spots_william_hill_divergence",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "agents_five_hard_red_lines_v31",
+      "target": "constantinou_hybrid_bn_model",
+      "relation": "redline7_models_handicap_squeeze",
+      "weight": 2.0,
+      "confidence": "INFERRED"
     },
     {
       "source": "rec_20260906_forecast",
-      "target": "agents_five_hard_red_lines_v31",
-      "relation": "filtered_by_red_lines",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260907_review",
-      "target": "agents_karpathy_flywheel",
-      "relation": "feeds_experience_to_flywheel",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260907_forecast",
-      "target": "agents_five_hard_red_lines_v31",
-      "relation": "filtered_by_red_lines",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260908_review",
-      "target": "agents_karpathy_flywheel",
-      "relation": "feeds_experience_to_flywheel",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260908_forecast",
-      "target": "agents_five_hard_red_lines_v31",
-      "relation": "filtered_by_red_lines",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260909_forecast",
-      "target": "agents_eight_capas_model",
-      "relation": "executes_pre_match_8capas",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260910_review",
-      "target": "agents_karpathy_flywheel",
-      "relation": "feeds_experience_to_flywheel",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260910_review",
-      "target": "rec_overall_accuracy",
-      "relation": "aggregates_into_scoreboard",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260910_review",
-      "target": "rec_overall_summary",
-      "relation": "crystallizes_into_wisdom_chip",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260910_forecast",
-      "target": "agents_five_hard_red_lines_v31",
-      "relation": "filtered_by_red_lines",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260911_review",
-      "target": "agents_karpathy_flywheel",
-      "relation": "feeds_experience_to_flywheel",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260911_review",
-      "target": "rec_overall_accuracy",
-      "relation": "aggregates_into_scoreboard",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260911_review",
-      "target": "rec_overall_summary",
-      "relation": "crystallizes_into_wisdom_chip",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260911_forecast",
-      "target": "agents_five_hard_red_lines_v31",
-      "relation": "filtered_by_red_lines",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260906_forecast",
-      "target": "rec_20260907_forecast",
-      "relation": "evolves_decision_to_next_day",
-      "weight": 1.5,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260907_forecast",
-      "target": "rec_20260908_forecast",
-      "relation": "evolves_decision_to_next_day",
-      "weight": 1.5,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260908_forecast",
-      "target": "rec_20260909_forecast",
-      "relation": "evolves_decision_to_next_day",
-      "weight": 1.5,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260909_forecast",
-      "target": "rec_20260910_forecast",
-      "relation": "evolves_decision_to_next_day",
-      "weight": 1.5,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260910_forecast",
-      "target": "rec_20260911_forecast",
-      "relation": "evolves_decision_to_next_day",
-      "weight": 1.5,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260911_forecast",
-      "target": "rec_20260912_forecast",
-      "relation": "evolves_decision_to_next_day",
-      "weight": 1.5,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "rec_20260906_review",
       "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
-      "relation": "validates_shin_defensive_draw",
+      "relation": "applies_shin_to_reims",
       "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "rec_20260907_review",
+      "source": "rec_20260906_forecast",
+      "target": "egidi_hierarchical_poisson_model",
+      "relation": "poisson_score_1_1_sao_paulo",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_forecast",
       "target": "2008_sentiment_sentiment_bias",
-      "relation": "exemplifies_pseudo_drop_trap_genesis",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "relation": "identifies_getafe_celta_balance",
+      "weight": 1.8,
+      "confidence": "INFERRED"
     },
     {
-      "source": "rec_20260908_review",
+      "source": "rec_20260908_forecast",
       "target": "perezblanco2025_study",
-      "relation": "validates_tactical_fouls_disruption",
+      "relation": "applies_tactical_fouls_to_conmebol",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "rec_20260910_review",
+      "source": "rec_20260909_forecast",
+      "target": "lit_1710_02824_beating_bookies",
+      "relation": "benchmarks_sporttery_292_drop",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_forecast",
       "target": "2018_plos_elo_odds",
-      "relation": "audits_away_bus_redline3_evolution",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "relation": "rates_fenerbahce_and_delvalle",
+      "weight": 1.8,
+      "confidence": "INFERRED"
     },
     {
-      "source": "rec_20260911_review",
-      "target": "asian_handicap_market",
-      "relation": "audits_derby_resilience_and_false_deep_handicap",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "source": "rec_20260911_forecast",
+      "target": "脚本_适配器_本地账本_本地账本仓储",
+      "relation": "records_coritiba_and_seville_heartbeat",
+      "weight": 1.8,
+      "confidence": "INFERRED"
     },
     {
       "source": "rec_20260912_forecast",
-      "target": "asian_handicap_market",
-      "relation": "applies_redline7_open_book_handicap_hedge",
-      "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "target": "2019_nature_playerank",
+      "relation": "measures_osasuna_xg_chain_loss",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260912_forecast",
+      "target": "perezblanco2025_study",
+      "relation": "predicts_high_foul_tempo_disruption",
+      "weight": 1.8,
+      "confidence": "INFERRED"
     },
     {
       "source": "脚本_适配器_微观球员接口_微观球员适配器",
-      "target": "rec_20260912_forecast",
-      "relation": "feeds_micro_player_data",
+      "target": "2019_nature_playerank",
+      "relation": "implements_playerank_xg_chain_extraction",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_微观球员接口_微观球员适配器",
+      "target": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "relation": "feeds_player_metrics",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_微观球员接口_微观球员适配器",
+      "target": "perezblanco2025_study",
+      "relation": "extracts_fouls_and_cards",
+      "weight": 2.0,
+      "confidence": "INFERRED"
     },
     {
       "source": "脚本_适配器_体彩接口_体彩官方适配器",
-      "target": "rec_20260912_forecast",
-      "relation": "streams_sporttery_live_odds",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_solve_shin_py",
+      "relation": "feeds_odds_to_shin_solver",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "脚本_适配器_本地账本_本地账本仓储",
-      "target": "rec_20260912_forecast",
-      "relation": "stores_odds_heartbeat_series",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
       "source": "脚本_领域_模型_赔率快照",
-      "target": "agents_eight_capas_model",
-      "relation": "provides_capa1_data_structure",
-      "weight": 1.8,
-      "confidence": "EXTRACTED"
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "implements_shin_devigging",
+      "weight": 2.0,
+      "confidence": "INFERRED"
     },
     {
       "source": "脚本_领域_模型_赔率位移",
-      "target": "agents_five_hard_red_lines_v31",
-      "relation": "triggers_pseudo_drop_redline2",
+      "target": "kth2024_study",
+      "relation": "quantifies_order_book_momentum",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_本地账本_本地账本仓储",
+      "target": "kth2024_study",
+      "relation": "stores_liquidity_trajectory",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_探测并记录心电图用例",
+      "target": "agents_karpathy_flywheel",
+      "relation": "executes_t_2h_physical_lockin",
       "weight": 2.0,
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_回溯连续轨迹用例",
+      "target": "agents_eight_capas_model",
+      "relation": "supplies_capa1_heartbeat_trend",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "readme_system_architecture",
+      "target": "rec_overall_accuracy",
+      "relation": "tracks_total_accuracy",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_readme_literature_index",
+      "target": "agents_eight_capas_model",
+      "relation": "indexes_supporting_papers",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_readme_literature_index",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "navigates_to_shin_paper",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_readme_literature_index",
+      "target": "lit_1710_02824_beating_bookies",
+      "relation": "navigates_to_kaunitz_paper",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_readme_literature_index",
+      "target": "constantinou_hybrid_bn_model",
+      "relation": "navigates_to_constantinou_paper",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_readme_literature_index",
+      "target": "2008_sentiment_sentiment_bias",
+      "relation": "navigates_to_forrest_paper",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_readme_literature_index",
+      "target": "2019_nature_playerank",
+      "relation": "navigates_to_nature_playerank",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_readme_literature_index",
+      "target": "perezblanco2025_study",
+      "relation": "navigates_to_perezblanco_paper",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_readme_literature_index",
+      "target": "goto2026_study",
+      "relation": "navigates_to_goto_paper",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "skellam_distribution",
+      "target": "constantinou_hybrid_bn_model",
+      "relation": "skellam_goal_difference_mapping",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "target": "modified_pi_rating_system",
+      "relation": "cross_poisson_synthesis",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "skellam_distribution",
+      "target": "modified_pi_rating_system",
+      "relation": "skellam_goal_difference_mapping",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "skellam_distribution",
+      "target": "2018_plos_elo_goals",
+      "relation": "skellam_goal_difference_mapping",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "skellam_distribution",
+      "target": "ordered_logit_regression",
+      "relation": "skellam_goal_difference_mapping",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "target": "multinomial_logit_regression",
+      "relation": "cross_poisson_synthesis",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "skellam_distribution",
+      "target": "multinomial_logit_regression",
+      "relation": "skellam_goal_difference_mapping",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "target": "perezblanco2025_study",
+      "relation": "cross_poisson_synthesis",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "skellam_distribution",
+      "target": "perezblanco2025_study",
+      "relation": "skellam_goal_difference_mapping",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2019_nature_playerank",
+      "target": "team_attack_defence_effects",
+      "relation": "player_micro_to_team_impact",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "target": "team_attack_defence_effects",
+      "relation": "success_score_to_match_outcome",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2019_nature_playerank",
+      "target": "perezblanco2025_study",
+      "relation": "player_micro_to_team_impact",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "target": "perezblanco2025_study",
+      "relation": "success_score_to_match_outcome",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2019_nature_playerank",
+      "target": "mandadapu2024_study",
+      "relation": "player_micro_to_team_impact",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "target": "mandadapu2024_study",
+      "relation": "success_score_to_match_outcome",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2019_nature_playerank",
+      "target": "constantinou_hybrid_bn_model",
+      "relation": "player_micro_to_team_impact",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "target": "constantinou_hybrid_bn_model",
+      "relation": "success_score_to_match_outcome",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2008_sentiment_sentiment_bias",
+      "target": "goto2026_study",
+      "relation": "sentiment_market_distortion",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2008_sentiment_sentiment_bias",
+      "target": "kth2024_study",
+      "relation": "sentiment_market_distortion",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "lit_1710_02824_beating_bookies",
+      "target": "kth2024_study",
+      "relation": "market_efficiency_exploitation",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "concept_favourite_longshot_bias",
+      "target": "kth2024_study",
+      "relation": "favourite_longshot_bias_impact",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2008_sentiment_sentiment_bias",
+      "target": "wenguerzhixin_xuexiziliao_2605_30209_live_betting_ssm",
+      "relation": "sentiment_market_distortion",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "lit_1710_02824_beating_bookies",
+      "target": "wenguerzhixin_xuexiziliao_2605_30209_live_betting_ssm",
+      "relation": "market_efficiency_exploitation",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "concept_favourite_longshot_bias",
+      "target": "wenguerzhixin_xuexiziliao_2605_30209_live_betting_ssm",
+      "relation": "favourite_longshot_bias_impact",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "2008_sentiment_sentiment_bias",
+      "target": "asian_handicap_market",
+      "relation": "sentiment_market_distortion",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "lit_1710_02824_beating_bookies",
+      "target": "asian_handicap_market",
+      "relation": "market_efficiency_exploitation",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "concept_favourite_longshot_bias",
+      "target": "asian_handicap_market",
+      "relation": "favourite_longshot_bias_impact",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260906_forecast",
+      "target": "2018_plos_elo_odds",
+      "relation": "applies_capa2_bors_rating",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260906_forecast",
+      "target": "2019_nature_playerank",
+      "relation": "applies_capa3_playerank_audit",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260906_forecast",
+      "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "relation": "applies_capa4_poisson_matrix",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260906_forecast",
+      "target": "perezblanco2025_study",
+      "relation": "applies_capa5_tactical_fouls",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260906_forecast",
+      "target": "mandadapu2024_study",
+      "relation": "applies_capa6_draw30_scoring",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260906_forecast",
+      "target": "goto2026_oo_epc",
+      "relation": "applies_capa7_ev_confidence",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260906_forecast",
+      "target": "asian_handicap_market",
+      "relation": "applies_capa8_handicap_hedge",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "applies_capa1_shin_devigging",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "2018_plos_elo_odds",
+      "relation": "applies_capa2_bors_rating",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "2019_nature_playerank",
+      "relation": "applies_capa3_playerank_audit",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "relation": "applies_capa4_poisson_matrix",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "perezblanco2025_study",
+      "relation": "applies_capa5_tactical_fouls",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "mandadapu2024_study",
+      "relation": "applies_capa6_draw30_scoring",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "goto2026_oo_epc",
+      "relation": "applies_capa7_ev_confidence",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_forecast",
+      "target": "asian_handicap_market",
+      "relation": "applies_capa8_handicap_hedge",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260908_forecast",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "applies_capa1_shin_devigging",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260908_forecast",
+      "target": "2018_plos_elo_odds",
+      "relation": "applies_capa2_bors_rating",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260908_forecast",
+      "target": "2019_nature_playerank",
+      "relation": "applies_capa3_playerank_audit",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260908_forecast",
+      "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "relation": "applies_capa4_poisson_matrix",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260908_forecast",
+      "target": "mandadapu2024_study",
+      "relation": "applies_capa6_draw30_scoring",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260908_forecast",
+      "target": "goto2026_oo_epc",
+      "relation": "applies_capa7_ev_confidence",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260908_forecast",
+      "target": "asian_handicap_market",
+      "relation": "applies_capa8_handicap_hedge",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "applies_capa1_shin_devigging",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "2018_plos_elo_odds",
+      "relation": "applies_capa2_bors_rating",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "2019_nature_playerank",
+      "relation": "applies_capa3_playerank_audit",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "relation": "applies_capa4_poisson_matrix",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "perezblanco2025_study",
+      "relation": "applies_capa5_tactical_fouls",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "mandadapu2024_study",
+      "relation": "applies_capa6_draw30_scoring",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "goto2026_oo_epc",
+      "relation": "applies_capa7_ev_confidence",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260909_forecast",
+      "target": "asian_handicap_market",
+      "relation": "applies_capa8_handicap_hedge",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "rec_overall_summary",
+      "relation": "aligns_with_wisdom_chip",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "applies_capa1_shin_devigging",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "2019_nature_playerank",
+      "relation": "applies_capa3_playerank_audit",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "relation": "applies_capa4_poisson_matrix",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "perezblanco2025_study",
+      "relation": "applies_capa5_tactical_fouls",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "mandadapu2024_study",
+      "relation": "applies_capa6_draw30_scoring",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "goto2026_oo_epc",
+      "relation": "applies_capa7_ev_confidence",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_forecast",
+      "target": "asian_handicap_market",
+      "relation": "applies_capa8_handicap_hedge",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "rec_overall_summary",
+      "relation": "aligns_with_wisdom_chip",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "applies_capa1_shin_devigging",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "2018_plos_elo_odds",
+      "relation": "applies_capa2_bors_rating",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "2019_nature_playerank",
+      "relation": "applies_capa3_playerank_audit",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
+      "relation": "applies_capa4_poisson_matrix",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "perezblanco2025_study",
+      "relation": "applies_capa5_tactical_fouls",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "mandadapu2024_study",
+      "relation": "applies_capa6_draw30_scoring",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "goto2026_oo_epc",
+      "relation": "applies_capa7_ev_confidence",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260911_forecast",
+      "target": "asian_handicap_market",
+      "relation": "applies_capa8_handicap_hedge",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260912_forecast",
+      "target": "2018_plos_elo_odds",
+      "relation": "applies_capa2_bors_rating",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260912_forecast",
+      "target": "mandadapu2024_study",
+      "relation": "applies_capa6_draw30_scoring",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260912_forecast",
+      "target": "goto2026_oo_epc",
+      "relation": "applies_capa7_ev_confidence",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260906_review",
+      "target": "2008_sentiment_sentiment_bias",
+      "relation": "audits_market_sentiment_distortion",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260907_review",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "validates_insider_z_effectiveness",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260908_review",
+      "target": "2008_sentiment_sentiment_bias",
+      "relation": "audits_market_sentiment_distortion",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260908_review",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "validates_insider_z_effectiveness",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_review",
+      "target": "2008_sentiment_sentiment_bias",
+      "relation": "audits_market_sentiment_distortion",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "rec_20260910_review",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "validates_insider_z_effectiveness",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_11_复盘_1_周五012_科里蒂巴_1_3_巴拉纳竞技_触犯自身红线_2_的致命_伪降水_失误",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "corrected_by_derby_resilience_exemption",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_11_复盘_1_周五012_科里蒂巴_1_3_巴拉纳竞技_触犯自身红线_2_的致命_伪降水_失误",
+      "target": "skellam_distribution",
+      "relation": "models_3_3_high_score_draw",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_11_复盘_2_周五011_塞维利亚_1_0_巴伦西亚_进球前置锁正确但终结能力严重失衡",
+      "target": "2019_nature_playerank",
+      "relation": "reveals_finishing_drought_flaw",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_11_复盘_二_漏网盲区深度审计_周五004_赫根_1_1_米亚尔比",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "creates_redline1_false_deep_handicap_exemption",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_11_复盘_二_漏网盲区深度审计_周五004_赫根_1_1_米亚尔比",
+      "target": "asian_handicap_market",
+      "relation": "identifies_false_deep_handicap_arbitrage",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_11_复盘_三_闭环演化_两道物理级断路器系统升级_写入代码与大脑",
+      "target": "agents_karpathy_flywheel",
+      "relation": "flywheel_evolution_milestone",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_10_复盘_一_唯一平局漏网盲区深度审计_周四001_费内巴切_1_1_罗马",
+      "target": "lit_1710_02824_beating_bookies",
+      "relation": "reveals_william_hill_heritage_drop",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_10_复盘_一_唯一平局漏网盲区深度审计_周四001_费内巴切_1_1_罗马",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "creates_redline6_heritage_bookie_drop",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_10_复盘_二_周四007_德尔瓦耶_0_2_弗拉门戈_单挑失手深度复盘",
+      "target": "2008_sentiment_sentiment_bias",
+      "relation": "audits_cup_motivation_bias",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_10_复盘_根因一_机械教条主义滥用_红线_4_前置条件校验严重缺失",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "restricts_redline4_to_even_odds",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_09_复盘_1_周三001_江原fc_1_1_全北现代_赛果_平局_1_1_体彩平赔_2_92",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "validates_sporttery_defensive_drop_292",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_09_复盘_2_周三014_拉普拉塔大学_1_1_科林蒂安_赛果_平局_1_1_体彩平赔_2_58",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "validates_sporttery_defensive_drop_258",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "分析复盘记录_2026_09_09_复盘_二_五道硬红线_3_1_版排雷审计_9场分胜负全量排雷成功",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "verifies_100_percent_win_draw_exclusion",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_微观球员接口_微观球员适配器",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_微观球员接口_微观球员适配器",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_体彩接口_体彩官方适配器",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_体彩接口_体彩官方适配器",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_本地账本_本地账本仓储",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_本地账本_本地账本仓储",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率快照",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率快照",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率位移",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率位移",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率数值",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率数值",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_探测并记录心电图用例",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_探测并记录心电图用例",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_回溯连续轨迹用例",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_回溯连续轨迹用例",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_记录结果",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_记录结果",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_轨迹结果",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_轨迹结果",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_契约_赔率提供者契约",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_契约_赔率提供者契约",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_契约_赔率账本契约",
+      "target": "readme_system_architecture",
+      "relation": "part_of_ddd_onion_architecture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_契约_赔率账本契约",
+      "target": "agents_agent_brain",
+      "relation": "controlled_by_brain",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_体彩接口_体彩官方适配器",
+      "target": "1710_02824_consensus_probability",
+      "relation": "feeds_sporttery_odds_stream",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_微观球员接口_微观球员适配器",
+      "target": "team_attack_defence_effects",
+      "relation": "updates_team_micro_parameters",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_本地账本_本地账本仓储",
+      "target": "2024_kth_betting_exchange_liquidity",
+      "relation": "persists_order_flow_time_series",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率位移",
+      "target": "concept_favourite_longshot_bias",
+      "relation": "detects_favourite_longshot_drift",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率快照",
+      "target": "wenguerzhixin_xuexiziliao_2604_17194_numerical_shin_conversion",
+      "relation": "calculates_shin_fair_prob",
+      "weight": 2.0,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_领域模型_test_认知大脑与总复盘防流水账与零污染",
+      "target": "agents_agent_brain",
+      "relation": "physically_guards_brain_purity",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_领域模型_test_认知大脑与总复盘防流水账与零污染",
+      "target": "rec_overall_summary",
+      "relation": "physically_guards_wisdom_chip_purity",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_领域模型_test_赔率数值验证与去水计算",
+      "target": "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model",
+      "relation": "tests_shin_devigging_logic",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_领域模型_test_赔率数值验证与去水计算",
+      "target": "agents_eight_capas_model",
+      "relation": "validates_capa1_probability_computation",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率位移_是否显著防守降水",
+      "target": "agents_five_hard_red_lines_v31",
+      "relation": "distinguishes_real_defensive_drop_from_pseudo_drop",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_领域_模型_赔率位移_是否显著防守降水",
+      "target": "lit_1710_02824_beating_bookies",
+      "relation": "identifies_consensus_defensive_pressure",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_本地账本_本地账本仓储_批量保存快照",
+      "target": "agents_karpathy_flywheel",
+      "relation": "executes_snapshot_stream_persistence",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_适配器_本地账本_本地账本仓储_批量保存快照",
+      "target": "2024_kth_betting_exchange_liquidity",
+      "relation": "stores_tick_level_liquidity_data",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_微观球员接口_test_微观球员适配器提取球员高阶链条数据",
+      "target": "2019_nature_playerank",
+      "relation": "tests_capa3_xg_chain_extraction",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_微观球员接口_test_微观球员适配器提取球员高阶链条数据",
+      "target": "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score",
+      "relation": "tests_capa3_deep_success_metrics",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_微观球员接口_test_微观球员适配器严格断言完场比分",
+      "target": "agents_karpathy_flywheel",
+      "relation": "guards_reconciliation_integrity_with_ft_lock",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_微观球员接口_test_微观球员适配器严格断言完场比分",
+      "target": "rec_overall_accuracy",
+      "relation": "prevents_hallucinatory_reviews_on_live_matches",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_探测并记录心电图用例",
+      "target": "脚本_适配器_体彩接口_体彩官方适配器",
+      "relation": "orchestrates_live_heartbeat_capture",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_应用_用例_回溯连续轨迹用例",
+      "target": "脚本_适配器_本地账本_本地账本仓储",
+      "relation": "orchestrates_heartbeat_trend_query",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_业务用例_test_探测并记录心电图用例捕获异动跳水",
+      "target": "agents_eight_capas_model",
+      "relation": "validates_heartbeat_abnormal_drop_detection",
+      "weight": 1.8,
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "脚本_测试_test_业务用例_test_回溯连续轨迹用例提炼单边变盘态势",
+      "target": "kth2024_study",
+      "relation": "validates_time_series_displacement_trend",
+      "weight": 1.8,
+      "confidence": "INFERRED"
     }
   ],
   "hyperedges": [
@@ -9578,5 +11376,5 @@
       "source_file": "温故而知新学习资料/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md"
     }
   ],
-  "built_at_commit": "b8ce2ae8d0f4f80cf822ae3cf12929b1642aa247"
+  "built_at_commit": "daaf81aadff6f593ba9ade5692015ee2e430947b"
 }
