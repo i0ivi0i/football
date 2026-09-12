@@ -37,8 +37,17 @@ class 体彩官方适配器(赔率提供者契约):
         for 比赛日 in 比赛日列表:
             for 比赛 in 比赛日.get("subMatchList", []):
                 胜平负 = 比赛.get("had")
-                if not 胜平负:
-                    continue
+                让球盘前缀 = ""
+                
+                # 庄家明牌公理：若官方关闭基础胜平负 (had 为空)，强制回退捕获让球盘 (hhad)
+                if not 胜平负 or not (胜平负.get("h") and 胜平负.get("d") and 胜平负.get("a")):
+                    让球胜平负 = 比赛.get("hhad")
+                    if 让球胜平负 and 让球胜平负.get("h") and 让球胜平负.get("d") and 让球胜平负.get("a"):
+                        胜平负 = 让球胜平负
+                        让球数 = 让球胜平负.get("goalLine", "")
+                        让球盘前缀 = f" [让球明牌{让球数}]"
+                    else:
+                        continue
 
                 主胜字串 = 胜平负.get("h")
                 平局字串 = 胜平负.get("d")
@@ -59,7 +68,7 @@ class 体彩官方适配器(赔率提供者契约):
                 竞彩场次 = str(比赛.get("matchNumStr", ""))
                 主队 = 比赛.get("homeTeamAbbName", "")
                 客队 = 比赛.get("awayTeamAbbName", "")
-                对阵名称 = f"{主队} vs {客队}"
+                对阵名称 = f"{主队} vs {客队}{让球盘前缀}"
                 联赛名称 = 比赛.get("leagueAbbName", "")
 
                 快照 = 赔率快照(
