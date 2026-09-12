@@ -106,3 +106,17 @@ def test_认知大脑与总复盘防流水账与零污染():
         assert len(daily_links) == 0, f"{path} 发现单日复盘外链残留: {daily_links}"
 
 
+def test_预测报告必须附带Polymarket直达链接():
+    """物理守卫：断言自规范确立以来的预测报告中每个核心推荐场次都必须包含规范的 Polymarket 直达链接"""
+    import glob, re
+    forecast_files = sorted(glob.glob("分析复盘记录/*_预测.md"))
+    recent_files = [f for f in forecast_files if f.replace("\\", "/") >= "分析复盘记录/2026-09-11"]
+    assert len(recent_files) >= 2, "近两日预测报告必须存在"
+    for path in recent_files:
+        content = open(path, encoding="utf-8").read()
+        links = re.findall(r"https://polymarket\.com/zh/sports/[^\s\)\"]+", content)
+        assert len(links) >= 1, f"{path} 缺失规范的 Polymarket 直达链接！"
+
+
+
+
