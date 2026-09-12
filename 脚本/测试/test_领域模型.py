@@ -91,3 +91,18 @@ def test_极热假深盘诱主阻平形态识别():
     位移 = 晚期.计算位移(早期)
     assert 位移.异动信号 == "极热假深盘诱主阻平"
 
+
+def test_认知大脑与总复盘防流水账与零污染():
+    """乔布斯产品思维自动化物理守卫：断言 AGENTS.md 和 总复盘总结.md 严禁包含单日场次代号或单日复盘文件外链"""
+    import re
+    files_to_check = ["AGENTS.md", "分析复盘记录/总复盘总结.md"]
+    for path in files_to_check:
+        content = open(path, encoding="utf-8").read()
+        # 1. 严禁具体场次编号 (如 周一001, 周五012)
+        match_code = re.findall(r"周[一二三四五六日]\d{3}", content)
+        assert len(match_code) == 0, f"{path} 发现具体场次代号残留: {match_code}"
+        # 2. 严禁单日复盘外链 (如 2026-09-06_复盘.md)
+        daily_links = re.findall(r"\d{4}-\d{2}-\d{2}_复盘\.md", content)
+        assert len(daily_links) == 0, f"{path} 发现单日复盘外链残留: {daily_links}"
+
+

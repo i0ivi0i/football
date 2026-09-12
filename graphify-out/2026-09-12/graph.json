@@ -7129,17 +7129,6 @@
       "weight": 1.0
     },
     {
-      "source": "rec_overall_summary",
-      "target": "rec_readme_guidelines",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/\u603b\u590d\u76d8\u603b\u7ed3.md",
-      "source_location": "L74",
-      "weight": 1.0
-    },
-    {
       "source": "rec_readme_guidelines",
       "target": "rec_20260912_forecast",
       "relation": "references",
@@ -7197,6 +7186,17 @@
     {
       "source": "rec_readme_guidelines",
       "target": "rec_20260909_forecast",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "rec_readme_guidelines",
+      "target": "rec_overall_summary",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9029,5 +9029,5 @@
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md"
     }
   ],
-  "built_at_commit": "643701ff661668651d89205506875ebe460a723a"
+  "built_at_commit": "c48861433ad44af15ea08c70cb5d5185ab63791f"
 }

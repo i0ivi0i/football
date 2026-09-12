@@ -1,16 +1,16 @@
 # Graph Report - 足球预测  (2026-09-12)
 
 ## Corpus Check
-- 52 files · ~157,694 words
+- 52 files · ~157,763 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 262 nodes · 477 edges · 20 communities (19 shown, 1 thin omitted)
+- 264 nodes · 479 edges · 22 communities (21 shown, 1 thin omitted)
 - Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 49 edges (avg confidence: 0.97)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c4886143`
+- Built from commit: `b8ce2ae8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -26,6 +26,7 @@
 - ELO-Odds Rating System
 - Analysis Review Records Manual
 - 2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
+- 体彩官方适配器
 - Success Score Metric
 - 一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）
 - Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study
@@ -35,6 +36,7 @@
 - Passing Network Centrality
 - Constantinou Hybrid Bayesian Network Model
 - query_20260909_022637_7cd78681_2026_09_08_赛后复盘与模型3_1硬红线升级.md
+- Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制
 
 ## God Nodes (most connected - your core abstractions)
 1. `赔率快照` - 39 edges
@@ -72,15 +74,15 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (20 total, 1 thin omitted)
+## Communities (22 total, 1 thin omitted)
 
 ### Community 0 - "赔率数值"
-Cohesion: 0.11
-Nodes (18): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_客优于主且平赔下降精准识别为伪降水诱平(), test_极热假深盘诱主阻平形态识别(), test_赔率快照计算连续位移与异动信号(), test_赔率数值拒绝非正数非法输入() (+10 more)
+Cohesion: 0.10
+Nodes (20): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), 乔布斯产品思维自动化物理守卫：断言 AGENTS.md 和 总复盘总结.md 严禁包含单日场次代号或单日复盘文件外链, test_客优于主且平赔下降精准识别为伪降水诱平(), test_极热假深盘诱主阻平形态识别(), test_认知大脑与总复盘防流水账与零污染() (+12 more)
 
 ### Community 1 - "赔率快照"
-Cohesion: 0.08
-Nodes (34): ABC, 回溯连续轨迹用例, 探测并记录心电图用例, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, 探测并记录心电图用例 (+26 more)
+Cohesion: 0.10
+Nodes (28): ABC, 回溯连续轨迹用例, 探测并记录心电图用例, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, 探测并记录心电图用例 (+20 more)
 
 ### Community 2 - "微观球员适配器"
 Cohesion: 0.13
@@ -111,12 +113,16 @@ Cohesion: 0.25
 Nodes (8): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric
 
 ### Community 9 - "Analysis Review Records Manual"
-Cohesion: 0.11
-Nodes (37): Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Football Quant Agent Brain, 8-Capas Betting Deduction Model, Five Hard Red Lines (V3.1 Physical Circuit Breakers), Karpathy Skill Self-Evolution Flywheel, Answer (+29 more)
+Cohesion: 0.17
+Nodes (29): Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Football Quant Agent Brain, 8-Capas Betting Deduction Model, Five Hard Red Lines (V3.1 Physical Circuit Breakers), Karpathy Skill Self-Evolution Flywheel, Beating the Bookies with Their Own Numbers (Kaunitz et al. 2017) (+21 more)
 
 ### Community 10 - "2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.25
 Nodes (8): 1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误, 1. 赛前（T-2h）已知客观数据流水, 2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告, 2. 为什么会被模型一票否决漏网？（认知根因）, 2. 【周五011 塞维利亚 1:0 巴伦西亚】—— 进球前置锁正确但终结能力严重失衡, 一、 主推失手深度剖析：为什么周五012与011会全军覆没？, 三、 闭环演化：两道物理级断路器系统升级（写入代码与大脑）, 二、 漏网盲区深度审计：【周五004 赫根 1:1 米亚尔比】
+
+### Community 11 - "体彩官方适配器"
+Cohesion: 0.24
+Nodes (6): test_体彩官方适配器安全过滤无赔率异常赛事(), test_体彩官方适配器解析原始数据为纯净领域快照(), 赔率快照, DDD 适配器防腐层 - 中国体彩官方 API 适配器 负责将不可控的外部体彩原始 JSON 清洗转化为优雅纯净的领域实体, 实现赔率提供者契约，直连国家体彩中心官方网关, 体彩官方适配器
 
 ### Community 12 - "Success Score Metric"
 Cohesion: 0.33
@@ -127,8 +133,8 @@ Cohesion: 0.33
 Nodes (6): 1. 周五012 巴甲：科里蒂巴 vs 巴拉纳竞技【黄金第一猎物 ⬆️】, 2026-09-11 竞彩足球平局精算推演报告, 2. 周五011 西甲：塞维利亚 vs 巴伦西亚【黄金第二猎物】, 3. 周五008 意甲：威尼斯 vs 佛罗伦萨【第二梯队对冲观察】, 一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）, 二、 严格过筛：红线断路器执行记录
 
 ### Community 14 - "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study"
-Cohesion: 0.40
-Nodes (5): Relative-Distance Centroid Discretization, Ranked Probability Score (RPS), Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study, Two-Tier Naive Bayes Cluster Optimization, Weighted Accuracy & Recall (WAP & WAR)
+Cohesion: 0.18
+Nodes (9): Answer, Outcome, Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计, Source Nodes, Relative-Distance Centroid Discretization, Ranked Probability Score (RPS), Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study, Two-Tier Naive Bayes Cluster Optimization (+1 more)
 
 ### Community 15 - "Q: 系统规范README与智慧大脑AGENTS协同架构"
 Cohesion: 0.40
@@ -150,20 +156,24 @@ Nodes (3): Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Tempo
 Cohesion: 0.67
 Nodes (3): Asian Handicap (AH) Betting Market, Constantinou Hybrid Bayesian Network Model, Modified Pi-Rating System
 
+### Community 21 - "Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制"
+Cohesion: 0.40
+Nodes (4): Answer, Outcome, Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制, Source Nodes
+
 ## Knowledge Gaps
 - **64 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+59 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 95 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 96 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `DDD Onion Architecture & System Specs` connect `对账机.py` to `赔率快照`?**
-  _High betweenness centrality (0.456) - this node is a cross-community bridge._
+  _High betweenness centrality (0.459) - this node is a cross-community bridge._
 - **Why does `Analysis Review Records Manual` connect `Analysis Review Records Manual` to `对账机.py`?**
-  _High betweenness centrality (0.453) - this node is a cross-community bridge._
+  _High betweenness centrality (0.454) - this node is a cross-community bridge._
 - **Why does `8-Capas Betting Deduction Model` connect `Analysis Review Records Manual` to `KTH 2024 Betting Exchange Liquidity Study`, `Egidi Hierarchical Bayesian Poisson Model`, `ELO-Odds Rating System`, `Success Score Metric`, `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study`, `Passing Network Centrality`, `Constantinou Hybrid Bayesian Network Model`?**
-  _High betweenness centrality (0.343) - this node is a cross-community bridge._
+  _High betweenness centrality (0.341) - this node is a cross-community bridge._
 - **Are the 7 inferred relationships involving `赔率快照` (e.g. with `轨迹结果` and `内存模拟提供者`) actually correct?**
   _`赔率快照` has 7 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `赔率数值` (e.g. with `体彩官方适配器` and `本地账本仓储`) actually correct?**
