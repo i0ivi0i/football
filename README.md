@@ -25,6 +25,9 @@
   * 产出：次级联赛数据、关键球员画像（门将扑救率、中卫对抗胜率、战术犯规率）。
 * **全球四大机构基准对账**：
   * 强制双向拉取：Pinnacle（平博）、Bet365、William Hill（威廉希尔）、Betfair（必发）。
+* **全量高阶足球数据管道 (football-data & sports-skills)**：
+  * 核心维度：H2H历史交锋全景(胜平负/射正/角球)、ClubElo动态战力、Understat单脚空间xG坐标、球员推进链(xg_chain/xg_buildup)、门将扑救与休赛体能。
+  * 铁律：推演时必须榨干全部数据维度，严禁单凭赔率走过场或浅层主观臆测！
 
 ---
 
@@ -57,6 +60,7 @@ D:\100-工作\200-交易\足球预测\
    * 新建文档或模块必须包含显式双向链接，全局连通分量必须严格保持为 1（全网大一统）。
    * 必须启用 Git 自动钩子（`graphify hook install`），代码提交自动更新图谱。
 5. **JSON 卡片契约**：每日推演与复盘报告文首必须内嵌结构化 ````json``` 代码块，供 [对账机](脚本/对账机.py) 秒读。
+6. **倾尽数据与超级深度图谱契约**：每次推演与复盘必须 100% 联动四大核心技能（`football-data` + `football-betting-analysis` + `football-match-analysis` + `graphify --mode deep`），赛前必须调用 `graphify query` 深度检索历史相似操盘结构，赛后必须通过 `graphify reflect` 固化新红线。
 
 ---
 
