@@ -1,3 +1,7 @@
+> **学术知识网络导航**：[系统大脑 AGENTS.md](../AGENTS.md) · [文献总索引与导读](README_学习资料索引与经典论文导读.md) · [实战总复盘总结](../分析复盘记录/总复盘总结.md) · [战绩胜率看板](../分析复盘记录/总准确率.md) · [最新赛前推演](../分析复盘记录/2026-09-12_预测.md)
+
+---
+
 International Journal of Computer Science in Sport
 Volume 16, Issue 1, 2017
 Journal homepage: http://iacss.org/index.php?id=30
