@@ -18,8 +18,8 @@
 
 ## 2. 推演规范、三技能协同与全量数据协议
 1. **赛前必读复盘与零孤岛保障**：
-   * 分析推演前必须强制通读 [总复盘总结 (分析复盘记录/总复盘总结.md)](./分析复盘记录/总复盘总结.md)；
-   * Git 守卫（post-commit）内置零孤岛安全网，自动维系全局连通分量=1、孤岛节点=0。
+   * 分析推演前必须强制通读 [总复盘总结 (分析复盘记录/总复盘总结.md)](./分析复盘记录/总复盘总结.md) 并执行 `graphify query` 检索历史操盘；
+   * 强制全局开启 Graphify 深度模式（--mode deep）与零孤岛铁律：严禁产生孤岛节点，新建文档强制双向引用，Git 守卫（post-commit）自动维系连通分量=1、孤岛=0；
 2. **三大技能强制三位一体协同协议**：
    * 每次推演与复盘必须 100% 强制同时调用三大技能，榨干全部数据维度并与论文库双向锚定：
    * `football-data`：全量赛程、积分榜、真实得失球均值、H2H 交锋史、ClubElo 动态战力与 Understat 空间单脚 xG 坐标；
@@ -65,10 +65,10 @@
 2. 📉 **大小球盘口共振线**：大小球盘口进一步向小球倾斜（如 Under 2.5 跌破 1.65）按指数级加固 1:1/0:0 终场置信度。
 3. 🏃 **首发攻防战术熔断**：赛前 1 小时首发名单公布后，若原本指望打防守的客队放弃后腰防线、排出全主力多前锋强攻对轰，平局风险剧增，触发熔断。
 4. 🔄 **Karpathy 闭环进化机制**：
-   * **1. 赛前推演 (Pre-Match)**：检索历史操盘手法，8 层模型 + 7 道硬红线初筛；
+   * **1. 赛前推演 (Pre-Match)**：`graphify query` 检索历史操盘手法，8 层模型 + 7 道硬红线初筛；
    * **2. 物理封盘 (Lock-in T-2h)**：写入 `YYYY-MM-DD_预测.md` 文首 JSON 卡片，赔率心电图锁定即时流水；
    * **3. 赛后真实对账 (Reconcile)**：自动调用 `脚本/对账机.py` 物理刷新胜率与战绩看板；
-   * **4. 赛前盲区审计 (Post-Mortem)**：严禁赛中叙事，100% 审计开赛前已知数据盲区，提炼新红线通过 `graphify reflect` 沉淀入知识图谱。
+   * **4. 赛前盲区审计 (Post-Mortem)**：严禁赛中叙事，100% 审计开赛前已知数据盲区，提炼新红线通过 `graphify reflect` 与 `save-result` 沉淀入知识图谱。
 
 ---
 
@@ -76,3 +76,15 @@
 1. **严格物理行数红线（<= 130 行）**：本文件总行数无论如何迭代进化，绝对严禁超过 130 行！坚决剔除字符画框图、冗余空行与低密度套话，保持纯粹高密度指令形态。
 2. **智慧与经验零丢失法则**：行数精炼仅砍除排版脂肪，绝不伤及认知骨肉；既有博弈公理、三大技能协同、球员微观四维闸门、8 层推演模型、7 道一票否决红线与顶刊学术超链接必须 100% 完整保留。新教训提炼以高信息密度原则增补，确保博弈推演绝对不失真。
 
+## graphify
+
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+
+When the user types `/graphify`, use the installed graphify skill or instructions before doing anything else.
+
+Rules:
+- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
+- Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
+- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
+- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
