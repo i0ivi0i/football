@@ -1,23 +1,23 @@
 # Graph Report - 足球预测  (2026-09-12)
 
 ## Corpus Check
-- 47 files · ~155,376 words
+- 47 files · ~155,430 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 231 nodes · 377 edges · 19 communities (18 shown, 1 thin omitted)
-- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.93)
+- 232 nodes · 391 edges · 18 communities
+- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 35 edges (avg confidence: 0.96)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4f700cef`
+- Built from commit: `f5bf50e9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
+- 赔率数值
+- 心电图录像机.py
 - 赔率快照
-- 赔率账本契约
-- test_业务用例.py
 - 对账机.py
 - Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)
 - 2026-09-10（周四）中国体彩平局全要素深度复盘与盲区审计报告
@@ -26,14 +26,13 @@
 - ELO-Odds Rating System
 - 8-Capas Betting Deduction Model
 - 2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
-- 一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）
+- 体彩官方适配器
 - Success Score Metric
 - Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计
 - Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制
 - Q: 系统规范README与智慧大脑AGENTS协同架构
 - 2026-09-09（周三）中国体彩平局全要素深度复盘报告
 - 2026-09-10（周四）中国体彩平局赛前精算推演报告（3.1 硬红线全量过筛版）
-- Q: 2026-09-08 赛后复盘与模型3.1硬红线升级
 
 ## God Nodes (most connected - your core abstractions)
 1. `赔率快照` - 37 edges
@@ -42,22 +41,22 @@
 4. `本地账本仓储` - 16 edges
 5. `体彩官方适配器` - 14 edges
 6. `赔率提供者契约` - 14 edges
-7. `探测并记录心电图用例` - 13 edges
-8. `8-Capas Betting Deduction Model` - 13 edges
+7. `8-Capas Betting Deduction Model` - 14 edges
+8. `探测并记录心电图用例` - 13 edges
 9. `General Post-Mortem Manual & Blind-Spot Audit` - 13 edges
 10. `回溯连续轨迹用例` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Bettor State-Space Model (SSM)` --supports_capa_7--> `8-Capas Betting Deduction Model`  [EXTRACTED]
   温故而知新学习资料/2505.21275_Do_Betting_Markets_Sense_a_Goal_Coming.md → AGENTS.md
+- `2026-09-11 Post-Match Review` ----> `Sentiment Bias in Betting Odds`  [INFERRED]
+  分析复盘记录/2026-09-11_复盘.md → 温故而知新学习资料/2008_Sentiment_and_Bookmaker_Pricing_Bias.md
 - `Shin Odds Normalization Procedure` --supports_capa_1--> `8-Capas Betting Deduction Model`  [EXTRACTED]
   温故而知新学习资料/1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md → AGENTS.md
+- `2026-09-11 Post-Match Review` ----> `Shin Insider Trading Odds Inversion Model`  [INFERRED]
+  分析复盘记录/2026-09-11_复盘.md → 温故而知新学习资料/Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md
 - `KTH 2024 Betting Exchange Liquidity Study` --supports_capa_6--> `8-Capas Betting Deduction Model`  [EXTRACTED]
   温故而知新学习资料/2024_KTH_Predicting_Odds_Movement_Betting_Exchange_Liquidity.md → AGENTS.md
-- `Football Quant Agent Brain` --cites--> `Beating the Bookies with Their Own Numbers (Kaunitz et al. 2017)`  [EXTRACTED]
-  AGENTS.md → 温故而知新学习资料/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md
-- `Overall Accuracy & Real-time Scoreboard` --monitors--> `Karpathy Skill Self-Evolution Flywheel`  [EXTRACTED]
-  分析复盘记录/总准确率.md → AGENTS.md
 
 ## Import Cycles
 - None detected.
@@ -71,27 +70,27 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (19 total, 1 thin omitted)
+## Communities (18 total, 0 thin omitted)
 
-### Community 0 - "赔率快照"
-Cohesion: 0.09
-Nodes (25): fixture, test_体彩官方适配器安全过滤无赔率异常赛事(), test_体彩官方适配器解析原始数据为纯净领域快照(), test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_赔率快照计算连续位移与异动信号(), test_赔率数值拒绝非正数非法输入() (+17 more)
+### Community 0 - "赔率数值"
+Cohesion: 0.11
+Nodes (16): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_赔率快照计算连续位移与异动信号(), test_赔率数值拒绝非正数非法输入(), test_赔率数值验证与去水计算(), 赔率快照 (+8 more)
 
-### Community 1 - "赔率账本契约"
-Cohesion: 0.12
-Nodes (20): ABC, 回溯连续轨迹用例, 探测并记录心电图用例, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, 探测并记录心电图用例 (+12 more)
+### Community 1 - "心电图录像机.py"
+Cohesion: 0.18
+Nodes (14): 回溯连续轨迹用例, 探测并记录心电图用例, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, 探测并记录心电图用例, 记录结果 (+6 more)
 
-### Community 2 - "test_业务用例.py"
-Cohesion: 0.24
-Nodes (5): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势(), test_探测并记录心电图用例捕获异动跳水(), 内存模拟提供者, 内存模拟账本
+### Community 2 - "赔率快照"
+Cohesion: 0.15
+Nodes (14): ABC, 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势(), test_探测并记录心电图用例捕获异动跳水(), 内存模拟提供者, 内存模拟账本, DDD 输出适配器 - SQLite 赔率心电图连续账本 负责在结构化本地数据目录中存储和检索时序快照, DDD 领域端口契约 - 抽象基类定义输入与输出边界 (+6 more)
 
 ### Community 3 - "对账机.py"
 Cohesion: 0.47
 Nodes (4): DDD Onion Architecture & System Specs, 中国体彩足球平局自动化对账机 (对账机.py) 用于扫描 分析复盘记录/*_复盘.md，自动聚合计算总胜率与复盘手法，并实时无缝物理刷新： 1.…, 刷新总对账看板(), test_对账看板能正常聚合数据并更新总准确率文件()
 
 ### Community 4 - "Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)"
-Cohesion: 0.18
-Nodes (12): Favourite-Longshot Bias (FLB), Favourite-Longshot-Bias-Adjusted GLM (FL-GLM), Odds-Only Equal Profitability Confidence (OO-EPC), Goto et al. (2026) Odds-Only and FL-GLM Conversion Study, Hierarchical Bayesian Poisson Football Score Model, Analytical Variant of Shin Conversion, Draw Bias in Odds Conversion Models, Multiplicative Odds Conversion (+4 more)
+Cohesion: 0.12
+Nodes (15): Favourite-Longshot Bias (FLB), Favourite-Longshot-Bias-Adjusted GLM (FL-GLM), Odds-Only Equal Profitability Confidence (OO-EPC), Goto et al. (2026) Odds-Only and FL-GLM Conversion Study, Analytical Variant of Shin Conversion, Draw Bias in Odds Conversion Models, Multiplicative Odds Conversion, Numerical Variant of Shin Conversion (+7 more)
 
 ### Community 5 - "2026-09-10（周四）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.20
@@ -110,16 +109,16 @@ Cohesion: 0.25
 Nodes (8): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric
 
 ### Community 9 - "8-Capas Betting Deduction Model"
-Cohesion: 0.08
-Nodes (32): Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, Football Quant Agent Brain, 8-Capas Betting Deduction Model (+24 more)
+Cohesion: 0.07
+Nodes (38): Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, Football Quant Agent Brain, 8-Capas Betting Deduction Model (+30 more)
 
 ### Community 10 - "2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.25
 Nodes (8): 1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误, 1. 赛前（T-2h）已知客观数据流水, 2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告, 2. 为什么会被模型一票否决漏网？（认知根因）, 2. 【周五011 塞维利亚 1:0 巴伦西亚】—— 进球前置锁正确但终结能力严重失衡, 一、 主推失手深度剖析：为什么周五012与011会全军覆没？, 三、 闭环演化：两道物理级断路器系统升级（写入代码与大脑）, 二、 漏网盲区深度审计：【周五004 赫根 1:1 米亚尔比】
 
-### Community 11 - "一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）"
-Cohesion: 0.29
-Nodes (6): 1. 周五012 巴甲：科里蒂巴 vs 巴拉纳竞技【黄金第一猎物 ⬆️】, 2026-09-11 竞彩足球平局精算推演报告, 2. 周五011 西甲：塞维利亚 vs 巴伦西亚【黄金第二猎物】, 3. 周五008 意甲：威尼斯 vs 佛罗伦萨【第二梯队对冲观察】, 一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）, 二、 严格过筛：红线断路器执行记录
+### Community 11 - "体彩官方适配器"
+Cohesion: 0.24
+Nodes (6): test_体彩官方适配器安全过滤无赔率异常赛事(), test_体彩官方适配器解析原始数据为纯净领域快照(), 赔率快照, DDD 适配器防腐层 - 中国体彩官方 API 适配器 负责将不可控的外部体彩原始 JSON 清洗转化为优雅纯净的领域实体, 实现赔率提供者契约，直连国家体彩中心官方网关, 体彩官方适配器
 
 ### Community 12 - "Success Score Metric"
 Cohesion: 0.33
@@ -146,19 +145,18 @@ Cohesion: 0.40
 Nodes (4): 🥇 1. 【周四007 解放者杯】德尔瓦耶独立 vs 弗拉门戈（今日唯一黄金王牌 · 评分 94.0）, 2026-09-10（周四）中国体彩平局赛前精算推演报告（3.1 硬红线全量过筛版）, 一、 今日黄金猎物精选榜单, 二、 今日一票否决淘汰场次（全部触犯 3.1 版硬红线）
 
 ## Knowledge Gaps
-- **66 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+61 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 95 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **65 isolated node(s):** `1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误`, `1. 赛前（T-2h）已知客观数据流水`, `2. 为什么会被模型一票否决漏网？（认知根因）`, `2. 【周五011 塞维利亚 1:0 巴伦西亚】—— 进球前置锁正确但终结能力严重失衡`, `三、 闭环演化：两道物理级断路器系统升级（写入代码与大脑）` (+60 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 89 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `DDD Onion Architecture & System Specs` connect `对账机.py` to `赔率账本契约`?**
-  _High betweenness centrality (0.392) - this node is a cross-community bridge._
+- **Why does `DDD Onion Architecture & System Specs` connect `对账机.py` to `心电图录像机.py`?**
+  _High betweenness centrality (0.476) - this node is a cross-community bridge._
 - **Why does `8-Capas Betting Deduction Model` connect `8-Capas Betting Deduction Model` to `ELO-Odds Rating System`, `Success Score Metric`, `KTH 2024 Betting Exchange Liquidity Study`, `Egidi Hierarchical Bayesian Poisson Model`?**
-  _High betweenness centrality (0.338) - this node is a cross-community bridge._
-- **Why does `Overall Accuracy & Real-time Scoreboard` connect `8-Capas Betting Deduction Model` to `对账机.py`?**
-  _High betweenness centrality (0.287) - this node is a cross-community bridge._
+  _High betweenness centrality (0.379) - this node is a cross-community bridge._
+- **Why does `Football Quant Agent Brain` connect `8-Capas Betting Deduction Model` to `Favourite-Longshot-Bias-Adjusted GLM (FL-GLM)`, `Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计`, `Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制`, `Q: 系统规范README与智慧大脑AGENTS协同架构`?**
+  _High betweenness centrality (0.312) - this node is a cross-community bridge._
 - **Are the 7 inferred relationships involving `赔率快照` (e.g. with `轨迹结果` and `内存模拟提供者`) actually correct?**
   _`赔率快照` has 7 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `赔率数值` (e.g. with `体彩官方适配器` and `本地账本仓储`) actually correct?**
