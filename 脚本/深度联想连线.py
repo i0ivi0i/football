@@ -227,6 +227,8 @@ def 超密集编织图谱():
         ("脚本_测试_test_领域模型_test_认知大脑与总复盘防流水账与零污染", "rec_overall_summary", "physically_guards_wisdom_chip_purity"),
         ("脚本_测试_test_领域模型_test_赔率数值验证与去水计算", "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model", "tests_shin_devigging_logic"),
         ("脚本_测试_test_领域模型_test_赔率数值验证与去水计算", "agents_eight_capas_model", "validates_capa1_probability_computation"),
+        ("脚本_领域_模型_赔率数值_去水公平概率", "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model", "implements_shin_normalization_formula"),
+        ("脚本_领域_模型_赔率数值_去水公平概率", "agents_eight_capas_model", "computes_capa1_fair_probabilities"),
         ("脚本_领域_模型_赔率位移_是否显著防守降水", "agents_five_hard_red_lines_v31", "distinguishes_real_defensive_drop_from_pseudo_drop"),
         ("脚本_领域_模型_赔率位移_是否显著防守降水", "lit_1710_02824_beating_bookies", "identifies_consensus_defensive_pressure"),
         ("脚本_适配器_本地账本_本地账本仓储_批量保存快照", "agents_karpathy_flywheel", "executes_snapshot_stream_persistence"),
@@ -236,10 +238,23 @@ def 超密集编织图谱():
         ("脚本_测试_test_微观球员接口_test_微观球员适配器提取球员高阶链条数据", "温故而知新学习资料_2025_success_score_deep_learning_football_prediction_success_score", "tests_capa3_deep_success_metrics"),
         ("脚本_测试_test_微观球员接口_test_微观球员适配器严格断言完场比分", "agents_karpathy_flywheel", "guards_reconciliation_integrity_with_ft_lock"),
         ("脚本_测试_test_微观球员接口_test_微观球员适配器严格断言完场比分", "rec_overall_accuracy", "prevents_hallucinatory_reviews_on_live_matches"),
+        ("脚本_测试_test_体彩接口_test_体彩官方适配器在基础胜平负关闭时自动捕获让球明牌", "agents_five_hard_red_lines_v31", "tests_redline7_open_book_exam_capture"),
+        ("脚本_测试_test_体彩接口_test_体彩官方适配器在基础胜平负关闭时自动捕获让球明牌", "asian_handicap_market", "tests_handicap_extraction_integrity"),
+        ("脚本_测试_test_体彩接口_test_体彩官方适配器在基础胜平负关闭时自动捕获让球明牌", "constantinou_hybrid_bn_model", "supplies_asian_handicap_odds_to_bn"),
+        ("脚本_测试_test_体彩接口_test_体彩官方适配器在基础胜平负关闭时自动捕获让球明牌", "rec_overall_summary", "guards_open_book_exam_in_wisdom_chip"),
+        ("脚本_适配器_体彩接口_体彩官方适配器", "asian_handicap_market", "extracts_asian_handicap_lines"),
+        ("脚本_适配器_体彩接口_体彩官方适配器", "constantinou_hybrid_bn_model", "feeds_handicap_odds_to_bayesian_model"),
         ("脚本_应用_用例_探测并记录心电图用例", "脚本_适配器_体彩接口_体彩官方适配器", "orchestrates_live_heartbeat_capture"),
         ("脚本_应用_用例_回溯连续轨迹用例", "脚本_适配器_本地账本_本地账本仓储", "orchestrates_heartbeat_trend_query"),
+        ("脚本_应用_用例_回溯连续轨迹用例", "agents_eight_capas_model", "provides_time_series_trend_for_capa1"),
         ("脚本_测试_test_业务用例_test_探测并记录心电图用例捕获异动跳水", "agents_eight_capas_model", "validates_heartbeat_abnormal_drop_detection"),
-        ("脚本_测试_test_业务用例_test_回溯连续轨迹用例提炼单边变盘态势", "kth2024_study", "validates_time_series_displacement_trend")
+        ("脚本_测试_test_业务用例_test_回溯连续轨迹用例提炼单边变盘态势", "kth2024_study", "validates_time_series_displacement_trend"),
+        ("脚本_领域_契约_赔率账本契约_查询比赛连续轨迹", "agents_karpathy_flywheel", "enables_historical_trajectory_review"),
+        ("脚本_领域_契约_赔率账本契约_批量保存快照", "agents_karpathy_flywheel", "enables_t_2h_snapshot_persistence"),
+        ("rec_overall_summary", "asian_handicap_market", "encapsulates_open_book_exam_archetype"),
+        ("rec_overall_summary", "2008_sentiment_sentiment_bias", "encapsulates_retail_heavy_favourite_bias"),
+        ("rec_overall_summary", "constantinou_hybrid_bn_model", "synthesizes_bayesian_handicap_decisions"),
+        ("readme_system_architecture", "asian_handicap_market", "specifies_handicap_capture_contract")
     ]
 
     for src, tgt, rel in ast_concept_bridges:
