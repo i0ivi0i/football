@@ -1,8 +1,8 @@
 {
   "AGENTS.md": {
-    "mtime": 1789192400.0435283,
-    "seen": 1789192808.4482558,
-    "ast_hash": "c21b96d53193c1c8fcf7eba0fde1d401",
+    "mtime": 1789193887.6286204,
+    "seen": 1789193917.390258,
+    "ast_hash": "a8ceca409ba82e1873744cafd9b97436",
     "semantic_hash": ""
   },
   "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md": {
@@ -192,9 +192,9 @@
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-07_\u590d\u76d8.md": {
-    "mtime": 1789186885.5633469,
-    "seen": 1789186919.6991613,
-    "ast_hash": "3eee18f3cf6c0e0f76733126749fc717",
+    "mtime": 1789193508.5840995,
+    "seen": 1789193550.4603665,
+    "ast_hash": "ed0c7b6487564172f3bd4acb5bfdfb34",
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-07_\u9884\u6d4b.md": {
@@ -204,9 +204,9 @@
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md": {
-    "mtime": 1789186885.5583434,
-    "seen": 1789186919.6991613,
-    "ast_hash": "163b6a7c0ad05674ebc69c7c632729db",
+    "mtime": 1789193045.236051,
+    "seen": 1789193060.6722033,
+    "ast_hash": "51c10ca427de21a456155a500637dbb4",
     "semantic_hash": ""
   },
   "\u811a\u672c/\u5bf9\u8d26\u673a.py": {
@@ -216,15 +216,15 @@
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/\u603b\u51c6\u786e\u7387.md": {
-    "mtime": 1789192918.5668712,
-    "seen": 1789192927.6943128,
-    "ast_hash": "2655675c0454bf5ba98c4262124a2ad3",
+    "mtime": 1789193909.238226,
+    "seen": 1789193917.390258,
+    "ast_hash": "8ffd2f0efa2158212592b0b6de18c209",
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/\u603b\u590d\u76d8\u603b\u7ed3.md": {
-    "mtime": 1789186885.5643492,
-    "seen": 1789186919.6991613,
-    "ast_hash": "72d598873e4a2305c092f376625425ba",
+    "mtime": 1789193897.3572786,
+    "seen": 1789193917.390258,
+    "ast_hash": "18d32c685b2515c9a36ca19a267baa0f",
     "semantic_hash": ""
   },
   "\u811a\u672c/\u6d4b\u8bd5/test_\u5bf9\u8d26\u673a.py": {
@@ -270,15 +270,15 @@
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-08_\u590d\u76d8.md": {
-    "mtime": 1789186885.5623467,
-    "seen": 1789186919.6991613,
-    "ast_hash": "0149062549e3710e73944a828bbf46e8",
+    "mtime": 1789193519.9498365,
+    "seen": 1789193550.4603665,
+    "ast_hash": "f131fede49a75bfdc6f7b39a08c501df",
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-09_\u9884\u6d4b.md": {
-    "mtime": 1789186885.5613463,
-    "seen": 1789186919.6991613,
-    "ast_hash": "d7fd92b829a02617c28fd77207caf929",
+    "mtime": 1789193525.1023793,
+    "seen": 1789193550.4603665,
+    "ast_hash": "501ac149bc9ba7d361189b69ea2d8f49",
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-09_\u590d\u76d8.md": {
@@ -300,15 +300,15 @@
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-11_\u9884\u6d4b.md": {
-    "mtime": 1789186885.560346,
-    "seen": 1789186919.6991613,
-    "ast_hash": "16fef469bf1b148c13861c012ca9245a",
+    "mtime": 1789193530.5828135,
+    "seen": 1789193550.4603665,
+    "ast_hash": "75fca6f0a0b0049e1f8c3fa8ee53086a",
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-11_\u590d\u76d8.md": {
-    "mtime": 1789192797.7132063,
-    "seen": 1789192808.4482558,
-    "ast_hash": "753ea3ee5339f6164013055ec42aa224",
+    "mtime": 1789193016.3940706,
+    "seen": 1789193060.6722033,
+    "ast_hash": "49de531f552e4622d2536d07a0e069b9",
     "semantic_hash": ""
   },
   "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-12_\u9884\u6d4b.md": {
@@ -327,6 +327,12 @@
     "mtime": 1789192883.912278,
     "seen": 1789192927.6943128,
     "ast_hash": "8f3d51b9ce3993d76a90e2f06b61d47e",
+    "semantic_hash": ""
+  },
+  ".codex/hooks.json": {
+    "mtime": 1789193599.0062757,
+    "seen": 1789193681.9827247,
+    "ast_hash": "0685cc2f9c0206a71737fca8172cb6c3",
     "semantic_hash": ""
   }
 }

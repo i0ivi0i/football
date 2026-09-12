@@ -90,6 +90,47 @@ class 微观球员适配器:
         except Exception as e:
             return {"error": f"提取高阶数据失败: {str(e)}"}
 
+    def 提取交锋历史H2H(self, team_id_1: str, team_id_2: str) -> Dict[str, Any]:
+        """从 football-data.co.uk 提取双方历史交锋总场次、平局场次与平局基因率"""
+        try:
+            from sports_skills import football
+            h2h = football.get_head_to_head(team_id=team_id_1, team_id_2=team_id_2)
+            summary = h2h.get("data", {}).get("summary", {})
+            total = summary.get("total_meetings", 0)
+            draws = summary.get("draws", 0)
+            return {
+                "total_meetings": total,
+                "draws": draws,
+                "draw_rate": round(draws / total, 4) if total > 0 else 0.0,
+                "team1_wins": summary.get("team1", {}).get("wins", 0),
+                "team2_wins": summary.get("team2", {}).get("wins", 0)
+            }
+        except Exception as e:
+            return {"error": f"H2H提取失败: {str(e)}", "total_meetings": 0, "draws": 0, "draw_rate": 0.0}
+
+    def 提取球员高阶链条数据(self, event_id: str) -> Dict[str, Any]:
+        """从 Understat 提取球员微观进攻链 xG Chain、xG Buildup 与关键传球数据"""
+        try:
+            from sports_skills import football
+            players_stat = football.get_event_players_statistics(event_id=event_id)
+            creators = []
+            for team in players_stat.get("data", {}).get("teams", []):
+                for p in team.get("players", []):
+                    if p.get("xg_chain", 0) > 0.3 or p.get("key_passes", 0) >= 2:
+                        creators.append({
+                            "name": p.get("name"),
+                            "team": team.get("team", {}).get("name"),
+                            "xg": p.get("xg", 0.0),
+                            "xa": p.get("xa", 0.0),
+                            "xg_chain": p.get("xg_chain", 0.0),
+                            "xg_buildup": p.get("xg_buildup", 0.0),
+                            "key_passes": p.get("key_passes", 0)
+                        })
+            creators.sort(key=lambda x: x.get("xg_chain", 0), reverse=True)
+            return {"event_id": event_id, "key_creators": creators}
+        except Exception as e:
+            return {"error": f"球员高阶链条提取失败: {str(e)}", "key_creators": []}
+
     def 严格校验完场比分(self, fixture_id: int) -> Dict[str, Any]:
         """强制断言比赛状态必须为 FT (Match Finished)，绝不采信滚球过程临时比分"""
         url = f"https://v3.football.api-sports.io/fixtures?id={fixture_id}"

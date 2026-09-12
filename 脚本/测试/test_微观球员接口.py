@@ -108,4 +108,51 @@ def test_微观球员适配器严格断言完场比分():
         assert res["score_text"] == "3:3"
 
 
+def test_微观球员适配器提取交锋历史H2H():
+    适配器 = 微观球员适配器()
+    mock_h2h = {
+        "data": {
+            "summary": {
+                "total_meetings": 10,
+                "draws": 4,
+                "team1": {"id": "359", "name": "Arsenal", "wins": 4, "goals": 14},
+                "team2": {"id": "382", "name": "Man City", "wins": 2, "goals": 10}
+            },
+            "events": [
+                {"home_score": 1, "away_score": 1, "result": "D"}
+            ]
+        }
+    }
+    with patch("sports_skills.football.get_head_to_head") as mock_get_h2h:
+        mock_get_h2h.return_value = mock_h2h
+        res = 适配器.提取交锋历史H2H("359", "382")
+        assert res["total_meetings"] == 10
+        assert res["draws"] == 4
+        assert res["draw_rate"] == 0.40
+        assert res["team1_wins"] == 4
+
+
+def test_微观球员适配器提取球员高阶链条数据():
+    适配器 = 微观球员适配器()
+    mock_player_stats = {
+        "data": {
+            "teams": [
+                {
+                    "team": {"name": "Arsenal"},
+                    "players": [
+                        {"name": "Saka", "xg": 0.62, "xa": 0.35, "xg_chain": 0.95, "xg_buildup": 0.45, "key_passes": 3}
+                    ]
+                }
+            ]
+        }
+    }
+    with patch("sports_skills.football.get_event_players_statistics") as mock_stats:
+        mock_stats.return_value = mock_player_stats
+        res = 适配器.提取球员高阶链条数据("401882909")
+        assert len(res["key_creators"]) == 1
+        assert res["key_creators"][0]["name"] == "Saka"
+        assert res["key_creators"][0]["xg_chain"] == 0.95
+
+
+
 
