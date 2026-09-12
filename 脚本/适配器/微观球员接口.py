@@ -39,3 +39,29 @@ class 微观球员适配器:
             return res
         except Exception as e:
             return [{"错误": f"伤停查询失败: {str(e)}"}]
+
+    def 计算赛程体能负荷(self, team_id: int, 当前比赛日期: str) -> Dict[str, Any]:
+        """计算球队休赛间隔天数与体能储备衰竭度"""
+        from datetime import datetime
+        url = f"https://v3.football.api-sports.io/fixtures?team={team_id}&last=1"
+        req = urllib.request.Request(url, headers=self._get_headers())
+        try:
+            with urllib.request.urlopen(req, timeout=10) as r:
+                data = json.loads(r.read().decode())
+            fixtures = data.get("response", [])
+            if not fixtures:
+                return {"休赛天数": 7, "体能评级": "体能储备充沛 (无近期密集赛程)"}
+            上场比赛时间 = fixtures[0]["fixture"]["date"][:10]
+            d1 = datetime.strptime(上场比赛时间, "%Y-%m-%d")
+            d2 = datetime.strptime(当前比赛日期, "%Y-%m-%d")
+            休赛天数 = (d2 - d1).days
+            if 休赛天数 <= 3:
+                评级 = f"体能重度透支 (休赛仅 {休赛天数} 天，双线密集作战，下半场极易保平打慢)"
+            elif 休赛天数 <= 5:
+                评级 = f"体能轻度疲劳 (休赛 {休赛天数} 天)"
+            else:
+                评级 = f"体能储备充沛 (休赛 {休赛天数} 天)"
+            return {"休赛天数": 休赛天数, "体能评级": 评级, "上场比赛日": 上场比赛时间}
+        except Exception as e:
+            return {"休赛天数": 5, "体能评级": f"估算中性 (接口异常: {str(e)})"}
+
