@@ -1,4 +1,5 @@
 import pytest
+import json
 from unittest.mock import patch, MagicMock
 from 适配器.微观球员接口 import 微观球员适配器
 
@@ -70,5 +71,41 @@ def test_微观球员适配器提取比赛微观高阶数据():
         assert res["team1_saves"] == "3"
         assert res["team2_saves"] == "5"
         assert res["players_available"] is True
+
+
+def test_微观球员适配器严格断言完场比分():
+    适配器 = 微观球员适配器()
+    # 模拟进行中比赛 (63分钟 1:3 临时比分，尚未完场)
+    mock_live = {
+        "response": [{
+            "fixture": {"status": {"short": "2H", "long": "Second Half"}},
+            "goals": {"home": 1, "away": 3}
+        }]
+    }
+    with patch("urllib.request.urlopen") as mock_urlopen:
+        mock_cm = MagicMock()
+        mock_cm.__enter__.return_value.read.return_value = json.dumps(mock_live).encode("utf-8")
+        mock_urlopen.return_value = mock_cm
+
+        res = 适配器.严格校验完场比分(1492374)
+        assert res["is_finished"] is False
+        assert res["score_text"] == "未完场"
+
+    # 模拟完场比赛 (FT 3:3)
+    mock_ft = {
+        "response": [{
+            "fixture": {"status": {"short": "FT", "long": "Match Finished"}},
+            "goals": {"home": 3, "away": 3}
+        }]
+    }
+    with patch("urllib.request.urlopen") as mock_urlopen:
+        mock_cm = MagicMock()
+        mock_cm.__enter__.return_value.read.return_value = json.dumps(mock_ft).encode("utf-8")
+        mock_urlopen.return_value = mock_cm
+
+        res = 适配器.严格校验完场比分(1492374)
+        assert res["is_finished"] is True
+        assert res["score_text"] == "3:3"
+
 
 

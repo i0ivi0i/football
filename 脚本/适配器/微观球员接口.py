@@ -90,4 +90,29 @@ class 微观球员适配器:
         except Exception as e:
             return {"error": f"提取高阶数据失败: {str(e)}"}
 
+    def 严格校验完场比分(self, fixture_id: int) -> Dict[str, Any]:
+        """强制断言比赛状态必须为 FT (Match Finished)，绝不采信滚球过程临时比分"""
+        url = f"https://v3.football.api-sports.io/fixtures?id={fixture_id}"
+        req = urllib.request.Request(url, headers=self._get_headers())
+        try:
+            with urllib.request.urlopen(req, timeout=10) as r:
+                data = json.loads(r.read().decode())
+            res = data.get("response", [])
+            if not res:
+                return {"status": "NOT_FOUND", "is_finished": False}
+            fix = res[0]
+            status = fix["fixture"]["status"]["short"]
+            is_finished = status in ["FT", "AET", "PEN"]
+            return {
+                "fixture_id": fixture_id,
+                "status": status,
+                "is_finished": is_finished,
+                "home_score": fix["goals"]["home"],
+                "away_score": fix["goals"]["away"],
+                "score_text": f"{fix['goals']['home']}:{fix['goals']['away']}" if is_finished else "未完场"
+            }
+        except Exception as e:
+            return {"status": "ERROR", "error": str(e), "is_finished": False}
+
+
 
