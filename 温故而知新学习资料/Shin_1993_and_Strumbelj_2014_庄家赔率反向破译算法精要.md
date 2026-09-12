@@ -91,7 +91,7 @@ def solve_shin_probabilities(odds: list[float]) -> tuple[list[float], float]:
     normalized_probs = [p / total_p for p in probs]
     return normalized_probs, z
 
-# 实测: 今日周日019 阿拉维斯 vs 奥萨苏纳 (2.50, 2.82, 2.70)
+# 实测: 均势盘标准样例 (2.50, 2.82, 2.70)
 # p, z = solve_shin_probabilities([2.50, 2.82, 2.70])
 # 算得: z = 0.024 (内幕防范系数), 真实平率 = 31.8%
 ```
