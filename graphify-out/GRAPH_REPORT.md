@@ -1,16 +1,16 @@
 # Graph Report - 足球预测  (2026-09-13)
 
 ## Corpus Check
-- 55 files · ~160,244 words
+- 55 files · ~160,341 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 307 nodes · 868 edges · 20 communities (18 shown, 2 thin omitted)
-- Extraction: 63% EXTRACTED · 37% INFERRED · 0% AMBIGUOUS · INFERRED: 318 edges (avg confidence: 0.61)
+- 309 nodes · 867 edges · 18 communities (17 shown, 1 thin omitted)
+- Extraction: 64% EXTRACTED · 36% INFERRED · 0% AMBIGUOUS · INFERRED: 315 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4b25c1a3`
+- Built from commit: `dfab38e7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -23,16 +23,14 @@
 - 心电图录像机.py
 - Five Hard Red Lines (V3.1 Physical Circuit Breakers)
 - 体彩官方适配器
-- Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study
-- General Post-Mortem Manual & Blind-Spot Audit
 - 8-Capas Betting Deduction Model
-- 契约.py
-- 对账机.py
+- General Post-Mortem Manual & Blind-Spot Audit
+- Sentiment Bias in Betting Odds
+- 赔率账本契约
+- 2026-09-13（周日）中国体育彩票精算推演报告
 - 一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）
 - Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计
 - Q: 系统规范README与智慧大脑AGENTS协同架构
-- 2026-09-10（周四）中国体彩平局赛前精算推演报告（3.1 硬红线全量过筛版）
-- 三、 10 场漏网平局的三大系统级机械误杀归因
 - query_20260909_022637_7cd78681_2026_09_08_赛后复盘与模型3_1硬红线升级.md
 - Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制
 
@@ -40,25 +38,25 @@
 1. `8-Capas Betting Deduction Model` - 63 edges
 2. `赔率快照` - 44 edges
 3. `Five Hard Red Lines (V3.1 Physical Circuit Breakers)` - 40 edges
-4. `Shin Insider Trading Odds Inversion Model` - 37 edges
+4. `Shin Insider Trading Odds Inversion Model` - 36 edges
 5. `Football Quant Agent Brain` - 32 edges
 6. `General Post-Mortem Manual & Blind-Spot Audit` - 31 edges
 7. `赔率数值` - 25 edges
 8. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 25 edges
-9. `微观球员适配器` - 24 edges
-10. `体彩官方适配器` - 24 edges
+9. `体彩官方适配器` - 24 edges
+10. `微观球员适配器` - 24 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `add_edge()` --bridges_to_main_trinity--> `Football Quant Agent Brain`  [INFERRED]
   脚本/深度联想连线.py → AGENTS.md
-- `2026-09-11 Pre-Match Forecast` --records_coritiba_and_seville_heartbeat--> `本地账本仓储`  [INFERRED]
-  分析复盘记录/2026-09-11_预测.md → 脚本/适配器/本地账本.py
-- `本地账本仓储` --persists_order_flow_time_series--> `Betting Exchange Liquidity Dynamics`  [INFERRED]
-  脚本/适配器/本地账本.py → 温故而知新学习资料/2024_KTH_Predicting_Odds_Movement_Betting_Exchange_Liquidity.md
-- `本地账本仓储` --controlled_by_brain--> `Football Quant Agent Brain`  [INFERRED]
-  脚本/适配器/本地账本.py → AGENTS.md
-- `本地账本仓储` --stores_liquidity_trajectory--> `KTH 2024 Betting Exchange Liquidity Study`  [INFERRED]
-  脚本/适配器/本地账本.py → 温故而知新学习资料/2024_KTH_Predicting_Odds_Movement_Betting_Exchange_Liquidity.md
+- `探测并记录心电图用例` --executes_t_2h_physical_lockin--> `Karpathy Skill Self-Evolution Flywheel`  [INFERRED]
+  脚本/应用/用例.py → AGENTS.md
+- `回溯连续轨迹用例` --supplies_capa1_heartbeat_trend--> `8-Capas Betting Deduction Model`  [INFERRED]
+  脚本/应用/用例.py → AGENTS.md
+- `test_探测并记录心电图用例捕获异动跳水()` --validates_heartbeat_abnormal_drop_detection--> `8-Capas Betting Deduction Model`  [INFERRED]
+  脚本/测试/test_业务用例.py → AGENTS.md
+- `test_体彩官方适配器在基础胜平负关闭时自动捕获让球明牌()` --tests_redline7_open_book_exam_capture--> `Five Hard Red Lines (V3.1 Physical Circuit Breakers)`  [INFERRED]
+  脚本/测试/test_体彩接口.py → AGENTS.md
 
 ## Import Cycles
 - None detected.
@@ -72,27 +70,27 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (20 total, 2 thin omitted)
+## Communities (18 total, 1 thin omitted)
 
 ### Community 0 - "赔率数值"
-Cohesion: 0.17
-Nodes (11): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_赔率快照计算连续位移与异动信号(), 赔率快照, DDD 输出适配器 - SQLite 赔率心电图连续账本 负责在结构化本地数据目录中存储和检索时序快照, 实现赔率账本契约，基于轻量高效的标准库 SQLite (+3 more)
+Cohesion: 0.18
+Nodes (10): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_赔率快照计算连续位移与异动信号(), 赔率快照, 实现赔率账本契约，基于轻量高效的标准库 SQLite, 本地账本仓储 (+2 more)
 
 ### Community 1 - "赔率快照"
-Cohesion: 0.24
-Nodes (8): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势(), test_探测并记录心电图用例捕获异动跳水(), 内存模拟提供者, 内存模拟账本, 聚合根实体：带时间戳与赛事身份的心电图观测点, 富领域模型核心行为：计算连续轨迹的倾斜角与定性, 赔率快照
+Cohesion: 0.18
+Nodes (9): test_探测并记录心电图用例捕获异动跳水(), 内存模拟提供者, 内存模拟账本, 赔率快照, 输入/输出端口：从外部获取最新的实时赔率快照, 赔率提供者契约, 聚合根实体：带时间戳与赛事身份的心电图观测点, 富领域模型核心行为：计算连续轨迹的倾斜角与定性 (+1 more)
 
 ### Community 2 - "深度联想连线.py"
 Cohesion: 0.50
 Nodes (3): 全量超密集知识图谱编织引擎 (Graphify Ultra-Dense Semantic Mesh Synthesizer) 将全项目 34…, 超密集编织图谱(), add_edge()
 
 ### Community 3 - "Football Quant Agent Brain"
-Cohesion: 0.29
-Nodes (10): Football Quant Agent Brain, DDD Onion Architecture & System Specs, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, 记录结果, 轨迹结果, 输出端口：心电图轨迹的数据持久化与历史回溯 (+2 more)
+Cohesion: 0.30
+Nodes (10): Football Quant Agent Brain, DDD Onion Architecture & System Specs, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, 探测并记录心电图用例, 记录结果 (+2 more)
 
 ### Community 4 - "微观球员适配器"
-Cohesion: 0.08
-Nodes (26): Passing Network Centrality, Wyscout Spatio-Temporal Match Events Dataset, Any, Dynamic Seasonal Team Attack and Defence Effects, 1. Capa 1 [ODDS] 市场底牌与去水概率, 1. Capa 1 [ODDS] 盘口结构, 2026-09-13（周日）中国体育彩票精算推演报告, 2. Capa 2 & 3 [IND/API] 球队画像与保级绞杀 (+18 more)
+Cohesion: 0.14
+Nodes (13): Any, test_微观球员适配器提取交锋历史H2H(), test_微观球员适配器提取比赛微观高阶数据(), test_微观球员适配器提取球员高阶链条数据(), test_微观球员适配器解析伤停数据(), test_微观球员适配器计算体能负荷(), DDD 适配器：API-Sports 微观球员与伤停数据管道 支持双 Key 轮换，负责拉取核心伤停、关键组织大脑与防守对抗数据, 从 Understat 提取球员微观进攻链 xG Chain、xG Buildup 与关键传球数据 (+5 more)
 
 ### Community 5 - "心电图录像机.py"
 Cohesion: 0.36
@@ -100,27 +98,31 @@ Nodes (7): 回溯连续轨迹用例, 探测并记录心电图用例, main(), 足
 
 ### Community 6 - "Five Hard Red Lines (V3.1 Physical Circuit Breakers)"
 Cohesion: 0.08
-Nodes (31): ELO-Goals Rating System, Five Hard Red Lines (V3.1 Physical Circuit Breakers), Constantinou Hybrid Bayesian Network Model, Egidi Hierarchical Bayesian Poisson Model, Modified Pi-Rating System, Skellam Distribution (Poisson-Difference), 2026-09-09（周三）中国体彩平局全要素深度复盘报告, 二、 五道硬红线 3.1 版排雷审计（9场分胜负全量排雷成功） (+23 more)
+Nodes (27): Five Hard Red Lines (V3.1 Physical Circuit Breakers), 二、 五道硬红线 3.1 版排雷审计（9场分胜负全量排雷成功）, 1. 赛前（T-2h）已知客观数据流水, 2026-09-10（周四）中国体彩平局全要素深度复盘与盲区审计报告, 2. 为什么会被模型错误一票否决？（三大认知根因剖析）, 一、 唯一平局漏网盲区深度审计：【周四001 费内巴切 1:1 罗马】, 三、 经验物理固化与飞轮升级成果, 根因一：机械教条主义滥用【红线 4】（前置条件校验严重缺失） (+19 more)
 
 ### Community 7 - "体彩官方适配器"
-Cohesion: 0.15
-Nodes (10): 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 探测并记录心电图用例, test_体彩官方适配器安全过滤无赔率异常赛事(), test_体彩官方适配器解析原始数据为纯净领域快照(), 赔率快照, DDD 适配器防腐层 - 中国体彩官方 API 适配器 负责将不可控的外部体彩原始 JSON 清洗转化为优雅纯净的领域实体, 实现赔率提供者契约，直连国家体彩中心官方网关, 体彩官方适配器 (+2 more)
+Cohesion: 0.33
+Nodes (5): test_体彩官方适配器安全过滤无赔率异常赛事(), test_体彩官方适配器解析原始数据为纯净领域快照(), DDD 适配器防腐层 - 中国体彩官方 API 适配器 负责将不可控的外部体彩原始 JSON 清洗转化为优雅纯净的领域实体, 实现赔率提供者契约，直连国家体彩中心官方网关, 体彩官方适配器
 
-### Community 8 - "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study"
-Cohesion: 0.26
-Nodes (25): ELO-Odds Rating System, Informational Loss Metric, PlayeRank Framework, Asian Handicap (AH) Betting Market, Elo Rating Difference, Odds-Only Equal Profitability Confidence (OO-EPC), Mandadapu (2024) Football Match Outcome Forecasting Study, SVM Match Outcome Classifier (+17 more)
+### Community 8 - "8-Capas Betting Deduction Model"
+Cohesion: 0.10
+Nodes (61): ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, 8-Capas Betting Deduction Model (+53 more)
 
 ### Community 9 - "General Post-Mortem Manual & Blind-Spot Audit"
-Cohesion: 0.11
-Nodes (33): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Karpathy Skill Self-Evolution Flywheel (+25 more)
+Cohesion: 0.10
+Nodes (30): Karpathy Skill Self-Evolution Flywheel, 2026-09-06 Post-Match Review, 2026-09-07 Post-Match Review, 2026-09-08 Post-Match Review, 2026-09-10 Post-Match Review, 2026-09-11 Post-Match Review, Overall Accuracy & Real-time Scoreboard, General Post-Mortem Manual & Blind-Spot Audit (+22 more)
 
-### Community 10 - "8-Capas Betting Deduction Model"
-Cohesion: 0.06
-Nodes (47): ELO-Result Rating System, Betting Exchange Liquidity Dynamics, Technical Indicators (SMA & RSI), 8-Capas Betting Deduction Model, Favourite-Longshot Bias (FLB), Favourite-Longshot-Bias-Adjusted GLM (FL-GLM), Goto et al. (2026) Odds-Only and FL-GLM Conversion Study, Chi-squared Test Feature Selection (+39 more)
+### Community 10 - "Sentiment Bias in Betting Odds"
+Cohesion: 0.09
+Nodes (30): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Betting Exchange Liquidity Dynamics (+22 more)
 
-### Community 12 - "对账机.py"
-Cohesion: 0.60
-Nodes (3): 中国体彩足球平局自动化对账机 (对账机.py) 用于扫描 分析复盘记录/*_复盘.md，自动聚合计算总胜率与复盘手法，并实时无缝物理刷新： 1.…, 刷新总对账看板(), test_对账看板能正常聚合数据并更新总准确率文件()
+### Community 11 - "赔率账本契约"
+Cohesion: 0.28
+Nodes (5): ABC, DDD 输出适配器 - SQLite 赔率心电图连续账本 负责在结构化本地数据目录中存储和检索时序快照, DDD 领域端口契约 - 抽象基类定义输入与输出边界, 输出端口：心电图轨迹的数据持久化与历史回溯, 赔率账本契约
+
+### Community 12 - "2026-09-13（周日）中国体育彩票精算推演报告"
+Cohesion: 0.12
+Nodes (16): 1. Capa 1 [ODDS] 市场底牌与心电图轨迹, 1. Capa 1 [ODDS] 盘口结构, 1. Capa 1 [ODDS] 盘口结构, 1. 乔布斯灵活思维解构（破除红线2死板一刀切）, 1. 盘口与战术特征, 2026-09-13（周日）中国体育彩票精算推演报告, 2. Capa 3 [API] 微观防守护城河核验, 2. Capa 4 & 7 泊松落点 (+8 more)
 
 ### Community 13 - "一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）"
 Cohesion: 0.33
@@ -134,37 +136,29 @@ Nodes (4): Answer, Outcome, Q: 周一001卡利亚里1:0与周一006乌迪内斯1
 Cohesion: 0.40
 Nodes (4): Answer, Outcome, Q: 系统规范README与智慧大脑AGENTS协同架构, Source Nodes
 
-### Community 16 - "2026-09-10（周四）中国体彩平局赛前精算推演报告（3.1 硬红线全量过筛版）"
-Cohesion: 0.50
-Nodes (4): 🥇 1. 【周四007 解放者杯】德尔瓦耶独立 vs 弗拉门戈（今日唯一黄金王牌 · 评分 94.0）, 2026-09-10（周四）中国体彩平局赛前精算推演报告（3.1 硬红线全量过筛版）, 一、 今日黄金猎物精选榜单, 二、 今日一票否决淘汰场次（全部触犯 3.1 版硬红线）
-
-### Community 17 - "三、 10 场漏网平局的三大系统级机械误杀归因"
-Cohesion: 0.50
-Nodes (4): 1. 红线 2（伪降水死锁）机械误杀三大豪门客平局（018 摩纳哥 1:1、020 米兰 2:2、028 里昂 0:0）, 2. 红线 4（均势大球前置锁）机械误杀两场对攻大球平局（013 伯恩茅斯 2:2、023 科隆 1:1）, 3. 红线 1（强队深盘一票否决）机械误杀四大豪门冷平（010 勒沃库森 2:2、012 切尔西 2:2、016 利物浦 0:0、024 毕包 1:1）, 三、 10 场漏网平局的三大系统级机械误杀归因
-
 ### Community 21 - "Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制"
 Cohesion: 0.40
 Nodes (4): Answer, Outcome, Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制, Source Nodes
 
 ## Knowledge Gaps
-- **53 isolated node(s):** `1. 赛前（T-2h）已知客观数据流水`, `1. 赛前已知数据与操盘陷阱`, `三、 经验物理固化与飞轮升级成果`, `1. 赛前已知特征与当时推演假设`, `1. 周五012 巴甲：科里蒂巴 vs 巴拉纳竞技【黄金第一猎物 ⬆️】` (+48 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 91 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **54 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+49 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 92 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Football Quant Agent Brain` connect `Football Quant Agent Brain` to `赔率数值`, `赔率快照`, `深度联想连线.py`, `微观球员适配器`, `Five Hard Red Lines (V3.1 Physical Circuit Breakers)`, `体彩官方适配器`, `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study`, `General Post-Mortem Manual & Blind-Spot Audit`, `8-Capas Betting Deduction Model`, `Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计`, `Q: 系统规范README与智慧大脑AGENTS协同架构`, `query_20260909_022637_7cd78681_2026_09_08_赛后复盘与模型3_1硬红线升级.md`, `Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制`?**
-  _High betweenness centrality (0.247) - this node is a cross-community bridge._
-- **Why does `8-Capas Betting Deduction Model` connect `8-Capas Betting Deduction Model` to `赔率数值`, `赔率快照`, `Football Quant Agent Brain`, `微观球员适配器`, `Five Hard Red Lines (V3.1 Physical Circuit Breakers)`, `体彩官方适配器`, `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study`, `General Post-Mortem Manual & Blind-Spot Audit`?**
-  _High betweenness centrality (0.239) - this node is a cross-community bridge._
-- **Why does `赔率快照` connect `赔率快照` to `赔率数值`, `Football Quant Agent Brain`, `Five Hard Red Lines (V3.1 Physical Circuit Breakers)`, `体彩官方适配器`, `General Post-Mortem Manual & Blind-Spot Audit`, `8-Capas Betting Deduction Model`, `契约.py`?**
-  _High betweenness centrality (0.149) - this node is a cross-community bridge._
+- **Why does `Football Quant Agent Brain` connect `Football Quant Agent Brain` to `赔率数值`, `赔率快照`, `深度联想连线.py`, `微观球员适配器`, `Five Hard Red Lines (V3.1 Physical Circuit Breakers)`, `体彩官方适配器`, `8-Capas Betting Deduction Model`, `General Post-Mortem Manual & Blind-Spot Audit`, `Sentiment Bias in Betting Odds`, `赔率账本契约`, `Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计`, `Q: 系统规范README与智慧大脑AGENTS协同架构`, `query_20260909_022637_7cd78681_2026_09_08_赛后复盘与模型3_1硬红线升级.md`, `Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制`?**
+  _High betweenness centrality (0.246) - this node is a cross-community bridge._
+- **Why does `8-Capas Betting Deduction Model` connect `8-Capas Betting Deduction Model` to `赔率数值`, `赔率快照`, `Football Quant Agent Brain`, `微观球员适配器`, `体彩官方适配器`, `General Post-Mortem Manual & Blind-Spot Audit`, `Sentiment Bias in Betting Odds`?**
+  _High betweenness centrality (0.244) - this node is a cross-community bridge._
+- **Why does `赔率快照` connect `赔率快照` to `赔率数值`, `Football Quant Agent Brain`, `Five Hard Red Lines (V3.1 Physical Circuit Breakers)`, `体彩官方适配器`, `8-Capas Betting Deduction Model`, `General Post-Mortem Manual & Blind-Spot Audit`, `Sentiment Bias in Betting Odds`, `赔率账本契约`?**
+  _High betweenness centrality (0.144) - this node is a cross-community bridge._
 - **Are the 28 inferred relationships involving `8-Capas Betting Deduction Model` (e.g. with `DIFFATTEND Proxy` and `ELO-Goals Rating System`) actually correct?**
   _`8-Capas Betting Deduction Model` has 28 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 11 inferred relationships involving `赔率快照` (e.g. with `轨迹结果` and `内存模拟提供者`) actually correct?**
   _`赔率快照` has 11 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 23 inferred relationships involving `Five Hard Red Lines (V3.1 Physical Circuit Breakers)` (e.g. with `Bookmakers' Consensus Probability` and `ELO-Goals Rating System`) actually correct?**
   _`Five Hard Red Lines (V3.1 Physical Circuit Breakers)` has 23 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 29 inferred relationships involving `Shin Insider Trading Odds Inversion Model` (e.g. with `2026-09-06 Pre-Match Forecast` and `2026-09-07 Pre-Match Forecast`) actually correct?**
-  _`Shin Insider Trading Odds Inversion Model` has 29 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 28 inferred relationships involving `Shin Insider Trading Odds Inversion Model` (e.g. with `2026-09-06 Pre-Match Forecast` and `2026-09-07 Pre-Match Forecast`) actually correct?**
+  _`Shin Insider Trading Odds Inversion Model` has 28 INFERRED edges - model-reasoned connections that need verification._
