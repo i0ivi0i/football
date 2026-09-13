@@ -254,7 +254,21 @@ def 超密集编织图谱():
         ("rec_overall_summary", "asian_handicap_market", "encapsulates_open_book_exam_archetype"),
         ("rec_overall_summary", "2008_sentiment_sentiment_bias", "encapsulates_retail_heavy_favourite_bias"),
         ("rec_overall_summary", "constantinou_hybrid_bn_model", "synthesizes_bayesian_handicap_decisions"),
-        ("readme_system_architecture", "asian_handicap_market", "specifies_handicap_capture_contract")
+        ("readme_system_architecture", "asian_handicap_market", "specifies_handicap_capture_contract"),
+        # 2026-09-12 深度复盘与物理断路器守卫超密集网络
+        ("分析复盘记录_2026_09_12_复盘", "agents_agent_brain", "instantiates_karpathy_flywheel_post_mortem"),
+        ("分析复盘记录_2026_09_12_复盘", "rec_overall_summary", "feeds_lessons_into_right_brain_chip"),
+        ("分析复盘记录_2026_09_12_复盘_一_头号猎物_周六017_奥萨苏纳_0_2_西班牙人_崩盘根因深度剖析", "2019_nature_playerank", "applies_playeRank_to_dissect_midfield_collapse"),
+        ("分析复盘记录_2026_09_12_复盘_一_头号猎物_周六017_奥萨苏纳_0_2_西班牙人_崩盘根因深度剖析", "2008_sentiment_sentiment_bias", "unmasks_fake_drop_trap_285"),
+        ("分析复盘记录_2026_09_12_复盘_二_10_场漏网平局的三大系统级机械误杀归因", "agents_five_hard_red_lines_v31", "rectifies_mechanical_veto_blindspots"),
+        ("分析复盘记录_2026_09_12_复盘_二_10_场漏网平局的三大系统级机械误杀归因", "springer2025_study", "applies_tactical_foul_theory_to_away_favorites"),
+        ("分析复盘记录_2026_09_12_复盘_三_karpathy_飞轮闭环进化_三大断路器紧急修正", "agents_karpathy_flywheel", "completes_self_evolution_flywheel_cycle"),
+        ("脚本_领域_模型_校验让球明牌平局对冲资格", "asian_handicap_market", "enforces_handicap_defense_lock"),
+        ("脚本_领域_模型_校验让球明牌平局对冲资格", "agents_five_hard_red_lines_v31", "implements_redline7_domain_guard"),
+        ("脚本_领域_模型_校验攻防伤停平局资格", "2019_nature_playerank", "guards_against_midfield_duel_collapse"),
+        ("脚本_领域_模型_校验攻防伤停平局资格", "agents_five_hard_red_lines_v31", "implements_micro_player_injury_guard"),
+        ("脚本_测试_test_领域模型_test_红线7关闭胜平负时必须校验受让方铁桶指标防无脑买平", "脚本_领域_模型_校验让球明牌平局对冲资格", "unit_tests_domain_guard"),
+        ("脚本_测试_test_领域模型_test_攻防伤停平衡校验防017假闷平崩盘", "脚本_领域_模型_校验攻防伤停平局资格", "unit_tests_domain_guard")
     ]
 
     for src, tgt, rel in ast_concept_bridges:
