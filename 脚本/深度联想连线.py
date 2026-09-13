@@ -133,11 +133,12 @@ def 超密集编织图谱():
     all_forecasts = [
         "rec_20260906_forecast", "rec_20260907_forecast", "rec_20260908_forecast",
         "rec_20260909_forecast", "rec_20260910_forecast", "rec_20260911_forecast",
-        "rec_20260912_forecast"
+        "rec_20260912_forecast", "分析复盘记录_2026_09_13_预测"
     ]
     all_reviews = [
         "rec_20260906_review", "rec_20260907_review", "rec_20260908_review",
-        "rec_20260909_review", "rec_20260910_review", "rec_20260911_review"
+        "rec_20260909_review", "rec_20260910_review", "rec_20260911_review",
+        "分析复盘记录_2026_09_12_复盘"
     ]
 
     for f_node in all_forecasts:
@@ -184,7 +185,13 @@ def 超密集编织图谱():
         # 09-09 复盘子节点
         ("分析复盘记录_2026_09_09_复盘_1_周三001_江原fc_1_1_全北现代_赛果_平局_1_1_体彩平赔_2_92", "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model", "validates_sporttery_defensive_drop_292"),
         ("分析复盘记录_2026_09_09_复盘_2_周三014_拉普拉塔大学_1_1_科林蒂安_赛果_平局_1_1_体彩平赔_2_58", "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model", "validates_sporttery_defensive_drop_258"),
-        ("分析复盘记录_2026_09_09_复盘_二_五道硬红线_3_1_版排雷审计_9场分胜负全量排雷成功", "agents_five_hard_red_lines_v31", "verifies_100_percent_win_draw_exclusion")
+        ("分析复盘记录_2026_09_09_复盘_二_五道硬红线_3_1_版排雷审计_9场分胜负全量排雷成功", "agents_five_hard_red_lines_v31", "verifies_100_percent_win_draw_exclusion"),
+
+        # 09-13 预测子节点与核心文献学术打通
+        ("分析复盘记录_2026_09_13_预测_一_头号黄金猎物_周日016_西甲_赫塔费_vs_拉科鲁尼亚", "springer2025_study", "grounds_getafe_tactical_fouls_theory"),
+        ("分析复盘记录_2026_09_13_预测_一_头号黄金猎物_周日016_西甲_赫塔费_vs_拉科鲁尼亚", "wenguerzhixin_xuexiziliao_shin_1993_and_strumbelj_2014_shin_model", "grounds_getafe_shin_odds_270"),
+        ("分析复盘记录_2026_09_13_预测_二_次选黄金猎物_周日007_意甲_莱切_vs_蒙扎", "team_attack_defence_effects", "grounds_relegation_six_point_duel"),
+        ("分析复盘记录_2026_09_13_预测_四_庄家明牌开卷考_周日010_巴萨_周日014_拜仁_关闭普通胜平负", "asian_handicap_market", "grounds_open_book_exam_hedging")
     ]
 
     for src, tgt, rel in sub_sections:
