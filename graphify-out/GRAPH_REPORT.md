@@ -1,16 +1,17 @@
 # Graph Report - 足球预测  (2026-09-14)
 
 ## Corpus Check
-- 60 files · ~1,332,689 words
+- 60 files · ~1,332,562 words
 - Verdict: corpus is large enough that graph structure adds value.
+- Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .db 1)
 
 ## Summary
-- 539 nodes · 1284 edges · 46 communities (29 shown, 17 thin omitted)
-- Extraction: 85% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 74 edges (avg confidence: 0.67)
+- 539 nodes · 1268 edges · 46 communities (29 shown, 17 thin omitted)
+- Extraction: 59% EXTRACTED · 31% INFERRED · 10% AMBIGUOUS · INFERRED: 390 edges (avg confidence: 0.94)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `02b0afad`
+- Built from commit: `e952f063`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -71,8 +72,8 @@
 6. `Sentiment Bias in Betting Odds` - 31 edges
 7. `Tests of Conditional Predictive Ability` - 29 edges
 8. `PlayeRank Framework` - 29 edges
-9. `历史待核查：2026-09-12 Pre-Match Forecast` - 29 edges
-10. `赔率数值` - 28 edges
+9. `赔率数值` - 28 edges
+10. `Hierarchical Bayesian Poisson Football Score Model` - 28 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `test_回溯连续轨迹用例提炼单边变盘态势()` --legacy_unverified_relation--> `KTH 2024 Betting Exchange Liquidity Study`  [AMBIGUOUS]
@@ -290,8 +291,6 @@ Nodes (7): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势()
   分析复盘记录/2026-09-13_预测.md · relation: legacy_unverified_relation
 - `2026-09-13_预测.md` → `Hierarchical Bayesian Poisson Football Score Model`  [AMBIGUOUS]
   分析复盘记录/2026-09-13_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-11_预测.md` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
-  分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
 - `已取代：项目规则与数据口径审计` → `智慧复盘论文索引`  [AMBIGUOUS]
   温故而知新学习资料/README.md · relation: legacy_unverified_relation
 - `已取代：项目规则与数据口径审计` → `智慧经验与习惯塑形`  [AMBIGUOUS]
@@ -312,6 +311,8 @@ Nodes (7): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势()
   分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
 - `历史待核查：二、 周四007【德尔瓦耶 0:2 弗拉门戈】单挑失手深度复盘` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
   分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-11_预测.md` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
+  分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
 - `Hierarchical Bayesian Poisson Football Score Model` → `历史待核查：2026-09-06 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
 - `Hierarchical Bayesian Poisson Football Score Model` → `历史待核查：2026-09-07 Pre-Match Forecast`  [AMBIGUOUS]
@@ -416,6 +417,14 @@ Nodes (7): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势()
   分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
 - `Overall Accuracy & Real-time Scoreboard` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
+- `Clustered Probit Model` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
+  分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
+- `Sentiment Bias in Betting Odds` → `历史待核查：2026-09-10 Post-Match Review`  [AMBIGUOUS]
+  分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
+- `Sentiment Bias in Betting Odds` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
+  分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
+- `Sentiment Bias in Betting Odds` → `历史待核查：2026-09-12 Pre-Match Forecast`  [AMBIGUOUS]
+  分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
 - `ELO-Odds Rating System` → `历史待核查：2026-09-10 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-10_预测.md · relation: legacy_unverified_relation
 - `ELO-Odds Rating System` → `历史待核查：2026-09-10 Post-Match Review`  [AMBIGUOUS]
@@ -429,14 +438,6 @@ Nodes (7): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势()
 - `PlayeRank Framework` → `历史待核查：2026-09-11 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 - `PlayeRank Framework` → `历史待核查：2026-09-12 Pre-Match Forecast`  [AMBIGUOUS]
-  分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
-- `Clustered Probit Model` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
-  分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
-- `Sentiment Bias in Betting Odds` → `历史待核查：2026-09-10 Post-Match Review`  [AMBIGUOUS]
-  分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
-- `Sentiment Bias in Betting Odds` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
-  分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
-- `Sentiment Bias in Betting Odds` → `历史待核查：2026-09-12 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
 - `Asian Handicap (AH) Betting Market` → `历史待核查：2026-09-10 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-10_预测.md · relation: legacy_unverified_relation
@@ -452,18 +453,18 @@ Nodes (7): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势()
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 - `Odds-Only Equal Profitability Confidence (OO-EPC)` → `历史待核查：2026-09-12 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-11 Post-Match Review` → `历史待核查：2026-09-11 Pre-Match Forecast`  [AMBIGUOUS]
-  分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-11 Post-Match Review` → `历史待核查：2026-09-12 Pre-Match Forecast`  [AMBIGUOUS]
-  分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-12 Pre-Match Forecast` → `历史待核查：2026-09-11 Pre-Match Forecast`  [AMBIGUOUS]
-  分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-10 Pre-Match Forecast` → `历史待核查：2026-09-10 Post-Match Review`  [AMBIGUOUS]
   分析复盘记录/2026-09-10_预测.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-10 Pre-Match Forecast` → `历史待核查：2026-09-11 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-10_预测.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-10 Post-Match Review` → `历史待核查：2026-09-11 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-11 Pre-Match Forecast` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
+  分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-11 Pre-Match Forecast` → `历史待核查：2026-09-12 Pre-Match Forecast`  [AMBIGUOUS]
+  分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-11 Post-Match Review` → `历史待核查：2026-09-12 Pre-Match Forecast`  [AMBIGUOUS]
+  分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
 - **205 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+200 more)

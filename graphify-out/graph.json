@@ -14218,182 +14218,6 @@
     },
     {
       "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_13_\u590d\u76d8",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L108",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_13_\u9884\u6d4b",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L108",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "rec_20260912_forecast",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L109",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_12_\u590d\u76d8",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L109",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_11_\u590d\u76d8",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L110",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_11_\u9884\u6d4b",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L110",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_10_\u590d\u76d8",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L111",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_10_\u9884\u6d4b",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L111",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "rec_20260909_forecast",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L112",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_09_\u590d\u76d8",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L112",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "rec_20260908_forecast",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L113",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "rec_20260908_review",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L113",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "rec_20260907_forecast",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L114",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "rec_20260907_review",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L114",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "rec_20260906_forecast",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L115",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
-      "target": "rec_20260906_review",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/README.md",
-      "source_location": "L115",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_\u89c4\u5219\u5ba1\u8ba1",
       "target": "_____________habit_shaping_document",
       "relation": "references",
       "_origin": "ast",
@@ -18346,6 +18170,7 @@
       "target": "2024_kth_betting_exchange_liquidity",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18355,6 +18180,7 @@
       "target": "goto2026_oo_epc",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18364,6 +18190,7 @@
       "target": "mandadapu2024_study",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18373,6 +18200,7 @@
       "target": "team_attack_defence_effects",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18382,6 +18210,7 @@
       "target": "2019_nature_playerank",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18391,6 +18220,7 @@
       "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18400,6 +18230,7 @@
       "target": "2008_sentiment_sentiment_bias",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18409,6 +18240,7 @@
       "target": "goto2026_oo_epc",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18418,6 +18250,7 @@
       "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18427,6 +18260,7 @@
       "target": "lit_1710_02824_beating_bookies",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18436,6 +18270,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18445,6 +18280,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18454,6 +18290,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18463,6 +18300,7 @@
       "target": "team_attack_defence_effects",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18472,6 +18310,7 @@
       "target": "2024_kth_betting_exchange_liquidity",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18481,6 +18320,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18490,6 +18330,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18499,6 +18340,7 @@
       "target": "team_attack_defence_effects",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18508,6 +18350,7 @@
       "target": "2024_kth_betting_exchange_liquidity",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18517,6 +18360,7 @@
       "target": "asian_handicap_market",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18526,6 +18370,7 @@
       "target": "lit_1710_02824_beating_bookies",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18535,6 +18380,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18544,6 +18390,7 @@
       "target": "team_attack_defence_effects",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18553,6 +18400,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18562,6 +18410,7 @@
       "target": "review_paper_choe_2023",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18571,6 +18420,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18580,6 +18430,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18589,6 +18440,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18598,6 +18450,7 @@
       "target": "2024_kth_betting_exchange_liquidity",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18607,6 +18460,7 @@
       "target": "asian_handicap_market",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18616,6 +18470,7 @@
       "target": "goto2026_oo_epc",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18625,6 +18480,7 @@
       "target": "lit_1710_02824_beating_bookies",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18634,6 +18490,7 @@
       "target": "team_attack_defence_effects",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18643,6 +18500,7 @@
       "target": "review_paper_choe_2023",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18652,6 +18510,7 @@
       "target": "review_paper_macri_2025",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18661,6 +18520,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18670,6 +18530,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18679,6 +18540,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18688,6 +18550,7 @@
       "target": "review_paper_macri_2025",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18697,6 +18560,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18706,6 +18570,7 @@
       "target": "review_paper_choe_2023",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18715,6 +18580,7 @@
       "target": "review_paper_macri_2025",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18724,6 +18590,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18733,6 +18600,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18742,6 +18610,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18751,6 +18620,7 @@
       "target": "review_paper_choe_2023",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18760,6 +18630,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18769,6 +18640,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18778,6 +18650,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18787,6 +18660,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18796,6 +18670,7 @@
       "target": "2008_sentiment_sentiment_bias",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18805,6 +18680,7 @@
       "target": "2018_plos_elo_odds",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18814,6 +18690,7 @@
       "target": "2019_nature_playerank",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18823,6 +18700,7 @@
       "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18832,6 +18710,7 @@
       "target": "lit_1710_02824_beating_bookies",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18841,6 +18720,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18850,6 +18730,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18859,6 +18740,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18868,6 +18750,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18877,6 +18760,7 @@
       "target": "2008_sentiment_sentiment_bias",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18886,6 +18770,7 @@
       "target": "asian_handicap_market",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18895,6 +18780,7 @@
       "target": "goto2026_oo_epc",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18904,6 +18790,7 @@
       "target": "mandadapu2024_study",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18913,6 +18800,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18922,6 +18810,7 @@
       "target": "review_paper_choe_2023",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18931,6 +18820,7 @@
       "target": "review_paper_macri_2025",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18940,6 +18830,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18949,6 +18840,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18958,6 +18850,7 @@
       "target": "review_paper_macri_2025",
       "relation": "academic_methodological_dialogue",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.4
@@ -18967,6 +18860,7 @@
       "target": "shin_normalization",
       "relation": "analyzes_305_draw_odds_under_shin",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -18976,6 +18870,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "analyzes_deep_handicap_conditional_failures",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -18985,6 +18880,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "analyzes_mechanical_veto_as_outcome_bias",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -18994,6 +18890,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "applies_empirical_poisson_validation",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19003,6 +18900,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "applies_empirical_poisson_validation",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19012,6 +18910,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "applies_empirical_poisson_validation",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19021,6 +18920,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "applies_empirical_poisson_validation",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19030,6 +18930,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "applies_empirical_poisson_validation",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19039,6 +18940,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "applies_empirical_poisson_validation",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19048,6 +18950,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "applies_empirical_poisson_validation",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19057,6 +18960,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "applies_empirical_poisson_validation",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19066,6 +18970,7 @@
       "target": "2019_nature_playerank",
       "relation": "bridges_dynamic_power_priors_to_player_xg_chains",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -19075,6 +18980,7 @@
       "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
       "relation": "calculates_real_madrid_030_handicap_overhaul",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -19084,6 +18990,7 @@
       "target": "agents_analysis_rules",
       "relation": "calibrates_draw_probabilities_via_optimal_binning",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -19093,6 +19000,7 @@
       "target": "1710_02824_consensus_probability",
       "relation": "capa1_consensus_probability_benchmark",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19102,6 +19010,7 @@
       "target": "2024_kth_betting_exchange_liquidity",
       "relation": "capa1_order_flow_liquidity_trajectory",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19111,6 +19020,7 @@
       "target": "shin_normalization",
       "relation": "capa1_shin_devigging_and_insider_z",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19120,6 +19030,7 @@
       "target": "team_attack_defence_effects",
       "relation": "capa2_attack_defence_strength_modeling",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19129,6 +19040,7 @@
       "target": "2018_plos_elo_odds",
       "relation": "capa2_bors_rating_and_elo_gap",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19138,6 +19050,7 @@
       "target": "2019_nature_playerank",
       "relation": "capa3_playeRank_xg_chain_and_buildup",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19147,6 +19060,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2025_success_score_deep_learning_football_prediction_success_score",
       "relation": "capa3_success_score_deep_metrics",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19156,6 +19070,7 @@
       "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
       "relation": "capa4_hierarchical_poisson_bivariate_matrix",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19165,6 +19080,7 @@
       "target": "2008_sentiment_sentiment_bias",
       "relation": "capa5_retail_heavy_favourite_sentiment_bias",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19174,6 +19090,7 @@
       "target": "mandadapu2024_study",
       "relation": "capa6_draw_30_weighted_decision_scoring",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19183,6 +19100,7 @@
       "target": "goto2026_oo_epc",
       "relation": "capa7_ev_and_odds_only_pure_prediction",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19192,6 +19110,7 @@
       "target": "asian_handicap_market",
       "relation": "capa8_asian_handicap_bayesian_network_hedging",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19201,6 +19120,7 @@
       "target": "constantinou_hybrid_bn_model",
       "relation": "capa8_hybrid_bayesian_network_decision_synthesis",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19210,6 +19130,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "compares_simple_vs_complex_models_conditionally",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -19219,6 +19140,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "computes_daily_brier_and_log_loss",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -19228,6 +19150,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "computes_proper_scoring",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19237,6 +19160,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "computes_proper_scoring",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19246,6 +19170,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "computes_proper_scoring",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19255,6 +19180,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "computes_proper_scoring",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19264,6 +19190,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "computes_proper_scoring",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19273,6 +19200,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "computes_proper_scoring",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19282,6 +19210,7 @@
       "target": "shin_normalization",
       "relation": "computes_shin_fair_probabilities",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19291,6 +19220,7 @@
       "target": "shin_normalization",
       "relation": "computes_shin_fair_probabilities",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19300,6 +19230,7 @@
       "target": "shin_normalization",
       "relation": "computes_shin_fair_probabilities",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19309,6 +19240,7 @@
       "target": "shin_normalization",
       "relation": "computes_shin_fair_probabilities",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19318,6 +19250,7 @@
       "target": "shin_normalization",
       "relation": "computes_shin_fair_probabilities",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19327,6 +19260,7 @@
       "target": "shin_normalization",
       "relation": "computes_shin_fair_probabilities",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19336,6 +19270,7 @@
       "target": "shin_normalization",
       "relation": "computes_shin_fair_probabilities",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19345,6 +19280,7 @@
       "target": "shin_normalization",
       "relation": "computes_shin_fair_probabilities",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -19354,6 +19290,7 @@
       "target": "shin_normalization",
       "relation": "connects_emh_analytical_conversion_to_shin",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19363,6 +19300,7 @@
       "target": "shin_normalization",
       "relation": "connects_emh_numerical_conversion_to_shin",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19372,6 +19310,7 @@
       "target": "agents_analysis_rules",
       "relation": "contextualizes_agents_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19381,6 +19320,7 @@
       "target": "rec_20260907_review",
       "relation": "contextualizes_historical_cagliari_audit",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19390,6 +19330,7 @@
       "target": "\u811a\u672c_\u9002\u914d\u5668_\u5fae\u89c2\u7403\u5458\u63a5\u53e3_\u5fae\u89c2\u7403\u5458\u9002\u914d\u5668",
       "relation": "contextualizes_micro_data_pipeline",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19399,6 +19340,7 @@
       "target": "rec_20260908_review",
       "relation": "contextualizes_pipeline_synergy",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19408,6 +19350,7 @@
       "target": "\u811a\u672c_\u9002\u914d\u5668_\u4f53\u5f69\u63a5\u53e3_\u4f53\u5f69\u5b98\u65b9\u9002\u914d\u5668",
       "relation": "contextualizes_pipeline_synergy",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19417,6 +19360,7 @@
       "target": "rec_20260908_review",
       "relation": "contextualizes_redlines_evolution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19426,6 +19370,7 @@
       "target": "readme_system_manual",
       "relation": "contextualizes_trinity_architecture",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -19435,6 +19380,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19444,6 +19390,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19453,6 +19400,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19462,6 +19410,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19471,6 +19420,7 @@
       "target": "agents_market_identity",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19480,6 +19430,7 @@
       "target": "readme_system_manual",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19489,6 +19440,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19498,6 +19450,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19507,6 +19460,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19516,6 +19470,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19525,6 +19480,7 @@
       "target": "agents_market_identity",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19534,6 +19490,7 @@
       "target": "readme_system_manual",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19543,6 +19500,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19552,6 +19510,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19561,6 +19520,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19570,6 +19530,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19579,6 +19540,7 @@
       "target": "agents_market_identity",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19588,6 +19550,7 @@
       "target": "readme_system_manual",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19597,6 +19560,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19606,6 +19570,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19615,6 +19580,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19624,6 +19590,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19633,6 +19600,7 @@
       "target": "agents_market_identity",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19642,6 +19610,7 @@
       "target": "readme_system_manual",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19651,6 +19620,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19660,6 +19630,7 @@
       "target": "agents_analysis_rules",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19669,6 +19640,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19678,6 +19650,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19687,6 +19660,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19696,6 +19670,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19705,6 +19680,7 @@
       "target": "agents_market_identity",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19714,6 +19690,7 @@
       "target": "readme_system_manual",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19723,6 +19700,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19732,6 +19710,7 @@
       "target": "agents_analysis_rules",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19741,6 +19720,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19750,6 +19730,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19759,6 +19740,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19768,6 +19750,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19777,6 +19760,7 @@
       "target": "agents_market_identity",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19786,6 +19770,7 @@
       "target": "readme_system_manual",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19795,6 +19780,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19804,6 +19790,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19813,6 +19800,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19822,6 +19810,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19831,6 +19820,7 @@
       "target": "agents_market_identity",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19840,6 +19830,7 @@
       "target": "readme_system_manual",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19849,6 +19840,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19858,6 +19850,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19867,6 +19860,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19876,6 +19870,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19885,6 +19880,7 @@
       "target": "agents_market_identity",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19894,6 +19890,7 @@
       "target": "readme_system_manual",
       "relation": "deep_forecast_executes_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19903,6 +19900,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19912,6 +19910,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19921,6 +19920,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19930,6 +19930,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19939,6 +19940,7 @@
       "target": "agents_market_identity",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19948,6 +19950,7 @@
       "target": "readme_system_manual",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19957,6 +19960,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19966,6 +19970,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19975,6 +19980,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19984,6 +19990,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -19993,6 +20000,7 @@
       "target": "agents_market_identity",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20002,6 +20010,7 @@
       "target": "readme_system_manual",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20011,6 +20020,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20020,6 +20030,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20029,6 +20040,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20038,6 +20050,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20047,6 +20060,7 @@
       "target": "agents_market_identity",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20056,6 +20070,7 @@
       "target": "readme_system_manual",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20065,6 +20080,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20074,6 +20090,7 @@
       "target": "agents_analysis_rules",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20083,6 +20100,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20092,6 +20110,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20101,6 +20120,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20110,6 +20130,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20119,6 +20140,7 @@
       "target": "agents_market_identity",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20128,6 +20150,7 @@
       "target": "readme_system_manual",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20137,6 +20160,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20146,6 +20170,7 @@
       "target": "agents_analysis_rules",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20155,6 +20180,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20164,6 +20190,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20173,6 +20200,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20182,6 +20210,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20191,6 +20220,7 @@
       "target": "agents_market_identity",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20200,6 +20230,7 @@
       "target": "readme_system_manual",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20209,6 +20240,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20218,6 +20250,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20227,6 +20260,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20236,6 +20270,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20245,6 +20280,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20254,6 +20290,7 @@
       "target": "agents_market_identity",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20263,6 +20300,7 @@
       "target": "readme_system_manual",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20272,6 +20310,7 @@
       "target": "agents_anti_rigidity_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20281,6 +20320,7 @@
       "target": "agents_conditional_review",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20290,6 +20330,7 @@
       "target": "agents_evidence_boundaries",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20299,6 +20340,7 @@
       "target": "agents_full_score_distribution",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20308,6 +20350,7 @@
       "target": "agents_market_identity",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20317,6 +20360,7 @@
       "target": "readme_system_manual",
       "relation": "deep_review_governed_by_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.6
@@ -20326,6 +20370,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "demonstrates_high_draw_odds_barrier_payout",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -20335,6 +20380,7 @@
       "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_12_\u590d\u76d8",
       "relation": "diagnoses_ptsd_overfitting_after_017_loss",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20344,6 +20390,7 @@
       "target": "2019_nature_playerank",
       "relation": "dissects_osasuna_017_midfield_engine_collapse",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20353,6 +20400,7 @@
       "target": "team_attack_defence_effects",
       "relation": "dynamically_weights_attack_defense_parameters",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20362,6 +20410,7 @@
       "target": "lit_1710_02824_beating_bookies",
       "relation": "empirically_tests_beating_odds_in_bundesliga",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20371,6 +20420,7 @@
       "target": "asian_handicap_market",
       "relation": "establishes_closed_had_open_book_exam_paradigm",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20380,6 +20430,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "evaluates_calibration",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20389,6 +20440,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "evaluates_calibration",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20398,6 +20450,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "evaluates_calibration",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20407,6 +20460,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "evaluates_calibration",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20416,6 +20470,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "evaluates_calibration",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20425,6 +20480,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "evaluates_calibration",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20434,6 +20490,7 @@
       "target": "agents_analysis_rules",
       "relation": "evaluates_capa7_probabilistic_forecast_accuracy",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20443,6 +20500,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "evaluates_outcome_bias",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20452,6 +20510,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "evaluates_outcome_bias",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20461,6 +20520,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "evaluates_outcome_bias",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20470,6 +20530,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "evaluates_outcome_bias",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20479,6 +20540,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "evaluates_outcome_bias",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20488,6 +20550,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "evaluates_proper_scoring_and_brier_risk",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20497,6 +20560,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "evaluates_proper_scoring_and_brier_risk",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20506,6 +20570,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "evaluates_proper_scoring_and_brier_risk",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20515,6 +20580,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "evaluates_proper_scoring_and_brier_risk",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20524,6 +20590,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "evaluates_proper_scoring_and_brier_risk",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20533,6 +20600,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "evaluates_proper_scoring_and_brier_risk",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20542,6 +20610,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "evaluates_proper_scoring_and_brier_risk",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20551,6 +20620,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "evaluates_proper_scoring_and_brier_risk",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20560,6 +20630,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "evaluates_subgroup_conditional_model_performance",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20569,6 +20640,7 @@
       "target": "review_paper_macri_2025",
       "relation": "explains_lens_012_and_sporting_022_fatigue_draws",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20578,6 +20650,7 @@
       "target": "lit_1710_02824_beating_bookies",
       "relation": "exploits_bookmaker_pricing_inefficiency_in_turkey",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20587,6 +20660,7 @@
       "target": "\u811a\u672c_\u9886\u57df_\u6a21\u578b_\u6821\u9a8c\u6df1\u76d8\u51b7\u5e73\u653e\u884c\u8d44\u683c",
       "relation": "grounds_conditional_deep_handicap_release",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20596,6 +20670,7 @@
       "target": "\u811a\u672c_\u9886\u57df_\u6a21\u578b_\u6821\u9a8c\u653b\u9632\u4f24\u505c\u5e73\u5c40\u8d44\u683c",
       "relation": "grounds_fatigue_and_injury_impact_weighting",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20605,6 +20680,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "grounds_jobs_mindset_in_decision_quality_theory",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20614,6 +20690,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "grounds_non_european_parity_rule",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -20623,6 +20700,7 @@
       "target": "2008_sentiment_sentiment_bias",
       "relation": "grounds_outcome_bias_in_sentiment_distortion",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20632,6 +20710,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "grounds_rps_ranked_probability_scoring",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20641,6 +20720,7 @@
       "target": "readme_system_manual",
       "relation": "guards_t_2h_lock_in_protocol",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20650,6 +20730,7 @@
       "target": "2008_sentiment_sentiment_bias",
       "relation": "identifies_heritage_favorite_away_draw_trap",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20659,6 +20740,7 @@
       "target": "review_paper_macri_2025",
       "relation": "implements_dynamic_fatigue_and_fixture_congestion_check",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20668,6 +20750,7 @@
       "target": "paper_markdown_wilkens",
       "relation": "implements_high_draw_odds_barrier_filter",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20677,6 +20760,7 @@
       "target": "constantinou_hybrid_bn_model",
       "relation": "implements_hybrid_bayesian_network_arbitrage",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20686,6 +20770,7 @@
       "target": "2024_kth_betting_exchange_liquidity",
       "relation": "implements_order_flow_displacement_quantification",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20695,6 +20780,7 @@
       "target": "paper_markdown_wheatcroft",
       "relation": "implements_proper_scoring_rule_aggregation",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20704,6 +20790,7 @@
       "target": "shin_normalization",
       "relation": "implements_shin_and_devigging_value_object",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20713,6 +20800,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "integrates_into_right_brain_chip",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -20722,6 +20810,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "justifies_conditional_release_of_deep_handicap_draws",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20731,6 +20820,7 @@
       "target": "perezblanco2025_study",
       "relation": "links_rps_to_tactical_fouls_study",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20740,6 +20830,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "plots_daily_draw_calibration",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20749,6 +20840,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "prepares_calibration_data_for_corp",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20758,6 +20850,7 @@
       "target": "review_paper_choe_2023",
       "relation": "prepares_sequential_anytime_valid_history",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.2
@@ -20767,6 +20860,7 @@
       "target": "agents_analysis_rules",
       "relation": "prevents_lookahead_bias_and_train_test_leakage",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20776,6 +20870,7 @@
       "target": "team_attack_defence_effects",
       "relation": "proves_south_american_defense_equilibrium",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20785,6 +20880,7 @@
       "target": "rec_overall_accuracy",
       "relation": "provides_nonparametric_calibration_reliability_plot",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20794,6 +20890,7 @@
       "target": "agents_analysis_rules",
       "relation": "provides_theoretical_antidote_to_hindsight_bias",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20803,6 +20900,7 @@
       "target": "review_paper_macri_2025",
       "relation": "quantifies_european_fixture_congestion_exhaustion",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -20812,6 +20910,7 @@
       "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
       "relation": "recomputes_bivariate_poisson_win_margin",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -20821,6 +20920,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "reinforces_jobs_kiss_philosophy_with_simple_model_evidence",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20830,6 +20930,7 @@
       "target": "wenguerzhixin_xuexiziliao_1802_08848_bayesian_poisson_model",
       "relation": "replicates_poisson_benchmarks_across_decades",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20839,6 +20940,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5",
       "relation": "shields_against_data_snooping_in_time_series",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20848,6 +20950,7 @@
       "target": "rec_overall_accuracy",
       "relation": "supplies_brier_and_log_loss_metrics",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20857,6 +20960,7 @@
       "target": "agents_analysis_rules",
       "relation": "supplies_conditional_predictive_ability_framework",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20866,6 +20970,7 @@
       "target": "agents_analysis_rules",
       "relation": "supplies_dynamic_team_ratings_for_capa2_and_capa3",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20875,6 +20980,7 @@
       "target": "rec_overall_accuracy",
       "relation": "supplies_time_uniform_confidence_sequences",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20884,6 +20990,7 @@
       "target": "review_paper_dimitriadis_2021",
       "relation": "synergizes_proper_scoring_rules_with_corp_diagrams",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20893,6 +21000,7 @@
       "target": "shin_normalization",
       "relation": "tests_shin_model_under_market_subconditions",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20902,6 +21010,7 @@
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "relation": "uncovers_excessive_systemic_defense",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -20911,6 +21020,7 @@
       "target": "2008_sentiment_sentiment_bias",
       "relation": "unmasks_celta_retail_heavy_sentiment",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -20920,6 +21030,7 @@
       "target": "2008_sentiment_sentiment_bias",
       "relation": "unmasks_hacken_fake_deep_line_trap",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -20929,6 +21040,7 @@
       "target": "agents_analysis_rules",
       "relation": "updates_left_brain_constitution",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.9
@@ -20938,6 +21050,7 @@
       "target": "review_paper_choe_2023",
       "relation": "updates_sequential_confidence",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20947,6 +21060,7 @@
       "target": "review_paper_choe_2023",
       "relation": "updates_sequential_confidence",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20956,6 +21070,7 @@
       "target": "review_paper_choe_2023",
       "relation": "updates_sequential_confidence",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20965,6 +21080,7 @@
       "target": "review_paper_choe_2023",
       "relation": "updates_sequential_confidence",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20974,6 +21090,7 @@
       "target": "review_paper_choe_2023",
       "relation": "updates_sequential_confidence",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20983,6 +21100,7 @@
       "target": "review_paper_choe_2023",
       "relation": "updates_sequential_confidence",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -20992,6 +21110,7 @@
       "target": "review_paper_choe_2023",
       "relation": "updates_sequential_confidence",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21001,6 +21120,7 @@
       "target": "agents_analysis_rules",
       "relation": "validates_capa4_poisson_distribution_in_top_leagues",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -21010,6 +21130,7 @@
       "target": "agents_analysis_rules",
       "relation": "validates_sequential_anytime_learning_without_peeking",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -21019,6 +21140,7 @@
       "target": "shin_normalization",
       "relation": "validates_sporttery_defensive_drop_292_and_258",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -21028,6 +21150,7 @@
       "target": "shin_normalization",
       "relation": "validates_tokyo_verdy_001_devigged_probability",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -21037,6 +21160,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "verifies_conditional_predictive_ability",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21046,6 +21170,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "verifies_conditional_predictive_ability",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21055,6 +21180,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "verifies_conditional_predictive_ability",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21064,6 +21190,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "verifies_conditional_predictive_ability",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21073,6 +21200,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "verifies_conditional_predictive_ability",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21082,6 +21210,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "verifies_conditional_predictive_ability",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21091,6 +21220,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "verifies_conditional_predictive_ability",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21100,6 +21230,7 @@
       "target": "review_paper_giacomini_2006",
       "relation": "verifies_conditional_predictive_ability",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21109,6 +21240,7 @@
       "target": "_____________habit_shaping_document",
       "relation": "warns_against_cherry_picking_post_match_subgroups",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 2.0
@@ -21118,6 +21250,7 @@
       "target": "review_paper_macri_2025",
       "relation": "weights_dynamic_fatigue_and_injuries",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21127,6 +21260,7 @@
       "target": "review_paper_macri_2025",
       "relation": "weights_dynamic_fatigue_and_injuries",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21136,6 +21270,7 @@
       "target": "review_paper_macri_2025",
       "relation": "weights_dynamic_fatigue_and_injuries",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21145,6 +21280,7 @@
       "target": "review_paper_macri_2025",
       "relation": "weights_dynamic_fatigue_and_injuries",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21154,6 +21290,7 @@
       "target": "review_paper_macri_2025",
       "relation": "weights_dynamic_fatigue_and_injuries",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21163,6 +21300,7 @@
       "target": "review_paper_macri_2025",
       "relation": "weights_dynamic_fatigue_and_injuries",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21172,6 +21310,7 @@
       "target": "review_paper_macri_2025",
       "relation": "weights_dynamic_fatigue_and_injuries",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21181,6 +21320,7 @@
       "target": "review_paper_macri_2025",
       "relation": "weights_dynamic_fatigue_and_injuries",
       "_origin": "semantic",
+      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u811a\u672c/\u6df1\u5ea6\u8054\u60f3\u8fde\u7ebf.py",
       "weight": 1.8
@@ -21268,5 +21408,5 @@
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md"
     }
   ],
-  "built_at_commit": "02b0afadb83fa6b9450b31acc6377838cf57d927"
+  "built_at_commit": "e952f063cfc3ed5d21bee95f282418ded9ad4729"
 }
