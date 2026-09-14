@@ -379,6 +379,11 @@ def 超密集编织图谱(图谱路径=None, 是否落盘=None):
         else:
             data["edges"] = all_links
         path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        # 物理防孤岛断路器：自动调用官方编译同步 graph.html，杜绝 json 与 html 双轨脱节
+        import subprocess, shutil
+        exe = shutil.which("graphify") or r"C:\Users\home\AppData\Roaming\uv\tools\graphifyy\Scripts\graphify.exe"
+        if Path(exe).exists():
+            subprocess.run([exe, "export", "html", "--graph", str(path)], capture_output=True, text=True)
 
     report = {
         "节点": len(nodes),
