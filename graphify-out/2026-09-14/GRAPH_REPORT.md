@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-14)
 
 ## Corpus Check
-- 60 files · ~1,332,562 words
+- 60 files · ~1,332,569 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .db 1)
 
 ## Summary
-- 539 nodes · 1268 edges · 46 communities (29 shown, 17 thin omitted)
-- Extraction: 59% EXTRACTED · 31% INFERRED · 10% AMBIGUOUS · INFERRED: 390 edges (avg confidence: 0.94)
+- 539 nodes · 1270 edges · 46 communities (29 shown, 17 thin omitted)
+- Extraction: 60% EXTRACTED · 31% INFERRED · 10% AMBIGUOUS · INFERRED: 390 edges (avg confidence: 0.94)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e952f063`
+- Built from commit: `c6fb19b8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -64,7 +64,7 @@
 - 赔率快照
 
 ## God Nodes (most connected - your core abstractions)
-1. `足球概率分析现行规程` - 60 edges
+1. `足球概率分析现行规程` - 61 edges
 2. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
 3. `赔率快照` - 45 edges
 4. `智慧经验与习惯塑形` - 37 edges

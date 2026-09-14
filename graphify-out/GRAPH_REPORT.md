@@ -1,22 +1,22 @@
 # Graph Report - 足球预测  (2026-09-14)
 
 ## Corpus Check
-- 60 files · ~1,332,569 words
+- 61 files · ~1,332,918 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .db 1)
 
 ## Summary
-- 539 nodes · 1270 edges · 46 communities (29 shown, 17 thin omitted)
-- Extraction: 60% EXTRACTED · 31% INFERRED · 10% AMBIGUOUS · INFERRED: 390 edges (avg confidence: 0.94)
+- 551 nodes · 1285 edges · 48 communities (31 shown, 17 thin omitted)
+- Extraction: 60% EXTRACTED · 30% INFERRED · 10% AMBIGUOUS · INFERRED: 390 edges (avg confidence: 0.94)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c6fb19b8`
+- Built from commit: `a9c742d9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- 赔率账本契约
+- 赔率快照
 - 2023_Aiyer_结果偏见与决策评价.md
 - 微观球员适配器
 - 历史待核查：2026-09-10（周四）中国体彩平局全要素深度复盘与盲区审计报告
@@ -29,7 +29,7 @@
 - **RESULTS**
 - 2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告
 - **DISCUSSION**
-- 刷新总对账看板
+- test_对账机.py
 - **METHOD**
 - 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
 - Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计
@@ -55,19 +55,21 @@
 - PDF 第 25 页
 - PDF 第 34 页
 - PDF 第 28 页
+- 心电图录像机.py
+- 2026-09-14（周一）中国体育彩票精算推演报告
+- **ABSTRACT**
 - 历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）
 - 2026-09-09（周三）中国体彩平局全要素深度复盘报告
 - 已取代：智慧复盘论文索引
-- 本地账本仓储
 - 赔率数值
+- 模型.py
 - 体彩官方适配器
-- 赔率快照
 
 ## God Nodes (most connected - your core abstractions)
-1. `足球概率分析现行规程` - 61 edges
+1. `足球概率分析现行规程` - 62 edges
 2. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
 3. `赔率快照` - 45 edges
-4. `智慧经验与习惯塑形` - 37 edges
+4. `智慧经验与习惯塑形` - 38 edges
 5. `Wheatcroft 论文 Markdown（附公式与图表）` - 31 edges
 6. `Sentiment Bias in Betting Odds` - 31 edges
 7. `Tests of Conditional Predictive Ability` - 29 edges
@@ -98,19 +100,19 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (46 total, 17 thin omitted)
+## Communities (48 total, 17 thin omitted)
 
-### Community 0 - "赔率账本契约"
+### Community 0 - "赔率快照"
 Cohesion: 0.13
-Nodes (22): ABC, 回溯连续轨迹用例, 探测并记录心电图用例, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, 探测并记录心电图用例 (+14 more)
+Nodes (17): ABC, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 探测并记录心电图用例, 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势(), test_探测并记录心电图用例捕获异动跳水(), 内存模拟提供者, 内存模拟账本 (+9 more)
 
 ### Community 1 - "2023_Aiyer_结果偏见与决策评价.md"
-Cohesion: 0.12
-Nodes (66): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+58 more)
+Cohesion: 0.11
+Nodes (70): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+62 more)
 
 ### Community 2 - "微观球员适配器"
 Cohesion: 0.07
-Nodes (32): Any, parametrize, test_微观球员适配器严格断言完场比分(), test_微观球员适配器提取交锋历史H2H(), test_微观球员适配器提取比赛微观高阶数据(), test_微观球员适配器提取球员高阶链条数据(), test_微观球员适配器解析伤停数据(), test_微观球员适配器计算体能负荷() (+24 more)
+Nodes (28): Any, parametrize, test_微观球员适配器严格断言完场比分(), test_微观球员适配器提取交锋历史H2H(), test_微观球员适配器提取比赛微观高阶数据(), test_微观球员适配器提取球员高阶链条数据(), test_微观球员适配器解析伤停数据(), test_微观球员适配器计算体能负荷() (+20 more)
 
 ### Community 3 - "历史待核查：2026-09-10（周四）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.20
@@ -126,7 +128,7 @@ Nodes (6): 概率评分、校准、命中率与收益分开, 赛前实际时间�
 
 ### Community 6 - "足球概率分析现行规程"
 Cohesion: 0.06
-Nodes (75): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, ELO-Goals Rating System (+67 more)
+Nodes (71): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, ELO-Goals Rating System (+63 more)
 
 ### Community 7 - "足球概率预测评分比较（Wheatcroft，2019预印本）"
 Cohesion: 0.12
@@ -141,16 +143,16 @@ Cohesion: 0.13
 Nodes (15): **CONFIRMATORY (PRE-REGISTERED) RESULTS** Replication: Decision Quality, **EXPLORATORY RESULTS (NOT PREREGISTERED)**, **EXTENSIONS**, Mediation Analyses, PDF 第 10 页, PDF 第 11 页, PDF 第 7 页, PDF 第 8 页 (+7 more)
 
 ### Community 11 - "2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告"
-Cohesion: 0.22
-Nodes (9): 1. 红线 2（伪降水死锁）机械误杀三大豪门客平局（018 摩纳哥 1:1、020 米兰 2:2、028 里昂 0:0）, 1. 赛前已知特征与当时推演假设, 2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告, 2. 真实赛况与血淋淋认知盲区, 2. 红线 4（均势大球前置锁）机械误杀两场对攻大球平局（013 伯恩茅斯 2:2、023 科隆 1:1）, 3. 红线 1（强队深盘一票否决）机械误杀四大豪门冷平（010 勒沃库森 2:2、012 切尔西 2:2、016 利物浦 0:0、024 毕包 1:1）, 一、 头号猎物【周六017 奥萨苏纳 0:2 西班牙人】崩盘根因深度剖析, 三、 10 场漏网平局的三大系统级机械误杀归因 (+1 more)
+Cohesion: 0.17
+Nodes (12): 1. 红线 2（伪降水死锁）机械误杀三大豪门客平局（018 摩纳哥 1:1、020 米兰 2:2、028 里昂 0:0）, 1. 赛前已知特征与当时推演假设, 1. 赛前推演与当时假设, 2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告, 2. 真实赛况与血淋淋认知盲区, 2. 真实赛果与 `football-match-analysis` 硬核量化复盘, 2. 红线 4（均势大球前置锁）机械误杀两场对攻大球平局（013 伯恩茅斯 2:2、023 科隆 1:1）, 3. 红线 1（强队深盘一票否决）机械误杀四大豪门冷平（010 勒沃库森 2:2、012 切尔西 2:2、016 利物浦 0:0、024 毕包 1:1） (+4 more)
 
 ### Community 12 - "**DISCUSSION**"
-Cohesion: 0.11
-Nodes (17): **ABSTRACT**, Broader Importance of Outcome Bias, Constraints on Generality, **CORRESPONDING AUTHOR: Gilad Feldman**, **DISCUSSION**, **EXTENSIONS**, **KEYWORDS:**, Limitations and Future Directions (+9 more)
+Cohesion: 0.17
+Nodes (12): Broader Importance of Outcome Bias, Constraints on Generality, **DISCUSSION**, **EXTENSIONS**, Limitations and Future Directions, PDF 第 12 页, PDF 第 13 页, PDF 第 14 页 (+4 more)
 
-### Community 13 - "刷新总对账看板"
-Cohesion: 0.33
-Nodes (8): 汇总复盘卡片的申报计数；不认证赛前封存、不修改经验或训练模型。, 刷新总对账看板(), 计数(), 读取卡片(), test_对账允许零胜率且不猜头号推荐(), test_空目录不除零(), test_错误计数不覆盖原看板(), write_card()
+### Community 13 - "test_对账机.py"
+Cohesion: 0.28
+Nodes (7): 汇总复盘卡片的申报计数；不认证赛前封存、不修改经验或训练模型。, 计数(), 读取卡片(), test_对账允许零胜率且不猜头号推荐(), test_空目录不除零(), test_错误计数不覆盖原看板(), write_card()
 
 ### Community 14 - "**METHOD**"
 Cohesion: 0.22
@@ -188,6 +190,18 @@ Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: R
 Cohesion: 0.67
 Nodes (3): **3.2 Datasets for empirical evaluations**, **3.3 Evaluation measures for forecasting**, PDF 第 14 页
 
+### Community 39 - "心电图录像机.py"
+Cohesion: 0.24
+Nodes (9): 回溯连续轨迹用例, 探测并记录心电图用例, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, main(), 足球倍率心电图连续录像机 - 组装根 (Composition Root) 纯正 10/10 DDD 洋葱整洁架构，信达雅全中文命名, 展示比赛轨迹(), 执行单次探测() (+1 more)
+
+### Community 40 - "2026-09-14（周一）中国体育彩票精算推演报告"
+Cohesion: 0.18
+Nodes (11): 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. 为什么不再机械一票否决？（深盘放行法则）, 2026-09-14（周一）中国体育彩票精算推演报告, 2. Capa 3 & 4 [API] 攻防均衡与法乙平局温床, 2. Capa 5 & 7 [IND] 破除高比分平局误杀, 3. Capa 7 [IND] 比分与落点, 一、 【头号黄金猎物·均势低平】周一009 法乙 圣旺红星 vs 梅斯 (+3 more)
+
+### Community 41 - "**ABSTRACT**"
+Cohesion: 0.40
+Nodes (5): **ABSTRACT**, **CORRESPONDING AUTHOR: Gilad Feldman**, **KEYWORDS:**, PDF 第 2 页, **TO CITE THIS ARTICLE:**
+
 ### Community 42 - "历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）"
 Cohesion: 0.33
 Nodes (6): 历史待核查：1. 周五012 巴甲：科里蒂巴 vs 巴拉纳竞技【黄金第一猎物 ⬆️】, 历史待核查：2026-09-11 竞彩足球平局精算推演报告, 历史待核查：2. 周五011 西甲：塞维利亚 vs 巴伦西亚【黄金第二猎物】, 历史待核查：3. 周五008 意甲：威尼斯 vs 佛罗伦萨【第二梯队对冲观察】, 历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）, 历史待核查：二、 严格过筛：红线断路器执行记录
@@ -200,21 +214,17 @@ Nodes (5): 1. 🎯 【周三001 江原FC 1:1 全北现代】（赛果：平局 1
 Cohesion: 0.40
 Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取代：智慧复盘论文索引, 已取代：第二批：条件适应与连续评估, 已取代：面向本项目的应用建议（综合提炼，尚未验证改进效果）
 
-### Community 45 - "本地账本仓储"
-Cohesion: 0.15
-Nodes (10): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_不会跨周拼接同名场次(), test_让球快照入库回读不丢失市场(), 赔率快照, DDD 输出适配器 - SQLite 赔率心电图连续账本 负责在结构化本地数据目录中存储和检索时序快照 (+2 more)
+### Community 45 - "赔率数值"
+Cohesion: 0.10
+Nodes (21): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_不会跨周拼接同名场次(), test_旧账本迁移保持原赔率并识别让球(), test_让球快照入库回读不丢失市场(), 断言强队胜赔<1.60时，若满足铁桶、多赛疲劳或高平阻盘，严禁机械枪毙，必须放行 (+13 more)
 
-### Community 46 - "赔率数值"
-Cohesion: 0.17
-Nodes (13): 断言强队胜赔<1.60时，若满足铁桶、多赛疲劳或高平阻盘，严禁机械枪毙，必须放行, test_客优于主且平赔下降只记录观测(), test_深盘冷平放行资格防003_006_012_022机械误杀(), test_热门主队平赔上升只记录观测(), test_赔率下降不因客队占优被解释为机构动机(), test_赔率快照计算连续位移与异动信号(), test_赔率数值拒绝非正数非法输入(), test_赔率数值验证与去水计算() (+5 more)
+### Community 46 - "模型.py"
+Cohesion: 0.24
+Nodes (6): DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 记录结果, 轨迹结果, DDD 领域模型核心 - 纯净 Python，零框架依赖 包含：胜平负赔率值对象、时序位移值对象、单场比赛心电图聚合根实体, 旧接口名兼容：仅是可调的变动提醒，不判定机构意图或胜负。, 赔率位移
 
 ### Community 47 - "体彩官方适配器"
-Cohesion: 0.18
-Nodes (10): Answer, Outcome, Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制, Source Nodes, test_体彩官方适配器在基础胜平负关闭时自动捕获让球盘(), test_体彩官方适配器安全过滤无赔率异常赛事(), test_体彩官方适配器解析原始数据为纯净领域快照(), DDD 适配器防腐层 - 中国体彩官方 API 适配器 负责将不可控的外部体彩原始 JSON 清洗转化为优雅纯净的领域实体 (+2 more)
-
-### Community 49 - "赔率快照"
-Cohesion: 0.16
-Nodes (7): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势(), 内存模拟账本, 赔率快照, 聚合根实体：带时间戳与赛事身份的心电图观测点, 只比较同场、同市场、同让球线且时间递增的观测。, 赔率快照
+Cohesion: 0.15
+Nodes (11): Answer, Outcome, Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制, Source Nodes, test_体彩官方适配器在基础胜平负关闭时自动捕获让球盘(), test_体彩官方适配器安全过滤无赔率异常赛事(), test_体彩官方适配器解析原始数据为纯净领域快照(), 赔率快照 (+3 more)
 
 ## Ambiguous Edges - Review These
 - `探测并记录心电图用例` → `体彩官方适配器`  [AMBIGUOUS]
@@ -467,8 +477,8 @@ Nodes (7): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势()
   分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **205 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+200 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 253 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **212 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+207 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 260 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
