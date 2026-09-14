@@ -1,21 +1,21 @@
 # Graph Report - 足球预测  (2026-09-14)
 
 ## Corpus Check
-- 60 files · ~1,330,976 words
+- 60 files · ~1,331,191 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 531 nodes · 949 edges · 45 communities (29 shown, 16 thin omitted)
+- 535 nodes · 956 edges · 50 communities (33 shown, 17 thin omitted)
 - Extraction: 79% EXTRACTED · 8% INFERRED · 13% AMBIGUOUS · INFERRED: 74 edges (avg confidence: 0.67)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9b72fb1b`
+- Built from commit: `51b41aac`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- 赔率快照
+- 赔率账本契约
 - 足球概率分析现行规程
 - 微观球员适配器
 - 历史待核查：2026-09-10（周四）中国体彩平局全要素深度复盘与盲区审计报告
@@ -60,6 +60,11 @@
 - 历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）
 - 2026-09-09（周三）中国体彩平局全要素深度复盘报告
 - 已取代：智慧复盘论文索引
+- 赔率快照
+- 赔率数值
+- 体彩官方适配器
+- 心电图录像机.py
+- 内存模拟账本
 
 ## God Nodes (most connected - your core abstractions)
 1. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
@@ -69,7 +74,7 @@
 5. `微观球员适配器` - 26 edges
 6. `本地账本仓储` - 25 edges
 7. `智慧经验与习惯塑形` - 25 edges
-8. `已取代：整改依据与验证边界` - 22 edges
+8. `已取代：整改依据与验证边界` - 23 edges
 9. `PlayeRank Framework` - 21 edges
 10. `体彩官方适配器` - 20 edges
 
@@ -96,11 +101,11 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (45 total, 16 thin omitted)
+## Communities (50 total, 17 thin omitted)
 
-### Community 0 - "赔率快照"
-Cohesion: 0.05
-Nodes (57): ABC, fixture, 回溯连续轨迹用例, 探测并记录心电图用例, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例 (+49 more)
+### Community 0 - "赔率账本契约"
+Cohesion: 0.14
+Nodes (17): ABC, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, 探测并记录心电图用例, 记录结果, 轨迹结果 (+9 more)
 
 ### Community 1 - "足球概率分析现行规程"
 Cohesion: 0.07
@@ -108,7 +113,7 @@ Nodes (64): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定�
 
 ### Community 2 - "微观球员适配器"
 Cohesion: 0.07
-Nodes (31): Any, parametrize, test_微观球员适配器严格断言完场比分(), test_微观球员适配器提取交锋历史H2H(), test_微观球员适配器提取比赛微观高阶数据(), test_微观球员适配器提取球员高阶链条数据(), test_微观球员适配器解析伤停数据(), test_微观球员适配器计算体能负荷() (+23 more)
+Nodes (32): Any, parametrize, test_微观球员适配器严格断言完场比分(), test_微观球员适配器提取交锋历史H2H(), test_微观球员适配器提取比赛微观高阶数据(), test_微观球员适配器提取球员高阶链条数据(), test_微观球员适配器解析伤停数据(), test_微观球员适配器计算体能负荷() (+24 more)
 
 ### Community 3 - "历史待核查：2026-09-10（周四）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.20
@@ -214,6 +219,22 @@ Nodes (5): 1. 🎯 【周三001 江原FC 1:1 全北现代】（赛果：平局 1
 Cohesion: 0.40
 Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取代：智慧复盘论文索引, 已取代：第二批：条件适应与连续评估, 已取代：面向本项目的应用建议（综合提炼，尚未验证改进效果）
 
+### Community 45 - "赔率快照"
+Cohesion: 0.13
+Nodes (13): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_不会跨周拼接同名场次(), test_让球快照入库回读不丢失市场(), 赔率快照, DDD 输出适配器 - SQLite 赔率心电图连续账本 负责在结构化本地数据目录中存储和检索时序快照 (+5 more)
+
+### Community 46 - "赔率数值"
+Cohesion: 0.16
+Nodes (15): 断言强队胜赔<1.60时，若满足铁桶、多赛疲劳或高平阻盘，严禁机械枪毙，必须放行, test_客优于主且平赔下降只记录观测(), test_深盘冷平放行资格防003_006_012_022机械误杀(), test_热门主队平赔上升只记录观测(), test_赔率下降不因客队占优被解释为机构动机(), test_赔率快照计算连续位移与异动信号(), test_赔率数值拒绝非正数非法输入(), test_赔率数值验证与去水计算() (+7 more)
+
+### Community 47 - "体彩官方适配器"
+Cohesion: 0.23
+Nodes (7): test_体彩官方适配器在基础胜平负关闭时自动捕获让球盘(), test_体彩官方适配器安全过滤无赔率异常赛事(), test_体彩官方适配器解析原始数据为纯净领域快照(), 赔率快照, DDD 适配器防腐层 - 中国体彩官方 API 适配器 负责将不可控的外部体彩原始 JSON 清洗转化为优雅纯净的领域实体, 实现赔率提供者契约，直连国家体彩中心官方网关, 体彩官方适配器
+
+### Community 48 - "心电图录像机.py"
+Cohesion: 0.36
+Nodes (7): 回溯连续轨迹用例, 探测并记录心电图用例, main(), 足球倍率心电图连续录像机 - 组装根 (Composition Root) 纯正 10/10 DDD 洋葱整洁架构，信达雅全中文命名, 展示比赛轨迹(), 执行单次探测(), 组装架构()
+
 ## Ambiguous Edges - Review These
 - `探测并记录心电图用例` → `体彩官方适配器`  [AMBIGUOUS]
   脚本/应用/用例.py · relation: legacy_unverified_relation
@@ -289,6 +310,8 @@ Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取�
   分析复盘记录/2026-09-13_预测.md · relation: legacy_unverified_relation
 - `2026-09-13_预测.md` → `Hierarchical Bayesian Poisson Football Score Model`  [AMBIGUOUS]
   分析复盘记录/2026-09-13_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-11_预测.md` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
+  分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
 - `已取代：项目规则与数据口径审计` → `智慧复盘论文索引`  [AMBIGUOUS]
   温故而知新学习资料/README.md · relation: legacy_unverified_relation
 - `已取代：项目规则与数据口径审计` → `智慧经验与习惯塑形`  [AMBIGUOUS]
@@ -297,10 +320,6 @@ Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取�
   README.md · relation: legacy_unverified_relation
 - `已取代：项目规则与数据口径审计` → `预测记录与智慧复盘契约`  [AMBIGUOUS]
   分析复盘记录/README.md · relation: legacy_unverified_relation
-- `历史待核查：一、 唯一平局漏网盲区深度审计：【周四001 费内巴切 1:1 罗马】` → `Beating the Bookies with Their Own Numbers (Kaunitz et al. 2017)`  [AMBIGUOUS]
-  分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
-- `历史待核查：二、 周四007【德尔瓦耶 0:2 弗拉门戈】单挑失手深度复盘` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
-  分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
 - `历史待核查：1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误` → `Skellam Distribution (Poisson-Difference)`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
@@ -309,8 +328,10 @@ Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取�
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
 - `历史待核查：二、 漏网盲区深度审计：【周五004 赫根 1:1 米亚尔比】` → `Asian Handicap (AH) Betting Market`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-11_预测.md` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
-  分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
+- `历史待核查：一、 唯一平局漏网盲区深度审计：【周四001 费内巴切 1:1 罗马】` → `Beating the Bookies with Their Own Numbers (Kaunitz et al. 2017)`  [AMBIGUOUS]
+  分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
+- `历史待核查：二、 周四007【德尔瓦耶 0:2 弗拉门戈】单挑失手深度复盘` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
+  分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
 - `Hierarchical Bayesian Poisson Football Score Model` → `历史待核查：2026-09-06 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
 - `Hierarchical Bayesian Poisson Football Score Model` → `历史待核查：2026-09-07 Pre-Match Forecast`  [AMBIGUOUS]
@@ -359,6 +380,22 @@ Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取�
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 - `Mandadapu (2024) Football Match Outcome Forecasting Study` → `历史待核查：2026-09-12 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-06 Pre-Match Forecast` → `ELO-Odds Rating System`  [AMBIGUOUS]
+  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-06 Pre-Match Forecast` → `PlayeRank Framework`  [AMBIGUOUS]
+  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-06 Pre-Match Forecast` → `Asian Handicap (AH) Betting Market`  [AMBIGUOUS]
+  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-06 Pre-Match Forecast` → `Egidi Hierarchical Bayesian Poisson Model`  [AMBIGUOUS]
+  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-06 Pre-Match Forecast` → `Odds-Only Equal Profitability Confidence (OO-EPC)`  [AMBIGUOUS]
+  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-06 Pre-Match Forecast` → `历史待核查：2026-09-06 Post-Match Review`  [AMBIGUOUS]
+  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-06 Pre-Match Forecast` → `历史待核查：2026-09-07 Pre-Match Forecast`  [AMBIGUOUS]
+  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
+- `历史待核查：2026-09-06 Post-Match Review` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
+  分析复盘记录/2026-09-06_复盘.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-07 Pre-Match Forecast` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
   分析复盘记录/2026-09-07_预测.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-07 Pre-Match Forecast` → `ELO-Odds Rating System`  [AMBIGUOUS]
@@ -369,8 +406,6 @@ Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取�
   分析复盘记录/2026-09-07_预测.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-07 Pre-Match Forecast` → `Odds-Only Equal Profitability Confidence (OO-EPC)`  [AMBIGUOUS]
   分析复盘记录/2026-09-07_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-07 Pre-Match Forecast` → `历史待核查：2026-09-06 Pre-Match Forecast`  [AMBIGUOUS]
-  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-07 Pre-Match Forecast` → `历史待核查：2026-09-08 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-07_预测.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-07 Post-Match Review` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
@@ -401,18 +436,6 @@ Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取�
   分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
 - `Overall Accuracy & Real-time Scoreboard` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-06 Pre-Match Forecast` → `ELO-Odds Rating System`  [AMBIGUOUS]
-  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-06 Pre-Match Forecast` → `PlayeRank Framework`  [AMBIGUOUS]
-  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-06 Pre-Match Forecast` → `Asian Handicap (AH) Betting Market`  [AMBIGUOUS]
-  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-06 Pre-Match Forecast` → `Egidi Hierarchical Bayesian Poisson Model`  [AMBIGUOUS]
-  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-06 Pre-Match Forecast` → `Odds-Only Equal Profitability Confidence (OO-EPC)`  [AMBIGUOUS]
-  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-06 Pre-Match Forecast` → `历史待核查：2026-09-06 Post-Match Review`  [AMBIGUOUS]
-  分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
 - `ELO-Odds Rating System` → `历史待核查：2026-09-10 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-10_预测.md · relation: legacy_unverified_relation
 - `ELO-Odds Rating System` → `历史待核查：2026-09-10 Post-Match Review`  [AMBIGUOUS]
@@ -427,8 +450,6 @@ Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取�
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 - `PlayeRank Framework` → `历史待核查：2026-09-12 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
-- `历史待核查：2026-09-06 Post-Match Review` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
-  分析复盘记录/2026-09-06_复盘.md · relation: legacy_unverified_relation
 - `Clustered Probit Model` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
 - `Sentiment Bias in Betting Odds` → `历史待核查：2026-09-10 Post-Match Review`  [AMBIGUOUS]
@@ -466,8 +487,8 @@ Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取�
 
 ## Knowledge Gaps
 - **214 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+209 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 263 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 265 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
