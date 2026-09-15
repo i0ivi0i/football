@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-15)
 
 ## Corpus Check
-- 72 files · ~1,344,302 words
+- 72 files · ~1,344,324 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .db 1)
 
 ## Summary
-- 633 nodes · 1383 edges · 58 communities (42 shown, 16 thin omitted)
+- 633 nodes · 1380 edges · 58 communities (42 shown, 16 thin omitted)
 - Extraction: 62% EXTRACTED · 29% INFERRED · 9% AMBIGUOUS · INFERRED: 401 edges (avg confidence: 0.94)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2c24a592`
+- Built from commit: `9f32b693`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -33,7 +33,7 @@
 - **METHOD**
 - 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
 - Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计
-- 2026-09-15（周二）中国体育彩票精算推演报告
+- 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）
 - Q: 系统规范README与智慧大脑AGENTS协同架构
 - Shin与比例归一化：方法说明及适用边界
 - graphify reference: extra exports and benchmark
@@ -117,7 +117,7 @@ Cohesion: 0.24
 Nodes (9): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势(), test_探测并记录心电图用例捕获关闭基础胜平负场次(), test_探测并记录心电图用例捕获异动跳水(), 内存模拟提供者, 内存模拟账本, 聚合根实体：带时间戳与赛事身份的心电图观测点, 只比较同场、同市场、同让球线且时间递增的观测。 (+1 more)
 
 ### Community 1 - "足球概率分析现行规程"
-Cohesion: 0.14
+Cohesion: 0.15
 Nodes (58): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+50 more)
 
 ### Community 2 - "微观球员适配器"
@@ -180,9 +180,9 @@ Nodes (8): 历史待核查：1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】
 Cohesion: 0.50
 Nodes (4): Answer, Outcome, Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计, Source Nodes
 
-### Community 17 - "2026-09-15（周二）中国体育彩票精算推演报告"
-Cohesion: 0.20
-Nodes (10): 1. 【全天第一平局·南美巅峰绞杀】周二014 解放者杯 普拉滕斯 vs 弗鲁米嫩, 1. 周二001 亚冠精英 叻武里 vs 上海海港 (18:00), 1. 周二009 荷甲 阿贾克斯 vs 威廉二世 [让球-2], 2026-09-15（周二）中国体育彩票精算推演报告, 2. 周二002 亚冠精英 大田市民 vs 京都 (18:00), 2. 周二013 西甲 埃尔切 vs 皇马 [让球+2], 2. 【西甲均势死防】周二007 西甲 巴列卡诺 vs 西班牙人, 🎯 一级核心：全盘平局天梯（全联赛彻底平权·纯数学去水排序） (+2 more)
+### Community 17 - "2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）"
+Cohesion: 0.18
+Nodes (10): 1. 周二001 亚冠精英 叻武里 vs 上海海港 (18:00 开球), 1. 周二009 荷甲 阿贾克斯 vs 威廉二世 [让球-2] (02:00), 1. 周二014 解放者杯 普拉滕斯 vs 弗鲁米嫩 (06:00), 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）, 2. 周二002 亚冠精英 大田市民 vs 京都 (18:00 开球), 2. 周二007 西甲 巴列卡诺 vs 西班牙人 (01:00), 2. 周二013 西甲 埃尔切 vs 皇马 [让球+2] (03:30), ⭐ 一级核心：高平阻盘·正期望值（+EV）黄金标的（破除低赔执念） (+2 more)
 
 ### Community 18 - "Q: 系统规范README与智慧大脑AGENTS协同架构"
 Cohesion: 0.50
