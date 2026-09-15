@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-15)
 
 ## Corpus Check
-- 71 files · ~1,343,711 words
+- 71 files · ~1,343,816 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .db 1)
 
 ## Summary
-- 620 nodes · 1347 edges · 53 communities (37 shown, 16 thin omitted)
-- Extraction: 62% EXTRACTED · 29% INFERRED · 9% AMBIGUOUS · INFERRED: 390 edges (avg confidence: 0.94)
+- 621 nodes · 1367 edges · 52 communities (39 shown, 13 thin omitted)
+- Extraction: 62% EXTRACTED · 29% INFERRED · 9% AMBIGUOUS · INFERRED: 392 edges (avg confidence: 0.94)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `78576e6f`
+- Built from commit: `0b2934e2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -55,31 +55,30 @@
 - PDF 第 25 页
 - PDF 第 34 页
 - PDF 第 28 页
-- 心电图录像机.py
+- 探测并记录心电图用例
 - 2026-09-14（周一）中国体育彩票精算推演报告
 - **ABSTRACT**
 - 历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）
 - 2026-09-09（周三）中国体彩平局全要素深度复盘报告
 - 已取代：智慧复盘论文索引
+- 本地账本仓储
 - 赔率数值
-- 模型.py
 - 体彩官方适配器
 - graphify reference: commit hook and native CLAUDE.md integration
 - graphify reference: incremental update and cluster-only
 - graphify reference: GitHub clone and cross-repo merge
-- graphify reference: transcribe video and audio
-- extraction-spec.md
+- 赔率账本契约
 
 ## God Nodes (most connected - your core abstractions)
-1. `足球概率分析现行规程` - 62 edges
+1. `足球概率分析现行规程` - 72 edges
 2. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-3. `赔率快照` - 45 edges
+3. `赔率快照` - 48 edges
 4. `智慧经验与习惯塑形` - 38 edges
 5. `Wheatcroft 论文 Markdown（附公式与图表）` - 31 edges
 6. `Sentiment Bias in Betting Odds` - 31 edges
-7. `Tests of Conditional Predictive Ability` - 29 edges
-8. `PlayeRank Framework` - 29 edges
-9. `赔率数值` - 28 edges
+7. `赔率数值` - 29 edges
+8. `Tests of Conditional Predictive Ability` - 29 edges
+9. `PlayeRank Framework` - 29 edges
 10. `Hierarchical Bayesian Poisson Football Score Model` - 28 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -105,11 +104,11 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (53 total, 16 thin omitted)
+## Communities (52 total, 13 thin omitted)
 
 ### Community 0 - "赔率快照"
-Cohesion: 0.13
-Nodes (17): ABC, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 探测并记录心电图用例, 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势(), test_探测并记录心电图用例捕获异动跳水(), 内存模拟提供者, 内存模拟账本 (+9 more)
+Cohesion: 0.24
+Nodes (9): 赔率快照, test_回溯连续轨迹用例提炼单边变盘态势(), test_探测并记录心电图用例捕获关闭基础胜平负场次(), test_探测并记录心电图用例捕获异动跳水(), 内存模拟提供者, 内存模拟账本, 聚合根实体：带时间戳与赛事身份的心电图观测点, 只比较同场、同市场、同让球线且时间递增的观测。 (+1 more)
 
 ### Community 1 - "2023_Aiyer_结果偏见与决策评价.md"
 Cohesion: 0.11
@@ -132,8 +131,8 @@ Cohesion: 0.33
 Nodes (6): 概率评分、校准、命中率与收益分开, 赛前实际时间与版本封存, 先审过程再揭示赛果, 冻结假设与未来样本比较, 预测记录与智慧复盘契约, 温故而知新：论文与方法资料库
 
 ### Community 6 - "足球概率分析现行规程"
-Cohesion: 0.06
-Nodes (75): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, ELO-Goals Rating System (+67 more)
+Cohesion: 0.05
+Nodes (76): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, ELO-Goals Rating System (+68 more)
 
 ### Community 7 - "足球概率预测评分比较（Wheatcroft，2019预印本）"
 Cohesion: 0.12
@@ -211,9 +210,9 @@ Nodes (3): **3.2 Datasets for empirical evaluations**, **3.3 Evaluation measures
 Cohesion: 0.50
 Nodes (3): For /graphify add, For --watch, graphify reference: add a URL and watch a folder
 
-### Community 39 - "心电图录像机.py"
-Cohesion: 0.24
-Nodes (9): 回溯连续轨迹用例, 探测并记录心电图用例, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, main(), 足球倍率心电图连续录像机 - 组装根 (Composition Root) 纯正 10/10 DDD 洋葱整洁架构，信达雅全中文命名, 展示比赛轨迹(), 执行单次探测() (+1 more)
+### Community 39 - "探测并记录心电图用例"
+Cohesion: 0.15
+Nodes (16): 回溯连续轨迹用例, 探测并记录心电图用例, DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 业务用例：定时探测盘口，自动与上一时刻比对位移，发现异动报警并落库, 业务用例：对特定场次调取从初盘到终盘的全部时序数据并提炼态势, 回溯连续轨迹用例, 探测并记录心电图用例, 记录结果 (+8 more)
 
 ### Community 40 - "2026-09-14（周一）中国体育彩票精算推演报告"
 Cohesion: 0.18
@@ -235,13 +234,13 @@ Nodes (5): 1. 🎯 【周三001 江原FC 1:1 全北现代】（赛果：平局 1
 Cohesion: 0.40
 Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取代：智慧复盘论文索引, 已取代：第二批：条件适应与连续评估, 已取代：面向本项目的应用建议（综合提炼，尚未验证改进效果）
 
-### Community 45 - "赔率数值"
-Cohesion: 0.10
-Nodes (21): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_不会跨周拼接同名场次(), test_旧账本迁移保持原赔率并识别让球(), test_让球快照入库回读不丢失市场(), 断言强队胜赔<1.60时，若满足铁桶、多赛疲劳或高平阻盘，严禁机械枪毙，必须放行 (+13 more)
+### Community 45 - "本地账本仓储"
+Cohesion: 0.16
+Nodes (10): fixture, test_本地账本仓储保存并检索时序轨迹(), test_本地账本仓储查询空赛事安全返回空(), 临时数据库(), test_不会跨周拼接同名场次(), test_旧账本迁移保持原赔率并识别让球(), test_让球快照入库回读不丢失市场(), 赔率快照 (+2 more)
 
-### Community 46 - "模型.py"
-Cohesion: 0.24
-Nodes (6): DDD 应用层 - 业务用例编排 协调领域模型与契约端口，无任何具体数据库或 HTTP 请求实现细节, 记录结果, 轨迹结果, DDD 领域模型核心 - 纯净 Python，零框架依赖 包含：胜平负赔率值对象、时序位移值对象、单场比赛心电图聚合根实体, 旧接口名兼容：仅是可调的变动提醒，不判定机构意图或胜负。, 赔率位移
+### Community 46 - "赔率数值"
+Cohesion: 0.16
+Nodes (14): test_不同市场与不同比赛禁止计算虚假位移(), 断言强队胜赔<1.60时，若满足铁桶、多赛疲劳或高平阻盘，严禁机械枪毙，必须放行, test_客优于主且平赔下降只记录观测(), test_深盘冷平放行资格防003_006_012_022机械误杀(), test_热门主队平赔上升只记录观测(), test_赔率下降不因客队占优被解释为机构动机(), test_赔率快照计算连续位移与异动信号(), test_赔率数值拒绝非正数非法输入() (+6 more)
 
 ### Community 47 - "体彩官方适配器"
 Cohesion: 0.15
@@ -254,6 +253,14 @@ Nodes (3): For git commit hook, For native CLAUDE.md integration, graphify refer
 ### Community 49 - "graphify reference: incremental update and cluster-only"
 Cohesion: 0.50
 Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
+
+### Community 50 - "graphify reference: GitHub clone and cross-repo merge"
+Cohesion: 0.27
+Nodes (4): graphify reference: GitHub clone and cross-repo merge, Step 0 - Clone GitHub repo(s) (only if a GitHub URL was given), graphify reference: transcribe video and audio, Step 2.5 - Transcribe video / audio files (only if video files detected)
+
+### Community 51 - "赔率账本契约"
+Cohesion: 0.24
+Nodes (5): ABC, DDD 输出适配器 - SQLite 赔率心电图连续账本 负责在结构化本地数据目录中存储和检索时序快照, DDD 领域端口契约 - 抽象基类定义输入与输出边界, 输出端口：心电图轨迹的数据持久化与历史回溯, 赔率账本契约
 
 ## Ambiguous Edges - Review These
 - `探测并记录心电图用例` → `体彩官方适配器`  [AMBIGUOUS]
@@ -506,9 +513,9 @@ Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphif
   分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **259 isolated node(s):** `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)`, `Step 1 - Ensure graphify is installed`, `Step 2 - Detect files` (+254 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 316 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **256 isolated node(s):** `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)`, `Step 1 - Ensure graphify is installed`, `Step 2 - Detect files` (+251 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 311 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
