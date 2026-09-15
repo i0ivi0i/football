@@ -1,0 +1,16 @@
+{
+  "runs": [
+    {
+      "date": "2026-09-14",
+      "scope": "four_review_papers_and_index",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 5,
+      "token_counts_unavailable": true,
+      "note": "Tool did not expose real token usage. Zero values are compatibility placeholders, not measured zero consumption."
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "totals_cover_metered_runs_only": true
+}

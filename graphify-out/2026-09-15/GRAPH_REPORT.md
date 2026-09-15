@@ -1,17 +1,17 @@
-# Graph Report - 足球预测  (2026-09-15)
+# Graph Report - 足球预测  (2026-09-14)
 
 ## Corpus Check
-- 71 files · ~1,343,711 words
+- 61 files · ~1,332,918 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .db 1)
+- Unclassified: 2 file(s) not represented in the graph (top: (none) 1, .db 1)
 
 ## Summary
-- 620 nodes · 1347 edges · 53 communities (37 shown, 16 thin omitted)
-- Extraction: 62% EXTRACTED · 29% INFERRED · 9% AMBIGUOUS · INFERRED: 390 edges (avg confidence: 0.94)
+- 551 nodes · 1285 edges · 48 communities (31 shown, 17 thin omitted)
+- Extraction: 60% EXTRACTED · 30% INFERRED · 10% AMBIGUOUS · INFERRED: 390 edges (avg confidence: 0.94)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `78576e6f`
+- Built from commit: `a9c742d9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -25,7 +25,7 @@
 - 足球概率分析现行规程
 - 足球概率预测评分比较（Wheatcroft，2019预印本）
 - 2026-09-13（周日）中国体育彩票精算推演报告
-- What You Must Do When Invoked
+- **AUTHOR AFFILIATIONS**
 - **RESULTS**
 - 2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告
 - **DISCUSSION**
@@ -36,13 +36,13 @@
 - **CONTRIBUTOR ROLES TAXONOMY**
 - Q: 系统规范README与智慧大脑AGENTS协同架构
 - Shin与比例归一化：方法说明及适用边界
-- graphify reference: extra exports and benchmark
+- Forecast evaluation for data scientists: common pitfalls and best practices
 - PDF 第 16 页
 - **4 Guidelines and best practices for forecast evaluation**
-- 二、 核心败因深度解剖（四大低级错误）
-- graphify reference: query, path, explain
+- Q: 2026-09-08 赛后复盘与模型3.1硬红线升级
+- Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1
 - PDF 第 14 页
-- graphify reference: add a URL and watch a folder
+- **EXTENSIONS: OUTCOME IMPORTANCE, RESPONSIBILITY, AND PERCEIVED NORMS**
 - **REPLICATION CLOSENESS EVALUATION**
 - PDF 第 8 页
 - PDF 第 12 页
@@ -64,11 +64,6 @@
 - 赔率数值
 - 模型.py
 - 体彩官方适配器
-- graphify reference: commit hook and native CLAUDE.md integration
-- graphify reference: incremental update and cluster-only
-- graphify reference: GitHub clone and cross-repo merge
-- graphify reference: transcribe video and audio
-- extraction-spec.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `足球概率分析现行规程` - 62 edges
@@ -105,7 +100,7 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (53 total, 16 thin omitted)
+## Communities (48 total, 17 thin omitted)
 
 ### Community 0 - "赔率快照"
 Cohesion: 0.13
@@ -113,7 +108,7 @@ Nodes (17): ABC, 业务用例：定时探测盘口，自动与上一时刻比对
 
 ### Community 1 - "2023_Aiyer_结果偏见与决策评价.md"
 Cohesion: 0.11
-Nodes (69): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+61 more)
+Nodes (70): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+62 more)
 
 ### Community 2 - "微观球员适配器"
 Cohesion: 0.07
@@ -133,7 +128,7 @@ Nodes (6): 概率评分、校准、命中率与收益分开, 赛前实际时间�
 
 ### Community 6 - "足球概率分析现行规程"
 Cohesion: 0.06
-Nodes (75): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, ELO-Goals Rating System (+67 more)
+Nodes (71): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, ELO-Goals Rating System (+63 more)
 
 ### Community 7 - "足球概率预测评分比较（Wheatcroft，2019预印本）"
 Cohesion: 0.12
@@ -143,25 +138,21 @@ Nodes (16): Ignorance 对数评分, 足球概率预测评分比较（Wheatcroft�
 Cohesion: 0.12
 Nodes (16): 1. Capa 1 [ODDS] 市场底牌与心电图轨迹, 1. Capa 1 [ODDS] 盘口结构, 1. Capa 1 [ODDS] 盘口结构, 1. 乔布斯灵活思维解构（破除红线2死板一刀切）, 1. 盘口与战术特征, 2026-09-13（周日）中国体育彩票精算推演报告, 2. Capa 3 [API] 微观防守护城河核验, 2. Capa 4 & 7 泊松落点 (+8 more)
 
-### Community 9 - "What You Must Do When Invoked"
-Cohesion: 0.08
-Nodes (24): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+16 more)
-
 ### Community 10 - "**RESULTS**"
 Cohesion: 0.13
 Nodes (15): **CONFIRMATORY (PRE-REGISTERED) RESULTS** Replication: Decision Quality, **EXPLORATORY RESULTS (NOT PREREGISTERED)**, **EXTENSIONS**, Mediation Analyses, PDF 第 10 页, PDF 第 11 页, PDF 第 7 页, PDF 第 8 页 (+7 more)
 
 ### Community 11 - "2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告"
-Cohesion: 0.22
-Nodes (9): 1. 红线 2（伪降水死锁）机械误杀三大豪门客平局（018 摩纳哥 1:1、020 米兰 2:2、028 里昂 0:0）, 1. 赛前已知特征与当时推演假设, 2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告, 2. 真实赛况与血淋淋认知盲区, 2. 红线 4（均势大球前置锁）机械误杀两场对攻大球平局（013 伯恩茅斯 2:2、023 科隆 1:1）, 3. 红线 1（强队深盘一票否决）机械误杀四大豪门冷平（010 勒沃库森 2:2、012 切尔西 2:2、016 利物浦 0:0、024 毕包 1:1）, 一、 头号猎物【周六017 奥萨苏纳 0:2 西班牙人】崩盘根因深度剖析, 三、 10 场漏网平局的三大系统级机械误杀归因 (+1 more)
+Cohesion: 0.17
+Nodes (12): 1. 红线 2（伪降水死锁）机械误杀三大豪门客平局（018 摩纳哥 1:1、020 米兰 2:2、028 里昂 0:0）, 1. 赛前已知特征与当时推演假设, 1. 赛前推演与当时假设, 2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告, 2. 真实赛况与血淋淋认知盲区, 2. 真实赛果与 `football-match-analysis` 硬核量化复盘, 2. 红线 4（均势大球前置锁）机械误杀两场对攻大球平局（013 伯恩茅斯 2:2、023 科隆 1:1）, 3. 红线 1（强队深盘一票否决）机械误杀四大豪门冷平（010 勒沃库森 2:2、012 切尔西 2:2、016 利物浦 0:0、024 毕包 1:1） (+4 more)
 
 ### Community 12 - "**DISCUSSION**"
 Cohesion: 0.17
 Nodes (12): Broader Importance of Outcome Bias, Constraints on Generality, **DISCUSSION**, **EXTENSIONS**, Limitations and Future Directions, PDF 第 12 页, PDF 第 13 页, PDF 第 14 页 (+4 more)
 
 ### Community 13 - "test_对账机.py"
-Cohesion: 0.08
-Nodes (18): Answer, Q: 2026-09-08 赛后复盘与模型3.1硬红线升级, **AUTHOR AFFILIATIONS**, **EXTENSIONS: OUTCOME IMPORTANCE, RESPONSIBILITY, AND PERCEIVED NORMS**, **GILAD FELDMAN**, **Nathaniel A. Young**, Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1, PDF 第 1 页 (+10 more)
+Cohesion: 0.28
+Nodes (7): 汇总复盘卡片的申报计数；不认证赛前封存、不修改经验或训练模型。, 计数(), 读取卡片(), test_对账允许零胜率且不猜头号推荐(), test_空目录不除零(), test_错误计数不覆盖原看板(), write_card()
 
 ### Community 14 - "**METHOD**"
 Cohesion: 0.22
@@ -183,10 +174,6 @@ Nodes (4): Answer, Outcome, Q: 系统规范README与智慧大脑AGENTS协同架�
 Cohesion: 0.23
 Nodes (12): 项目规则与数据口径审计, 比例归一化市场概率, Shin逆变换的平方与总和项, Shin潜在参数的解释边界, Shin与比例归一化：方法说明及适用边界, 历史待核查：2026-09-10_预测.md, 历史待核查：🥇 1. 【周四007 解放者杯】德尔瓦耶独立 vs 弗拉门戈（今日唯一黄金王牌 · 评分 94.0）, 历史待核查：2026-09-10（周四）中国体彩平局赛前精算推演报告（3.1 硬红线全量过筛版） (+4 more)
 
-### Community 20 - "graphify reference: extra exports and benchmark"
-Cohesion: 0.22
-Nodes (8): graphify reference: extra exports and benchmark, Step 6b - Wiki (only if --wiki flag), Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag), Step 7a - FalkorDB export (only if --falkordb or --falkordb-push flag), Step 7b - SVG export (only if --svg flag), Step 7c - GraphML export (only if --graphml flag), Step 7d - MCP server (only if --mcp flag), Step 8 - Token reduction benchmark (only if total_words > 5000)
-
 ### Community 21 - "PDF 第 16 页"
 Cohesion: 0.50
 Nodes (4): **COPYRIGHT:**, PDF 第 16 页, **REFERENCES**, **TO CITE THIS ARTICLE:**
@@ -195,21 +182,13 @@ Nodes (4): **COPYRIGHT:**, PDF 第 16 页, **REFERENCES**, **TO CITE THIS ARTICL
 Cohesion: 0.50
 Nodes (4): **4.1.1 Fixed origin setup**, **4.1.2 Rolling origin, time series cross-validation and prequential evaluation setups**, **4.1 Data partitioning**, **4 Guidelines and best practices for forecast evaluation**
 
-### Community 23 - "二、 核心败因深度解剖（四大低级错误）"
-Cohesion: 0.25
-Nodes (8): 1. 概率主客颠倒（把 30% 概率当成必然事件）, 2026-09-14（周一）中国体育彩票平局推演深度复盘报告, 2. 心电图神化与阴谋论脑补, 3. 刻舟求剑套用前日教训（过度拟合）, 4. 盲目博冷与唯一平局漏选, 一、 战绩看板与客观结算, 三、 习惯塑形：五道物理拦截卡片, 二、 核心败因深度解剖（四大低级错误）
-
-### Community 24 - "graphify reference: query, path, explain"
-Cohesion: 0.33
-Nodes (5): For /graphify explain, For /graphify path, graphify reference: query, path, explain, Step 0 — Constrained query expansion (REQUIRED before traversal), Step 1 — Traversal
+### Community 24 - "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1"
+Cohesion: 0.67
+Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1, PDF 第 1 页
 
 ### Community 25 - "PDF 第 14 页"
 Cohesion: 0.67
 Nodes (3): **3.2 Datasets for empirical evaluations**, **3.3 Evaluation measures for forecasting**, PDF 第 14 页
-
-### Community 26 - "graphify reference: add a URL and watch a folder"
-Cohesion: 0.50
-Nodes (3): For /graphify add, For --watch, graphify reference: add a URL and watch a folder
 
 ### Community 39 - "心电图录像机.py"
 Cohesion: 0.24
@@ -246,14 +225,6 @@ Nodes (6): DDD 应用层 - 业务用例编排 协调领域模型与契约端口�
 ### Community 47 - "体彩官方适配器"
 Cohesion: 0.15
 Nodes (11): Answer, Outcome, Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制, Source Nodes, test_体彩官方适配器在基础胜平负关闭时自动捕获让球盘(), test_体彩官方适配器安全过滤无赔率异常赛事(), test_体彩官方适配器解析原始数据为纯净领域快照(), 赔率快照 (+3 more)
-
-### Community 48 - "graphify reference: commit hook and native CLAUDE.md integration"
-Cohesion: 0.50
-Nodes (3): For git commit hook, For native CLAUDE.md integration, graphify reference: commit hook and native CLAUDE.md integration
-
-### Community 49 - "graphify reference: incremental update and cluster-only"
-Cohesion: 0.50
-Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
 
 ## Ambiguous Edges - Review These
 - `探测并记录心电图用例` → `体彩官方适配器`  [AMBIGUOUS]
@@ -506,9 +477,9 @@ Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphif
   分析复盘记录/2026-09-12_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **259 isolated node(s):** `Usage`, `What graphify is for`, `Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)`, `Step 1 - Ensure graphify is installed`, `Step 2 - Detect files` (+254 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 316 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **212 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+207 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 260 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
