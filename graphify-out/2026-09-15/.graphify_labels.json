@@ -12,7 +12,7 @@
   "10": "**RESULTS**",
   "11": "2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告",
   "12": "**DISCUSSION**",
-  "13": "test_对账机.py",
+  "13": "刷新总对账看板",
   "14": "**METHOD**",
   "15": "历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告",
   "16": "Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计",
@@ -26,7 +26,7 @@
   "24": "graphify reference: query, path, explain",
   "25": "PDF 第 14 页",
   "26": "graphify reference: add a URL and watch a folder",
-  "27": "**REPLICATION CLOSENESS EVALUATION**",
+  "27": "Q: 2026-09-08 赛后复盘与模型3.1硬红线升级",
   "28": "PDF 第 8 页",
   "29": "PDF 第 12 页",
   "30": "**3 Motivation and common pitfalls**",
@@ -38,7 +38,7 @@
   "36": "PDF 第 25 页",
   "37": "PDF 第 34 页",
   "38": "PDF 第 28 页",
-  "39": "探测并记录心电图用例",
+  "39": "心电图录像机.py",
   "40": "2026-09-14（周一）中国体育彩票精算推演报告",
   "41": "**ABSTRACT**",
   "42": "历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）",
@@ -50,5 +50,8 @@
   "48": "graphify reference: commit hook and native CLAUDE.md integration",
   "49": "graphify reference: incremental update and cluster-only",
   "50": "graphify reference: GitHub clone and cross-repo merge",
-  "51": "赔率账本契约"
+  "51": "赔率账本契约",
+  "52": "Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制",
+  "53": "transcribe.md",
+  "54": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1"
 }
