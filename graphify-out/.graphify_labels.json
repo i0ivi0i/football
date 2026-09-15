@@ -38,18 +38,17 @@
   "36": "PDF 第 25 页",
   "37": "PDF 第 34 页",
   "38": "PDF 第 28 页",
-  "39": "心电图录像机.py",
+  "39": "探测并记录心电图用例",
   "40": "2026-09-14（周一）中国体育彩票精算推演报告",
   "41": "**ABSTRACT**",
   "42": "历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）",
   "43": "2026-09-09（周三）中国体彩平局全要素深度复盘报告",
   "44": "已取代：智慧复盘论文索引",
-  "45": "赔率数值",
-  "46": "模型.py",
+  "45": "本地账本仓储",
+  "46": "赔率数值",
   "47": "体彩官方适配器",
   "48": "graphify reference: commit hook and native CLAUDE.md integration",
   "49": "graphify reference: incremental update and cluster-only",
   "50": "graphify reference: GitHub clone and cross-repo merge",
-  "51": "graphify reference: transcribe video and audio",
-  "52": "extraction-spec.md"
+  "51": "赔率账本契约"
 }
