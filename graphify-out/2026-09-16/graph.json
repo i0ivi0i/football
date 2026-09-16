@@ -405,18 +405,6 @@
       "source_location": "L1"
     },
     {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b",
-      "label": "2026-09-16_\u9884\u6d4b.md",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "\u8db3\u7403\u6982\u7387\u5206\u6790\u73b0\u884c\u89c4\u7a0b",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "2026-09-16_\u9884\u6d4b.md",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L1"
-    },
-    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5",
       "label": "2023_Hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5.md",
       "_origin": "ast",
@@ -789,126 +777,6 @@
       "source_location": "L133"
     },
     {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_1_\u5468\u4e09005_\u897f\u7532_\u62c9\u79d1\u9c81\u5c3c\u4e9a_vs_\u585e\u7ef4\u5229\u4e9a_01_00_\u5f00\u7403",
-      "label": "1. \u3010\u5468\u4e09005 \u897f\u7532\u3011\u62c9\u79d1\u9c81\u5c3c\u4e9a vs \u585e\u7ef4\u5229\u4e9a (01:00 \u5f00\u7403)",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "2026-09-16\uff08\u5468\u4e09\uff09\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e Polymarket \u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. \u3010\u5468\u4e09005 \u897f\u7532\u3011\u62c9\u79d1\u9c81\u5c3c\u4e9a vs \u585e\u7ef4\u5229\u4e9a (01:00 \u5f00\u7403)",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L76"
-    },
-    {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_2026_09_16_\u5468\u4e09_\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e_polymarket_\u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "label": "2026-09-16\uff08\u5468\u4e09\uff09\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e Polymarket \u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "2026-09-16\uff08\u5468\u4e09\uff09\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e Polymarket \u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2026-09-16(\u5468\u4e09)\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e polymarket \u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L65"
-    },
-    {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_2_\u5468\u4e09014_\u897f\u7532_\u83b1\u4e07\u7279_vs_\u6bd5\u5c14\u5df4\u9102\u7ade\u6280_03_30_\u5f00\u7403",
-      "label": "2. \u3010\u5468\u4e09014 \u897f\u7532\u3011\u83b1\u4e07\u7279 vs \u6bd5\u5c14\u5df4\u9102\u7ade\u6280 (03:30 \u5f00\u7403)",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "2026-09-16\uff08\u5468\u4e09\uff09\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e Polymarket \u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. \u3010\u5468\u4e09014 \u897f\u7532\u3011\u83b1\u4e07\u7279 vs \u6bd5\u5c14\u5df4\u9102\u7ade\u6280 (03:30 \u5f00\u7403)",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L83"
-    },
-    {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_\u4e00_\u6838\u5fc3\u771f\u5e73\u5c40\u6df1\u5ea6\u516b\u5c42\u63a8\u6f14_polymarket_\u7eaf\u5e73\u5c40\u76f4\u8fbe",
-      "label": "\u4e00\u3001 \u6838\u5fc3\u771f\u5e73\u5c40\u6df1\u5ea6\u516b\u5c42\u63a8\u6f14\uff08Polymarket \u7eaf\u5e73\u5c40\u76f4\u8fbe\uff09",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "2026-09-16\uff08\u5468\u4e09\uff09\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e Polymarket \u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u4e00\u3001 \u6838\u5fc3\u771f\u5e73\u5c40\u6df1\u5ea6\u516b\u5c42\u63a8\u6f14(polymarket \u7eaf\u5e73\u5c40\u76f4\u8fbe)",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L74"
-    },
-    {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_\u4e8c_\u5b9e\u529b\u65ad\u5d16\u4e0e\u865a\u5047\u5f69\u7968\u9677\u9631\u5ba1\u67e5_\u575a\u51b3\u4e00\u7968\u5426\u51b3",
-      "label": "\u4e8c\u3001 \u5b9e\u529b\u65ad\u5d16\u4e0e\u865a\u5047\u5f69\u7968\u9677\u9631\u5ba1\u67e5\uff08\u575a\u51b3\u4e00\u7968\u5426\u51b3\uff09",
-      "_origin": "ast",
-      "community": 12,
-      "community_name": "2026-09-16\uff08\u5468\u4e09\uff09\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e Polymarket \u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u4e8c\u3001 \u5b9e\u529b\u65ad\u5d16\u4e0e\u865a\u5047\u5f69\u7968\u9677\u9631\u5ba1\u67e5(\u575a\u51b3\u4e00\u7968\u5426\u51b3)",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L92"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_abstract",
-      "label": "**ABSTRACT**",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "**ABSTRACT**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**abstract**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L35"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_corresponding_author_gilad_feldman",
-      "label": "**CORRESPONDING AUTHOR: Gilad Feldman**",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "**ABSTRACT**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**corresponding author: gilad feldman**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L39"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_keywords",
-      "label": "**KEYWORDS:**",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "**ABSTRACT**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**keywords:**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L45"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_2_\u9875",
-      "label": "PDF \u7b2c 2 \u9875",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "**ABSTRACT**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 2 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L58"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_to_cite_this_article",
-      "label": "**TO CITE THIS ARTICLE:**",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "**ABSTRACT**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**to cite this article:**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L49"
-    },
-    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_comprehension_checks",
       "label": "Comprehension Checks",
       "_origin": "ast",
@@ -1121,54 +989,6 @@
       "source_location": "L68"
     },
     {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_copyright",
-      "label": "**COPYRIGHT:**",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "PDF \u7b2c 16 \u9875",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**copyright:**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L746"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_16_\u9875",
-      "label": "PDF \u7b2c 16 \u9875",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "PDF \u7b2c 16 \u9875",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 16 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L708"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_references",
-      "label": "**REFERENCES**",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "PDF \u7b2c 16 \u9875",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**references**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L667"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_to_cite_this_article_740",
-      "label": "**TO CITE THIS ARTICLE:**",
-      "_origin": "ast",
-      "community": 16,
-      "community_name": "PDF \u7b2c 16 \u9875",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**to cite this article:**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L740"
-    },
-    {
       "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_15_\u9884\u6d4b_1_\u5468\u4e8c001_\u4e9a\u51a0\u7cbe\u82f1_\u53fb\u6b66\u91cc_vs_\u4e0a\u6d77\u6d77\u6e2f_18_00_\u5f00\u7403",
       "label": "1. \u5468\u4e8c001 \u4e9a\u51a0\u7cbe\u82f1 \u53fb\u6b66\u91cc vs \u4e0a\u6d77\u6d77\u6e2f (18:00 \u5f00\u7403)",
       "_origin": "ast",
@@ -1287,42 +1107,6 @@
       "norm_label": "\ud83d\udd12 \u96f6\u7ea7\u6212\u5907:\u4f53\u5f69\u5173\u95ed\u57fa\u7840\u80dc\u5e73\u8d1f\u573a\u6b21(2 \u573a\u5168\u91cf\u7f6e\u9876\u00b7\u660e\u724c\u5f00\u5377\u8003)",
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-15_\u9884\u6d4b.md",
       "source_location": "L94"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_gilad_feldman",
-      "label": "**GILAD FELDMAN**",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**gilad feldman**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L29"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_outcomes_affect_evaluations_of_decision_quality_replication_and_extensions_of_baron_and_hershey_s_1988_outcome_bias_experiment_1",
-      "label": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "outcomes affect evaluations of decision quality: replication and extensions of baron and hershey\u2019s (1988) outcome bias experiment 1",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_1_\u9875",
-      "label": "PDF \u7b2c 1 \u9875",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 1 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L16"
     },
     {
       "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_14_\u9884\u6d4b_1_capa_1_odds_\u76d8\u53e3\u7ed3\u6784\u4e0e\u5fc3\u7535\u56fe\u6d41\u6c34",
@@ -1703,54 +1487,6 @@
       "source_location": "L8"
     },
     {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_extensions_outcome_importance_responsibility_and_perceived_norms",
-      "label": "**EXTENSIONS: OUTCOME IMPORTANCE, RESPONSIBILITY, AND PERCEIVED NORMS**",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "**EXTENSIONS: OUTCOME IMPORTANCE, RESPONSIBILITY, AND PERCEIVED NORMS**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**extensions: outcome importance, responsibility, and perceived norms**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L120"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_4_\u9875",
-      "label": "PDF \u7b2c 4 \u9875",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "**EXTENSIONS: OUTCOME IMPORTANCE, RESPONSIBILITY, AND PERCEIVED NORMS**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 4 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L135"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_3_\u9875",
-      "label": "PDF \u7b2c 3 \u9875",
-      "_origin": "ast",
-      "community": 21,
-      "community_name": "**REPLICATION CLOSENESS EVALUATION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 3 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L87"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_replication_closeness_evaluation",
-      "label": "**REPLICATION CLOSENESS EVALUATION**",
-      "_origin": "ast",
-      "community": 21,
-      "community_name": "**REPLICATION CLOSENESS EVALUATION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**replication closeness evaluation**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L78"
-    },
-    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5_4_1_1_fixed_origin_setup",
       "label": "**4.1.1 Fixed origin setup**",
       "_origin": "ast",
@@ -1955,6 +1691,18 @@
       "source_location": "L1"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_abstract",
+      "label": "**ABSTRACT**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**abstract**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L35"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_additional_files",
       "label": "**ADDITIONAL FILES**",
       "_origin": "ast",
@@ -2015,6 +1763,18 @@
       "source_location": "L62"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_broader_importance_of_outcome_bias",
+      "label": "Broader Importance of Outcome Bias",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "broader importance of outcome bias",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L521"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_chosen_study_for_replication_baron_and_hershey_1988",
       "label": "**CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**",
       "_origin": "ast",
@@ -2051,6 +1811,18 @@
       "source_location": "L589"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_constraints_on_generality",
+      "label": "Constraints on Generality",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "constraints on generality",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L542"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_contributor_roles_taxonomy",
       "label": "**CONTRIBUTOR ROLES TAXONOMY**",
       "_origin": "ast",
@@ -2061,6 +1833,30 @@
       "norm_label": "**contributor roles taxonomy**",
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
       "source_location": "L597"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_copyright",
+      "label": "**COPYRIGHT:**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**copyright:**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L746"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_corresponding_author_gilad_feldman",
+      "label": "**CORRESPONDING AUTHOR: Gilad Feldman**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**corresponding author: gilad feldman**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L39"
     },
     {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_deviations_from_the_baron_and_hershey_1988",
@@ -2075,6 +1871,42 @@
       "source_location": "L116"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_discussion",
+      "label": "**DISCUSSION**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**discussion**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L478"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_extensions_492",
+      "label": "**EXTENSIONS**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**extensions**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L492"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_extensions_outcome_importance_responsibility_and_perceived_norms",
+      "label": "**EXTENSIONS: OUTCOME IMPORTANCE, RESPONSIBILITY, AND PERCEIVED NORMS**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**extensions: outcome importance, responsibility, and perceived norms**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L120"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_funding_information",
       "label": "**FUNDING INFORMATION**",
       "_origin": "ast",
@@ -2085,6 +1917,42 @@
       "norm_label": "**funding information**",
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
       "source_location": "L581"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_gilad_feldman",
+      "label": "**GILAD FELDMAN**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**gilad feldman**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_keywords",
+      "label": "**KEYWORDS:**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**keywords:**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_limitations_and_future_directions",
+      "label": "Limitations and Future Directions",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "limitations and future directions",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L546"
     },
     {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_nathaniel_a_young",
@@ -2099,6 +1967,54 @@
       "source_location": "L659"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_outcomes_affect_evaluations_of_decision_quality_replication_and_extensions_of_baron_and_hershey_s_1988_outcome_bias_experiment_1",
+      "label": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "outcomes affect evaluations of decision quality: replication and extensions of baron and hershey\u2019s (1988) outcome bias experiment 1",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_12_\u9875",
+      "label": "PDF \u7b2c 12 \u9875",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 12 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L505"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_13_\u9875",
+      "label": "PDF \u7b2c 13 \u9875",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 13 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L536"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_14_\u9875",
+      "label": "PDF \u7b2c 14 \u9875",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 14 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L563"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_15_\u9875",
       "label": "PDF \u7b2c 15 \u9875",
       "_origin": "ast",
@@ -2111,6 +2027,102 @@
       "source_location": "L631"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_16_\u9875",
+      "label": "PDF \u7b2c 16 \u9875",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 16 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L708"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_1_\u9875",
+      "label": "PDF \u7b2c 1 \u9875",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 1 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_2_\u9875",
+      "label": "PDF \u7b2c 2 \u9875",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 2 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_3_\u9875",
+      "label": "PDF \u7b2c 3 \u9875",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 3 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L87"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_4_\u9875",
+      "label": "PDF \u7b2c 4 \u9875",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 4 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L135"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_perceived_norms_515",
+      "label": "Perceived Norms",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "perceived norms",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L515"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_perceived_outcome_importance_494",
+      "label": "Perceived Outcome Importance",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "perceived outcome importance",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L494"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_perceived_responsibility_509",
+      "label": "Perceived Responsibility",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "perceived responsibility",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L509"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pre_registration_and_openscience",
       "label": "**PRE-REGISTRATION AND OPENSCIENCE**",
       "_origin": "ast",
@@ -2121,6 +2133,66 @@
       "norm_label": "**pre-registration and openscience**",
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
       "source_location": "L141"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_references",
+      "label": "**REFERENCES**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**references**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L667"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_replication_closeness_evaluation",
+      "label": "**REPLICATION CLOSENESS EVALUATION**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**replication closeness evaluation**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L78"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_successful_replication_of_outcome_bias",
+      "label": "**SUCCESSFUL REPLICATION OF OUTCOME BIAS**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**successful replication of outcome bias**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L484"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_to_cite_this_article",
+      "label": "**TO CITE THIS ARTICLE:**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**to cite this article:**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_to_cite_this_article_740",
+      "label": "**TO CITE THIS ARTICLE:**",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**to cite this article:**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L740"
     },
     {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5_3_1_1_na\u00efve_benchmark_on_finance_series",
@@ -3534,150 +3606,6 @@
       "norm_label": "\u56db\u3001 \u3010\u7075\u6d3b\u5fb7\u6bd4\u5927\u620f\u00b7\u9ad8\u5e73\u963b\u76d8\u901a\u6740\u3011\u5468\u65e5013 \u82f1\u8d85 \u66fc\u8054 vs \u66fc\u57ce",
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-13_\u9884\u6d4b.md",
       "source_location": "L143"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_broader_importance_of_outcome_bias",
-      "label": "Broader Importance of Outcome Bias",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "broader importance of outcome bias",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L521"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_constraints_on_generality",
-      "label": "Constraints on Generality",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "constraints on generality",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L542"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_discussion",
-      "label": "**DISCUSSION**",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**discussion**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L478"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_extensions_492",
-      "label": "**EXTENSIONS**",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**extensions**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L492"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_limitations_and_future_directions",
-      "label": "Limitations and Future Directions",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "limitations and future directions",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L546"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_12_\u9875",
-      "label": "PDF \u7b2c 12 \u9875",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 12 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L505"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_13_\u9875",
-      "label": "PDF \u7b2c 13 \u9875",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 13 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L536"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_14_\u9875",
-      "label": "PDF \u7b2c 14 \u9875",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 14 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L563"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_perceived_norms_515",
-      "label": "Perceived Norms",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "perceived norms",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L515"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_perceived_outcome_importance_494",
-      "label": "Perceived Outcome Importance",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "perceived outcome importance",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L494"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_perceived_responsibility_509",
-      "label": "Perceived Responsibility",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "perceived responsibility",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L509"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_successful_replication_of_outcome_bias",
-      "label": "**SUCCESSFUL REPLICATION OF OUTCOME BIAS**",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "**DISCUSSION**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**successful replication of outcome bias**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L484"
     },
     {
       "id": "constantinou_hybrid_bn_model",
@@ -7301,61 +7229,6 @@
       "weight": 1.0
     },
     {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_2026_09_16_\u5468\u4e09_\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e_polymarket_\u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L65",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_2026_09_16_\u5468\u4e09_\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e_polymarket_\u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_\u4e00_\u6838\u5fc3\u771f\u5e73\u5c40\u6df1\u5ea6\u516b\u5c42\u63a8\u6f14_polymarket_\u7eaf\u5e73\u5c40\u76f4\u8fbe",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L74",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_2026_09_16_\u5468\u4e09_\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u4e0e_polymarket_\u7eaf\u5e73\u5c40\u4ea4\u6613\u6307\u5357",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_\u4e8c_\u5b9e\u529b\u65ad\u5d16\u4e0e\u865a\u5047\u5f69\u7968\u9677\u9631\u5ba1\u67e5_\u575a\u51b3\u4e00\u7968\u5426\u51b3",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L92",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_\u4e00_\u6838\u5fc3\u771f\u5e73\u5c40\u6df1\u5ea6\u516b\u5c42\u63a8\u6f14_polymarket_\u7eaf\u5e73\u5c40\u76f4\u8fbe",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_1_\u5468\u4e09005_\u897f\u7532_\u62c9\u79d1\u9c81\u5c3c\u4e9a_vs_\u585e\u7ef4\u5229\u4e9a_01_00_\u5f00\u7403",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L76",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_\u4e00_\u6838\u5fc3\u771f\u5e73\u5c40\u6df1\u5ea6\u516b\u5c42\u63a8\u6f14_polymarket_\u7eaf\u5e73\u5c40\u76f4\u8fbe",
-      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b_2_\u5468\u4e09014_\u897f\u7532_\u83b1\u4e07\u7279_vs_\u6bd5\u5c14\u5df4\u9102\u7ade\u6280_03_30_\u5f00\u7403",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L83",
-      "weight": 1.0
-    },
-    {
       "source": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_outcomes_affect_evaluations_of_decision_quality_replication_and_extensions_of_baron_and_hershey_s_1988_outcome_bias_experiment_1",
       "relation": "contains",
@@ -9986,28 +9859,6 @@
       "confidence_score": 1.0,
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-15_\u9884\u6d4b.md",
       "source_location": "L89",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b",
-      "target": "agents_analysis_rules",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L68",
-      "weight": 1.0
-    },
-    {
-      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u9884\u6d4b",
-      "target": "_____________habit_shaping_document",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
-      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -13393,7 +13244,6 @@
       "target": "graphify_out_memory_query_20260908_043003_de6fdc08_\u5468\u4e00001\u5361\u5229\u4e9a\u91cc1_0\u4e0e\u5468\u4e00006\u4e4c\u8fea\u5185\u65af1_2\u5931\u624b\u590d\u76d8\u4e0e\u8d5b\u524d\u76f2\u533a\u5ba1\u8ba1_q_\u5468\u4e00001\u5361\u5229\u4e9a\u91cc1_0\u4e0e\u5468\u4e00006\u4e4c\u8fea\u5185\u65af1_2\u5931\u624b\u590d\u76d8\u4e0e\u8d5b\u524d\u76f2\u533a\u5ba1\u8ba1",
       "relation": "semantic_bridge",
       "_origin": "semantic",
-      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2019_Wheatcroft_\u8db3\u7403\u6982\u7387\u9884\u6d4b\u8bc4\u5206.md",
       "weight": 1.0
@@ -13403,7 +13253,6 @@
       "target": "graphify_out_memory_query_20260908_043141_6197edc5_\u4f53\u5f69\u5b98\u65b9\u6570\u636e\u7ba1\u9053\u4e0eapi_sports\u5fae\u89c2\u6570\u636e\u7ba1\u9053\u5728\u8d5b\u524d\u63a8\u6f14\u4e2d\u7684\u534f\u540c\u673a\u5236_source_nodes",
       "relation": "semantic_bridge",
       "_origin": "semantic",
-      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2019_Wheatcroft_\u8db3\u7403\u6982\u7387\u9884\u6d4b\u8bc4\u5206.md",
       "weight": 1.0
@@ -13413,7 +13262,6 @@
       "target": "graphify_out_memory_query_20260908_093601_0ac4764b_\u7cfb\u7edf\u89c4\u8303readme\u4e0e\u667a\u6167\u5927\u8111agents\u534f\u540c\u67b6\u6784_q_\u7cfb\u7edf\u89c4\u8303readme\u4e0e\u667a\u6167\u5927\u8111agents\u534f\u540c\u67b6\u6784",
       "relation": "semantic_bridge",
       "_origin": "semantic",
-      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2019_Wheatcroft_\u8db3\u7403\u6982\u7387\u9884\u6d4b\u8bc4\u5206.md",
       "weight": 1.0
@@ -13423,7 +13271,6 @@
       "target": "graphify_out_memory_query_20260909_022637_7cd78681_2026_09_08_\u8d5b\u540e\u590d\u76d8\u4e0e\u6a21\u578b3_1\u786c\u7ea2\u7ebf\u5347\u7ea7_q_2026_09_08_\u8d5b\u540e\u590d\u76d8\u4e0e\u6a21\u578b3_1\u786c\u7ea2\u7ebf\u5347\u7ea7",
       "relation": "semantic_bridge",
       "_origin": "semantic",
-      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2019_Wheatcroft_\u8db3\u7403\u6982\u7387\u9884\u6d4b\u8bc4\u5206.md",
       "weight": 1.0
@@ -13433,7 +13280,6 @@
       "target": "perezblanco2025_rps",
       "relation": "semantic_bridge",
       "_origin": "semantic",
-      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2019_Wheatcroft_\u8db3\u7403\u6982\u7387\u9884\u6d4b\u8bc4\u5206.md",
       "weight": 1.0
@@ -13443,7 +13289,6 @@
       "target": "wenguerzhixin_xuexiziliao_2604_17194_analytical_shin_conversion",
       "relation": "semantic_bridge",
       "_origin": "semantic",
-      "confidence": "INFERRED",
       "confidence_score": 1.0,
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2019_Wheatcroft_\u8db3\u7403\u6982\u7387\u9884\u6d4b\u8bc4\u5206.md",
       "weight": 1.0
@@ -13531,5 +13376,5 @@
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md"
     }
   ],
-  "built_at_commit": "4785224122c20360e6854c4790c0f50d5073f408"
+  "built_at_commit": "0fc62952af193a6fd00bce49ab89fb0f55c49a47"
 }
