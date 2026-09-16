@@ -1,38 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:46:51.739585+00:00",
-  "nodes": {
-    "脚本_对账机": {
-      "code_fingerprint": "79c8438f32fd46bee17430d910f5d41987353882c7cd9a8a91815a3e091c2e0e",
-      "label": "对账机.py",
-      "last": "2026-09-08T09:36:01.212901+00:00",
-      "provenance": [
-        {
-          "date": "2026-09-08T09:36:01.212901+00:00",
-          "outcome": "useful",
-          "q": "系统规范README与智慧大脑AGENTS协同架构"
-        }
-      ],
-      "score": 0.846435034,
-      "source_file": "脚本/对账机.py",
-      "status": "tentative",
-      "uses": 1
-    },
-    "脚本_心电图录像机": {
-      "code_fingerprint": "55b2a1b9102da281cd3f1b45c71e20c0de0f16b253607d6191007af224214dfd",
-      "label": "心电图录像机.py",
-      "last": "2026-09-08T09:36:01.212901+00:00",
-      "provenance": [
-        {
-          "date": "2026-09-08T09:36:01.212901+00:00",
-          "outcome": "useful",
-          "q": "系统规范README与智慧大脑AGENTS协同架构"
-        }
-      ],
-      "score": 0.846435034,
-      "source_file": "脚本/心电图录像机.py",
-      "status": "tentative",
-      "uses": 1
-    }
-  },
+  "generated_at": "2026-09-15T15:14:20.857793+00:00",
+  "nodes": {},
   "version": 1
 }
