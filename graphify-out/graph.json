@@ -417,6 +417,42 @@
       "source_location": "L1"
     },
     {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b",
+      "label": "2026-09-17_\u9884\u6d4b.md",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u8db3\u7403\u6982\u7387\u5206\u6790\u73b0\u884c\u89c4\u7a0b",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "2026-09-17_\u9884\u6d4b.md",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b_2026_09_17_\u5468\u56db_\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u6392\u67e5\u4e0e\u5b9e\u76d8\u4ea4\u6613\u51b3\u7b56\u62a5\u544a",
+      "label": "2026-09-17\uff08\u5468\u56db\uff09\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u6392\u67e5\u4e0e\u5b9e\u76d8\u4ea4\u6613\u51b3\u7b56\u62a5\u544a",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u8db3\u7403\u6982\u7387\u5206\u6790\u73b0\u884c\u89c4\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2026-09-17(\u5468\u56db)\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u6392\u67e5\u4e0e\u5b9e\u76d8\u4ea4\u6613\u51b3\u7b56\u62a5\u544a",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
+      "source_location": "L94"
+    },
+    {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b_\u51b3\u7b56\u7ed3\u8bba_\u5168\u76d8_10_\u573a\u7686\u4e0d\u5408\u89c4_\u4eca\u65e5\u575a\u51b3\u7a7a\u4ed3\u89c2\u5bdf_\u7edd\u4e0d\u786c\u63a8",
+      "label": "\u51b3\u7b56\u7ed3\u8bba\uff1a\u3010\u5168\u76d8 10 \u573a\u7686\u4e0d\u5408\u89c4\uff0c\u4eca\u65e5\u575a\u51b3\u7a7a\u4ed3\u89c2\u5bdf\uff0c\u7edd\u4e0d\u786c\u63a8\uff01\u3011",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u8db3\u7403\u6982\u7387\u5206\u6790\u73b0\u884c\u89c4\u7a0b",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u51b3\u7b56\u7ed3\u8bba:\u3010\u5168\u76d8 10 \u573a\u7686\u4e0d\u5408\u89c4,\u4eca\u65e5\u575a\u51b3\u7a7a\u4ed3\u89c2\u5bdf,\u7edd\u4e0d\u786c\u63a8!\u3011",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
+      "source_location": "L103"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5",
       "label": "2023_Hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5.md",
       "_origin": "ast",
@@ -5950,8 +5986,8 @@
       "id": "rec_20260910_forecast",
       "label": "\u5386\u53f2\u5f85\u6838\u67e5\uff1a2026-09-10 Pre-Match Forecast",
       "_origin": "semantic",
-      "community": 6,
-      "community_name": "Sentiment Bias in Betting Odds",
+      "community": 40,
+      "community_name": "P\u00e9rez-Blanco & Salmer\u00f3n (2025) Bayesian Classifier Study",
       "evidence_status": "historical_unverified",
       "file_type": "document",
       "norm_label": "\u5386\u53f2\u5f85\u6838\u67e5:2026-09-10 pre-match forecast",
@@ -5961,8 +5997,8 @@
       "id": "rec_20260910_review",
       "label": "\u5386\u53f2\u5f85\u6838\u67e5\uff1a2026-09-10 Post-Match Review",
       "_origin": "semantic",
-      "community": 6,
-      "community_name": "Sentiment Bias in Betting Odds",
+      "community": 40,
+      "community_name": "P\u00e9rez-Blanco & Salmer\u00f3n (2025) Bayesian Classifier Study",
       "evidence_status": "historical_unverified",
       "file_type": "document",
       "norm_label": "\u5386\u53f2\u5f85\u6838\u67e5:2026-09-10 post-match review",
@@ -5972,8 +6008,8 @@
       "id": "rec_20260911_forecast",
       "label": "\u5386\u53f2\u5f85\u6838\u67e5\uff1a2026-09-11 Pre-Match Forecast",
       "_origin": "semantic",
-      "community": 6,
-      "community_name": "Sentiment Bias in Betting Odds",
+      "community": 40,
+      "community_name": "P\u00e9rez-Blanco & Salmer\u00f3n (2025) Bayesian Classifier Study",
       "evidence_status": "historical_unverified",
       "file_type": "document",
       "norm_label": "\u5386\u53f2\u5f85\u6838\u67e5:2026-09-11 pre-match forecast",
@@ -7503,6 +7539,28 @@
       "confidence_score": 1.0,
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
       "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b",
+      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b_2026_09_17_\u5468\u56db_\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u6392\u67e5\u4e0e\u5b9e\u76d8\u4ea4\u6613\u51b3\u7b56\u62a5\u544a",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b_2026_09_17_\u5468\u56db_\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u6392\u67e5\u4e0e\u5b9e\u76d8\u4ea4\u6613\u51b3\u7b56\u62a5\u544a",
+      "target": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b_\u51b3\u7b56\u7ed3\u8bba_\u5168\u76d8_10_\u573a\u7686\u4e0d\u5408\u89c4_\u4eca\u65e5\u575a\u51b3\u7a7a\u4ed3\u89c2\u5bdf_\u7edd\u4e0d\u786c\u63a8",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
+      "source_location": "L103",
       "weight": 1.0
     },
     {
@@ -10180,6 +10238,39 @@
       "confidence_score": 1.0,
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u9884\u6d4b.md",
       "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b",
+      "target": "agents_analysis_rules",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b",
+      "target": "_____________habit_shaping_document",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b",
+      "target": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -13703,5 +13794,5 @@
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md"
     }
   ],
-  "built_at_commit": "cc0b2fc00bc63169b22d2877f3b9de2c4d8d65a9"
+  "built_at_commit": "51be2e8941b4e9a2cda9ddb16e2649fe8bcccbb6"
 }
