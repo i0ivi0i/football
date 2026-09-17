@@ -438,7 +438,7 @@
       "node_kind": "heading",
       "norm_label": "2026-09-17(\u5468\u56db)\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u6392\u67e5\u4e0e\u5b9e\u76d8\u4ea4\u6613\u51b3\u7b56\u62a5\u544a",
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
-      "source_location": "L94"
+      "source_location": "L103"
     },
     {
       "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_17_\u9884\u6d4b_\u51b3\u7b56\u7ed3\u8bba_\u5168\u76d8_10_\u573a\u7686\u4e0d\u5408\u89c4_\u4eca\u65e5\u575a\u51b3\u7a7a\u4ed3\u89c2\u5bdf_\u7edd\u4e0d\u786c\u63a8",
@@ -450,7 +450,7 @@
       "node_kind": "heading",
       "norm_label": "\u51b3\u7b56\u7ed3\u8bba:\u3010\u5168\u76d8 10 \u573a\u7686\u4e0d\u5408\u89c4,\u4eca\u65e5\u575a\u51b3\u7a7a\u4ed3\u89c2\u5bdf,\u7edd\u4e0d\u786c\u63a8!\u3011",
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
-      "source_location": "L103"
+      "source_location": "L112"
     },
     {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_hewamalage_\u9884\u6d4b\u8bc4\u4f30\u9677\u9631\u4e0e\u6700\u4f73\u5b9e\u8df5",
@@ -7549,7 +7549,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
-      "source_location": "L94",
+      "source_location": "L103",
       "weight": 1.0
     },
     {
@@ -7560,7 +7560,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
-      "source_location": "L103",
+      "source_location": "L112",
       "weight": 1.0
     },
     {
@@ -10248,7 +10248,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
-      "source_location": "L97",
+      "source_location": "L106",
       "weight": 1.0
     },
     {
@@ -10259,7 +10259,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
-      "source_location": "L98",
+      "source_location": "L107",
       "weight": 1.0
     },
     {
@@ -10270,7 +10270,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-17_\u9884\u6d4b.md",
-      "source_location": "L99",
+      "source_location": "L108",
       "weight": 1.0
     },
     {
@@ -13794,5 +13794,5 @@
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md"
     }
   ],
-  "built_at_commit": "51be2e8941b4e9a2cda9ddb16e2649fe8bcccbb6"
+  "built_at_commit": "768b86633f43b2893612b8a06aca83da50fe505c"
 }

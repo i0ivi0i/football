@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-17)
 
 ## Corpus Check
-- 47 files · ~1,329,068 words
+- 48 files · ~1,329,389 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 1 file(s) not represented in the graph (top: (none) 1)
 
 ## Summary
-- 434 nodes · 672 edges · 36 communities (25 shown, 11 thin omitted)
-- Extraction: 76% EXTRACTED · 9% INFERRED · 15% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
+- 437 nodes · 677 edges · 36 communities (25 shown, 11 thin omitted)
+- Extraction: 77% EXTRACTED · 9% INFERRED · 14% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `cc0b2fc0`
+- Built from commit: `51be2e89`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -55,8 +55,8 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-2. `足球概率分析现行规程` - 46 edges
-3. `智慧经验与习惯塑形` - 35 edges
+2. `足球概率分析现行规程` - 47 edges
+3. `智慧经验与习惯塑形` - 36 edges
 4. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 5. `Sentiment Bias in Betting Odds` - 19 edges
 6. `智慧复盘论文索引` - 18 edges
@@ -92,8 +92,8 @@ Cohesion: 0.25
 Nodes (8): 1. 【周日003 塞尔塔 1:1 马拉加】（平赔 3.50）, 2026-09-13（周日）中国体彩平局全要素深度复盘与 5 场漏网盲区审计报告, 2. 【周日006 海伦芬 0:0 特尔斯达】（平赔 4.55，冷门白卷）, 3. 【周日012 勒芒 2:2 朗斯】（平赔 4.15，对攻大冷平）, 4. 【周日022 法马利康 1:1 里斯本竞技】（平赔 4.30，豪门爆冷）, 一、 为什么【周日001 东京绿茵 1:1 千叶市原】被核心主推遗漏？, 三、 乔布斯产品思维的物理重构方案, 二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？
 
 ### Community 1 - "足球概率分析现行规程"
-Cohesion: 0.07
-Nodes (63): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+55 more)
+Cohesion: 0.06
+Nodes (65): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+57 more)
 
 ### Community 2 - "Wheatcroft 论文 Markdown（附公式与图表）"
 Cohesion: 0.10
@@ -113,7 +113,7 @@ Nodes (4): 历史待核查：🥇 1. 【周四007 解放者杯】德尔瓦耶独
 
 ### Community 6 - "Sentiment Bias in Betting Odds"
 Cohesion: 0.09
-Nodes (35): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Betting Exchange Liquidity Dynamics (+27 more)
+Nodes (32): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Betting Exchange Liquidity Dynamics (+24 more)
 
 ### Community 7 - "足球概率预测评分比较（Wheatcroft，2019预印本）"
 Cohesion: 0.12
@@ -169,7 +169,7 @@ Nodes (45): 1. 刻舟求剑交锋谬误（古代数据的虚假安全感）, 202
 
 ### Community 40 - "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study"
 Cohesion: 0.13
-Nodes (30): ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, Constantinou Hybrid Bayesian Network Model (+22 more)
+Nodes (33): ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, Constantinou Hybrid Bayesian Network Model (+25 more)
 
 ### Community 42 - "历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）"
 Cohesion: 0.33
@@ -386,8 +386,8 @@ Nodes (7): 1. 【周二004 柔佛 1:1 布里兰】4.00 倍黄金冷平为何漏�
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **246 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+241 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 259 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **247 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+242 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 260 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
