@@ -6,7 +6,7 @@
 - Unclassified: 1 file(s) not represented in the graph (top: (none) 1)
 
 ## Summary
-- 451 nodes · 691 edges · 38 communities (27 shown, 11 thin omitted)
+- 451 nodes · 693 edges · 38 communities (27 shown, 11 thin omitted)
 - Extraction: 77% EXTRACTED · 9% INFERRED · 14% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
@@ -57,8 +57,8 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-2. `足球概率分析现行规程` - 48 edges
-3. `智慧经验与习惯塑形` - 37 edges
+2. `足球概率分析现行规程` - 49 edges
+3. `智慧经验与习惯塑形` - 38 edges
 4. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 5. `Sentiment Bias in Betting Odds` - 19 edges
 6. `智慧复盘论文索引` - 18 edges
@@ -142,7 +142,7 @@ Cohesion: 0.40
 Nodes (5): 1. 【周三005 西甲】拉科鲁尼亚 vs 塞维利亚 (01:00 开球), 2026-09-16（周三）中国体育彩票量化推演与 Polymarket 纯平局交易指南, 2. 【周三014 西甲】莱万特 vs 毕尔巴鄂竞技 (03:30 开球), 一、 核心真平局深度八层推演（Polymarket 纯平局直达）, 二、 实力断崖与虚假彩票陷阱审查（坚决一票否决）
 
 ### Community 13 - "⚽ 2026-09-18（周五）中国体彩平局量化排查与推演看板"
-Cohesion: 0.29
+Cohesion: 0.33
 Nodes (6): ⚽ 2026-09-18（周五）中国体彩平局量化排查与推演看板, 🎯 一、 事实核查：实时监控与波动说明, 🔬 三、 头号标的 8 层量化透视：周五009 意甲 【蒙扎 vs 萨索洛】, 📊 二、 今日 14 场全量过筛与去水平局概率梯队榜, 🛡️ 五、 主人实战二选一决策指南, ⚠️ 四、 零级风控特别审查：周五008 德甲 【拜仁 vs 柏林联合】
 
 ### Community 14 - "一、 今日黄金真平局主推（Polymarket 100% 真实可用直达）"
@@ -397,7 +397,7 @@ Nodes (7): 1. 【周二004 柔佛 1:1 布里兰】4.00 倍黄金冷平为何漏�
 
 ## Knowledge Gaps
 - **256 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+251 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 270 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 269 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
