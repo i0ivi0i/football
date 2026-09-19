@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-19)
 
 ## Corpus Check
-- 50 files · ~1,330,507 words
+- 50 files · ~1,331,142 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 1 file(s) not represented in the graph (top: (none) 1)
 
 ## Summary
-- 451 nodes · 693 edges · 38 communities (27 shown, 11 thin omitted)
+- 448 nodes · 690 edges · 45 communities (32 shown, 13 thin omitted)
 - Extraction: 77% EXTRACTED · 9% INFERRED · 14% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8b9951b6`
+- Built from commit: `9efaee20`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,13 +30,19 @@
 - 2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告
 - 2026-09-16（周三）中国体育彩票量化推演与 Polymarket 纯平局交易指南
 - ⚽ 2026-09-18（周五）中国体彩平局量化排查与推演看板
-- 一、 今日黄金真平局主推（Polymarket 100% 真实可用直达）
+- **METHOD**
 - 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
+- 二、 深度复盘：为什么会 0 命中？犯了什么谬误？
 - 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）
+- **ABSTRACT**
 - 2026-09-14（周一）中国体育彩票精算推演报告
+- PDF 第 16 页
+- 2026-09-19（周六）中国体育彩票全量 30 场推演大看板
 - **4 Guidelines and best practices for forecast evaluation**
 - 二、 核心败因深度解剖（四大低级错误）
+- Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1
 - PDF 第 14 页
+- **EXTENSIONS: OUTCOME IMPORTANCE, RESPONSIBILITY, AND PERCEIVED NORMS**
 - 2023_Aiyer_结果偏见与决策评价.md
 - PDF 第 8 页
 - PDF 第 12 页
@@ -49,6 +55,7 @@
 - PDF 第 25 页
 - PDF 第 34 页
 - PDF 第 28 页
+- **REPLICATION CLOSENESS EVALUATION**
 - Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study
 - 历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）
 - 2026-09-09（周三）中国体彩平局全要素深度复盘报告
@@ -87,7 +94,7 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (38 total, 11 thin omitted)
+## Communities (45 total, 13 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
@@ -115,7 +122,7 @@ Nodes (4): 历史待核查：🥇 1. 【周四007 解放者杯】德尔瓦耶独
 
 ### Community 6 - "Sentiment Bias in Betting Odds"
 Cohesion: 0.09
-Nodes (32): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Betting Exchange Liquidity Dynamics (+24 more)
+Nodes (35): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Betting Exchange Liquidity Dynamics (+27 more)
 
 ### Community 7 - "足球概率预测评分比较（Wheatcroft，2019预印本）"
 Cohesion: 0.12
@@ -145,21 +152,37 @@ Nodes (5): 1. 【周三005 西甲】拉科鲁尼亚 vs 塞维利亚 (01:00 开�
 Cohesion: 0.33
 Nodes (6): ⚽ 2026-09-18（周五）中国体彩平局量化排查与推演看板, 🎯 一、 事实核查：实时监控与波动说明, 🔬 三、 头号标的 8 层量化透视：周五009 意甲 【蒙扎 vs 萨索洛】, 📊 二、 今日 14 场全量过筛与去水平局概率梯队榜, 🛡️ 五、 主人实战二选一决策指南, ⚠️ 四、 零级风控特别审查：周五008 德甲 【拜仁 vs 柏林联合】
 
-### Community 14 - "一、 今日黄金真平局主推（Polymarket 100% 真实可用直达）"
-Cohesion: 0.33
-Nodes (6): 1. 【头号真平局·意甲肉搏互锁】周六008 意甲·乌迪内斯 vs 卡利亚里 (今晚 21:00 开球), 2026-09-19（周六）中国体育彩票量化推演与 Polymarket 纯平局交易指南, 2. 【二号真平局·西甲重防对冲】周六007 西甲·奥萨苏纳 vs 巴列卡诺 (今晚 20:00 开球), 3. 【三号真平局·法甲小球温床】周六026 法甲·昂热 vs 特鲁瓦 (明晨 02:45 开球), 一、 今日黄金真平局主推（Polymarket 100% 真实可用直达）, 二、 体彩故意关闭基础胜平负（had缺失）最高级风控场次推演
+### Community 14 - "**METHOD**"
+Cohesion: 0.22
+Nodes (9): Comprehension Checks, Decision Quality, **MEASURES**, **METHOD**, **OUTCOME BIAS MANIPULATION**, **PARTICIPANTS**, PDF 第 5 页, PDF 第 6 页 (+1 more)
 
 ### Community 15 - "历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.25
 Nodes (8): 历史待核查：1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误, 历史待核查：1. 赛前（T-2h）已知客观数据流水, 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告, 历史待核查：2. 为什么会被模型一票否决漏网？（认知根因）, 历史待核查：2. 【周五011 塞维利亚 1:0 巴伦西亚】—— 进球前置锁正确但终结能力严重失衡, 历史待核查：一、 主推失手深度剖析：为什么周五012与011会全军覆没？, 历史待核查：三、 闭环演化：两道物理级断路器系统升级（写入代码与大脑）, 历史待核查：二、 漏网盲区深度审计：【周五004 赫根 1:1 米亚尔比】
 
+### Community 16 - "二、 深度复盘：为什么会 0 命中？犯了什么谬误？"
+Cohesion: 0.29
+Nodes (6): 1. 刻舟求剑交锋谬误（古代数据的虚假安全感）, 2026-09-16（周三）中国体育彩票量化推演复盘与 0 命中根因审计, 2. 违背“允许空仓”原则的强行凑单（无米硬炊）, 3. 突发红牌的结构性破坏, 一、 赛果客观实盘对账表, 二、 深度复盘：为什么会 0 命中？犯了什么谬误？
+
 ### Community 17 - "2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）"
 Cohesion: 0.20
 Nodes (10): 1. 周二001 亚冠精英 叻武里 vs 上海海港 (18:00 开球), 1. 周二009 荷甲 阿贾克斯 vs 威廉二世 [让球-2] (02:00), 1. 周二014 解放者杯 普拉滕斯 vs 弗鲁米嫩 (06:00), 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）, 2. 周二002 亚冠精英 大田市民 vs 京都 (18:00 开球), 2. 周二007 西甲 巴列卡诺 vs 西班牙人 (01:00), 2. 周二013 西甲 埃尔切 vs 皇马 [让球+2] (03:30), ⭐ 一级核心：高平阻盘·正期望值（+EV）黄金标的（破除低赔执念） (+2 more)
 
+### Community 18 - "**ABSTRACT**"
+Cohesion: 0.40
+Nodes (5): **ABSTRACT**, **CORRESPONDING AUTHOR: Gilad Feldman**, **KEYWORDS:**, PDF 第 2 页, **TO CITE THIS ARTICLE:**
+
 ### Community 19 - "2026-09-14（周一）中国体育彩票精算推演报告"
 Cohesion: 0.18
 Nodes (11): 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. 为什么不再机械一票否决？（深盘放行法则）, 2026-09-14（周一）中国体育彩票精算推演报告, 2. Capa 3 & 4 [API] 攻防均衡与法乙平局温床, 2. Capa 5 & 7 [IND] 破除高比分平局误杀, 3. Capa 7 [IND] 比分与落点, 一、 【头号黄金猎物·均势低平】周一009 法乙 圣旺红星 vs 梅斯 (+3 more)
+
+### Community 20 - "PDF 第 16 页"
+Cohesion: 0.50
+Nodes (4): **COPYRIGHT:**, PDF 第 16 页, **REFERENCES**, **TO CITE THIS ARTICLE:**
+
+### Community 21 - "2026-09-19（周六）中国体育彩票全量 30 场推演大看板"
+Cohesion: 0.67
+Nodes (3): 2026-09-19（周六）中国体育彩票全量 30 场推演大看板, 📊 今日 30 场全量逐场排查总览（周六001 至 周六030）, 🎯 最终黄金主推标的直达交易链接
 
 ### Community 22 - "**4 Guidelines and best practices for forecast evaluation**"
 Cohesion: 0.50
@@ -169,17 +192,21 @@ Nodes (4): **4.1.1 Fixed origin setup**, **4.1.2 Rolling origin, time series cro
 Cohesion: 0.22
 Nodes (9): 1. 概率主客颠倒（把 30% 概率当成必然事件）, 2026-09-14（周一）中国体育彩票平局推演深度复盘报告, 2. 心电图神化与阴谋论脑补, 3. 刻舟求剑套用前日教训（过度拟合）, 4. 盲目博冷（都灵 0-2 罗马）, 5. 【全天最大罪证·周一007深度解剖】庄家关盘明牌开卷考的系统性漏网, 一、 战绩看板与客观结算, 三、 习惯塑形：六道物理拦截卡片 (+1 more)
 
+### Community 24 - "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1"
+Cohesion: 0.67
+Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1, PDF 第 1 页
+
 ### Community 25 - "PDF 第 14 页"
 Cohesion: 0.67
 Nodes (3): **3.2 Datasets for empirical evaluations**, **3.3 Evaluation measures for forecasting**, PDF 第 14 页
 
 ### Community 27 - "2023_Aiyer_结果偏见与决策评价.md"
-Cohesion: 0.04
-Nodes (45): 1. 刻舟求剑交锋谬误（古代数据的虚假安全感）, 2026-09-16（周三）中国体育彩票量化推演复盘与 0 命中根因审计, 2. 违背“允许空仓”原则的强行凑单（无米硬炊）, 3. 突发红牌的结构性破坏, 一、 赛果客观实盘对账表, 二、 深度复盘：为什么会 0 命中？犯了什么谬误？, **ABSTRACT**, **ADDITIONAL FILES** (+37 more)
+Cohesion: 0.13
+Nodes (14): **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION**, **BACKGROUND**, **CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**, **CITATION OF THE TARGET RESEARCH ARTICLE**, **COMPETING INTERESTS** (+6 more)
 
 ### Community 40 - "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study"
 Cohesion: 0.13
-Nodes (33): ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, Constantinou Hybrid Bayesian Network Model (+25 more)
+Nodes (30): ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, Constantinou Hybrid Bayesian Network Model (+22 more)
 
 ### Community 42 - "历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）"
 Cohesion: 0.33
@@ -396,9 +423,9 @@ Nodes (7): 1. 【周二004 柔佛 1:1 布里兰】4.00 倍黄金冷平为何漏�
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **256 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+251 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 269 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **254 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+249 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 267 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
