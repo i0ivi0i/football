@@ -1,17 +1,17 @@
-# Graph Report - 足球预测  (2026-09-20)
+# Graph Report - 足球预测  (2026-09-19)
 
 ## Corpus Check
-- 51 files · ~1,332,233 words
+- 50 files · ~1,331,142 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 1 file(s) not represented in the graph (top: (none) 1)
 
 ## Summary
-- 452 nodes · 695 edges · 40 communities (29 shown, 11 thin omitted)
+- 448 nodes · 690 edges · 45 communities (32 shown, 13 thin omitted)
 - Extraction: 77% EXTRACTED · 9% INFERRED · 14% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `714f6d30`
+- Built from commit: `9efaee20`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -26,7 +26,7 @@
 - 足球概率预测评分比较（Wheatcroft，2019预印本）
 - 2026-09-13（周日）中国体育彩票精算推演报告
 - **DISCUSSION**
-- 2023_Aiyer_结果偏见与决策评价.md
+- **RESULTS**
 - 2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告
 - 2026-09-16（周三）中国体育彩票量化推演与 Polymarket 纯平局交易指南
 - ⚽ 2026-09-18（周五）中国体彩平局量化排查与推演看板
@@ -34,12 +34,16 @@
 - 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
 - 二、 深度复盘：为什么会 0 命中？犯了什么谬误？
 - 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）
-- 2026-09-20（周日）中国体育彩票全量 30 场推演大看板
+- **ABSTRACT**
 - 2026-09-14（周一）中国体育彩票精算推演报告
+- PDF 第 16 页
 - 2026-09-19（周六）中国体育彩票全量 30 场推演大看板
 - **4 Guidelines and best practices for forecast evaluation**
 - 二、 核心败因深度解剖（四大低级错误）
+- Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1
 - PDF 第 14 页
+- **EXTENSIONS: OUTCOME IMPORTANCE, RESPONSIBILITY, AND PERCEIVED NORMS**
+- 2023_Aiyer_结果偏见与决策评价.md
 - PDF 第 8 页
 - PDF 第 12 页
 - **3 Motivation and common pitfalls**
@@ -51,6 +55,7 @@
 - PDF 第 25 页
 - PDF 第 34 页
 - PDF 第 28 页
+- **REPLICATION CLOSENESS EVALUATION**
 - Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study
 - 历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）
 - 2026-09-09（周三）中国体彩平局全要素深度复盘报告
@@ -59,8 +64,8 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-2. `足球概率分析现行规程` - 50 edges
-3. `智慧经验与习惯塑形` - 39 edges
+2. `足球概率分析现行规程` - 49 edges
+3. `智慧经验与习惯塑形` - 38 edges
 4. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 5. `Sentiment Bias in Betting Odds` - 19 edges
 6. `智慧复盘论文索引` - 18 edges
@@ -89,7 +94,7 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (40 total, 11 thin omitted)
+## Communities (45 total, 13 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
@@ -131,9 +136,9 @@ Nodes (16): 1. Capa 1 [ODDS] 市场底牌与心电图轨迹, 1. Capa 1 [ODDS] �
 Cohesion: 0.17
 Nodes (12): Broader Importance of Outcome Bias, Constraints on Generality, **DISCUSSION**, **EXTENSIONS**, Limitations and Future Directions, PDF 第 12 页, PDF 第 13 页, PDF 第 14 页 (+4 more)
 
-### Community 10 - "2023_Aiyer_结果偏见与决策评价.md"
-Cohesion: 0.04
-Nodes (45): **ABSTRACT**, **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION**, **BACKGROUND**, **CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**, **CITATION OF THE TARGET RESEARCH ARTICLE** (+37 more)
+### Community 10 - "**RESULTS**"
+Cohesion: 0.13
+Nodes (15): **CONFIRMATORY (PRE-REGISTERED) RESULTS** Replication: Decision Quality, **EXPLORATORY RESULTS (NOT PREREGISTERED)**, **EXTENSIONS**, Mediation Analyses, PDF 第 10 页, PDF 第 11 页, PDF 第 7 页, PDF 第 8 页 (+7 more)
 
 ### Community 11 - "2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.15
@@ -163,13 +168,17 @@ Nodes (6): 1. 刻舟求剑交锋谬误（古代数据的虚假安全感）, 2026
 Cohesion: 0.20
 Nodes (10): 1. 周二001 亚冠精英 叻武里 vs 上海海港 (18:00 开球), 1. 周二009 荷甲 阿贾克斯 vs 威廉二世 [让球-2] (02:00), 1. 周二014 解放者杯 普拉滕斯 vs 弗鲁米嫩 (06:00), 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）, 2. 周二002 亚冠精英 大田市民 vs 京都 (18:00 开球), 2. 周二007 西甲 巴列卡诺 vs 西班牙人 (01:00), 2. 周二013 西甲 埃尔切 vs 皇马 [让球+2] (03:30), ⭐ 一级核心：高平阻盘·正期望值（+EV）黄金标的（破除低赔执念） (+2 more)
 
-### Community 18 - "2026-09-20（周日）中国体育彩票全量 30 场推演大看板"
-Cohesion: 0.67
-Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板, 📊 今日 30 场全量逐场排查总览（周日001 至 周日030）, 🎯 今日黄金平局直达交易链接（全部实测 200 OK 直达）
+### Community 18 - "**ABSTRACT**"
+Cohesion: 0.40
+Nodes (5): **ABSTRACT**, **CORRESPONDING AUTHOR: Gilad Feldman**, **KEYWORDS:**, PDF 第 2 页, **TO CITE THIS ARTICLE:**
 
 ### Community 19 - "2026-09-14（周一）中国体育彩票精算推演报告"
 Cohesion: 0.18
 Nodes (11): 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. 为什么不再机械一票否决？（深盘放行法则）, 2026-09-14（周一）中国体育彩票精算推演报告, 2. Capa 3 & 4 [API] 攻防均衡与法乙平局温床, 2. Capa 5 & 7 [IND] 破除高比分平局误杀, 3. Capa 7 [IND] 比分与落点, 一、 【头号黄金猎物·均势低平】周一009 法乙 圣旺红星 vs 梅斯 (+3 more)
+
+### Community 20 - "PDF 第 16 页"
+Cohesion: 0.50
+Nodes (4): **COPYRIGHT:**, PDF 第 16 页, **REFERENCES**, **TO CITE THIS ARTICLE:**
 
 ### Community 21 - "2026-09-19（周六）中国体育彩票全量 30 场推演大看板"
 Cohesion: 0.67
@@ -183,9 +192,17 @@ Nodes (4): **4.1.1 Fixed origin setup**, **4.1.2 Rolling origin, time series cro
 Cohesion: 0.22
 Nodes (9): 1. 概率主客颠倒（把 30% 概率当成必然事件）, 2026-09-14（周一）中国体育彩票平局推演深度复盘报告, 2. 心电图神化与阴谋论脑补, 3. 刻舟求剑套用前日教训（过度拟合）, 4. 盲目博冷（都灵 0-2 罗马）, 5. 【全天最大罪证·周一007深度解剖】庄家关盘明牌开卷考的系统性漏网, 一、 战绩看板与客观结算, 三、 习惯塑形：六道物理拦截卡片 (+1 more)
 
+### Community 24 - "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1"
+Cohesion: 0.67
+Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1, PDF 第 1 页
+
 ### Community 25 - "PDF 第 14 页"
 Cohesion: 0.67
 Nodes (3): **3.2 Datasets for empirical evaluations**, **3.3 Evaluation measures for forecasting**, PDF 第 14 页
+
+### Community 27 - "2023_Aiyer_结果偏见与决策评价.md"
+Cohesion: 0.13
+Nodes (14): **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION**, **BACKGROUND**, **CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**, **CITATION OF THE TARGET RESEARCH ARTICLE**, **COMPETING INTERESTS** (+6 more)
 
 ### Community 40 - "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study"
 Cohesion: 0.13
@@ -406,9 +423,9 @@ Nodes (7): 1. 【周二004 柔佛 1:1 布里兰】4.00 倍黄金冷平为何漏�
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **256 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+251 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 269 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **254 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+249 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 267 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
