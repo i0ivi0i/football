@@ -1,17 +1,17 @@
-# Graph Report - 足球预测  (2026-09-20)
+# Graph Report - 足球预测  (2026-09-21)
 
 ## Corpus Check
-- 51 files · ~1,332,233 words
+- 52 files · ~1,332,541 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 1 file(s) not represented in the graph (top: (none) 1)
 
 ## Summary
-- 452 nodes · 695 edges · 40 communities (29 shown, 11 thin omitted)
+- 455 nodes · 700 edges · 39 communities (28 shown, 11 thin omitted)
 - Extraction: 77% EXTRACTED · 9% INFERRED · 14% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `714f6d30`
+- Built from commit: `bd9aab41`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,9 +30,8 @@
 - 2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告
 - 2026-09-16（周三）中国体育彩票量化推演与 Polymarket 纯平局交易指南
 - ⚽ 2026-09-18（周五）中国体彩平局量化排查与推演看板
-- **METHOD**
+- **RESULTS**
 - 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
-- 二、 深度复盘：为什么会 0 命中？犯了什么谬误？
 - 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）
 - 2026-09-20（周日）中国体育彩票全量 30 场推演大看板
 - 2026-09-14（周一）中国体育彩票精算推演报告
@@ -59,8 +58,8 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-2. `足球概率分析现行规程` - 50 edges
-3. `智慧经验与习惯塑形` - 39 edges
+2. `足球概率分析现行规程` - 51 edges
+3. `智慧经验与习惯塑形` - 40 edges
 4. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 5. `Sentiment Bias in Betting Odds` - 19 edges
 6. `智慧复盘论文索引` - 18 edges
@@ -89,7 +88,7 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (40 total, 11 thin omitted)
+## Communities (39 total, 11 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
@@ -97,7 +96,7 @@ Nodes (8): 1. 【周日003 塞尔塔 1:1 马拉加】（平赔 3.50）, 2026-09-
 
 ### Community 1 - "足球概率分析现行规程"
 Cohesion: 0.06
-Nodes (65): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+57 more)
+Nodes (67): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+59 more)
 
 ### Community 2 - "Wheatcroft 论文 Markdown（附公式与图表）"
 Cohesion: 0.10
@@ -117,7 +116,7 @@ Nodes (4): 历史待核查：🥇 1. 【周四007 解放者杯】德尔瓦耶独
 
 ### Community 6 - "Sentiment Bias in Betting Odds"
 Cohesion: 0.09
-Nodes (35): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Betting Exchange Liquidity Dynamics (+27 more)
+Nodes (32): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Betting Exchange Liquidity Dynamics (+24 more)
 
 ### Community 7 - "足球概率预测评分比较（Wheatcroft，2019预印本）"
 Cohesion: 0.12
@@ -133,7 +132,7 @@ Nodes (12): Broader Importance of Outcome Bias, Constraints on Generality, **DIS
 
 ### Community 10 - "2023_Aiyer_结果偏见与决策评价.md"
 Cohesion: 0.04
-Nodes (45): **ABSTRACT**, **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION**, **BACKGROUND**, **CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**, **CITATION OF THE TARGET RESEARCH ARTICLE** (+37 more)
+Nodes (45): 1. 刻舟求剑交锋谬误（古代数据的虚假安全感）, 2026-09-16（周三）中国体育彩票量化推演复盘与 0 命中根因审计, 2. 违背“允许空仓”原则的强行凑单（无米硬炊）, 3. 突发红牌的结构性破坏, 一、 赛果客观实盘对账表, 二、 深度复盘：为什么会 0 命中？犯了什么谬误？, **ABSTRACT**, **ADDITIONAL FILES** (+37 more)
 
 ### Community 11 - "2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.15
@@ -147,17 +146,13 @@ Nodes (5): 1. 【周三005 西甲】拉科鲁尼亚 vs 塞维利亚 (01:00 开�
 Cohesion: 0.33
 Nodes (6): ⚽ 2026-09-18（周五）中国体彩平局量化排查与推演看板, 🎯 一、 事实核查：实时监控与波动说明, 🔬 三、 头号标的 8 层量化透视：周五009 意甲 【蒙扎 vs 萨索洛】, 📊 二、 今日 14 场全量过筛与去水平局概率梯队榜, 🛡️ 五、 主人实战二选一决策指南, ⚠️ 四、 零级风控特别审查：周五008 德甲 【拜仁 vs 柏林联合】
 
-### Community 14 - "**METHOD**"
-Cohesion: 0.22
-Nodes (9): Comprehension Checks, Decision Quality, **MEASURES**, **METHOD**, **OUTCOME BIAS MANIPULATION**, **PARTICIPANTS**, PDF 第 5 页, PDF 第 6 页 (+1 more)
+### Community 14 - "**RESULTS**"
+Cohesion: 0.13
+Nodes (15): **CONFIRMATORY (PRE-REGISTERED) RESULTS** Replication: Decision Quality, **EXPLORATORY RESULTS (NOT PREREGISTERED)**, **EXTENSIONS**, Mediation Analyses, PDF 第 10 页, PDF 第 11 页, PDF 第 7 页, PDF 第 8 页 (+7 more)
 
 ### Community 15 - "历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.25
 Nodes (8): 历史待核查：1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误, 历史待核查：1. 赛前（T-2h）已知客观数据流水, 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告, 历史待核查：2. 为什么会被模型一票否决漏网？（认知根因）, 历史待核查：2. 【周五011 塞维利亚 1:0 巴伦西亚】—— 进球前置锁正确但终结能力严重失衡, 历史待核查：一、 主推失手深度剖析：为什么周五012与011会全军覆没？, 历史待核查：三、 闭环演化：两道物理级断路器系统升级（写入代码与大脑）, 历史待核查：二、 漏网盲区深度审计：【周五004 赫根 1:1 米亚尔比】
-
-### Community 16 - "二、 深度复盘：为什么会 0 命中？犯了什么谬误？"
-Cohesion: 0.29
-Nodes (6): 1. 刻舟求剑交锋谬误（古代数据的虚假安全感）, 2026-09-16（周三）中国体育彩票量化推演复盘与 0 命中根因审计, 2. 违背“允许空仓”原则的强行凑单（无米硬炊）, 3. 突发红牌的结构性破坏, 一、 赛果客观实盘对账表, 二、 深度复盘：为什么会 0 命中？犯了什么谬误？
 
 ### Community 17 - "2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）"
 Cohesion: 0.20
@@ -189,7 +184,7 @@ Nodes (3): **3.2 Datasets for empirical evaluations**, **3.3 Evaluation measures
 
 ### Community 40 - "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study"
 Cohesion: 0.13
-Nodes (30): ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, Constantinou Hybrid Bayesian Network Model (+22 more)
+Nodes (33): ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, Constantinou Hybrid Bayesian Network Model (+25 more)
 
 ### Community 42 - "历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）"
 Cohesion: 0.33
@@ -406,8 +401,8 @@ Nodes (7): 1. 【周二004 柔佛 1:1 布里兰】4.00 倍黄金冷平为何漏�
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **256 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+251 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 269 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **257 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+252 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 270 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions

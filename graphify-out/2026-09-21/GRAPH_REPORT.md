@@ -1,7 +1,7 @@
 # Graph Report - 足球预测  (2026-09-20)
 
 ## Corpus Check
-- 51 files · ~1,332,233 words
+- 51 files · ~1,332,277 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 1 file(s) not represented in the graph (top: (none) 1)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `714f6d30`
+- Built from commit: `fe5e8131`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
