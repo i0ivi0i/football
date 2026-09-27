@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-27)
 
 ## Corpus Check
-- 83 files · ~1,516,048 words
+- 81 files · ~1,343,616 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 2 file(s) not represented in the graph (top: .bak 1, (none) 1)
+- Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .bak 1)
 
 ## Summary
-- 706 nodes · 968 edges · 99 communities (65 shown, 34 thin omitted)
+- 710 nodes · 972 edges · 99 communities (63 shown, 36 thin omitted)
 - Extraction: 84% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a380cb02`
+- Built from commit: `d2508e39`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -34,10 +34,10 @@
 - 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
 - ADR 0011: 竞彩官方开售清单物理对账门禁 (Sporttery Official Fixtures Physical Reconciliation Gate)
 - 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）
-- 2026-09-20（周日）中国体育彩票全量 30 场推演大看板
+- 案例 19（极低赔拉让平阻客实杀让平案）：主胜1.10诱穿盘暗杀让平【主胜1.10与天价让平3.80案】
 - 2026-09-14（周一）中国体育彩票精算推演报告
 - 2026-09-22（周二）中国体育彩票精算推演报告 (临场伤停实测更新版)
-- 2026-09-19（周六）中国体育彩票全量 30 场推演大看板
+- 案例 37（深V洗盘诱客与1.40毒诱饵杀局案）：主胜2.45暴砍2.20深V破位，让负1.40毒诱饵全网屠戮，让平4.50天价通杀【胜2.20与让平4.50通杀案】
 - **4 Guidelines and best practices for forecast evaluation**
 - 二、 核心败因深度解剖（四大低级错误）
 - ADR 0001: 全盘单一最佳价值推演模式 (Best Value Mode)
@@ -103,16 +103,16 @@
 - 案例 29（平半倒挂诱客杀平局案）：客负易主引流追热，平赔砸入2.80超低水真防平【平局2.83与让负1.43通杀案】
 - 案例 28（均势弱让诱平蜜罐掩护高水穿盘案）：平赔暴跌至3.18做蜜罐，终盘让胜狂砍0.21大破深盘【主胜2.19与让胜4.55通杀案】
 - 案例 35（初盘让平3.85天堑与让胜砸破2.00真穿盘案）：初盘让平3.85如铁，让胜砸破2.00定格全盘最低【胜1.33与让胜1.95大捷案】
+- 案例 36（平半弱让让负毒诱饵与让平独降杀局案）：主胜2.05死水，让负1.59毒诱饵屠杀串关，让平独降3.75小胜通杀【胜2.05与让平3.75通杀案】
 - 案例 32（客让半球高水让负诱穿暗杀让平案）：客胜1.83锁定，让负4.80狂降至4.15高水诱穿，让平4.00高悬暗杀【负1.83与让平3.97通杀案】
 - 案例 26（极端低平2.75真防守与让盘双弃案）：平赔暴跌至2.75真闷平，让球双弃锁死让负【平局2.75与让负1.40双红案】
 - 案例 31（狂砸低平2.65掩护天价冷负案）：平赔砸穿至2.65做终极蜜罐，负赔暴拉+0.62真空偷鸡【负3.55与让负1.53通杀案】
 - 案例 22（中盘优势拉让平诱穿盘暗杀让平案）：主胜1.53拉高让平至3.51赶客，降让胜诱穿暗杀让平【主胜1.53与让平3.51通杀案】
-- 案例 19（极低赔拉让平阻客实杀让平案）：主胜1.10诱穿盘暗杀让平【主胜1.10与天价让平3.80案】
+- 案例 24（中盘低水让平蜜罐杀大胜穿盘案）：让平砸破3.10做蜜罐，让胜暴拉3.40制造真空【主胜1.59与让胜3.40大胜通杀案】
 - 案例 30（极低赔反弹回踩诱多杀冷平案）：胜赔1.16反复升水回踩，终盘让胜反弹1.64杀冷平【平局5.70与让负3.80通杀案】
 - 案例 23（让盘双弃与客队唯一下砸大捷案）：让胜4.15+让平3.75判主胜死刑，客负3.06破位【客负3.06与让负1.61双红案】
 - 案例 18（客让深盘诱穿盘杀让平案）：客胜破1.30诱穿盘暗杀让平【客负1.28与天价让平4.00案】
 - 案例 33（让胜反超定格最低项穿盘大捷案）：初盘让胜2.50最高，终盘暴砍至2.19反超定格全盘最低【胜1.29与让胜2.19大胜案】
-- 案例 17（超深盘初赔如骨与庄共舞案）：初赔1.19奠定骨架，终赔1.12+让胜1.56顺势大破深盘案
 - 案例 25（客让转主让攻守易势案）：受让胜1.52锁死不败，主胜狂砍0.24反客为主【主胜2.50与让胜1.52双红案】
 - 案例 34（让平相对斜率真防守大捷案）：让平连续暴跌4档砸至3.15，降幅为让胜2.1倍锁定小胜【胜1.56与让平3.15案】
 
@@ -120,7 +120,7 @@
 1. `足球概率分析现行规程` - 54 edges
 2. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
 3. `智慧经验与习惯塑形` - 40 edges
-4. `二、 五大经典实战盘口复盘` - 36 edges
+4. `二、 五大经典实战盘口复盘` - 38 edges
 5. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 6. `Sentiment Bias in Betting Odds` - 19 edges
 7. `智慧复盘论文索引` - 18 edges
@@ -151,15 +151,15 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (99 total, 34 thin omitted)
+## Communities (99 total, 36 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
 Nodes (8): 1. 【周日003 塞尔塔 1:1 马拉加】（平赔 3.50）, 2026-09-13（周日）中国体彩平局全要素深度复盘与 5 场漏网盲区审计报告, 2. 【周日006 海伦芬 0:0 特尔斯达】（平赔 4.55，冷门白卷）, 3. 【周日012 勒芒 2:2 朗斯】（平赔 4.15，对攻大冷平）, 4. 【周日022 法马利康 1:1 里斯本竞技】（平赔 4.30，豪门爆冷）, 一、 为什么【周日001 东京绿茵 1:1 千叶市原】被核心主推遗漏？, 三、 乔布斯产品思维的物理重构方案, 二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？
 
 ### Community 1 - "足球概率分析现行规程"
-Cohesion: 0.06
-Nodes (67): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+59 more)
+Cohesion: 0.05
+Nodes (73): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+65 more)
 
 ### Community 2 - "Wheatcroft 论文 Markdown（附公式与图表）"
 Cohesion: 0.05
@@ -225,10 +225,6 @@ Nodes (5): ADR 0011: 竞彩官方开售清单物理对账门禁 (Sporttery Offic
 Cohesion: 0.20
 Nodes (10): 1. 周二001 亚冠精英 叻武里 vs 上海海港 (18:00 开球), 1. 周二009 荷甲 阿贾克斯 vs 威廉二世 [让球-2] (02:00), 1. 周二014 解放者杯 普拉滕斯 vs 弗鲁米嫩 (06:00), 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）, 2. 周二002 亚冠精英 大田市民 vs 京都 (18:00 开球), 2. 周二007 西甲 巴列卡诺 vs 西班牙人 (01:00), 2. 周二013 西甲 埃尔切 vs 皇马 [让球+2] (03:30), ⭐ 一级核心：高平阻盘·正期望值（+EV）黄金标的（破除低赔执念） (+2 more)
 
-### Community 18 - "2026-09-20（周日）中国体育彩票全量 30 场推演大看板"
-Cohesion: 0.67
-Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板, 📊 今日 30 场全量逐场排查总览（周日001 至 周日030）, 🎯 今日黄金平局直达交易链接（全部实测 200 OK 直达）
-
 ### Community 19 - "2026-09-14（周一）中国体育彩票精算推演报告"
 Cohesion: 0.18
 Nodes (11): 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. 为什么不再机械一票否决？（深盘放行法则）, 2026-09-14（周一）中国体育彩票精算推演报告, 2. Capa 3 & 4 [API] 攻防均衡与法乙平局温床, 2. Capa 5 & 7 [IND] 破除高比分平局误杀, 3. Capa 7 [IND] 比分与落点, 一、 【头号黄金猎物·均势低平】周一009 法乙 圣旺红星 vs 梅斯 (+3 more)
@@ -236,10 +232,6 @@ Nodes (11): 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. Capa 1 [ODDS] �
 ### Community 20 - "2026-09-22（周二）中国体育彩票精算推演报告 (临场伤停实测更新版)"
 Cohesion: 0.50
 Nodes (3): 2026-09-22（周二）中国体育彩票精算推演报告 (临场伤停实测更新版), 📊 一、 全盘 4 场极简决策总看板 (ADR-0005), 🔬 二、 核心爆破点：周二003 诺茨郡 vs 格里姆斯比 深度透视
-
-### Community 21 - "2026-09-19（周六）中国体育彩票全量 30 场推演大看板"
-Cohesion: 0.67
-Nodes (3): 2026-09-19（周六）中国体育彩票全量 30 场推演大看板, 📊 今日 30 场全量逐场排查总览（周六001 至 周六030）, 🎯 最终黄金主推标的直达交易链接
 
 ### Community 22 - "**4 Guidelines and best practices for forecast evaluation**"
 Cohesion: 0.50
@@ -371,7 +363,7 @@ Nodes (5): **ABSTRACT**, **CORRESPONDING AUTHOR: Gilad Feldman**, **KEYWORDS:**,
 
 ### Community 69 - "二、 五大经典实战盘口复盘"
 Cohesion: 0.17
-Nodes (12): 1. 深度复盘与操盘刀法破译, 1. 深度复盘与操盘手“双蜜罐掩护高水穿盘”刀法, 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】, 案例 1：低赔造胆杀平局【澳大利亚 1:1 巴西】（周五003） (+4 more)
+Nodes (12): 1. 深度复盘与“与庄共舞”操盘法则, 1. 深度复盘与操盘刀法破译, 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】, 案例 17（超深盘初赔如骨与庄共舞案）：初赔1.19奠定骨架，终赔1.12+让胜1.56顺势大破深盘案 (+4 more)
 
 ### Community 70 - "PDF 第 16 页"
 Cohesion: 0.50
@@ -612,9 +604,9 @@ Nodes (3): 1. 初始错误推演（第一层韭菜视角）, 2. 认知反转与�
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **387 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+382 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 422 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **34 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **389 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+384 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 424 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **36 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
