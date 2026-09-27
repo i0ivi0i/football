@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-27)
 
 ## Corpus Check
-- 81 files · ~1,344,507 words
+- 81 files · ~1,344,506 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .bak 1)
 
 ## Summary
-- 722 nodes · 984 edges · 105 communities (57 shown, 48 thin omitted)
-- Extraction: 84% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
+- 691 nodes · 953 edges · 72 communities (57 shown, 15 thin omitted)
+- Extraction: 83% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2b180099`
+- Built from commit: `63e45667`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -34,7 +34,6 @@
 - 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
 - ADR 0011: 竞彩官方开售清单物理对账门禁 (Sporttery Official Fixtures Physical Reconciliation Gate)
 - 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）
-- 案例 51（公理三形态二与让平相对斜率真防守案）：主胜砸破1.60，让平跳水-0.23达让胜两倍入3.15【胜1.56与让平3.15双红案】
 - 2026-09-14（周一）中国体育彩票精算推演报告
 - 2026-09-22（周二）中国体育彩票精算推演报告 (临场伤停实测更新版)
 - **METHOD**
@@ -78,53 +77,21 @@
 - adr/README.md
 - ADR 0014: 双引擎融合做实基建与防幻觉物理门禁 (Hybrid Dual-Skill Grounding & Anti-Hallucination Gate)
 - 三、 赔率分析推演十大公理（胜平负 + 让球联动）
-- 案例 25（客让转主让攻守易势案）：受让胜1.52锁死不败，主胜狂砍0.24反客为主【主胜2.50与让胜1.52双红案】
 - ADR 0015: 微观伤停量化修正与攻防泊松动态衰减引擎 (Micro-Injury Quantitative Calibration & Dynamic Poisson Decay Engine)
 - 2026-09-22 周二001【韩国 2:0 沙特】Aiyer 学术解耦深度复盘报告
-- 案例 43（客让未易主胶着与让胜破二真防平案）：客负2.18升水未失主导，让胜砸破2.00入1.85锁主不败，两头分流杀平局【平3.26与让胜1.85通杀案】
 - TacticalPressingEngine
 - ADR 0016: 全域微观战术指标集成与高位逼抢转化惩罚引擎 (Tactical Micro-Metrics Integration & Pressing Conversion Penalty Engine)
-- 案例 41（极低赔拒破2.00造胆杀天价冷平案）：客负1.32狂降造死胆，让负2.15拒破2.00虚诱大胜，天价冷平4.40通杀全网【平4.40与让胜2.73通杀案】
 - 二、 五大经典实战盘口复盘
-- 案例 44（半球生死盘诱主杀闷平案）：主胜1.90半球热胆，让胜3.95否定穿盘，平赔3.22通杀主胜【平3.22与让负1.70双红案】
-- 案例 32（客让半球高水让负诱穿暗杀让平案）：客胜1.83锁定，让负4.80狂降至4.15高水诱穿，让平4.00高悬暗杀【负1.83与让平3.97通杀案】
-- 案例 50（主胜微降诱多与负赔暴拉真空案）：主胜1.66造神胆，负赔暴拉3.85赶客制造真空【客负3.85与让负1.94通杀案】
 - 二、 深度复盘：为什么会 0 命中？犯了什么谬误？
 - **ABSTRACT**
-- 案例 49（让平独跌3.35与公理三小胜真防案）：主胜1.83坚挺，让平独降至3.35锁一球小胜【胜1.83与让平3.35通杀案】
-- 案例 47（初让负最小均势杀平案）：(-1)让负1.44初盘最小锁死主不胜，均势两头分流杀平局【平3.34与让负1.44双红案】
-- 案例 28（均势弱让诱平蜜罐掩护高水穿盘案）：平赔暴跌至3.18做蜜罐，终盘让胜狂砍0.21大破深盘【主胜2.19与让胜4.55通杀案】
 - PDF 第 16 页
 - Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1
-- 案例 21（破2.00诱穿盘与拉让平至4.00赶客双杀案）：客胜1.20砸破2.00诱穿暗杀让平【客负1.20与让平4.00案】
-- 案例 37（深V洗盘诱客与1.40毒诱饵杀局案）：主胜2.45暴砍2.20深V破位，让负1.40毒诱饵全网屠戮，让平4.50天价通杀【胜2.20与让平4.50通杀案】
-- 案例 24（中盘低水让平蜜罐杀大胜穿盘案）：让平砸破3.10做蜜罐，让胜暴拉3.40制造真空【主胜1.59与让胜3.40大胜通杀案】
-- **CONTRIBUTOR ROLES TAXONOMY**
-- 案例 35（初盘让平3.85天堑与让胜砸破2.00真穿盘案）：初盘让平3.85如铁，让胜砸破2.00定格全盘最低【胜1.33与让胜1.95大捷案】
-- 案例 52（半一盘主胜深V诱多与客负暴拉真空杀局案）：主胜1.88砸至1.74造神胆，客负3.21暴拉3.77真空偷鸡【客负3.77与让负1.78通杀案】
 - 2026-09-19（周六）中国体育彩票全量 30 场推演大看板
-- 案例 36（平半弱让让负毒诱饵与让平独降杀局案）：主胜2.05死水，让负1.59毒诱饵屠杀串关，让平独降3.75小胜通杀【胜2.05与让平3.75通杀案】
-- 案例 26（极端低平2.75真防守与让盘双弃案）：平赔暴跌至2.75真闷平，让球双弃锁死让负【平局2.75与让负1.40双红案】
-- 案例 31（狂砸低平2.65掩护天价冷负案）：平赔砸穿至2.65做终极蜜罐，负赔暴拉+0.62真空偷鸡【负3.55与让负1.53通杀案】
 - 2026-09-20（周日）中国体育彩票全量 30 场推演大看板
-- 案例 39（均势微让僵局与平赔领跌杀两头案）：主胜微降未易主（2.51 vs 2.30），平赔降幅超胜赔真防平【平3.38与让胜1.48通杀案】
-- 案例 30（极低赔反弹回踩诱多杀冷平案）：胜赔1.16反复升水回踩，终盘让胜反弹1.64杀冷平【平局5.70与让负3.80通杀案】
-- 案例 29（平半倒挂诱客杀平局案）：客负易主引流追热，平赔砸入2.80超低水真防平【平局2.83与让负1.43通杀案】
-- 案例 27（超低平全周期锁死<3.00杀主胜案）：平赔全流程处于<3.00禁区，破2.00虚诱主胜暗杀平局【平局2.95与让负1.59通杀案】
-- 案例 34（让平相对斜率真防守大捷案）：让平连续暴跌4档砸至3.15，降幅为让胜2.1倍锁定小胜【胜1.56与让平3.15案】
-- 案例 40（平手均势诱客造热与临场拉高平赔杀两头案）：初盘2.42对开，客负连降2.26虚热，临场平赔拉高3.38通杀胜负【平3.38与让负1.37通杀案】
-- 案例 38（初盘让平3.72天堑与让胜单调下砸穿盘案）：胜赔1.42连砸1.34，让平3.72死焊否定小胜，让胜2.22砸至2.06真穿盘【胜1.34与让胜2.06双红案】
-- 案例 42（客负砸破2.00虚假破位诱客杀平局案）：客负2.35连砸破2.00入1.98极致诱客，让胜1.54低位死锁主不败【平3.26与让胜1.54通杀案】
-- 案例 45（初盘让负最小与主崩平降通杀案）：(-1)让负1.65初盘最小定性主不胜，平降至3.10直取平局【平3.10与让负1.56双红案】
-- 案例 33（让胜反超定格最低项穿盘大捷案）：初盘让胜2.50最高，终盘暴砍至2.19反超定格全盘最低【胜1.29与让胜2.19大胜案】
-- 案例 22（中盘优势拉让平诱穿盘暗杀让平案）：主胜1.53拉高让平至3.51赶客，降让胜诱穿暗杀让平【主胜1.53与让平3.51通杀案】
-- 案例 46（初让胜最小阻上杀平案）：(+1)让胜2.10初盘最小锁死客不胜，升水2.23阻上客降1.48诱多【平4.20与让胜2.23双红案】
-- 案例 23（让盘双弃与客队唯一下砸大捷案）：让胜4.15+让平3.75判主胜死刑，客负3.06破位【客负3.06与让负1.61双红案】
-- 案例 48（极低神胆回踩与诱穿杀冷平案）：胜1.20升水拒破，平5.75回踩避险，让胜1.62蜜罐杀全盘【平5.75与让负3.65通杀案】
 
 ## God Nodes (most connected - your core abstractions)
-1. `足球概率分析现行规程` - 54 edges
-2. `二、 五大经典实战盘口复盘` - 53 edges
+1. `二、 五大经典实战盘口复盘` - 54 edges
+2. `足球概率分析现行规程` - 54 edges
 3. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
 4. `智慧经验与习惯塑形` - 40 edges
 5. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
@@ -157,7 +124,7 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (105 total, 48 thin omitted)
+## Communities (72 total, 15 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
@@ -200,8 +167,8 @@ Cohesion: 0.17
 Nodes (12): Broader Importance of Outcome Bias, Constraints on Generality, **DISCUSSION**, **EXTENSIONS**, Limitations and Future Directions, PDF 第 12 页, PDF 第 13 页, PDF 第 14 页 (+4 more)
 
 ### Community 10 - "2023_Aiyer_结果偏见与决策评价.md"
-Cohesion: 0.12
-Nodes (16): **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION**, **BACKGROUND**, **CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**, **CITATION OF THE TARGET RESEARCH ARTICLE**, **COMPETING INTERESTS** (+8 more)
+Cohesion: 0.11
+Nodes (18): **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION**, **BACKGROUND**, **CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**, **CITATION OF THE TARGET RESEARCH ARTICLE**, **COMPETING INTERESTS** (+10 more)
 
 ### Community 11 - "2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.15
@@ -360,8 +327,8 @@ Cohesion: 0.40
 Nodes (4): ADR 0016: 全域微观战术指标集成与高位逼抢转化惩罚引擎 (Tactical Micro-Metrics Integration & Pressing Conversion Penalty Engine), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
 
 ### Community 69 - "二、 五大经典实战盘口复盘"
-Cohesion: 0.10
-Nodes (21): 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】, 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】, 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】, 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】 (+13 more)
+Cohesion: 0.04
+Nodes (54): 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】, 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】, 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】, 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】 (+46 more)
 
 ### Community 73 - "二、 深度复盘：为什么会 0 命中？犯了什么谬误？"
 Cohesion: 0.29
@@ -586,9 +553,9 @@ Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板,
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **399 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+394 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 434 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **48 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **400 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+395 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 435 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
