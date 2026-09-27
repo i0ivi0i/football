@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-27)
 
 ## Corpus Check
-- 81 files · ~1,344,574 words
+- 81 files · ~1,344,478 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .bak 1)
 
 ## Summary
-- 724 nodes · 986 edges · 113 communities (64 shown, 49 thin omitted)
+- 721 nodes · 983 edges · 111 communities (62 shown, 49 thin omitted)
 - Extraction: 84% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6e5435e8`
+- Built from commit: `f73ad5cb`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -88,9 +88,8 @@
 - 二、 五大经典实战盘口复盘
 - 案例 44（半球生死盘诱主杀闷平案）：主胜1.90半球热胆，让胜3.95否定穿盘，平赔3.22通杀主胜【平3.22与让负1.70双红案】
 - 案例 32（客让半球高水让负诱穿暗杀让平案）：客胜1.83锁定，让负4.80狂降至4.15高水诱穿，让平4.00高悬暗杀【负1.83与让平3.97通杀案】
-- 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】
+- 案例 50（主胜微降诱多与负赔暴拉真空案）：主胜1.66造神胆，负赔暴拉3.85赶客制造真空【客负3.85与让负1.94通杀案】
 - 已取代：智慧复盘论文索引
-- 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】
 - 案例 49（让平独跌3.35与公理三小胜真防案）：主胜1.83坚挺，让平独降至3.35锁一球小胜【胜1.83与让平3.35通杀案】
 - 案例 47（初让负最小均势杀平案）：(-1)让负1.44初盘最小锁死主不胜，均势两头分流杀平局【平3.34与让负1.44双红案】
 - 案例 28（均势弱让诱平蜜罐掩护高水穿盘案）：平赔暴跌至3.18做蜜罐，终盘让胜狂砍0.21大破深盘【主胜2.19与让胜4.55通杀案】
@@ -114,7 +113,6 @@
 - 2026-09-13_复盘.md
 - 案例 20（拉马努金注意到与相对斜率双降穿盘案）：初盘胜平同值3.30，让负狂砍0.28远超让平【客负1.70与让负3.52穿盘大捷案】
 - 案例 29（平半倒挂诱客杀平局案）：客负易主引流追热，平赔砸入2.80超低水真防平【平局2.83与让负1.43通杀案】
-- 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】
 - 案例 18（客让深盘诱穿盘杀让平案）：客胜破1.30诱穿盘暗杀让平【客负1.28与天价让平4.00案】
 - 案例 27（超低平全周期锁死<3.00杀主胜案）：平赔全流程处于<3.00禁区，破2.00虚诱主胜暗杀平局【平局2.95与让负1.59通杀案】
 - 案例 34（让平相对斜率真防守大捷案）：让平连续暴跌4档砸至3.15，降幅为让胜2.1倍锁定小胜【胜1.56与让平3.15案】
@@ -133,7 +131,7 @@
 ## God Nodes (most connected - your core abstractions)
 1. `足球概率分析现行规程` - 54 edges
 2. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-3. `二、 五大经典实战盘口复盘` - 50 edges
+3. `二、 五大经典实战盘口复盘` - 51 edges
 4. `智慧经验与习惯塑形` - 40 edges
 5. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 6. `Sentiment Bias in Betting Odds` - 19 edges
@@ -165,7 +163,7 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (113 total, 49 thin omitted)
+## Communities (111 total, 49 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
@@ -368,20 +366,12 @@ Cohesion: 0.40
 Nodes (4): ADR 0016: 全域微观战术指标集成与高位逼抢转化惩罚引擎 (Tactical Micro-Metrics Integration & Pressing Conversion Penalty Engine), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
 
 ### Community 69 - "二、 五大经典实战盘口复盘"
-Cohesion: 0.14
-Nodes (14): 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】, 案例 1：低赔造胆杀平局【澳大利亚 1:1 巴西】（周五003）, 案例 2：碎步压主杀闷平【波兰 0:0 波黑】（周五010）, 案例 3：慢跌诱强杀冷负【格鲁吉亚 0:1 北爱尔兰】（周五006） (+6 more)
-
-### Community 72 - "案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】"
-Cohesion: 0.67
-Nodes (3): 1. 三大物理门禁实战推演验证, 2. 赛果终审打出, 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】
+Cohesion: 0.12
+Nodes (17): 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】, 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】, 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】, 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】 (+9 more)
 
 ### Community 73 - "已取代：智慧复盘论文索引"
 Cohesion: 0.24
 Nodes (9): 足球概率分析系统手册, Stable reliability diagrams for probabilistic classifiers, CORP 稳定可靠性图, CORP 校准与区分能力分解, 已取代：整改依据与验证边界, 已取代：项目规则与数据口径审计, Forecast evaluation for data scientists: common pitfalls and best practices, PDF 第 1 页 (+1 more)
-
-### Community 74 - "案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】"
-Cohesion: 0.67
-Nodes (3): 1. 两次推演错误与认知死穴深度剖析, 2. 做市商真实物理逻辑与收割机制, 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】
 
 ### Community 78 - "智慧复盘论文索引"
 Cohesion: 0.22
@@ -622,8 +612,8 @@ Nodes (6): 概率评分、校准、命中率与收益分开, 赛前实际时间�
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **397 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+392 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 432 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **396 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+391 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 431 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **49 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
