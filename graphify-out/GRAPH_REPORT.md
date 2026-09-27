@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-27)
 
 ## Corpus Check
-- 81 files · ~1,343,881 words
+- 81 files · ~1,344,005 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .bak 1)
 
 ## Summary
-- 715 nodes · 977 edges · 102 communities (65 shown, 37 thin omitted)
+- 717 nodes · 979 edges · 103 communities (65 shown, 38 thin omitted)
 - Extraction: 84% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a1bd7bd7`
+- Built from commit: `854c9e62`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,7 +37,7 @@
 - 案例 19（极低赔拉让平阻客实杀让平案）：主胜1.10诱穿盘暗杀让平【主胜1.10与天价让平3.80案】
 - 2026-09-14（周一）中国体育彩票精算推演报告
 - 2026-09-22（周二）中国体育彩票精算推演报告 (临场伤停实测更新版)
-- 案例 37（深V洗盘诱客与1.40毒诱饵杀局案）：主胜2.45暴砍2.20深V破位，让负1.40毒诱饵全网屠戮，让平4.50天价通杀【胜2.20与让平4.50通杀案】
+- 案例 22（中盘优势拉让平诱穿盘暗杀让平案）：主胜1.53拉高让平至3.51赶客，降让胜诱穿暗杀让平【主胜1.53与让平3.51通杀案】
 - **4 Guidelines and best practices for forecast evaluation**
 - 二、 核心败因深度解剖（四大低级错误）
 - ADR 0001: 全盘单一最佳价值推演模式 (Best Value Mode)
@@ -118,11 +118,12 @@
 - 案例 18（客让深盘诱穿盘杀让平案）：客胜破1.30诱穿盘暗杀让平【客负1.28与天价让平4.00案】
 - 案例 25（客让转主让攻守易势案）：受让胜1.52锁死不败，主胜狂砍0.24反客为主【主胜2.50与让胜1.52双红案】
 - 案例 34（让平相对斜率真防守大捷案）：让平连续暴跌4档砸至3.15，降幅为让胜2.1倍锁定小胜【胜1.56与让平3.15案】
+- 案例 40（平手均势诱客造热与临场拉高平赔杀两头案）：初盘2.42对开，客负连降2.26虚热，临场平赔拉高3.38通杀胜负【平3.38与让负1.37通杀案】
 
 ## God Nodes (most connected - your core abstractions)
 1. `足球概率分析现行规程` - 54 edges
 2. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-3. `二、 五大经典实战盘口复盘` - 40 edges
+3. `二、 五大经典实战盘口复盘` - 41 edges
 4. `智慧经验与习惯塑形` - 40 edges
 5. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 6. `Sentiment Bias in Betting Odds` - 19 edges
@@ -154,7 +155,7 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (102 total, 37 thin omitted)
+## Communities (103 total, 38 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
@@ -366,7 +367,7 @@ Nodes (5): **ABSTRACT**, **CORRESPONDING AUTHOR: Gilad Feldman**, **KEYWORDS:**,
 
 ### Community 69 - "二、 五大经典实战盘口复盘"
 Cohesion: 0.14
-Nodes (14): 1. 深度复盘与“低赔易主 vs 超低平真防平”终极鉴别, 1. 深度复盘与“全局单边拉升 vs 局部微调”鉴别法则, 1. 深度复盘与操盘手“双蜜罐掩护高水穿盘”刀法, 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 1：低赔造胆杀平局【澳大利亚 1:1 巴西】（周五003） (+6 more)
+Nodes (14): 1. 深度复盘与“低赔易主 vs 超低平真防平”终极鉴别, 1. 深度复盘与“深V诱空洗盘 + 砸穿1.40毒诱饵暗杀让平”推演心法, 1. 深度复盘与操盘手“双蜜罐掩护高水穿盘”刀法, 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 1：低赔造胆杀平局【澳大利亚 1:1 巴西】（周五003） (+6 more)
 
 ### Community 70 - "PDF 第 16 页"
 Cohesion: 0.50
@@ -615,9 +616,9 @@ Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板,
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **392 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+387 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 427 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **37 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **393 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+388 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 428 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **38 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
