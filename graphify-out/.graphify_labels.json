@@ -17,10 +17,8 @@
   "15": "历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告",
   "16": "ADR 0011: 竞彩官方开售清单物理对账门禁 (Sporttery Official Fixtures Physical Reconciliation Gate)",
   "17": "2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）",
-  "18": "**CONTRIBUTOR ROLES TAXONOMY**",
   "19": "2026-09-14（周一）中国体育彩票精算推演报告",
   "20": "2026-09-22（周二）中国体育彩票精算推演报告 (临场伤停实测更新版)",
-  "21": "**METHOD**",
   "22": "**4 Guidelines and best practices for forecast evaluation**",
   "23": "二、 核心败因深度解剖（四大低级错误）",
   "24": "ADR 0001: 全盘单一最佳价值推演模式 (Best Value Mode)",
@@ -66,10 +64,6 @@
   "66": "TacticalPressingEngine",
   "67": "ADR 0016: 全域微观战术指标集成与高位逼抢转化惩罚引擎 (Tactical Micro-Metrics Integration & Pressing Conversion Penalty Engine)",
   "69": "二、 五大经典实战盘口复盘",
-  "73": "二、 深度复盘：为什么会 0 命中？犯了什么谬误？",
-  "74": "**ABSTRACT**",
-  "78": "PDF 第 16 页",
-  "79": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1",
   "86": "2026-09-19（周六）中国体育彩票全量 30 场推演大看板",
   "91": "2026-09-20（周日）中国体育彩票全量 30 场推演大看板"
 }
