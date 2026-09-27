@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-27)
 
 ## Corpus Check
-- 81 files · ~1,343,736 words
+- 81 files · ~1,343,840 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .bak 1)
 
 ## Summary
-- 712 nodes · 974 edges · 101 communities (65 shown, 36 thin omitted)
+- 714 nodes · 976 edges · 102 communities (65 shown, 37 thin omitted)
 - Extraction: 84% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3bdb6db6`
+- Built from commit: `28af10d8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -100,29 +100,30 @@
 - 案例 27（超低平全周期锁死<3.00杀主胜案）：平赔全流程处于<3.00禁区，破2.00虚诱主胜暗杀平局【平局2.95与让负1.59通杀案】
 - **CONTRIBUTOR ROLES TAXONOMY**
 - 案例 20（拉马努金注意到与相对斜率双降穿盘案）：初盘胜平同值3.30，让负狂砍0.28远超让平【客负1.70与让负3.52穿盘大捷案】
-- 案例 29（平半倒挂诱客杀平局案）：客负易主引流追热，平赔砸入2.80超低水真防平【平局2.83与让负1.43通杀案】
+- 案例 35（初盘让平3.85天堑与让胜砸破2.00真穿盘案）：初盘让平3.85如铁，让胜砸破2.00定格全盘最低【胜1.33与让胜1.95大捷案】
 - 案例 28（均势弱让诱平蜜罐掩护高水穿盘案）：平赔暴跌至3.18做蜜罐，终盘让胜狂砍0.21大破深盘【主胜2.19与让胜4.55通杀案】
 - 2026-09-19（周六）中国体育彩票全量 30 场推演大看板
 - 案例 36（平半弱让让负毒诱饵与让平独降杀局案）：主胜2.05死水，让负1.59毒诱饵屠杀串关，让平独降3.75小胜通杀【胜2.05与让平3.75通杀案】
 - 2026-09-20（周日）中国体育彩票全量 30 场推演大看板
 - 案例 26（极端低平2.75真防守与让盘双弃案）：平赔暴跌至2.75真闷平，让球双弃锁死让负【平局2.75与让负1.40双红案】
 - 案例 31（狂砸低平2.65掩护天价冷负案）：平赔砸穿至2.65做终极蜜罐，负赔暴拉+0.62真空偷鸡【负3.55与让负1.53通杀案】
-- 案例 22（中盘优势拉让平诱穿盘暗杀让平案）：主胜1.53拉高让平至3.51赶客，降让胜诱穿暗杀让平【主胜1.53与让平3.51通杀案】
-- 案例 24（中盘低水让平蜜罐杀大胜穿盘案）：让平砸破3.10做蜜罐，让胜暴拉3.40制造真空【主胜1.59与让胜3.40大胜通杀案】
+- 案例 32（客让半球高水让负诱穿暗杀让平案）：客胜1.83锁定，让负4.80狂降至4.15高水诱穿，让平4.00高悬暗杀【负1.83与让平3.97通杀案】
+- 案例 39（均势微让僵局与平赔领跌杀两头案）：主胜微降未易主（2.51 vs 2.30），平赔降幅超胜赔真防平【平3.38与让胜1.48通杀案】
 - 案例 30（极低赔反弹回踩诱多杀冷平案）：胜赔1.16反复升水回踩，终盘让胜反弹1.64杀冷平【平局5.70与让负3.80通杀案】
 - 案例 23（让盘双弃与客队唯一下砸大捷案）：让胜4.15+让平3.75判主胜死刑，客负3.06破位【客负3.06与让负1.61双红案】
 - 案例 17（超深盘初赔如骨与庄共舞案）：初赔1.19奠定骨架，终赔1.12+让胜1.56顺势大破深盘案
 - 案例 33（让胜反超定格最低项穿盘大捷案）：初盘让胜2.50最高，终盘暴砍至2.19反超定格全盘最低【胜1.29与让胜2.19大胜案】
 - 案例 38（初盘让平3.72天堑与让胜单调下砸穿盘案）：胜赔1.42连砸1.34，让平3.72死焊否定小胜，让胜2.22砸至2.06真穿盘【胜1.34与让胜2.06双红案】
 - 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】
+- 案例 18（客让深盘诱穿盘杀让平案）：客胜破1.30诱穿盘暗杀让平【客负1.28与天价让平4.00案】
 - 案例 25（客让转主让攻守易势案）：受让胜1.52锁死不败，主胜狂砍0.24反客为主【主胜2.50与让胜1.52双红案】
 - 案例 34（让平相对斜率真防守大捷案）：让平连续暴跌4档砸至3.15，降幅为让胜2.1倍锁定小胜【胜1.56与让平3.15案】
 
 ## God Nodes (most connected - your core abstractions)
 1. `足球概率分析现行规程` - 54 edges
 2. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-3. `智慧经验与习惯塑形` - 40 edges
-4. `二、 五大经典实战盘口复盘` - 39 edges
+3. `二、 五大经典实战盘口复盘` - 40 edges
+4. `智慧经验与习惯塑形` - 40 edges
 5. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 6. `Sentiment Bias in Betting Odds` - 19 edges
 7. `智慧复盘论文索引` - 18 edges
@@ -153,7 +154,7 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (101 total, 36 thin omitted)
+## Communities (102 total, 37 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
@@ -365,7 +366,7 @@ Nodes (5): **ABSTRACT**, **CORRESPONDING AUTHOR: Gilad Feldman**, **KEYWORDS:**,
 
 ### Community 69 - "二、 五大经典实战盘口复盘"
 Cohesion: 0.14
-Nodes (14): 1. 深度复盘与“初盘让平高悬 vs 后市拉升赶客”终极分水岭, 1. 深度复盘与“半球超高水诱穿 vs 净胜一球自然落点”终极鉴别, 1. 深度复盘与“真穿盘 vs 诱穿盘杀让平”定量标尺, 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 18（客让深盘诱穿盘杀让平案）：客胜破1.30诱穿盘暗杀让平【客负1.28与天价让平4.00案】 (+6 more)
+Nodes (14): 1. 深度复盘与“低赔易主 vs 超低平真防平”终极鉴别, 1. 深度复盘与“全局单边拉升 vs 局部微调”鉴别法则, 1. 深度复盘与操盘手“双蜜罐掩护高水穿盘”刀法, 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 1：低赔造胆杀平局【澳大利亚 1:1 巴西】（周五003） (+6 more)
 
 ### Community 70 - "PDF 第 16 页"
 Cohesion: 0.50
@@ -614,9 +615,9 @@ Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板,
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **390 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+385 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 425 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **36 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **391 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+386 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 426 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **37 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
