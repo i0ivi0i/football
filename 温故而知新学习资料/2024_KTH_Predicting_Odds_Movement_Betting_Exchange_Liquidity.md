@@ -2,7 +2,7 @@
 
 ---
 
-> **文献定位**：本论文收录于 [README 学习资料索引与经典论文导读](./README.md#classic-papers)，理论支撑 [心电图录像机](../脚本/心电图录像机.py) 与 [AGENTS 8层模型](../AGENTS.md)。
+> **文献定位**：本论文收录于 [README 学习资料索引与经典论文导读](./README.md#classic-papers)，理论支撑 [ADR 0012 赔率时序追踪](../docs/adr/0012-professional-odds-api-time-series-integration.md) 与 [AGENTS 八层分析](../AGENTS.md)。
 
 Degree Project in the Field of Technology Computer Science and Engineering and
 the Main Field of Study Industrial Management

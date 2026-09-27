@@ -86,6 +86,7 @@
 | 13 | **Shin & Štrumbelj**| 算法专卷 (2026) | 《Shin与比例归一化：方法说明及适用边界》 | 关联 [2604 纯赔率模型](./2604.17194_Forecast_Sports_Outcomes_under_EMH_Odds_Only_Models.md) 与 [1802 泊松去水](./1802.08848_Combining_Historical_Data_and_Bookmakers_Odds.md) | [Shin算法精要](./Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md) |
 | 14 | **2605.30209** | 2026 前沿 (2026) | 《通过滚球盘口动态与秒级资金流识别资本做局与异常注码》 | 关联 [2505 滚球感知](./2505.21275_Do_Betting_Markets_Sense_a_Goal_Coming.md) 与 [Shin 算法](./Shin_1993_and_Strumbelj_2014_庄家赔率反向破译算法精要.md) | [2605 全文](./2605.30209_Betting_Against_Integrity_Identifying_Match_Fixing_Market_Dynamics.md) |
 | 15 | **2024 KTH** | 瑞典皇家理工 (2024) | 《必发博彩交易所赔率跳跃与挂单资金流动性预测模型》 | 关联 [2605 资金流做局](./2605.30209_Betting_Against_Integrity_Identifying_Match_Fixing_Market_Dynamics.md) 与 [1710 击败庄家](./1710.02824_Beating_the_Bookies_with_Their_Own_Numbers.md) | [2024 KTH 全文](./2024_KTH_Predicting_Odds_Movement_Betting_Exchange_Liquidity.md) |
+| 16 | **2004 Levitt** | 经济学期刊 (2004) | 《庄家对赌头寸与散户偏见收割：“初盘如骨、与庄共舞”实战操盘体系》 | 关联 [2008 散户偏见](./2008_Sentiment_and_Bookmaker_Pricing_Bias.md) 与 [赔率分析推演](../赔率分析推演.md) | [2004 Levitt 全文](./2004_Levitt_与庄共舞之初盘如骨终盘如肉精要.md) |
 
 ---
 

@@ -1,17 +1,17 @@
-# Graph Report - 足球预测  (2026-09-21)
+# Graph Report - 足球预测  (2026-09-27)
 
 ## Corpus Check
-- 52 files · ~1,332,541 words
+- 83 files · ~1,516,048 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 1 file(s) not represented in the graph (top: (none) 1)
+- Unclassified: 2 file(s) not represented in the graph (top: .bak 1, (none) 1)
 
 ## Summary
-- 455 nodes · 700 edges · 39 communities (28 shown, 11 thin omitted)
-- Extraction: 77% EXTRACTED · 9% INFERRED · 14% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
+- 706 nodes · 968 edges · 99 communities (65 shown, 34 thin omitted)
+- Extraction: 84% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bd9aab41`
+- Built from commit: `a380cb02`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -23,7 +23,7 @@
 - **Forecast evaluation for data scientists: common pitfalls and best practices**
 - 历史待核查：2026-09-10（周四）中国体彩平局赛前精算推演报告（3.1 硬红线全量过筛版）
 - Sentiment Bias in Betting Odds
-- 足球概率预测评分比较（Wheatcroft，2019预印本）
+- ADR 0010: 庄家串关收割与低赔诱盘陷阱机制 (Bookmaker Accumulator Harvesting & Favourite Trap)
 - 2026-09-13（周日）中国体育彩票精算推演报告
 - **DISCUSSION**
 - 2023_Aiyer_结果偏见与决策评价.md
@@ -32,13 +32,18 @@
 - ⚽ 2026-09-18（周五）中国体彩平局量化排查与推演看板
 - **RESULTS**
 - 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告
+- ADR 0011: 竞彩官方开售清单物理对账门禁 (Sporttery Official Fixtures Physical Reconciliation Gate)
 - 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）
 - 2026-09-20（周日）中国体育彩票全量 30 场推演大看板
 - 2026-09-14（周一）中国体育彩票精算推演报告
+- 2026-09-22（周二）中国体育彩票精算推演报告 (临场伤停实测更新版)
 - 2026-09-19（周六）中国体育彩票全量 30 场推演大看板
 - **4 Guidelines and best practices for forecast evaluation**
 - 二、 核心败因深度解剖（四大低级错误）
+- ADR 0001: 全盘单一最佳价值推演模式 (Best Value Mode)
 - PDF 第 14 页
+- ADR 0002: 纯数学 +EV 期望值导向决选机制 (Pure Mathematical +EV Orientation)
+- ADR 0003: 尖端做市商去水与独立微观修正双引擎架构 (Hybrid Probability Engine)
 - PDF 第 8 页
 - PDF 第 12 页
 - **3 Motivation and common pitfalls**
@@ -50,23 +55,78 @@
 - PDF 第 25 页
 - PDF 第 34 页
 - PDF 第 28 页
+- ADR 0004: 球员阵容与伤停大名单刚性物理门禁 (Mandatory Micro-Data & Missing Players Gate)
 - Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study
+- ADR 0005: 极简秒看卡片流交付架构 (Minimalist Fast-Decision Card Layout)
 - 历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）
 - 2026-09-09（周三）中国体彩平局全要素深度复盘报告
 - 已取代：智慧复盘论文索引
+- ADR 0006: 严格学术解耦深度长篇复盘架构 (Aiyer 2023 Academic Review Framework)
+- ADR 0007: 动态阶梯分档注码管理机制 (Tiered EV Staking Policy)
+- ADR 0008: 异动阈值自适应重估机制 (Adaptive Odds Movement Recalibration)
+- ADR 0009: 真实 Polymarket 盘口链接刚性交付机制 (Mandatory Verified Polymarket Linking)
+- 足球量化推演专业术语表 (Glossary)
+- InjuryDataService
+- ADR 0012: 专业赔率 API 时序流与盘口波动追踪架构 (Professional Odds API Time-Series Integration)
+- 2026-09-23（周三）足球概率精算推演报告
+- graphify.md
+- SKILL.md
+- Q: 低赔破1.30且让胜暴跌至1.94的盘口如何推演让球落点？
+- docs — 项目核心文档中枢
+- ADR 0013: 盘口时序异动与庄家意图反向破译引擎 (Odds Movement & Bookmaker Intent Reverse Decoding Engine)
 - 2026-09-15（周二）中国体彩平局阶段复盘与 004 漏网审计报告
+- adr/README.md
+- ADR 0014: 双引擎融合做实基建与防幻觉物理门禁 (Hybrid Dual-Skill Grounding & Anti-Hallucination Gate)
+- 三、 赔率分析推演十大公理（胜平负 + 让球联动）
+- **METHOD**
+- ADR 0015: 微观伤停量化修正与攻防泊松动态衰减引擎 (Micro-Injury Quantitative Calibration & Dynamic Poisson Decay Engine)
+- 2026-09-22 周二001【韩国 2:0 沙特】Aiyer 学术解耦深度复盘报告
+- 二、 深度复盘：为什么会 0 命中？犯了什么谬误？
+- TacticalPressingEngine
+- ADR 0016: 全域微观战术指标集成与高位逼抢转化惩罚引擎 (Tactical Micro-Metrics Integration & Pressing Conversion Penalty Engine)
+- **ABSTRACT**
+- 二、 五大经典实战盘口复盘
+- PDF 第 16 页
+- Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1
+- 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】
+- 案例 8（四重谬误试金石）：双向引流暗度陈仓【升水阻上杀主胜案】
+- 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】
+- 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】
+- 案例 7（声东击西穿深盘）：降让平掩护让胜大胜【胜赔破1.85穿盘案】
+- 案例 9（均势跷跷板杀平局）：胜负颠倒引流杀中路【胜 2.23->2.58 vs 负 2.50->2.23 均势通杀案】
+- 案例 6（终极灵魂拷问）：假崩盘赶客杀主胜【诺茨郡 2:1 格里姆斯比】（周二003）
+- 案例 5（本次顿悟核心）：抹名盲测【假防平真杀客胜】
+- 案例 21（破2.00诱穿盘与拉让平至4.00赶客双杀案）：客胜1.20砸破2.00诱穿暗杀让平【客负1.20与让平4.00案】
+- 案例 27（超低平全周期锁死<3.00杀主胜案）：平赔全流程处于<3.00禁区，破2.00虚诱主胜暗杀平局【平局2.95与让负1.59通杀案】
+- **CONTRIBUTOR ROLES TAXONOMY**
+- 案例 20（拉马努金注意到与相对斜率双降穿盘案）：初盘胜平同值3.30，让负狂砍0.28远超让平【客负1.70与让负3.52穿盘大捷案】
+- 案例 29（平半倒挂诱客杀平局案）：客负易主引流追热，平赔砸入2.80超低水真防平【平局2.83与让负1.43通杀案】
+- 案例 28（均势弱让诱平蜜罐掩护高水穿盘案）：平赔暴跌至3.18做蜜罐，终盘让胜狂砍0.21大破深盘【主胜2.19与让胜4.55通杀案】
+- 案例 35（初盘让平3.85天堑与让胜砸破2.00真穿盘案）：初盘让平3.85如铁，让胜砸破2.00定格全盘最低【胜1.33与让胜1.95大捷案】
+- 案例 32（客让半球高水让负诱穿暗杀让平案）：客胜1.83锁定，让负4.80狂降至4.15高水诱穿，让平4.00高悬暗杀【负1.83与让平3.97通杀案】
+- 案例 26（极端低平2.75真防守与让盘双弃案）：平赔暴跌至2.75真闷平，让球双弃锁死让负【平局2.75与让负1.40双红案】
+- 案例 31（狂砸低平2.65掩护天价冷负案）：平赔砸穿至2.65做终极蜜罐，负赔暴拉+0.62真空偷鸡【负3.55与让负1.53通杀案】
+- 案例 22（中盘优势拉让平诱穿盘暗杀让平案）：主胜1.53拉高让平至3.51赶客，降让胜诱穿暗杀让平【主胜1.53与让平3.51通杀案】
+- 案例 19（极低赔拉让平阻客实杀让平案）：主胜1.10诱穿盘暗杀让平【主胜1.10与天价让平3.80案】
+- 案例 30（极低赔反弹回踩诱多杀冷平案）：胜赔1.16反复升水回踩，终盘让胜反弹1.64杀冷平【平局5.70与让负3.80通杀案】
+- 案例 23（让盘双弃与客队唯一下砸大捷案）：让胜4.15+让平3.75判主胜死刑，客负3.06破位【客负3.06与让负1.61双红案】
+- 案例 18（客让深盘诱穿盘杀让平案）：客胜破1.30诱穿盘暗杀让平【客负1.28与天价让平4.00案】
+- 案例 33（让胜反超定格最低项穿盘大捷案）：初盘让胜2.50最高，终盘暴砍至2.19反超定格全盘最低【胜1.29与让胜2.19大胜案】
+- 案例 17（超深盘初赔如骨与庄共舞案）：初赔1.19奠定骨架，终赔1.12+让胜1.56顺势大破深盘案
+- 案例 25（客让转主让攻守易势案）：受让胜1.52锁死不败，主胜狂砍0.24反客为主【主胜2.50与让胜1.52双红案】
+- 案例 34（让平相对斜率真防守大捷案）：让平连续暴跌4档砸至3.15，降幅为让胜2.1倍锁定小胜【胜1.56与让平3.15案】
 
 ## God Nodes (most connected - your core abstractions)
-1. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-2. `足球概率分析现行规程` - 51 edges
+1. `足球概率分析现行规程` - 54 edges
+2. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
 3. `智慧经验与习惯塑形` - 40 edges
-4. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
-5. `Sentiment Bias in Betting Odds` - 19 edges
-6. `智慧复盘论文索引` - 18 edges
-7. `Overall Accuracy & Real-time Scoreboard` - 18 edges
-8. `PlayeRank Framework` - 18 edges
-9. `Hierarchical Bayesian Poisson Football Score Model` - 17 edges
-10. `已取代：智慧复盘论文索引` - 16 edges
+4. `二、 五大经典实战盘口复盘` - 36 edges
+5. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
+6. `Sentiment Bias in Betting Odds` - 19 edges
+7. `智慧复盘论文索引` - 18 edges
+8. `Overall Accuracy & Real-time Scoreboard` - 18 edges
+9. `PlayeRank Framework` - 18 edges
+10. `已取代：智慧复盘论文索引` - 17 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `历史待核查：1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误` --legacy_unverified_relation--> `Skellam Distribution (Poisson-Difference)`  [AMBIGUOUS]
@@ -80,6 +140,9 @@
 - `历史待核查：二、 漏网盲区深度审计：【周五004 赫根 1:1 米亚尔比】` --legacy_unverified_relation--> `Asian Handicap (AH) Betting Market`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md → 温故而知新学习资料/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md
 
+## Import Cycles
+- None detected.
+
 ## Hyperedges (group relationships)
 - **Daily Actuarial Deduction and Audit Cycle** — rec_20260908_forecast, rec_20260908_review, rec_20260909_forecast [EXTRACTED 0.95]
 - **Soccer ELO Rating System Hierarchy** — 2018_plos_elo_odds, 2018_plos_elo_goals, 2018_plos_elo_result [EXTRACTED 0.95]
@@ -88,7 +151,7 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (39 total, 11 thin omitted)
+## Communities (99 total, 34 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
@@ -99,8 +162,8 @@ Cohesion: 0.06
 Nodes (67): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+59 more)
 
 ### Community 2 - "Wheatcroft 论文 Markdown（附公式与图表）"
-Cohesion: 0.10
-Nodes (17): Answer, Outcome, Q: 周一001卡利亚里1:0与周一006乌迪内斯1:2失手复盘与赛前盲区审计, Source Nodes, Answer, Outcome, Q: 体彩官方数据管道与API-Sports微观数据管道在赛前推演中的协同机制, Source Nodes (+9 more)
+Cohesion: 0.05
+Nodes (34): Ignorance 对数评分, 足球概率预测评分比较（Wheatcroft，2019预印本）, 概率预测评分, RPS 排序距离假设, 决策质量与赛果分离审查, 结果偏见, 结果偏见与决策质量评价（Aiyer 等，2023）, 预注册重复实验 (+26 more)
 
 ### Community 3 - "历史待核查：2026-09-10（周四）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.20
@@ -118,9 +181,9 @@ Nodes (4): 历史待核查：🥇 1. 【周四007 解放者杯】德尔瓦耶独
 Cohesion: 0.09
 Nodes (32): Consensus Odds-Based Betting Strategy, Bookmaker Account Limiting / Discriminatory Practices, Bookmakers' Consensus Probability, Paper Trading Validation, Clustered Probit Model, DIFFATTEND Proxy, Sentiment Bias in Betting Odds, Betting Exchange Liquidity Dynamics (+24 more)
 
-### Community 7 - "足球概率预测评分比较（Wheatcroft，2019预印本）"
-Cohesion: 0.12
-Nodes (17): Ignorance 对数评分, 足球概率预测评分比较（Wheatcroft，2019预印本）, 概率预测评分, RPS 排序距离假设, 决策质量与赛果分离审查, 结果偏见, 结果偏见与决策质量评价（Aiyer 等，2023）, 预注册重复实验 (+9 more)
+### Community 7 - "ADR 0010: 庄家串关收割与低赔诱盘陷阱机制 (Bookmaker Accumulator Harvesting & Favourite Trap)"
+Cohesion: 0.40
+Nodes (4): ADR 0010: 庄家串关收割与低赔诱盘陷阱机制 (Bookmaker Accumulator Harvesting & Favourite Trap), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
 
 ### Community 8 - "2026-09-13（周日）中国体育彩票精算推演报告"
 Cohesion: 0.12
@@ -131,8 +194,8 @@ Cohesion: 0.17
 Nodes (12): Broader Importance of Outcome Bias, Constraints on Generality, **DISCUSSION**, **EXTENSIONS**, Limitations and Future Directions, PDF 第 12 页, PDF 第 13 页, PDF 第 14 页 (+4 more)
 
 ### Community 10 - "2023_Aiyer_结果偏见与决策评价.md"
-Cohesion: 0.04
-Nodes (45): 1. 刻舟求剑交锋谬误（古代数据的虚假安全感）, 2026-09-16（周三）中国体育彩票量化推演复盘与 0 命中根因审计, 2. 违背“允许空仓”原则的强行凑单（无米硬炊）, 3. 突发红牌的结构性破坏, 一、 赛果客观实盘对账表, 二、 深度复盘：为什么会 0 命中？犯了什么谬误？, **ABSTRACT**, **ADDITIONAL FILES** (+37 more)
+Cohesion: 0.12
+Nodes (16): **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION**, **BACKGROUND**, **CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**, **CITATION OF THE TARGET RESEARCH ARTICLE**, **COMPETING INTERESTS** (+8 more)
 
 ### Community 11 - "2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.15
@@ -154,6 +217,10 @@ Nodes (15): **CONFIRMATORY (PRE-REGISTERED) RESULTS** Replication: Decision Qual
 Cohesion: 0.25
 Nodes (8): 历史待核查：1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误, 历史待核查：1. 赛前（T-2h）已知客观数据流水, 历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告, 历史待核查：2. 为什么会被模型一票否决漏网？（认知根因）, 历史待核查：2. 【周五011 塞维利亚 1:0 巴伦西亚】—— 进球前置锁正确但终结能力严重失衡, 历史待核查：一、 主推失手深度剖析：为什么周五012与011会全军覆没？, 历史待核查：三、 闭环演化：两道物理级断路器系统升级（写入代码与大脑）, 历史待核查：二、 漏网盲区深度审计：【周五004 赫根 1:1 米亚尔比】
 
+### Community 16 - "ADR 0011: 竞彩官方开售清单物理对账门禁 (Sporttery Official Fixtures Physical Reconciliation Gate)"
+Cohesion: 0.33
+Nodes (5): ADR 0011: 竞彩官方开售清单物理对账门禁 (Sporttery Official Fixtures Physical Reconciliation Gate), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context), 错误根因 (Root Cause)
+
 ### Community 17 - "2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）"
 Cohesion: 0.20
 Nodes (10): 1. 周二001 亚冠精英 叻武里 vs 上海海港 (18:00 开球), 1. 周二009 荷甲 阿贾克斯 vs 威廉二世 [让球-2] (02:00), 1. 周二014 解放者杯 普拉滕斯 vs 弗鲁米嫩 (06:00), 2026-09-15（周二）中国体育彩票量化推演报告（纠偏重构版）, 2. 周二002 亚冠精英 大田市民 vs 京都 (18:00 开球), 2. 周二007 西甲 巴列卡诺 vs 西班牙人 (01:00), 2. 周二013 西甲 埃尔切 vs 皇马 [让球+2] (03:30), ⭐ 一级核心：高平阻盘·正期望值（+EV）黄金标的（破除低赔执念） (+2 more)
@@ -165,6 +232,10 @@ Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板,
 ### Community 19 - "2026-09-14（周一）中国体育彩票精算推演报告"
 Cohesion: 0.18
 Nodes (11): 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. Capa 1 [ODDS] 盘口结构与心电图流水, 1. 为什么不再机械一票否决？（深盘放行法则）, 2026-09-14（周一）中国体育彩票精算推演报告, 2. Capa 3 & 4 [API] 攻防均衡与法乙平局温床, 2. Capa 5 & 7 [IND] 破除高比分平局误杀, 3. Capa 7 [IND] 比分与落点, 一、 【头号黄金猎物·均势低平】周一009 法乙 圣旺红星 vs 梅斯 (+3 more)
+
+### Community 20 - "2026-09-22（周二）中国体育彩票精算推演报告 (临场伤停实测更新版)"
+Cohesion: 0.50
+Nodes (3): 2026-09-22（周二）中国体育彩票精算推演报告 (临场伤停实测更新版), 📊 一、 全盘 4 场极简决策总看板 (ADR-0005), 🔬 二、 核心爆破点：周二003 诺茨郡 vs 格里姆斯比 深度透视
 
 ### Community 21 - "2026-09-19（周六）中国体育彩票全量 30 场推演大看板"
 Cohesion: 0.67
@@ -178,13 +249,33 @@ Nodes (4): **4.1.1 Fixed origin setup**, **4.1.2 Rolling origin, time series cro
 Cohesion: 0.22
 Nodes (9): 1. 概率主客颠倒（把 30% 概率当成必然事件）, 2026-09-14（周一）中国体育彩票平局推演深度复盘报告, 2. 心电图神化与阴谋论脑补, 3. 刻舟求剑套用前日教训（过度拟合）, 4. 盲目博冷（都灵 0-2 罗马）, 5. 【全天最大罪证·周一007深度解剖】庄家关盘明牌开卷考的系统性漏网, 一、 战绩看板与客观结算, 三、 习惯塑形：六道物理拦截卡片 (+1 more)
 
+### Community 24 - "ADR 0001: 全盘单一最佳价值推演模式 (Best Value Mode)"
+Cohesion: 0.40
+Nodes (4): ADR 0001: 全盘单一最佳价值推演模式 (Best Value Mode), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
 ### Community 25 - "PDF 第 14 页"
 Cohesion: 0.67
 Nodes (3): **3.2 Datasets for empirical evaluations**, **3.3 Evaluation measures for forecasting**, PDF 第 14 页
 
+### Community 26 - "ADR 0002: 纯数学 +EV 期望值导向决选机制 (Pure Mathematical +EV Orientation)"
+Cohesion: 0.40
+Nodes (4): ADR 0002: 纯数学 +EV 期望值导向决选机制 (Pure Mathematical +EV Orientation), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 27 - "ADR 0003: 尖端做市商去水与独立微观修正双引擎架构 (Hybrid Probability Engine)"
+Cohesion: 0.40
+Nodes (4): ADR 0003: 尖端做市商去水与独立微观修正双引擎架构 (Hybrid Probability Engine), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 39 - "ADR 0004: 球员阵容与伤停大名单刚性物理门禁 (Mandatory Micro-Data & Missing Players Gate)"
+Cohesion: 0.40
+Nodes (4): ADR 0004: 球员阵容与伤停大名单刚性物理门禁 (Mandatory Micro-Data & Missing Players Gate), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
 ### Community 40 - "Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study"
 Cohesion: 0.13
 Nodes (33): ELO-Goals Rating System, ELO-Odds Rating System, ELO-Result Rating System, Informational Loss Metric, Passing Network Centrality, PlayeRank Framework, Wyscout Spatio-Temporal Match Events Dataset, Constantinou Hybrid Bayesian Network Model (+25 more)
+
+### Community 41 - "ADR 0005: 极简秒看卡片流交付架构 (Minimalist Fast-Decision Card Layout)"
+Cohesion: 0.40
+Nodes (4): ADR 0005: 极简秒看卡片流交付架构 (Minimalist Fast-Decision Card Layout), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
 
 ### Community 42 - "历史待核查：一、 核心黄金猎物精算剖析（结合 20:52 实时心电图变盘审计）"
 Cohesion: 0.33
@@ -198,9 +289,129 @@ Nodes (5): 1. 🎯 【周三001 江原FC 1:1 全北现代】（赛果：平局 1
 Cohesion: 0.40
 Nodes (5): 已取代：保存与完整性, 已取代：原文与来源, 已取代：智慧复盘论文索引, 已取代：第二批：条件适应与连续评估, 已取代：面向本项目的应用建议（综合提炼，尚未验证改进效果）
 
+### Community 45 - "ADR 0006: 严格学术解耦深度长篇复盘架构 (Aiyer 2023 Academic Review Framework)"
+Cohesion: 0.40
+Nodes (4): ADR 0006: 严格学术解耦深度长篇复盘架构 (Aiyer 2023 Academic Review Framework), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 46 - "ADR 0007: 动态阶梯分档注码管理机制 (Tiered EV Staking Policy)"
+Cohesion: 0.40
+Nodes (4): ADR 0007: 动态阶梯分档注码管理机制 (Tiered EV Staking Policy), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 47 - "ADR 0008: 异动阈值自适应重估机制 (Adaptive Odds Movement Recalibration)"
+Cohesion: 0.40
+Nodes (4): ADR 0008: 异动阈值自适应重估机制 (Adaptive Odds Movement Recalibration), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 48 - "ADR 0009: 真实 Polymarket 盘口链接刚性交付机制 (Mandatory Verified Polymarket Linking)"
+Cohesion: 0.40
+Nodes (4): ADR 0009: 真实 Polymarket 盘口链接刚性交付机制 (Mandatory Verified Polymarket Linking), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 49 - "足球量化推演专业术语表 (Glossary)"
+Cohesion: 0.50
+Nodes (4): 1. 核心模型与算法 (Models & Algorithms), 2. 交易与推演策略 (Trading & Forecasting Strategy), 3. 交互呈现与复盘闭环 (Interaction & Review), 足球量化推演专业术语表 (Glossary)
+
+### Community 50 - "InjuryDataService"
+Cohesion: 0.24
+Nodes (5): InjuryDataService, Any, 全域伤停与微观阵容数据服务 (Unified Missing Players & Injury Service)…, 通过 sports-skills 原生物理接口拉取英超全量伤停, 通过 Big Balls Data API 接口拉取主流联赛伤停
+
+### Community 51 - "ADR 0012: 专业赔率 API 时序流与盘口波动追踪架构 (Professional Odds API Time-Series Integration)"
+Cohesion: 0.40
+Nodes (4): ADR 0012: 专业赔率 API 时序流与盘口波动追踪架构 (Professional Odds API Time-Series Integration), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 55 - "Q: 低赔破1.30且让胜暴跌至1.94的盘口如何推演让球落点？"
+Cohesion: 0.50
+Nodes (3): Answer, Outcome, Q: 低赔破1.30且让胜暴跌至1.94的盘口如何推演让球落点？
+
+### Community 56 - "docs — 项目核心文档中枢"
+Cohesion: 0.50
+Nodes (4): docs — 项目核心文档中枢, 与其他文档的关系, 治理铁律, 目录结构
+
+### Community 57 - "ADR 0013: 盘口时序异动与庄家意图反向破译引擎 (Odds Movement & Bookmaker Intent Reverse Decoding Engine)"
+Cohesion: 0.40
+Nodes (4): ADR 0013: 盘口时序异动与庄家意图反向破译引擎 (Odds Movement & Bookmaker Intent Reverse Decoding Engine), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
 ### Community 58 - "2026-09-15（周二）中国体彩平局阶段复盘与 004 漏网审计报告"
 Cohesion: 0.29
 Nodes (7): 1. 【周二004 柔佛 1:1 布里兰】4.00 倍黄金冷平为何漏网？, 2026-09-15（周二）中国体彩平局阶段复盘与 004 漏网审计报告, 2. 【周二001 叻武里 4:6 上海上港】为何打成惨案？, 3. 【周二002 大田市民 1:0 京都不死鸟】为何 78 分钟被绝杀？, 一、 傍晚早场战绩看板与客观结算, 三、 系统级防漏网工程修复落地, 二、 核心败因与 004 漏网深度解剖（八大论文穿透）
+
+### Community 60 - "ADR 0014: 双引擎融合做实基建与防幻觉物理门禁 (Hybrid Dual-Skill Grounding & Anti-Hallucination Gate)"
+Cohesion: 0.40
+Nodes (4): ADR 0014: 双引擎融合做实基建与防幻觉物理门禁 (Hybrid Dual-Skill Grounding & Anti-Hallucination Gate), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 61 - "三、 赔率分析推演十大公理（胜平负 + 让球联动）"
+Cohesion: 0.08
+Nodes (24): 1. 不变量一：初赔骨架定位律（Bone Invariant：初盘定能量场）, 2. 不变量二：让球盘成本刚性门禁（Gate Invariant：让球查真敞口）, 3. 不变量三：散户羊群心理逆向审查（Flow Invariant：诱饵反推正解）, 4. 不变量四：做市商通杀闭环解（Closing Invariant：最小赔付最优落点）, 5. 双盘联动统一博弈模型（与庄共舞：胜平负 × 让球盘条件概率矩阵与交叉破译）, 一、 盘口动力学统一智慧心法：超越个案死板记忆的四大物理不变量, 三、 赔率分析推演十大公理（胜平负 + 让球联动）, 五、 彻底杜绝推演反复犯错的三大定量物理门禁（根治二元钟摆与阴谋论妄想症） (+16 more)
+
+### Community 62 - "**METHOD**"
+Cohesion: 0.22
+Nodes (9): Comprehension Checks, Decision Quality, **MEASURES**, **METHOD**, **OUTCOME BIAS MANIPULATION**, **PARTICIPANTS**, PDF 第 5 页, PDF 第 6 页 (+1 more)
+
+### Community 63 - "ADR 0015: 微观伤停量化修正与攻防泊松动态衰减引擎 (Micro-Injury Quantitative Calibration & Dynamic Poisson Decay Engine)"
+Cohesion: 0.40
+Nodes (4): ADR 0015: 微观伤停量化修正与攻防泊松动态衰减引擎 (Micro-Injury Quantitative Calibration & Dynamic Poisson Decay Engine), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 64 - "2026-09-22 周二001【韩国 2:0 沙特】Aiyer 学术解耦深度复盘报告"
+Cohesion: 0.29
+Nodes (6): 1. `football-betting-analysis` 维度：市场真实概率与 EV 账本, 2026-09-22 周二001【韩国 2:0 沙特】Aiyer 学术解耦深度复盘报告, 2. `football-match-analysis` 维度：攻防参数与下半场体能衰减, 🔬 一、 决策回溯：当时推演平局的“脑补病根”在哪里？, 🛠️ 三、 习惯塑形与系统性整改, 📊 二、 双引擎深度量化剖析
+
+### Community 65 - "二、 深度复盘：为什么会 0 命中？犯了什么谬误？"
+Cohesion: 0.29
+Nodes (6): 1. 刻舟求剑交锋谬误（古代数据的虚假安全感）, 2026-09-16（周三）中国体育彩票量化推演复盘与 0 命中根因审计, 2. 违背“允许空仓”原则的强行凑单（无米硬炊）, 3. 突发红牌的结构性破坏, 一、 赛果客观实盘对账表, 二、 深度复盘：为什么会 0 命中？犯了什么谬误？
+
+### Community 66 - "TacticalPressingEngine"
+Cohesion: 0.12
+Nodes (17): 测试高阶战术压迫引擎与全量 26 项微观数据 (ADR-0016) 验证 5 大维度 26 项指标集成完整性及历史实战围攻破大巴乏力场景, 那不勒斯 1-1 佛罗伦萨：全量 26 项微观数据驱动验证, test_full_26_metrics_integration(), test_napoli_vs_fiorentina_siege_draw(), nbinom_pmf(), poisson_pmf(), Any, 高阶战术全息压迫引擎 (Tactical Pressing & Full Micro-Metrics Engine) 遵循 ADR-0016:… (+9 more)
+
+### Community 67 - "ADR 0016: 全域微观战术指标集成与高位逼抢转化惩罚引擎 (Tactical Micro-Metrics Integration & Pressing Conversion Penalty Engine)"
+Cohesion: 0.40
+Nodes (4): ADR 0016: 全域微观战术指标集成与高位逼抢转化惩罚引擎 (Tactical Micro-Metrics Integration & Pressing Conversion Penalty Engine), 决策内容 (Decision), 影响与收益 (Consequences), 背景与问题陈述 (Context)
+
+### Community 68 - "**ABSTRACT**"
+Cohesion: 0.40
+Nodes (5): **ABSTRACT**, **CORRESPONDING AUTHOR: Gilad Feldman**, **KEYWORDS:**, PDF 第 2 页, **TO CITE THIS ARTICLE:**
+
+### Community 69 - "二、 五大经典实战盘口复盘"
+Cohesion: 0.17
+Nodes (12): 1. 深度复盘与操盘刀法破译, 1. 深度复盘与操盘手“双蜜罐掩护高水穿盘”刀法, 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】, 案例 1：低赔造胆杀平局【澳大利亚 1:1 巴西】（周五003） (+4 more)
+
+### Community 70 - "PDF 第 16 页"
+Cohesion: 0.50
+Nodes (4): **COPYRIGHT:**, PDF 第 16 页, **REFERENCES**, **TO CITE THIS ARTICLE:**
+
+### Community 71 - "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1"
+Cohesion: 0.67
+Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1, PDF 第 1 页
+
+### Community 72 - "案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】"
+Cohesion: 0.67
+Nodes (3): 1. 三大物理门禁实战推演验证, 2. 赛果终审打出, 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】
+
+### Community 73 - "案例 8（四重谬误试金石）：双向引流暗度陈仓【升水阻上杀主胜案】"
+Cohesion: 0.67
+Nodes (3): 1. 两次推演错误与四重业余认知谬误深度解剖, 2. 做市商双向引流杀局终极复原, 案例 8（四重谬误试金石）：双向引流暗度陈仓【升水阻上杀主胜案】
+
+### Community 74 - "案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】"
+Cohesion: 0.67
+Nodes (3): 1. 两次推演错误与认知死穴深度剖析, 2. 做市商真实物理逻辑与收割机制, 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】
+
+### Community 75 - "案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】"
+Cohesion: 0.67
+Nodes (3): 1. 初始错误推演（反转强迫症与阴谋论走火入魔）, 2. 做市商真实物理逻辑（低赔易主，顺势收割）, 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】
+
+### Community 76 - "案例 7（声东击西穿深盘）：降让平掩护让胜大胜【胜赔破1.85穿盘案】"
+Cohesion: 0.67
+Nodes (3): 1. 初始错误推演（唯“降幅论”之盲区）, 2. 主人点拨后的终极正解（做市商声东击西局）, 案例 7（声东击西穿深盘）：降让平掩护让胜大胜【胜赔破1.85穿盘案】
+
+### Community 77 - "案例 9（均势跷跷板杀平局）：胜负颠倒引流杀中路【胜 2.23->2.58 vs 负 2.50->2.23 均势通杀案】"
+Cohesion: 0.67
+Nodes (3): 1. 初始错误推演（教条主义与反转走火入魔）, 2. 做市商真实刀法（两头引流，中路平局通杀）, 案例 9（均势跷跷板杀平局）：胜负颠倒引流杀中路【胜 2.23->2.58 vs 负 2.50->2.23 均势通杀案】
+
+### Community 78 - "案例 6（终极灵魂拷问）：假崩盘赶客杀主胜【诺茨郡 2:1 格里姆斯比】（周二003）"
+Cohesion: 0.67
+Nodes (3): 1. 初始错误推演（散户顺向思维之毒）, 2. 主人拷问后的终极顿悟（做市商瞒天过海杀局）, 案例 6（终极灵魂拷问）：假崩盘赶客杀主胜【诺茨郡 2:1 格里姆斯比】（周二003）
+
+### Community 79 - "案例 5（本次顿悟核心）：抹名盲测【假防平真杀客胜】"
+Cohesion: 0.67
+Nodes (3): 1. 初始错误推演（第一层韭菜视角）, 2. 认知反转与正解推演（第二层做市商视角）, 案例 5（本次顿悟核心）：抹名盲测【假防平真杀客胜】
 
 ## Ambiguous Edges - Review These
 - `2026-09-12_复盘.md` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
@@ -401,9 +612,9 @@ Nodes (7): 1. 【周二004 柔佛 1:1 布里兰】4.00 倍黄金冷平为何漏�
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **257 isolated node(s):** `Answer`, `Outcome`, `Source Nodes`, `Answer`, `Outcome` (+252 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 270 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **11 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **387 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+382 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 422 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **34 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

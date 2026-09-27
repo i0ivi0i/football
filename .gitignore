@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Graphify AST cache & query memory & daily backups
+graphify-out/cache/
+graphify-out/memory/
+graphify-out/2026-*/
+
+# Local data cache
+soccer.json
+soccer_events.json
+
+# Environment & Logs
+*.log
+.env
