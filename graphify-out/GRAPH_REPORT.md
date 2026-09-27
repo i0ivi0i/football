@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-27)
 
 ## Corpus Check
-- 81 files · ~1,343,840 words
+- 81 files · ~1,343,873 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .bak 1)
 
 ## Summary
-- 714 nodes · 976 edges · 102 communities (65 shown, 37 thin omitted)
+- 715 nodes · 977 edges · 102 communities (65 shown, 37 thin omitted)
 - Extraction: 84% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `28af10d8`
+- Built from commit: `3fdd67a9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -334,7 +334,7 @@ Nodes (4): ADR 0014: 双引擎融合做实基建与防幻觉物理门禁 (Hybrid
 
 ### Community 61 - "三、 赔率分析推演十大公理（胜平负 + 让球联动）"
 Cohesion: 0.08
-Nodes (24): 1. 不变量一：初赔骨架定位律（Bone Invariant：初盘定能量场）, 2. 不变量二：让球盘成本刚性门禁（Gate Invariant：让球查真敞口）, 3. 不变量三：散户羊群心理逆向审查（Flow Invariant：诱饵反推正解）, 4. 不变量四：做市商通杀闭环解（Closing Invariant：最小赔付最优落点）, 5. 双盘联动统一博弈模型（与庄共舞：胜平负 × 让球盘条件概率矩阵与交叉破译）, 一、 盘口动力学统一智慧心法：超越个案死板记忆的四大物理不变量, 三、 赔率分析推演十大公理（胜平负 + 让球联动）, 五、 彻底杜绝推演反复犯错的三大定量物理门禁（根治二元钟摆与阴谋论妄想症） (+16 more)
+Nodes (25): 1. 不变量一：初赔骨架定位律（Bone Invariant：初盘定能量场）, 2. 不变量二：让球盘成本刚性门禁（Gate Invariant：让球查真敞口）, 3. 不变量三：散户羊群心理逆向审查（Flow Invariant：诱饵反推正解）, 4. 不变量四：做市商通杀闭环解（Closing Invariant：最小赔付最优落点）, 5. 双盘联动统一博弈模型（与庄共舞：胜平负 × 让球盘条件概率矩阵与交叉破译）, 一、 盘口动力学统一智慧心法：超越个案死板记忆的四大物理不变量, 三、 赔率分析推演十大公理（胜平负 + 让球联动）, 五、 彻底杜绝推演反复犯错的三大定量物理门禁（根治二元钟摆与阴谋论妄想症） (+17 more)
 
 ### Community 62 - "**METHOD**"
 Cohesion: 0.22
@@ -615,8 +615,8 @@ Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板,
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **391 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+386 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 426 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **392 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+387 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 427 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **37 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
