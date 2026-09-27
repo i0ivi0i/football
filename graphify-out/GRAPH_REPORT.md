@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-27)
 
 ## Corpus Check
-- 81 files · ~1,344,547 words
+- 81 files · ~1,344,660 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .bak 1)
 
 ## Summary
-- 722 nodes · 984 edges · 108 communities (60 shown, 48 thin omitted)
+- 724 nodes · 986 edges · 113 communities (65 shown, 48 thin omitted)
 - Extraction: 84% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `07f73d2f`
+- Built from commit: `9e599699`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -89,11 +89,13 @@
 - 案例 44（半球生死盘诱主杀闷平案）：主胜1.90半球热胆，让胜3.95否定穿盘，平赔3.22通杀主胜【平3.22与让负1.70双红案】
 - 案例 32（客让半球高水让负诱穿暗杀让平案）：客胜1.83锁定，让负4.80狂降至4.15高水诱穿，让平4.00高悬暗杀【负1.83与让平3.97通杀案】
 - 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】
-- **CONTRIBUTOR ROLES TAXONOMY**
+- 已取代：智慧复盘论文索引
 - 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】
 - 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】
 - 案例 47（初让负最小均势杀平案）：(-1)让负1.44初盘最小锁死主不胜，均势两头分流杀平局【平3.34与让负1.44双红案】
 - 案例 28（均势弱让诱平蜜罐掩护高水穿盘案）：平赔暴跌至3.18做蜜罐，终盘让胜狂砍0.21大破深盘【主胜2.19与让胜4.55通杀案】
+- 智慧复盘论文索引
+- Shin与比例归一化：方法说明及适用边界
 - 案例 21（破2.00诱穿盘与拉让平至4.00赶客双杀案）：客胜1.20砸破2.00诱穿暗杀让平【客负1.20与让平4.00案】
 - 案例 37（深V洗盘诱客与1.40毒诱饵杀局案）：主胜2.45暴砍2.20深V破位，让负1.40毒诱饵全网屠戮，让平4.50天价通杀【胜2.20与让平4.50通杀案】
 - 案例 24（中盘低水让平蜜罐杀大胜穿盘案）：让平砸破3.10做蜜罐，让胜暴拉3.40制造真空【主胜1.59与让胜3.40大胜通杀案】
@@ -109,6 +111,7 @@
 - 案例 39（均势微让僵局与平赔领跌杀两头案）：主胜微降未易主（2.51 vs 2.30），平赔降幅超胜赔真防平【平3.38与让胜1.48通杀案】
 - 案例 30（极低赔反弹回踩诱多杀冷平案）：胜赔1.16反复升水回踩，终盘让胜反弹1.64杀冷平【平局5.70与让负3.80通杀案】
 - Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1
+- 2026-09-13_复盘.md
 - 案例 20（拉马努金注意到与相对斜率双降穿盘案）：初盘胜平同值3.30，让负狂砍0.28远超让平【客负1.70与让负3.52穿盘大捷案】
 - 案例 29（平半倒挂诱客杀平局案）：客负易主引流追热，平赔砸入2.80超低水真防平【平局2.83与让负1.43通杀案】
 - 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】
@@ -119,22 +122,24 @@
 - 案例 38（初盘让平3.72天堑与让胜单调下砸穿盘案）：胜赔1.42连砸1.34，让平3.72死焊否定小胜，让胜2.22砸至2.06真穿盘【胜1.34与让胜2.06双红案】
 - 案例 42（客负砸破2.00虚假破位诱客杀平局案）：客负2.35连砸破2.00入1.98极致诱客，让胜1.54低位死锁主不败【平3.26与让胜1.54通杀案】
 - 案例 45（初盘让负最小与主崩平降通杀案）：(-1)让负1.65初盘最小定性主不胜，平降至3.10直取平局【平3.10与让负1.56双红案】
+- 预测记录与智慧复盘契约
 - 案例 33（让胜反超定格最低项穿盘大捷案）：初盘让胜2.50最高，终盘暴砍至2.19反超定格全盘最低【胜1.29与让胜2.19大胜案】
 - 案例 17（超深盘初赔如骨与庄共舞案）：初赔1.19奠定骨架，终赔1.12+让胜1.56顺势大破深盘案
 - 案例 22（中盘优势拉让平诱穿盘暗杀让平案）：主胜1.53拉高让平至3.51赶客，降让胜诱穿暗杀让平【主胜1.53与让平3.51通杀案】
 - 案例 46（初让胜最小阻上杀平案）：(+1)让胜2.10初盘最小锁死客不胜，升水2.23阻上客降1.48诱多【平4.20与让胜2.23双红案】
 - 案例 23（让盘双弃与客队唯一下砸大捷案）：让胜4.15+让平3.75判主胜死刑，客负3.06破位【客负3.06与让负1.61双红案】
+- 案例 48（极低神胆回踩与诱穿杀冷平案）：胜1.20升水拒破，平5.75回踩避险，让胜1.62蜜罐杀全盘【平5.75与让负3.65通杀案】
 
 ## God Nodes (most connected - your core abstractions)
 1. `足球概率分析现行规程` - 54 edges
 2. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
-3. `二、 五大经典实战盘口复盘` - 48 edges
+3. `二、 五大经典实战盘口复盘` - 49 edges
 4. `智慧经验与习惯塑形` - 40 edges
 5. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 6. `Sentiment Bias in Betting Odds` - 19 edges
-7. `Overall Accuracy & Real-time Scoreboard` - 18 edges
-8. `PlayeRank Framework` - 18 edges
-9. `智慧复盘论文索引` - 18 edges
+7. `智慧复盘论文索引` - 18 edges
+8. `Overall Accuracy & Real-time Scoreboard` - 18 edges
+9. `PlayeRank Framework` - 18 edges
 10. `已取代：智慧复盘论文索引` - 17 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -146,8 +151,8 @@
   分析复盘记录/2026-09-12_复盘.md → 温故而知新学习资料/2008_Sentiment_and_Bookmaker_Pricing_Bias.md
 - `一、 头号猎物【周六017 奥萨苏纳 0:2 西班牙人】崩盘根因深度剖析` --legacy_unverified_relation--> `PlayeRank Framework`  [AMBIGUOUS]
   分析复盘记录/2026-09-12_复盘.md → 温故而知新学习资料/2019_Nature_PlayeRank_Data_Driven_Framework.md
-- `历史待核查：二、 漏网盲区深度审计：【周五004 赫根 1:1 米亚尔比】` --legacy_unverified_relation--> `Asian Handicap (AH) Betting Market`  [AMBIGUOUS]
-  分析复盘记录/2026-09-11_复盘.md → 温故而知新学习资料/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md
+- `已取代：项目规则与数据口径审计` --legacy_unverified_relation--> `智慧复盘论文索引`  [AMBIGUOUS]
+  分析复盘记录/README.md → 温故而知新学习资料/README.md
 
 ## Import Cycles
 - None detected.
@@ -160,15 +165,15 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (108 total, 48 thin omitted)
+## Communities (113 total, 48 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
 Nodes (8): 1. 【周日003 塞尔塔 1:1 马拉加】（平赔 3.50）, 2026-09-13（周日）中国体彩平局全要素深度复盘与 5 场漏网盲区审计报告, 2. 【周日006 海伦芬 0:0 特尔斯达】（平赔 4.55，冷门白卷）, 3. 【周日012 勒芒 2:2 朗斯】（平赔 4.15，对攻大冷平）, 4. 【周日022 法马利康 1:1 里斯本竞技】（平赔 4.30，豪门爆冷）, 一、 为什么【周日001 东京绿茵 1:1 千叶市原】被核心主推遗漏？, 三、 乔布斯产品思维的物理重构方案, 二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？
 
 ### Community 1 - "足球概率分析现行规程"
-Cohesion: 0.06
-Nodes (67): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+59 more)
+Cohesion: 0.15
+Nodes (25): 反例、适用范围与失效条件, 习惯塑形, 智慧经验与习惯塑形, 足球概率分析现行规程, 复盘防僵化检查实践, 七类条件复核, 有条件的经验调整、反例与撤回, 事实、计算、关联与待验证机制 (+17 more)
 
 ### Community 2 - "Wheatcroft 论文 Markdown（附公式与图表）"
 Cohesion: 0.05
@@ -203,8 +208,8 @@ Cohesion: 0.17
 Nodes (12): Broader Importance of Outcome Bias, Constraints on Generality, **DISCUSSION**, **EXTENSIONS**, Limitations and Future Directions, PDF 第 12 页, PDF 第 13 页, PDF 第 14 页 (+4 more)
 
 ### Community 10 - "2023_Aiyer_结果偏见与决策评价.md"
-Cohesion: 0.12
-Nodes (16): **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION**, **BACKGROUND**, **CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**, **CITATION OF THE TARGET RESEARCH ARTICLE**, **COMPETING INTERESTS** (+8 more)
+Cohesion: 0.08
+Nodes (22): 2026-09-17（周四）中国体育彩票量化排查与实盘交易决策报告, 决策结论：【全盘 10 场皆不合规，今日坚决空仓观察，绝不硬推！】, 2026-09-20（周日）深度复盘与对账报告, 🎯 核心失误血泪剖析：为什么周日006（佛罗伦萨 vs 那不勒斯）会严重误判？, **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION** (+14 more)
 
 ### Community 11 - "2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.15
@@ -370,6 +375,10 @@ Nodes (13): 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀�
 Cohesion: 0.67
 Nodes (3): 1. 三大物理门禁实战推演验证, 2. 赛果终审打出, 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】
 
+### Community 73 - "已取代：智慧复盘论文索引"
+Cohesion: 0.24
+Nodes (9): 足球概率分析系统手册, Stable reliability diagrams for probabilistic classifiers, CORP 稳定可靠性图, CORP 校准与区分能力分解, 已取代：整改依据与验证边界, 已取代：项目规则与数据口径审计, Forecast evaluation for data scientists: common pitfalls and best practices, PDF 第 1 页 (+1 more)
+
 ### Community 74 - "案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】"
 Cohesion: 0.67
 Nodes (3): 1. 两次推演错误与认知死穴深度剖析, 2. 做市商真实物理逻辑与收割机制, 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】
@@ -377,6 +386,14 @@ Nodes (3): 1. 两次推演错误与认知死穴深度剖析, 2. 做市商真实�
 ### Community 75 - "案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】"
 Cohesion: 0.67
 Nodes (3): 1. 初始错误推演（反转强迫症与阴谋论走火入魔）, 2. 做市商真实物理逻辑（低赔易主，顺势收割）, 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】
+
+### Community 78 - "智慧复盘论文索引"
+Cohesion: 0.22
+Nodes (9): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, Comparing Sequential Forecasters, 随时有效的序贯预测检验 (+1 more)
+
+### Community 79 - "Shin与比例归一化：方法说明及适用边界"
+Cohesion: 0.33
+Nodes (8): 项目规则与数据口径审计, 比例归一化市场概率, Shin逆变换的平方与总和项, Shin潜在参数的解释边界, Shin与比例归一化：方法说明及适用边界, 历史待核查：2026-09-10_预测.md, 文献与项目方法笔记资料库, 资料关联不等于因果或效果认证
 
 ### Community 83 - "二、 深度复盘：为什么会 0 命中？犯了什么谬误？"
 Cohesion: 0.29
@@ -401,6 +418,14 @@ Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板,
 ### Community 94 - "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1"
 Cohesion: 0.67
 Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1, PDF 第 1 页
+
+### Community 95 - "2026-09-13_复盘.md"
+Cohesion: 0.25
+Nodes (6): Tests of Conditional Predictive Ability, 条件预测能力检验, 预测评估中的估计不确定性, Bayesian weighted discrete-time dynamic models for association football prediction, 自适应借用历史球队信息, 随时间变化的球队攻防能力
+
+### Community 106 - "预测记录与智慧复盘契约"
+Cohesion: 0.33
+Nodes (6): 概率评分、校准、命中率与收益分开, 赛前实际时间与版本封存, 先审过程再揭示赛果, 冻结假设与未来样本比较, 预测记录与智慧复盘契约, 温故而知新：论文与方法资料库
 
 ## Ambiguous Edges - Review These
 - `2026-09-12_复盘.md` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
@@ -427,6 +452,14 @@ Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: R
   分析复盘记录/2026-09-13_预测.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-11_预测.md` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
+- `已取代：项目规则与数据口径审计` → `智慧复盘论文索引`  [AMBIGUOUS]
+  温故而知新学习资料/README.md · relation: legacy_unverified_relation
+- `已取代：项目规则与数据口径审计` → `智慧经验与习惯塑形`  [AMBIGUOUS]
+  分析复盘记录/总复盘总结.md · relation: legacy_unverified_relation
+- `已取代：项目规则与数据口径审计` → `足球概率分析系统手册`  [AMBIGUOUS]
+  README.md · relation: legacy_unverified_relation
+- `已取代：项目规则与数据口径审计` → `预测记录与智慧复盘契约`  [AMBIGUOUS]
+  分析复盘记录/README.md · relation: legacy_unverified_relation
 - `历史待核查：1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误` → `Skellam Distribution (Poisson-Difference)`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
@@ -439,14 +472,6 @@ Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: R
   分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
 - `历史待核查：二、 周四007【德尔瓦耶 0:2 弗拉门戈】单挑失手深度复盘` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
   分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
-- `已取代：项目规则与数据口径审计` → `智慧复盘论文索引`  [AMBIGUOUS]
-  温故而知新学习资料/README.md · relation: legacy_unverified_relation
-- `已取代：项目规则与数据口径审计` → `智慧经验与习惯塑形`  [AMBIGUOUS]
-  分析复盘记录/总复盘总结.md · relation: legacy_unverified_relation
-- `已取代：项目规则与数据口径审计` → `足球概率分析系统手册`  [AMBIGUOUS]
-  README.md · relation: legacy_unverified_relation
-- `已取代：项目规则与数据口径审计` → `预测记录与智慧复盘契约`  [AMBIGUOUS]
-  分析复盘记录/README.md · relation: legacy_unverified_relation
 - `Hierarchical Bayesian Poisson Football Score Model` → `历史待核查：2026-09-06 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
 - `Hierarchical Bayesian Poisson Football Score Model` → `历史待核查：2026-09-07 Pre-Match Forecast`  [AMBIGUOUS]
@@ -601,8 +626,8 @@ Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: R
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **396 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+391 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 431 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **397 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+392 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 432 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **48 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
