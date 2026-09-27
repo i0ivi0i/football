@@ -791,6 +791,90 @@
       "source_location": "L16"
     },
     {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8",
+      "label": "2026-09-16_\u590d\u76d8.md",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "2026-09-16_\u590d\u76d8.md",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_1_\u523b\u821f\u6c42\u5251\u4ea4\u950b\u8c2c\u8bef_\u53e4\u4ee3\u6570\u636e\u7684\u865a\u5047\u5b89\u5168\u611f",
+      "label": "1. \u523b\u821f\u6c42\u5251\u4ea4\u950b\u8c2c\u8bef\uff08\u53e4\u4ee3\u6570\u636e\u7684\u865a\u5047\u5b89\u5168\u611f\uff09",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. \u523b\u821f\u6c42\u5251\u4ea4\u950b\u8c2c\u8bef(\u53e4\u4ee3\u6570\u636e\u7684\u865a\u5047\u5b89\u5168\u611f)",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
+      "source_location": "L75"
+    },
+    {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_2026_09_16_\u5468\u4e09_\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u590d\u76d8\u4e0e_0_\u547d\u4e2d\u6839\u56e0\u5ba1\u8ba1",
+      "label": "2026-09-16\uff08\u5468\u4e09\uff09\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u590d\u76d8\u4e0e 0 \u547d\u4e2d\u6839\u56e0\u5ba1\u8ba1",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2026-09-16(\u5468\u4e09)\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u590d\u76d8\u4e0e 0 \u547d\u4e2d\u6839\u56e0\u5ba1\u8ba1",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_2_\u8fdd\u80cc_\u5141\u8bb8\u7a7a\u4ed3_\u539f\u5219\u7684\u5f3a\u884c\u51d1\u5355_\u65e0\u7c73\u786c\u708a",
+      "label": "2. \u8fdd\u80cc\u201c\u5141\u8bb8\u7a7a\u4ed3\u201d\u539f\u5219\u7684\u5f3a\u884c\u51d1\u5355\uff08\u65e0\u7c73\u786c\u708a\uff09",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. \u8fdd\u80cc\u201c\u5141\u8bb8\u7a7a\u4ed3\u201d\u539f\u5219\u7684\u5f3a\u884c\u51d1\u5355(\u65e0\u7c73\u786c\u708a)",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
+      "source_location": "L79"
+    },
+    {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_3_\u7a81\u53d1\u7ea2\u724c\u7684\u7ed3\u6784\u6027\u7834\u574f",
+      "label": "3. \u7a81\u53d1\u7ea2\u724c\u7684\u7ed3\u6784\u6027\u7834\u574f",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. \u7a81\u53d1\u7ea2\u724c\u7684\u7ed3\u6784\u6027\u7834\u574f",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
+      "source_location": "L83"
+    },
+    {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_\u4e00_\u8d5b\u679c\u5ba2\u89c2\u5b9e\u76d8\u5bf9\u8d26\u8868",
+      "label": "\u4e00\u3001 \u8d5b\u679c\u5ba2\u89c2\u5b9e\u76d8\u5bf9\u8d26\u8868",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u4e00\u3001 \u8d5b\u679c\u5ba2\u89c2\u5b9e\u76d8\u5bf9\u8d26\u8868",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_\u4e8c_\u6df1\u5ea6\u590d\u76d8_\u4e3a\u4ec0\u4e48\u4f1a_0_\u547d\u4e2d_\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef",
+      "label": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8\uff1a\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d\uff1f\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef\uff1f",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8:\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d?\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef?",
+      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
+      "source_location": "L73"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7",
       "label": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
       "_origin": "ast",
@@ -801,6 +885,18 @@
       "norm_label": "2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
       "source_location": "L1"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_abstract",
+      "label": "**ABSTRACT**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**abstract**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L35"
     },
     {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_additional_files",
@@ -899,6 +995,66 @@
       "source_location": "L589"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_comprehension_checks",
+      "label": "Comprehension Checks",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "comprehension checks",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L261"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_contributor_roles_taxonomy",
+      "label": "**CONTRIBUTOR ROLES TAXONOMY**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**contributor roles taxonomy**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L597"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_copyright",
+      "label": "**COPYRIGHT:**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**copyright:**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L746"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_corresponding_author_gilad_feldman",
+      "label": "**CORRESPONDING AUTHOR: Gilad Feldman**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**corresponding author: gilad feldman**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_decision_quality",
+      "label": "Decision Quality",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "decision quality",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L267"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_deviations_from_the_baron_and_hershey_1988",
       "label": "**DEVIATIONS FROM THE BARON AND HERSHEY (1988)**",
       "_origin": "ast",
@@ -935,6 +1091,54 @@
       "source_location": "L581"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_gilad_feldman",
+      "label": "**GILAD FELDMAN**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**gilad feldman**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_keywords",
+      "label": "**KEYWORDS:**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**keywords:**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L45"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_measures",
+      "label": "**MEASURES**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**measures**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L259"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_method",
+      "label": "**METHOD**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**method**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L151"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_nathaniel_a_young",
       "label": "**Nathaniel A. Young**",
       "_origin": "ast",
@@ -945,6 +1149,90 @@
       "norm_label": "**nathaniel a. young**",
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
       "source_location": "L659"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_outcome_bias_manipulation",
+      "label": "**OUTCOME BIAS MANIPULATION**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**outcome bias manipulation**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L221"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_outcomes_affect_evaluations_of_decision_quality_replication_and_extensions_of_baron_and_hershey_s_1988_outcome_bias_experiment_1",
+      "label": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "outcomes affect evaluations of decision quality: replication and extensions of baron and hershey\u2019s (1988) outcome bias experiment 1",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_participants",
+      "label": "**PARTICIPANTS**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**participants**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L153"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_15_\u9875",
+      "label": "PDF \u7b2c 15 \u9875",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 15 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L631"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_16_\u9875",
+      "label": "PDF \u7b2c 16 \u9875",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 16 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L708"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_1_\u9875",
+      "label": "PDF \u7b2c 1 \u9875",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 1 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_2_\u9875",
+      "label": "PDF \u7b2c 2 \u9875",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 2 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L58"
     },
     {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_3_\u9875",
@@ -971,6 +1259,42 @@
       "source_location": "L135"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_5_\u9875",
+      "label": "PDF \u7b2c 5 \u9875",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 5 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L207"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_6_\u9875",
+      "label": "PDF \u7b2c 6 \u9875",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pdf \u7b2c 6 \u9875",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L255"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_perceived_norms",
+      "label": "Perceived Norms",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "perceived norms",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L273"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pre_registration_and_openscience",
       "label": "**PRE-REGISTRATION AND OPENSCIENCE**",
       "_origin": "ast",
@@ -983,6 +1307,18 @@
       "source_location": "L141"
     },
     {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_references",
+      "label": "**REFERENCES**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**references**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L667"
+    },
+    {
       "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_replication_closeness_evaluation",
       "label": "**REPLICATION CLOSENESS EVALUATION**",
       "_origin": "ast",
@@ -993,6 +1329,30 @@
       "norm_label": "**replication closeness evaluation**",
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
       "source_location": "L78"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_to_cite_this_article",
+      "label": "**TO CITE THIS ARTICLE:**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**to cite this article:**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_to_cite_this_article_740",
+      "label": "**TO CITE THIS ARTICLE:**",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "**to cite this article:**",
+      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
+      "source_location": "L740"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u653b\u5b88\u6613\u52bf_\u7ec8\u76d8\u8bf1\u7b79_\u5200\u6cd5\u7834\u8bd1",
@@ -4890,7 +5250,7 @@
       "node_kind": "heading",
       "norm_label": "\u4e09\u3001 \u8d54\u7387\u5206\u6790\u63a8\u6f14\u5341\u5927\u516c\u7406(\u80dc\u5e73\u8d1f + \u8ba9\u7403\u8054\u52a8)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L762"
+      "source_location": "L781"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u4e94_\u5f7b\u5e95\u675c\u7edd\u63a8\u6f14\u53cd\u590d\u72af\u9519\u7684\u4e09\u5927\u5b9a\u91cf\u7269\u7406\u95e8\u7981_\u6839\u6cbb\u4e8c\u5143\u949f\u6446\u4e0e\u9634\u8c0b\u8bba\u5984\u60f3\u75c7",
@@ -4902,7 +5262,7 @@
       "node_kind": "heading",
       "norm_label": "\u4e94\u3001 \u5f7b\u5e95\u675c\u7edd\u63a8\u6f14\u53cd\u590d\u72af\u9519\u7684\u4e09\u5927\u5b9a\u91cf\u7269\u7406\u95e8\u7981(\u6839\u6cbb\u4e8c\u5143\u949f\u6446\u4e0e\u9634\u8c0b\u8bba\u5984\u60f3\u75c7)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L863"
+      "source_location": "L882"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_10_\u8ba9\u76d8\u53cc\u5f03\u4e0e\u5e73\u534a\u6bd2\u8bf1\u9975\u5206\u6c34\u5cad_\u6df1\u76d8\u53cc\u5f03\u62b9\u6740\u4e3b\u80dc_vs_\u5e73\u534a\u6bd2\u8bf1\u9975\u6740\u8ba9\u8d1f",
@@ -4914,7 +5274,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 10:\u8ba9\u76d8\u53cc\u5f03\u4e0e\u5e73\u534a\u6bd2\u8bf1\u9975\u5206\u6c34\u5cad(\u6df1\u76d8\u53cc\u5f03\u62b9\u6740\u4e3b\u80dc vs \u5e73\u534a\u6bd2\u8bf1\u9975\u6740\u8ba9\u8d1f)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L844"
+      "source_location": "L863"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_1_\u8d85\u4f4e\u5e73_3_00_\u9632\u5fa1\u4e00\u81f4\u6027\u68c0\u9a8c_\u5168\u5468\u671f\u4f4e\u5e73\u771f\u95f7\u5e73_vs_\u8bf1\u5e73\u871c\u7f50\u6740\u51b7\u8d1f",
@@ -4926,7 +5286,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 1:\u8d85\u4f4e\u5e73(< 3.00)\u9632\u5fa1\u4e00\u81f4\u6027\u68c0\u9a8c(\u5168\u5468\u671f\u4f4e\u5e73\u771f\u95f7\u5e73 vs \u8bf1\u5e73\u871c\u7f50\u6740\u51b7\u8d1f)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L779"
+      "source_location": "L798"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_2_\u6781\u4f4e\u8d54_1_30_\u56db\u8f68\u5206\u6d41\u4e0e\u53cd\u5f39\u56de\u8e29\u9274\u522b\u6807\u5c3a_\u771f\u7a7f\u76d8_\u6740\u51b7\u5e73_\u6740\u8ba9\u5e73",
@@ -4938,7 +5298,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 2:\u6781\u4f4e\u8d54(< 1.30)\u56db\u8f68\u5206\u6d41\u4e0e\u53cd\u5f39\u56de\u8e29\u9274\u522b\u6807\u5c3a(\u771f\u7a7f\u76d8 / \u6740\u51b7\u5e73 / \u6740\u8ba9\u5e73)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L785"
+      "source_location": "L804"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_3_\u8ba9\u5e73\u4e0b\u632b\u8fa8\u8bc6\u6807\u5c3a_\u771f\u9632\u4e00\u7403\u5c0f\u80dc_vs_\u5047\u9632\u5c0f\u80dc\u771f\u5927\u80dc\u7a7f\u76d8",
@@ -4950,7 +5310,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 3:\u8ba9\u5e73\u4e0b\u632b\u8fa8\u8bc6\u6807\u5c3a(\u771f\u9632\u4e00\u7403\u5c0f\u80dc vs \u5047\u9632\u5c0f\u80dc\u771f\u5927\u80dc\u7a7f\u76d8)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L798"
+      "source_location": "L817"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_4_\u53d7\u8ba9\u80dc\u4f4e\u9501_\u8ba9\u8d1f\u66b4\u62c9_\u4e0b\u76d8\u4e0d\u8d25\u94c1\u5f8b",
@@ -4962,7 +5322,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 4:\u53d7\u8ba9\u80dc\u4f4e\u9501 + \u8ba9\u8d1f\u66b4\u62c9,\u4e0b\u76d8\u4e0d\u8d25\u94c1\u5f8b",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L804"
+      "source_location": "L823"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_5_\u5047\u5d29\u76d8\u8d76\u5ba2\u4e0e\u6bd2\u8bf1\u9975\u5b9a\u5f8b_\u4ec5\u9650\u6709\u4ee3\u5dee\u8ba9\u7403\u76d8_\u4e25\u7981\u7528\u4e8e\u5747\u52bf\u76d8",
@@ -4974,7 +5334,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 5:\u5047\u5d29\u76d8\u8d76\u5ba2\u4e0e\u6bd2\u8bf1\u9975\u5b9a\u5f8b(\u4ec5\u9650\u6709\u4ee3\u5dee\u8ba9\u7403\u76d8,\u4e25\u7981\u7528\u4e8e\u5747\u52bf\u76d8)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L809"
+      "source_location": "L828"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_6_\u76f8\u5bf9\u659c\u7387\u7a7f\u76d8\u5b9a\u5f8b_\u8ba9\u80dc\u964d\u5e45\u8fdc\u8d85\u8ba9\u5e73_\u58f0\u4e1c\u51fb\u897f\u5927\u7834\u6df1\u76d8",
@@ -4986,7 +5346,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 6:\u76f8\u5bf9\u659c\u7387\u7a7f\u76d8\u5b9a\u5f8b(\u8ba9\u80dc\u964d\u5e45\u8fdc\u8d85\u8ba9\u5e73,\u58f0\u4e1c\u51fb\u897f\u5927\u7834\u6df1\u76d8)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L814"
+      "source_location": "L833"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_7_\u53cc\u5411\u5f15\u6d41\u4e0e\u5347\u6c34\u963b\u4e0a\u5b9a\u5f8b_\u6697\u5ea6\u9648\u4ed3\u6740\u4e3b\u80dc",
@@ -4998,7 +5358,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 7:\u53cc\u5411\u5f15\u6d41\u4e0e\u5347\u6c34\u963b\u4e0a\u5b9a\u5f8b(\u6697\u5ea6\u9648\u4ed3\u6740\u4e3b\u80dc)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L823"
+      "source_location": "L842"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_8_\u5747\u52bf\u4e92\u6362\u8df7\u8df7\u677f\u4e0e\u9ad8\u5e73\u901a\u6740\u5b9a\u5f8b_\u4e24\u5934\u5f15\u6d41\u6740\u4e2d\u8def",
@@ -5010,7 +5370,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 8:\u5747\u52bf\u4e92\u6362\u8df7\u8df7\u677f\u4e0e\u9ad8\u5e73\u901a\u6740\u5b9a\u5f8b(\u4e24\u5934\u5f15\u6d41\u6740\u4e2d\u8def)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L828"
+      "source_location": "L847"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516c\u7406_9_\u4f4e\u8d54\u6613\u4e3b\u4e0e\u771f\u5d29\u76d8\u5b9a\u5f8b_\u771f\u5d29\u76d8\u5ba2\u80dc_vs_\u5047\u6613\u4e3b\u8bf1\u5ba2\u6740\u5e73\u5c40",
@@ -5022,7 +5382,7 @@
       "node_kind": "heading",
       "norm_label": "\u516c\u7406 9:\u4f4e\u8d54\u6613\u4e3b\u4e0e\u771f\u5d29\u76d8\u5b9a\u5f8b(\u771f\u5d29\u76d8\u5ba2\u80dc vs \u5047\u6613\u4e3b\u8bf1\u5ba2\u6740\u5e73\u5c40)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L836"
+      "source_location": "L855"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u516d_\u53cc\u76d8\u8054\u52a8\u4e0e\u5e84\u5171\u821e\u5927\u4e00\u7edf\u901f\u67e5\u8868_\u5168\u7f51\u7814\u62a5\u7cbe\u9ad3\u4e0e\u56db\u7ef4\u610f\u56fe\u77e9\u9635",
@@ -5034,7 +5394,7 @@
       "node_kind": "heading",
       "norm_label": "\u516d\u3001 \u53cc\u76d8\u8054\u52a8\u4e0e\u5e84\u5171\u821e\u5927\u4e00\u7edf\u901f\u67e5\u8868(\u5168\u7f51\u7814\u62a5\u7cbe\u9ad3\u4e0e\u56db\u7ef4\u610f\u56fe\u77e9\u9635)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L897"
+      "source_location": "L916"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u56db_\u7b2c\u4e00\u6027\u539f\u7406\u52a8\u6001\u63a8\u6f14\u56db\u6b65\u6cd5_\u5f7b\u5e95\u94f2\u9664\u6b7b\u677f\u5957\u6a21_\u56de\u5f52\u505a\u5e02\u5546\u771f\u5b9e\u655e\u53e3",
@@ -5046,7 +5406,7 @@
       "node_kind": "heading",
       "norm_label": "\u56db\u3001 \u7b2c\u4e00\u6027\u539f\u7406\u52a8\u6001\u63a8\u6f14\u56db\u6b65\u6cd5(\u5f7b\u5e95\u94f2\u9664\u6b7b\u677f\u5957\u6a21,\u56de\u5f52\u505a\u5e02\u5546\u771f\u5b9e\u655e\u53e3)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L850"
+      "source_location": "L869"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u5e84\u5bb6\u64cd\u76d8\u903b\u8f91\u4e0e\u53cc\u76d8\u8054\u52a8\u63a8\u6f14\u5fc3\u6cd5",
@@ -5070,7 +5430,7 @@
       "node_kind": "heading",
       "norm_label": "\u95e8\u7981\u4e00:\u4e09\u7ef4\u5f3a\u5236\u5168\u666f\u626b\u63cf\u95e8\u7981(\u5f7b\u5e95\u6d88\u706d\u201c\u975e\u80dc\u5373\u5e73\u201d\u4e8c\u5143\u6b7b\u7a74)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L865"
+      "source_location": "L884"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u95e8\u7981\u4e09_\u8bf1\u5e73\u871c\u7f50_vs_\u771f\u9632\u5e73\u5b9a\u91cf\u6807\u5c3a\u95e8\u7981_\u5f7b\u5e95\u6839\u6cbb_\u53ea\u8ba4\u78343_00_\u6559\u6761\u4e3b\u4e49",
@@ -5082,7 +5442,7 @@
       "node_kind": "heading",
       "norm_label": "\u95e8\u7981\u4e09:\u8bf1\u5e73\u871c\u7f50 vs \u771f\u9632\u5e73\u5b9a\u91cf\u6807\u5c3a\u95e8\u7981(\u5f7b\u5e95\u6839\u6cbb\u201c\u53ea\u8ba4\u78343.00\u201d\u6559\u6761\u4e3b\u4e49)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L878"
+      "source_location": "L897"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u95e8\u7981\u4e8c_\u8ba9\u7403\u76d8\u53cc\u8f68\u6210\u672c\u95e8\u7981_\u7528\u7269\u7406\u6570\u5b66\u51fb\u788e\u4e3b\u89c2\u8111\u8865",
@@ -5094,7 +5454,7 @@
       "node_kind": "heading",
       "norm_label": "\u95e8\u7981\u4e8c:\u8ba9\u7403\u76d8\u53cc\u8f68\u6210\u672c\u95e8\u7981(\u7528\u7269\u7406\u6570\u5b66\u51fb\u788e\u4e3b\u89c2\u8111\u8865)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L871"
+      "source_location": "L890"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u95e8\u7981\u56db_\u5747\u52bf\u5fae\u8ba9\u53cd\u8d85\u95e8\u7981_\u4e25\u7981\u628a\u672a\u53cd\u8d85\u7684\u5fae\u8c03\u8111\u8865\u4e3a\u53cd\u5ba2\u4e3a\u4e3b\u5168\u80dc",
@@ -5106,115 +5466,31 @@
       "node_kind": "heading",
       "norm_label": "\u95e8\u7981\u56db:\u5747\u52bf\u5fae\u8ba9\u53cd\u8d85\u95e8\u7981(\u4e25\u7981\u628a\u672a\u53cd\u8d85\u7684\u5fae\u8c03\u8111\u8865\u4e3a\u53cd\u5ba2\u4e3a\u4e3b\u5168\u80dc)",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L889"
+      "source_location": "L908"
     },
     {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_comprehension_checks",
-      "label": "Comprehension Checks",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u6781\u4f4e\u8d54\u62d2\u78342_00\u9020\u80c6\u6740\u51b7\u5e73_\u7ec8\u6781\u7269\u7406\u5206\u6c34\u5cad",
+      "label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u6781\u4f4e\u8d54\u62d2\u78342.00\u9020\u80c6\u6740\u51b7\u5e73\u201d\u7ec8\u6781\u7269\u7406\u5206\u6c34\u5cad",
       "_origin": "ast",
       "community": 62,
-      "community_name": "**METHOD**",
+      "community_name": "\u6848\u4f8b 41\uff08\u6781\u4f4e\u8d54\u62d2\u78342.00\u9020\u80c6\u6740\u5929\u4ef7\u51b7\u5e73\u6848\uff09\uff1a\u5ba2\u8d1f1.32\u72c2\u964d\u9020\u6b7b\u80c6\uff0c\u8ba9\u8d1f2.15\u62d2\u78342.00\u865a\u8bf1\u5927\u80dc\uff0c\u5929\u4ef7\u51b7\u5e734.40\u901a\u6740\u5168\u7f51\u3010\u5e734.40\u4e0e\u8ba9\u80dc2.73\u901a\u6740\u6848\u3011",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "comprehension checks",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L261"
+      "norm_label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u6781\u4f4e\u8d54\u62d2\u78342.00\u9020\u80c6\u6740\u51b7\u5e73\u201d\u7ec8\u6781\u7269\u7406\u5206\u6c34\u5cad",
+      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
+      "source_location": "L767"
     },
     {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_decision_quality",
-      "label": "Decision Quality",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_41_\u6781\u4f4e\u8d54\u62d2\u78342_00\u9020\u80c6\u6740\u5929\u4ef7\u51b7\u5e73\u6848_\u5ba2\u8d1f1_32\u72c2\u964d\u9020\u6b7b\u80c6_\u8ba9\u8d1f2_15\u62d2\u78342_00\u865a\u8bf1\u5927\u80dc_\u5929\u4ef7\u51b7\u5e734_40\u901a\u6740\u5168\u7f51_\u5e734_40\u4e0e\u8ba9\u80dc2_73\u901a\u6740\u6848",
+      "label": "\u6848\u4f8b 41\uff08\u6781\u4f4e\u8d54\u62d2\u78342.00\u9020\u80c6\u6740\u5929\u4ef7\u51b7\u5e73\u6848\uff09\uff1a\u5ba2\u8d1f1.32\u72c2\u964d\u9020\u6b7b\u80c6\uff0c\u8ba9\u8d1f2.15\u62d2\u78342.00\u865a\u8bf1\u5927\u80dc\uff0c\u5929\u4ef7\u51b7\u5e734.40\u901a\u6740\u5168\u7f51\u3010\u5e734.40\u4e0e\u8ba9\u80dc2.73\u901a\u6740\u6848\u3011",
       "_origin": "ast",
       "community": 62,
-      "community_name": "**METHOD**",
+      "community_name": "\u6848\u4f8b 41\uff08\u6781\u4f4e\u8d54\u62d2\u78342.00\u9020\u80c6\u6740\u5929\u4ef7\u51b7\u5e73\u6848\uff09\uff1a\u5ba2\u8d1f1.32\u72c2\u964d\u9020\u6b7b\u80c6\uff0c\u8ba9\u8d1f2.15\u62d2\u78342.00\u865a\u8bf1\u5927\u80dc\uff0c\u5929\u4ef7\u51b7\u5e734.40\u901a\u6740\u5168\u7f51\u3010\u5e734.40\u4e0e\u8ba9\u80dc2.73\u901a\u6740\u6848\u3011",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "decision quality",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L267"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_measures",
-      "label": "**MEASURES**",
-      "_origin": "ast",
-      "community": 62,
-      "community_name": "**METHOD**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**measures**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L259"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_method",
-      "label": "**METHOD**",
-      "_origin": "ast",
-      "community": 62,
-      "community_name": "**METHOD**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**method**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L151"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_outcome_bias_manipulation",
-      "label": "**OUTCOME BIAS MANIPULATION**",
-      "_origin": "ast",
-      "community": 62,
-      "community_name": "**METHOD**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**outcome bias manipulation**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L221"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_participants",
-      "label": "**PARTICIPANTS**",
-      "_origin": "ast",
-      "community": 62,
-      "community_name": "**METHOD**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**participants**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L153"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_5_\u9875",
-      "label": "PDF \u7b2c 5 \u9875",
-      "_origin": "ast",
-      "community": 62,
-      "community_name": "**METHOD**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 5 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L207"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_6_\u9875",
-      "label": "PDF \u7b2c 6 \u9875",
-      "_origin": "ast",
-      "community": 62,
-      "community_name": "**METHOD**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 6 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L255"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_perceived_norms",
-      "label": "Perceived Norms",
-      "_origin": "ast",
-      "community": 62,
-      "community_name": "**METHOD**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "perceived norms",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L273"
+      "norm_label": "\u6848\u4f8b 41(\u6781\u4f4e\u8d54\u62d2\u78342.00\u9020\u80c6\u6740\u5929\u4ef7\u51b7\u5e73\u6848):\u5ba2\u8d1f1.32\u72c2\u964d\u9020\u6b7b\u80c6,\u8ba9\u8d1f2.15\u62d2\u78342.00\u865a\u8bf1\u5927\u80dc,\u5929\u4ef7\u51b7\u5e734.40\u901a\u6740\u5168\u7f51\u3010\u5e734.40\u4e0e\u8ba9\u80dc2.73\u901a\u6740\u6848\u3011",
+      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
+      "source_location": "L762"
     },
     {
       "id": "docs_adr_0015_micro_injury_quantitative_calibration_and_poisson_decay",
@@ -5361,88 +5637,28 @@
       "source_location": "L70"
     },
     {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8",
-      "label": "2026-09-16_\u590d\u76d8.md",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u6df1v\u8bf1\u7a7a\u6d17\u76d8_\u7838\u7a7f1_40\u6bd2\u8bf1\u9975\u6697\u6740\u8ba9\u5e73_\u63a8\u6f14\u5fc3\u6cd5",
+      "label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u6df1V\u8bf1\u7a7a\u6d17\u76d8 + \u7838\u7a7f1.40\u6bd2\u8bf1\u9975\u6697\u6740\u8ba9\u5e73\u201d\u63a8\u6f14\u5fc3\u6cd5",
       "_origin": "ast",
       "community": 65,
-      "community_name": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8\uff1a\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d\uff1f\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef\uff1f",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "2026-09-16_\u590d\u76d8.md",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_1_\u523b\u821f\u6c42\u5251\u4ea4\u950b\u8c2c\u8bef_\u53e4\u4ee3\u6570\u636e\u7684\u865a\u5047\u5b89\u5168\u611f",
-      "label": "1. \u523b\u821f\u6c42\u5251\u4ea4\u950b\u8c2c\u8bef\uff08\u53e4\u4ee3\u6570\u636e\u7684\u865a\u5047\u5b89\u5168\u611f\uff09",
-      "_origin": "ast",
-      "community": 65,
-      "community_name": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8\uff1a\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d\uff1f\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef\uff1f",
+      "community_name": "\u6848\u4f8b 37\uff08\u6df1V\u6d17\u76d8\u8bf1\u5ba2\u4e0e1.40\u6bd2\u8bf1\u9975\u6740\u5c40\u6848\uff09\uff1a\u4e3b\u80dc2.45\u66b4\u780d2.20\u6df1V\u7834\u4f4d\uff0c\u8ba9\u8d1f1.40\u6bd2\u8bf1\u9975\u5168\u7f51\u5c60\u622e\uff0c\u8ba9\u5e734.50\u5929\u4ef7\u901a\u6740\u3010\u80dc2.20\u4e0e\u8ba9\u5e734.50\u901a\u6740\u6848\u3011",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. \u523b\u821f\u6c42\u5251\u4ea4\u950b\u8c2c\u8bef(\u53e4\u4ee3\u6570\u636e\u7684\u865a\u5047\u5b89\u5168\u611f)",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
-      "source_location": "L75"
+      "norm_label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u6df1v\u8bf1\u7a7a\u6d17\u76d8 + \u7838\u7a7f1.40\u6bd2\u8bf1\u9975\u6697\u6740\u8ba9\u5e73\u201d\u63a8\u6f14\u5fc3\u6cd5",
+      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
+      "source_location": "L694"
     },
     {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_2026_09_16_\u5468\u4e09_\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u590d\u76d8\u4e0e_0_\u547d\u4e2d\u6839\u56e0\u5ba1\u8ba1",
-      "label": "2026-09-16\uff08\u5468\u4e09\uff09\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u590d\u76d8\u4e0e 0 \u547d\u4e2d\u6839\u56e0\u5ba1\u8ba1",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_37_\u6df1v\u6d17\u76d8\u8bf1\u5ba2\u4e0e1_40\u6bd2\u8bf1\u9975\u6740\u5c40\u6848_\u4e3b\u80dc2_45\u66b4\u780d2_20\u6df1v\u7834\u4f4d_\u8ba9\u8d1f1_40\u6bd2\u8bf1\u9975\u5168\u7f51\u5c60\u622e_\u8ba9\u5e734_50\u5929\u4ef7\u901a\u6740_\u80dc2_20\u4e0e\u8ba9\u5e734_50\u901a\u6740\u6848",
+      "label": "\u6848\u4f8b 37\uff08\u6df1V\u6d17\u76d8\u8bf1\u5ba2\u4e0e1.40\u6bd2\u8bf1\u9975\u6740\u5c40\u6848\uff09\uff1a\u4e3b\u80dc2.45\u66b4\u780d2.20\u6df1V\u7834\u4f4d\uff0c\u8ba9\u8d1f1.40\u6bd2\u8bf1\u9975\u5168\u7f51\u5c60\u622e\uff0c\u8ba9\u5e734.50\u5929\u4ef7\u901a\u6740\u3010\u80dc2.20\u4e0e\u8ba9\u5e734.50\u901a\u6740\u6848\u3011",
       "_origin": "ast",
       "community": 65,
-      "community_name": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8\uff1a\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d\uff1f\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef\uff1f",
+      "community_name": "\u6848\u4f8b 37\uff08\u6df1V\u6d17\u76d8\u8bf1\u5ba2\u4e0e1.40\u6bd2\u8bf1\u9975\u6740\u5c40\u6848\uff09\uff1a\u4e3b\u80dc2.45\u66b4\u780d2.20\u6df1V\u7834\u4f4d\uff0c\u8ba9\u8d1f1.40\u6bd2\u8bf1\u9975\u5168\u7f51\u5c60\u622e\uff0c\u8ba9\u5e734.50\u5929\u4ef7\u901a\u6740\u3010\u80dc2.20\u4e0e\u8ba9\u5e734.50\u901a\u6740\u6848\u3011",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "2026-09-16(\u5468\u4e09)\u4e2d\u56fd\u4f53\u80b2\u5f69\u7968\u91cf\u5316\u63a8\u6f14\u590d\u76d8\u4e0e 0 \u547d\u4e2d\u6839\u56e0\u5ba1\u8ba1",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
-      "source_location": "L51"
-    },
-    {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_2_\u8fdd\u80cc_\u5141\u8bb8\u7a7a\u4ed3_\u539f\u5219\u7684\u5f3a\u884c\u51d1\u5355_\u65e0\u7c73\u786c\u708a",
-      "label": "2. \u8fdd\u80cc\u201c\u5141\u8bb8\u7a7a\u4ed3\u201d\u539f\u5219\u7684\u5f3a\u884c\u51d1\u5355\uff08\u65e0\u7c73\u786c\u708a\uff09",
-      "_origin": "ast",
-      "community": 65,
-      "community_name": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8\uff1a\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d\uff1f\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef\uff1f",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. \u8fdd\u80cc\u201c\u5141\u8bb8\u7a7a\u4ed3\u201d\u539f\u5219\u7684\u5f3a\u884c\u51d1\u5355(\u65e0\u7c73\u786c\u708a)",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
-      "source_location": "L79"
-    },
-    {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_3_\u7a81\u53d1\u7ea2\u724c\u7684\u7ed3\u6784\u6027\u7834\u574f",
-      "label": "3. \u7a81\u53d1\u7ea2\u724c\u7684\u7ed3\u6784\u6027\u7834\u574f",
-      "_origin": "ast",
-      "community": 65,
-      "community_name": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8\uff1a\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d\uff1f\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef\uff1f",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. \u7a81\u53d1\u7ea2\u724c\u7684\u7ed3\u6784\u6027\u7834\u574f",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
-      "source_location": "L83"
-    },
-    {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_\u4e00_\u8d5b\u679c\u5ba2\u89c2\u5b9e\u76d8\u5bf9\u8d26\u8868",
-      "label": "\u4e00\u3001 \u8d5b\u679c\u5ba2\u89c2\u5b9e\u76d8\u5bf9\u8d26\u8868",
-      "_origin": "ast",
-      "community": 65,
-      "community_name": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8\uff1a\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d\uff1f\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef\uff1f",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u4e00\u3001 \u8d5b\u679c\u5ba2\u89c2\u5b9e\u76d8\u5bf9\u8d26\u8868",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
-      "source_location": "L60"
-    },
-    {
-      "id": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55_2026_09_16_\u590d\u76d8_\u4e8c_\u6df1\u5ea6\u590d\u76d8_\u4e3a\u4ec0\u4e48\u4f1a_0_\u547d\u4e2d_\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef",
-      "label": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8\uff1a\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d\uff1f\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef\uff1f",
-      "_origin": "ast",
-      "community": 65,
-      "community_name": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8\uff1a\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d\uff1f\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef\uff1f",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u4e8c\u3001 \u6df1\u5ea6\u590d\u76d8:\u4e3a\u4ec0\u4e48\u4f1a 0 \u547d\u4e2d?\u72af\u4e86\u4ec0\u4e48\u8c2c\u8bef?",
-      "source_file": "\u5206\u6790\u590d\u76d8\u8bb0\u5f55/2026-09-16_\u590d\u76d8.md",
-      "source_location": "L73"
+      "norm_label": "\u6848\u4f8b 37(\u6df1v\u6d17\u76d8\u8bf1\u5ba2\u4e0e1.40\u6bd2\u8bf1\u9975\u6740\u5c40\u6848):\u4e3b\u80dc2.45\u66b4\u780d2.20\u6df1v\u7834\u4f4d,\u8ba9\u8d1f1.40\u6bd2\u8bf1\u9975\u5168\u7f51\u5c60\u622e,\u8ba9\u5e734.50\u5929\u4ef7\u901a\u6740\u3010\u80dc2.20\u4e0e\u8ba9\u5e734.50\u901a\u6740\u6848\u3011",
+      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
+      "source_location": "L689"
     },
     {
       "id": "tests_test_pressing_conversion_penalty",
@@ -5659,64 +5875,28 @@
       "source_location": "L9"
     },
     {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_abstract",
-      "label": "**ABSTRACT**",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e\u64cd\u76d8\u624b_\u53cc\u871c\u7f50\u63a9\u62a4\u9ad8\u6c34\u7a7f\u76d8_\u5200\u6cd5",
+      "label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u64cd\u76d8\u624b\u201c\u53cc\u871c\u7f50\u63a9\u62a4\u9ad8\u6c34\u7a7f\u76d8\u201d\u5200\u6cd5",
       "_origin": "ast",
       "community": 68,
-      "community_name": "**ABSTRACT**",
+      "community_name": "\u6848\u4f8b 24\uff08\u4e2d\u76d8\u4f4e\u6c34\u8ba9\u5e73\u871c\u7f50\u6740\u5927\u80dc\u7a7f\u76d8\u6848\uff09\uff1a\u8ba9\u5e73\u7838\u78343.10\u505a\u871c\u7f50\uff0c\u8ba9\u80dc\u66b4\u62c93.40\u5236\u9020\u771f\u7a7a\u3010\u4e3b\u80dc1.59\u4e0e\u8ba9\u80dc3.40\u5927\u80dc\u901a\u6740\u6848\u3011",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "**abstract**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L35"
+      "norm_label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u64cd\u76d8\u624b\u201c\u53cc\u871c\u7f50\u63a9\u62a4\u9ad8\u6c34\u7a7f\u76d8\u201d\u5200\u6cd5",
+      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
+      "source_location": "L440"
     },
     {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_corresponding_author_gilad_feldman",
-      "label": "**CORRESPONDING AUTHOR: Gilad Feldman**",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_24_\u4e2d\u76d8\u4f4e\u6c34\u8ba9\u5e73\u871c\u7f50\u6740\u5927\u80dc\u7a7f\u76d8\u6848_\u8ba9\u5e73\u7838\u78343_10\u505a\u871c\u7f50_\u8ba9\u80dc\u66b4\u62c93_40\u5236\u9020\u771f\u7a7a_\u4e3b\u80dc1_59\u4e0e\u8ba9\u80dc3_40\u5927\u80dc\u901a\u6740\u6848",
+      "label": "\u6848\u4f8b 24\uff08\u4e2d\u76d8\u4f4e\u6c34\u8ba9\u5e73\u871c\u7f50\u6740\u5927\u80dc\u7a7f\u76d8\u6848\uff09\uff1a\u8ba9\u5e73\u7838\u78343.10\u505a\u871c\u7f50\uff0c\u8ba9\u80dc\u66b4\u62c93.40\u5236\u9020\u771f\u7a7a\u3010\u4e3b\u80dc1.59\u4e0e\u8ba9\u80dc3.40\u5927\u80dc\u901a\u6740\u6848\u3011",
       "_origin": "ast",
       "community": 68,
-      "community_name": "**ABSTRACT**",
+      "community_name": "\u6848\u4f8b 24\uff08\u4e2d\u76d8\u4f4e\u6c34\u8ba9\u5e73\u871c\u7f50\u6740\u5927\u80dc\u7a7f\u76d8\u6848\uff09\uff1a\u8ba9\u5e73\u7838\u78343.10\u505a\u871c\u7f50\uff0c\u8ba9\u80dc\u66b4\u62c93.40\u5236\u9020\u771f\u7a7a\u3010\u4e3b\u80dc1.59\u4e0e\u8ba9\u80dc3.40\u5927\u80dc\u901a\u6740\u6848\u3011",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "**corresponding author: gilad feldman**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L39"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_keywords",
-      "label": "**KEYWORDS:**",
-      "_origin": "ast",
-      "community": 68,
-      "community_name": "**ABSTRACT**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**keywords:**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L45"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_2_\u9875",
-      "label": "PDF \u7b2c 2 \u9875",
-      "_origin": "ast",
-      "community": 68,
-      "community_name": "**ABSTRACT**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 2 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L58"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_to_cite_this_article",
-      "label": "**TO CITE THIS ARTICLE:**",
-      "_origin": "ast",
-      "community": 68,
-      "community_name": "**ABSTRACT**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**to cite this article:**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L49"
+      "norm_label": "\u6848\u4f8b 24(\u4e2d\u76d8\u4f4e\u6c34\u8ba9\u5e73\u871c\u7f50\u6740\u5927\u80dc\u7a7f\u76d8\u6848):\u8ba9\u5e73\u7838\u78343.10\u505a\u871c\u7f50,\u8ba9\u80dc\u66b4\u62c93.40\u5236\u9020\u771f\u7a7a\u3010\u4e3b\u80dc1.59\u4e0e\u8ba9\u80dc3.40\u5927\u80dc\u901a\u6740\u6848\u3011",
+      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
+      "source_location": "L435"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u4f4e\u8d54\u6613\u4e3b_vs_\u8d85\u4f4e\u5e73\u771f\u9632\u5e73_\u7ec8\u6781\u9274\u522b",
@@ -5731,28 +5911,28 @@
       "source_location": "L528"
     },
     {
-      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u6df1v\u8bf1\u7a7a\u6d17\u76d8_\u7838\u7a7f1_40\u6bd2\u8bf1\u9975\u6697\u6740\u8ba9\u5e73_\u63a8\u6f14\u5fc3\u6cd5",
-      "label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u6df1V\u8bf1\u7a7a\u6d17\u76d8 + \u7838\u7a7f1.40\u6bd2\u8bf1\u9975\u6697\u6740\u8ba9\u5e73\u201d\u63a8\u6f14\u5fc3\u6cd5",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u5168\u751f\u547d\u5468\u671f_3_00\u8d85\u4f4e\u5e73\u94c1\u5f8b",
+      "label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u5168\u751f\u547d\u5468\u671f<3.00\u8d85\u4f4e\u5e73\u94c1\u5f8b\u201d",
       "_origin": "ast",
       "community": 69,
       "community_name": "\u4e8c\u3001 \u4e94\u5927\u7ecf\u5178\u5b9e\u6218\u76d8\u53e3\u590d\u76d8",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u6df1v\u8bf1\u7a7a\u6d17\u76d8 + \u7838\u7a7f1.40\u6bd2\u8bf1\u9975\u6697\u6740\u8ba9\u5e73\u201d\u63a8\u6f14\u5fc3\u6cd5",
+      "norm_label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u5168\u751f\u547d\u5468\u671f<3.00\u8d85\u4f4e\u5e73\u94c1\u5f8b\u201d",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L694"
+      "source_location": "L492"
     },
     {
-      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e\u64cd\u76d8\u624b_\u53cc\u871c\u7f50\u63a9\u62a4\u9ad8\u6c34\u7a7f\u76d8_\u5200\u6cd5",
-      "label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u64cd\u76d8\u624b\u201c\u53cc\u871c\u7f50\u63a9\u62a4\u9ad8\u6c34\u7a7f\u76d8\u201d\u5200\u6cd5",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u5e84\u5bb6\u6700\u5c0f\u635f\u5931_\u6700\u5927\u76c8\u5229_\u8054\u5408\u5bf9\u51b2\u7834\u8bd1",
+      "label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u5e84\u5bb6\u6700\u5c0f\u635f\u5931\u3001\u6700\u5927\u76c8\u5229\u201d\u8054\u5408\u5bf9\u51b2\u7834\u8bd1",
       "_origin": "ast",
       "community": 69,
       "community_name": "\u4e8c\u3001 \u4e94\u5927\u7ecf\u5178\u5b9e\u6218\u76d8\u53e3\u590d\u76d8",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u64cd\u76d8\u624b\u201c\u53cc\u871c\u7f50\u63a9\u62a4\u9ad8\u6c34\u7a7f\u76d8\u201d\u5200\u6cd5",
+      "norm_label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u5e84\u5bb6\u6700\u5c0f\u635f\u5931\u3001\u6700\u5927\u76c8\u5229\u201d\u8054\u5408\u5bf9\u51b2\u7834\u8bd1",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L440"
+      "source_location": "L711"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u4e8c_\u4e94\u5927\u7ecf\u5178\u5b9e\u6218\u76d8\u53e3\u590d\u76d8",
@@ -5815,16 +5995,16 @@
       "source_location": "L85"
     },
     {
-      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_24_\u4e2d\u76d8\u4f4e\u6c34\u8ba9\u5e73\u871c\u7f50\u6740\u5927\u80dc\u7a7f\u76d8\u6848_\u8ba9\u5e73\u7838\u78343_10\u505a\u871c\u7f50_\u8ba9\u80dc\u66b4\u62c93_40\u5236\u9020\u771f\u7a7a_\u4e3b\u80dc1_59\u4e0e\u8ba9\u80dc3_40\u5927\u80dc\u901a\u6740\u6848",
-      "label": "\u6848\u4f8b 24\uff08\u4e2d\u76d8\u4f4e\u6c34\u8ba9\u5e73\u871c\u7f50\u6740\u5927\u80dc\u7a7f\u76d8\u6848\uff09\uff1a\u8ba9\u5e73\u7838\u78343.10\u505a\u871c\u7f50\uff0c\u8ba9\u80dc\u66b4\u62c93.40\u5236\u9020\u771f\u7a7a\u3010\u4e3b\u80dc1.59\u4e0e\u8ba9\u80dc3.40\u5927\u80dc\u901a\u6740\u6848\u3011",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_27_\u8d85\u4f4e\u5e73\u5168\u5468\u671f\u9501\u6b7b_3_00\u6740\u4e3b\u80dc\u6848_\u5e73\u8d54\u5168\u6d41\u7a0b\u5904\u4e8e_3_00\u7981\u533a_\u78342_00\u865a\u8bf1\u4e3b\u80dc\u6697\u6740\u5e73\u5c40_\u5e73\u5c402_95\u4e0e\u8ba9\u8d1f1_59\u901a\u6740\u6848",
+      "label": "\u6848\u4f8b 27\uff08\u8d85\u4f4e\u5e73\u5168\u5468\u671f\u9501\u6b7b<3.00\u6740\u4e3b\u80dc\u6848\uff09\uff1a\u5e73\u8d54\u5168\u6d41\u7a0b\u5904\u4e8e<3.00\u7981\u533a\uff0c\u78342.00\u865a\u8bf1\u4e3b\u80dc\u6697\u6740\u5e73\u5c40\u3010\u5e73\u5c402.95\u4e0e\u8ba9\u8d1f1.59\u901a\u6740\u6848\u3011",
       "_origin": "ast",
       "community": 69,
       "community_name": "\u4e8c\u3001 \u4e94\u5927\u7ecf\u5178\u5b9e\u6218\u76d8\u53e3\u590d\u76d8",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\u6848\u4f8b 24(\u4e2d\u76d8\u4f4e\u6c34\u8ba9\u5e73\u871c\u7f50\u6740\u5927\u80dc\u7a7f\u76d8\u6848):\u8ba9\u5e73\u7838\u78343.10\u505a\u871c\u7f50,\u8ba9\u80dc\u66b4\u62c93.40\u5236\u9020\u771f\u7a7a\u3010\u4e3b\u80dc1.59\u4e0e\u8ba9\u80dc3.40\u5927\u80dc\u901a\u6740\u6848\u3011",
+      "norm_label": "\u6848\u4f8b 27(\u8d85\u4f4e\u5e73\u5168\u5468\u671f\u9501\u6b7b<3.00\u6740\u4e3b\u80dc\u6848):\u5e73\u8d54\u5168\u6d41\u7a0b\u5904\u4e8e<3.00\u7981\u533a,\u78342.00\u865a\u8bf1\u4e3b\u80dc\u6697\u6740\u5e73\u5c40\u3010\u5e73\u5c402.95\u4e0e\u8ba9\u8d1f1.59\u901a\u6740\u6848\u3011",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L435"
+      "source_location": "L487"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_29_\u5e73\u534a\u5012\u6302\u8bf1\u5ba2\u6740\u5e73\u5c40\u6848_\u5ba2\u8d1f\u6613\u4e3b\u5f15\u6d41\u8ffd\u70ed_\u5e73\u8d54\u7838\u51652_80\u8d85\u4f4e\u6c34\u771f\u9632\u5e73_\u5e73\u5c402_83\u4e0e\u8ba9\u8d1f1_43\u901a\u6740\u6848",
@@ -5851,16 +6031,16 @@
       "source_location": "L96"
     },
     {
-      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_37_\u6df1v\u6d17\u76d8\u8bf1\u5ba2\u4e0e1_40\u6bd2\u8bf1\u9975\u6740\u5c40\u6848_\u4e3b\u80dc2_45\u66b4\u780d2_20\u6df1v\u7834\u4f4d_\u8ba9\u8d1f1_40\u6bd2\u8bf1\u9975\u5168\u7f51\u5c60\u622e_\u8ba9\u5e734_50\u5929\u4ef7\u901a\u6740_\u80dc2_20\u4e0e\u8ba9\u5e734_50\u901a\u6740\u6848",
-      "label": "\u6848\u4f8b 37\uff08\u6df1V\u6d17\u76d8\u8bf1\u5ba2\u4e0e1.40\u6bd2\u8bf1\u9975\u6740\u5c40\u6848\uff09\uff1a\u4e3b\u80dc2.45\u66b4\u780d2.20\u6df1V\u7834\u4f4d\uff0c\u8ba9\u8d1f1.40\u6bd2\u8bf1\u9975\u5168\u7f51\u5c60\u622e\uff0c\u8ba9\u5e734.50\u5929\u4ef7\u901a\u6740\u3010\u80dc2.20\u4e0e\u8ba9\u5e734.50\u901a\u6740\u6848\u3011",
+      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_38_\u521d\u76d8\u8ba9\u5e733_72\u5929\u5811\u4e0e\u8ba9\u80dc\u5355\u8c03\u4e0b\u7838\u7a7f\u76d8\u6848_\u80dc\u8d541_42\u8fde\u78381_34_\u8ba9\u5e733_72\u6b7b\u710a\u5426\u5b9a\u5c0f\u80dc_\u8ba9\u80dc2_22\u7838\u81f32_06\u771f\u7a7f\u76d8_\u80dc1_34\u4e0e\u8ba9\u80dc2_06\u53cc\u7ea2\u6848",
+      "label": "\u6848\u4f8b 38\uff08\u521d\u76d8\u8ba9\u5e733.72\u5929\u5811\u4e0e\u8ba9\u80dc\u5355\u8c03\u4e0b\u7838\u7a7f\u76d8\u6848\uff09\uff1a\u80dc\u8d541.42\u8fde\u78381.34\uff0c\u8ba9\u5e733.72\u6b7b\u710a\u5426\u5b9a\u5c0f\u80dc\uff0c\u8ba9\u80dc2.22\u7838\u81f32.06\u771f\u7a7f\u76d8\u3010\u80dc1.34\u4e0e\u8ba9\u80dc2.06\u53cc\u7ea2\u6848\u3011",
       "_origin": "ast",
       "community": 69,
       "community_name": "\u4e8c\u3001 \u4e94\u5927\u7ecf\u5178\u5b9e\u6218\u76d8\u53e3\u590d\u76d8",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "\u6848\u4f8b 37(\u6df1v\u6d17\u76d8\u8bf1\u5ba2\u4e0e1.40\u6bd2\u8bf1\u9975\u6740\u5c40\u6848):\u4e3b\u80dc2.45\u66b4\u780d2.20\u6df1v\u7834\u4f4d,\u8ba9\u8d1f1.40\u6bd2\u8bf1\u9975\u5168\u7f51\u5c60\u622e,\u8ba9\u5e734.50\u5929\u4ef7\u901a\u6740\u3010\u80dc2.20\u4e0e\u8ba9\u5e734.50\u901a\u6740\u6848\u3011",
+      "norm_label": "\u6848\u4f8b 38(\u521d\u76d8\u8ba9\u5e733.72\u5929\u5811\u4e0e\u8ba9\u80dc\u5355\u8c03\u4e0b\u7838\u7a7f\u76d8\u6848):\u80dc\u8d541.42\u8fde\u78381.34,\u8ba9\u5e733.72\u6b7b\u710a\u5426\u5b9a\u5c0f\u80dc,\u8ba9\u80dc2.22\u7838\u81f32.06\u771f\u7a7f\u76d8\u3010\u80dc1.34\u4e0e\u8ba9\u80dc2.06\u53cc\u7ea2\u6848\u3011",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L689"
+      "source_location": "L706"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_3_\u6162\u8dcc\u8bf1\u5f3a\u6740\u51b7\u8d1f_\u683c\u9c81\u5409\u4e9a_0_1_\u5317\u7231\u5c14\u5170_\u5468\u4e94006",
@@ -5945,90 +6125,6 @@
       "norm_label": "\u80cc\u666f\u4e0e\u95ee\u9898\u9648\u8ff0 (context)",
       "source_file": "docs/adr/0010-bookmaker-accumulator-harvesting-and-favourite-trap.md",
       "source_location": "L9"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_copyright",
-      "label": "**COPYRIGHT:**",
-      "_origin": "ast",
-      "community": 70,
-      "community_name": "PDF \u7b2c 16 \u9875",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**copyright:**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L746"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_16_\u9875",
-      "label": "PDF \u7b2c 16 \u9875",
-      "_origin": "ast",
-      "community": 70,
-      "community_name": "PDF \u7b2c 16 \u9875",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 16 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L708"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_references",
-      "label": "**REFERENCES**",
-      "_origin": "ast",
-      "community": 70,
-      "community_name": "PDF \u7b2c 16 \u9875",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**references**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L667"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_to_cite_this_article_740",
-      "label": "**TO CITE THIS ARTICLE:**",
-      "_origin": "ast",
-      "community": 70,
-      "community_name": "PDF \u7b2c 16 \u9875",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**to cite this article:**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L740"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_gilad_feldman",
-      "label": "**GILAD FELDMAN**",
-      "_origin": "ast",
-      "community": 71,
-      "community_name": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**gilad feldman**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L29"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_outcomes_affect_evaluations_of_decision_quality_replication_and_extensions_of_baron_and_hershey_s_1988_outcome_bias_experiment_1",
-      "label": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
-      "_origin": "ast",
-      "community": 71,
-      "community_name": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "outcomes affect evaluations of decision quality: replication and extensions of baron and hershey\u2019s (1988) outcome bias experiment 1",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_1_\u9875",
-      "label": "PDF \u7b2c 1 \u9875",
-      "_origin": "ast",
-      "community": 71,
-      "community_name": "Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey\u2019s (1988) Outcome Bias Experiment 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 1 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L16"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u4e09\u5927\u7269\u7406\u95e8\u7981\u5b9e\u6218\u63a8\u6f14\u9a8c\u8bc1",
@@ -6535,54 +6631,6 @@
       "source_location": "L383"
     },
     {
-      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u5168\u751f\u547d\u5468\u671f_3_00\u8d85\u4f4e\u5e73\u94c1\u5f8b",
-      "label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u5168\u751f\u547d\u5468\u671f<3.00\u8d85\u4f4e\u5e73\u94c1\u5f8b\u201d",
-      "_origin": "ast",
-      "community": 81,
-      "community_name": "\u6848\u4f8b 27\uff08\u8d85\u4f4e\u5e73\u5168\u5468\u671f\u9501\u6b7b<3.00\u6740\u4e3b\u80dc\u6848\uff09\uff1a\u5e73\u8d54\u5168\u6d41\u7a0b\u5904\u4e8e<3.00\u7981\u533a\uff0c\u78342.00\u865a\u8bf1\u4e3b\u80dc\u6697\u6740\u5e73\u5c40\u3010\u5e73\u5c402.95\u4e0e\u8ba9\u8d1f1.59\u901a\u6740\u6848\u3011",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u5168\u751f\u547d\u5468\u671f<3.00\u8d85\u4f4e\u5e73\u94c1\u5f8b\u201d",
-      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L492"
-    },
-    {
-      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_27_\u8d85\u4f4e\u5e73\u5168\u5468\u671f\u9501\u6b7b_3_00\u6740\u4e3b\u80dc\u6848_\u5e73\u8d54\u5168\u6d41\u7a0b\u5904\u4e8e_3_00\u7981\u533a_\u78342_00\u865a\u8bf1\u4e3b\u80dc\u6697\u6740\u5e73\u5c40_\u5e73\u5c402_95\u4e0e\u8ba9\u8d1f1_59\u901a\u6740\u6848",
-      "label": "\u6848\u4f8b 27\uff08\u8d85\u4f4e\u5e73\u5168\u5468\u671f\u9501\u6b7b<3.00\u6740\u4e3b\u80dc\u6848\uff09\uff1a\u5e73\u8d54\u5168\u6d41\u7a0b\u5904\u4e8e<3.00\u7981\u533a\uff0c\u78342.00\u865a\u8bf1\u4e3b\u80dc\u6697\u6740\u5e73\u5c40\u3010\u5e73\u5c402.95\u4e0e\u8ba9\u8d1f1.59\u901a\u6740\u6848\u3011",
-      "_origin": "ast",
-      "community": 81,
-      "community_name": "\u6848\u4f8b 27\uff08\u8d85\u4f4e\u5e73\u5168\u5468\u671f\u9501\u6b7b<3.00\u6740\u4e3b\u80dc\u6848\uff09\uff1a\u5e73\u8d54\u5168\u6d41\u7a0b\u5904\u4e8e<3.00\u7981\u533a\uff0c\u78342.00\u865a\u8bf1\u4e3b\u80dc\u6697\u6740\u5e73\u5c40\u3010\u5e73\u5c402.95\u4e0e\u8ba9\u8d1f1.59\u901a\u6740\u6848\u3011",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u6848\u4f8b 27(\u8d85\u4f4e\u5e73\u5168\u5468\u671f\u9501\u6b7b<3.00\u6740\u4e3b\u80dc\u6848):\u5e73\u8d54\u5168\u6d41\u7a0b\u5904\u4e8e<3.00\u7981\u533a,\u78342.00\u865a\u8bf1\u4e3b\u80dc\u6697\u6740\u5e73\u5c40\u3010\u5e73\u5c402.95\u4e0e\u8ba9\u8d1f1.59\u901a\u6740\u6848\u3011",
-      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L487"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_contributor_roles_taxonomy",
-      "label": "**CONTRIBUTOR ROLES TAXONOMY**",
-      "_origin": "ast",
-      "community": 82,
-      "community_name": "**CONTRIBUTOR ROLES TAXONOMY**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "**contributor roles taxonomy**",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L597"
-    },
-    {
-      "id": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599_2023_aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7_pdf_\u7b2c_15_\u9875",
-      "label": "PDF \u7b2c 15 \u9875",
-      "_origin": "ast",
-      "community": 82,
-      "community_name": "**CONTRIBUTOR ROLES TAXONOMY**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "pdf \u7b2c 15 \u9875",
-      "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2023_Aiyer_\u7ed3\u679c\u504f\u89c1\u4e0e\u51b3\u7b56\u8bc4\u4ef7.md",
-      "source_location": "L631"
-    },
-    {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u62c9\u9a6c\u52aa\u91d1_\u6ce8\u610f\u5230_\u4e0e\u76f8\u5bf9\u659c\u7387\u7a7f\u76d8\u5b9e\u8bc1",
       "label": "1. \u62c9\u9a6c\u52aa\u91d1\u201c\u6ce8\u610f\u5230\u201d\u4e0e\u76f8\u5bf9\u659c\u7387\u7a7f\u76d8\u5b9e\u8bc1",
       "_origin": "ast",
@@ -7085,30 +7133,6 @@
       "norm_label": "\u6848\u4f8b 33(\u8ba9\u80dc\u53cd\u8d85\u5b9a\u683c\u6700\u4f4e\u9879\u7a7f\u76d8\u5927\u6377\u6848):\u521d\u76d8\u8ba9\u80dc2.50\u6700\u9ad8,\u7ec8\u76d8\u66b4\u780d\u81f32.19\u53cd\u8d85\u5b9a\u683c\u5168\u76d8\u6700\u4f4e\u3010\u80dc1.29\u4e0e\u8ba9\u80dc2.19\u5927\u80dc\u6848\u3011",
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
       "source_location": "L605"
-    },
-    {
-      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u5e84\u5bb6\u6700\u5c0f\u635f\u5931_\u6700\u5927\u76c8\u5229_\u8054\u5408\u5bf9\u51b2\u7834\u8bd1",
-      "label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u5e84\u5bb6\u6700\u5c0f\u635f\u5931\u3001\u6700\u5927\u76c8\u5229\u201d\u8054\u5408\u5bf9\u51b2\u7834\u8bd1",
-      "_origin": "ast",
-      "community": 97,
-      "community_name": "\u6848\u4f8b 38\uff08\u521d\u76d8\u8ba9\u5e733.72\u5929\u5811\u4e0e\u8ba9\u80dc\u5355\u8c03\u4e0b\u7838\u7a7f\u76d8\u6848\uff09\uff1a\u80dc\u8d541.42\u8fde\u78381.34\uff0c\u8ba9\u5e733.72\u6b7b\u710a\u5426\u5b9a\u5c0f\u80dc\uff0c\u8ba9\u80dc2.22\u7838\u81f32.06\u771f\u7a7f\u76d8\u3010\u80dc1.34\u4e0e\u8ba9\u80dc2.06\u53cc\u7ea2\u6848\u3011",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1. \u6df1\u5ea6\u590d\u76d8\u4e0e\u201c\u5e84\u5bb6\u6700\u5c0f\u635f\u5931\u3001\u6700\u5927\u76c8\u5229\u201d\u8054\u5408\u5bf9\u51b2\u7834\u8bd1",
-      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L711"
-    },
-    {
-      "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_38_\u521d\u76d8\u8ba9\u5e733_72\u5929\u5811\u4e0e\u8ba9\u80dc\u5355\u8c03\u4e0b\u7838\u7a7f\u76d8\u6848_\u80dc\u8d541_42\u8fde\u78381_34_\u8ba9\u5e733_72\u6b7b\u710a\u5426\u5b9a\u5c0f\u80dc_\u8ba9\u80dc2_22\u7838\u81f32_06\u771f\u7a7f\u76d8_\u80dc1_34\u4e0e\u8ba9\u80dc2_06\u53cc\u7ea2\u6848",
-      "label": "\u6848\u4f8b 38\uff08\u521d\u76d8\u8ba9\u5e733.72\u5929\u5811\u4e0e\u8ba9\u80dc\u5355\u8c03\u4e0b\u7838\u7a7f\u76d8\u6848\uff09\uff1a\u80dc\u8d541.42\u8fde\u78381.34\uff0c\u8ba9\u5e733.72\u6b7b\u710a\u5426\u5b9a\u5c0f\u80dc\uff0c\u8ba9\u80dc2.22\u7838\u81f32.06\u771f\u7a7f\u76d8\u3010\u80dc1.34\u4e0e\u8ba9\u80dc2.06\u53cc\u7ea2\u6848\u3011",
-      "_origin": "ast",
-      "community": 97,
-      "community_name": "\u6848\u4f8b 38\uff08\u521d\u76d8\u8ba9\u5e733.72\u5929\u5811\u4e0e\u8ba9\u80dc\u5355\u8c03\u4e0b\u7838\u7a7f\u76d8\u6848\uff09\uff1a\u80dc\u8d541.42\u8fde\u78381.34\uff0c\u8ba9\u5e733.72\u6b7b\u710a\u5426\u5b9a\u5c0f\u80dc\uff0c\u8ba9\u80dc2.22\u7838\u81f32.06\u771f\u7a7f\u76d8\u3010\u80dc1.34\u4e0e\u8ba9\u80dc2.06\u53cc\u7ea2\u6848\u3011",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\u6848\u4f8b 38(\u521d\u76d8\u8ba9\u5e733.72\u5929\u5811\u4e0e\u8ba9\u80dc\u5355\u8c03\u4e0b\u7838\u7a7f\u76d8\u6848):\u80dc\u8d541.42\u8fde\u78381.34,\u8ba9\u5e733.72\u6b7b\u710a\u5426\u5b9a\u5c0f\u80dc,\u8ba9\u80dc2.22\u7838\u81f32.06\u771f\u7a7f\u76d8\u3010\u80dc1.34\u4e0e\u8ba9\u80dc2.06\u53cc\u7ea2\u6848\u3011",
-      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L706"
     },
     {
       "id": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e\u64cd\u76d8\u5200\u6cd5\u7834\u8bd1",
@@ -13977,7 +14001,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L779",
+      "source_location": "L798",
       "weight": 1.0
     },
     {
@@ -13988,7 +14012,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L785",
+      "source_location": "L804",
       "weight": 1.0
     },
     {
@@ -13999,7 +14023,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L798",
+      "source_location": "L817",
       "weight": 1.0
     },
     {
@@ -14010,7 +14034,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L804",
+      "source_location": "L823",
       "weight": 1.0
     },
     {
@@ -14021,7 +14045,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L809",
+      "source_location": "L828",
       "weight": 1.0
     },
     {
@@ -14032,7 +14056,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L814",
+      "source_location": "L833",
       "weight": 1.0
     },
     {
@@ -14043,7 +14067,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L823",
+      "source_location": "L842",
       "weight": 1.0
     },
     {
@@ -14054,7 +14078,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L828",
+      "source_location": "L847",
       "weight": 1.0
     },
     {
@@ -14065,7 +14089,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L836",
+      "source_location": "L855",
       "weight": 1.0
     },
     {
@@ -14076,7 +14100,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L844",
+      "source_location": "L863",
       "weight": 1.0
     },
     {
@@ -14499,6 +14523,17 @@
     },
     {
       "source": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u4e8c_\u4e94\u5927\u7ecf\u5178\u5b9e\u6218\u76d8\u53e3\u590d\u76d8",
+      "target": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_41_\u6781\u4f4e\u8d54\u62d2\u78342_00\u9020\u80c6\u6740\u5929\u4ef7\u51b7\u5e73\u6848_\u5ba2\u8d1f1_32\u72c2\u964d\u9020\u6b7b\u80c6_\u8ba9\u8d1f2_15\u62d2\u78342_00\u865a\u8bf1\u5927\u80dc_\u5929\u4ef7\u51b7\u5e734_40\u901a\u6740\u5168\u7f51_\u5e734_40\u4e0e\u8ba9\u80dc2_73\u901a\u6740\u6848",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
+      "source_location": "L762",
+      "weight": 1.0
+    },
+    {
+      "source": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u4e8c_\u4e94\u5927\u7ecf\u5178\u5b9e\u6218\u76d8\u53e3\u590d\u76d8",
       "target": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_1_\u4f4e\u8d54\u9020\u80c6\u6740\u5e73\u5c40_\u6fb3\u5927\u5229\u4e9a_1_1_\u5df4\u897f_\u5468\u4e94003",
       "relation": "contains",
       "_origin": "ast",
@@ -14527,7 +14562,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L865",
+      "source_location": "L884",
       "weight": 1.0
     },
     {
@@ -14538,7 +14573,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L871",
+      "source_location": "L890",
       "weight": 1.0
     },
     {
@@ -14549,7 +14584,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L878",
+      "source_location": "L897",
       "weight": 1.0
     },
     {
@@ -14560,7 +14595,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L889",
+      "source_location": "L908",
       "weight": 1.0
     },
     {
@@ -14905,6 +14940,17 @@
       "weight": 1.0
     },
     {
+      "source": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_41_\u6781\u4f4e\u8d54\u62d2\u78342_00\u9020\u80c6\u6740\u5929\u4ef7\u51b7\u5e73\u6848_\u5ba2\u8d1f1_32\u72c2\u964d\u9020\u6b7b\u80c6_\u8ba9\u8d1f2_15\u62d2\u78342_00\u865a\u8bf1\u5927\u80dc_\u5929\u4ef7\u51b7\u5e734_40\u901a\u6740\u5168\u7f51_\u5e734_40\u4e0e\u8ba9\u80dc2_73\u901a\u6740\u6848",
+      "target": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u6df1\u5ea6\u590d\u76d8\u4e0e_\u6781\u4f4e\u8d54\u62d2\u78342_00\u9020\u80c6\u6740\u51b7\u5e73_\u7ec8\u6781\u7269\u7406\u5206\u6c34\u5cad",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
+      "source_location": "L767",
+      "weight": 1.0
+    },
+    {
       "source": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_\u6848\u4f8b_5_\u672c\u6b21\u987f\u609f\u6838\u5fc3_\u62b9\u540d\u76f2\u6d4b_\u5047\u9632\u5e73\u771f\u6740\u5ba2\u80dc",
       "target": "\u8d54\u7387\u5206\u6790\u63a8\u6f14_1_\u521d\u59cb\u9519\u8bef\u63a8\u6f14_\u7b2c\u4e00\u5c42\u97ed\u83dc\u89c6\u89d2",
       "relation": "contains",
@@ -15033,7 +15079,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L762",
+      "source_location": "L781",
       "weight": 1.0
     },
     {
@@ -15055,7 +15101,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L850",
+      "source_location": "L869",
       "weight": 1.0
     },
     {
@@ -15066,7 +15112,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L863",
+      "source_location": "L882",
       "weight": 1.0
     },
     {
@@ -15077,7 +15123,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "\u8d54\u7387\u5206\u6790\u63a8\u6f14.md",
-      "source_location": "L897",
+      "source_location": "L916",
       "weight": 1.0
     },
     {
@@ -20497,5 +20543,5 @@
       "source_file": "\u6e29\u6545\u800c\u77e5\u65b0\u5b66\u4e60\u8d44\u6599/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md"
     }
   ],
-  "built_at_commit": "854c9e62d1c65c0132d50049c770ff3d7e8572c1"
+  "built_at_commit": "a08068a6abdbfa3887dadfbaea0ec7320fcf0276"
 }
