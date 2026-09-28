@@ -1,7 +1,7 @@
 # Graph Report - 足球预测  (2026-09-28)
 
 ## Corpus Check
-- 81 files · ~1,344,524 words
+- 81 files · ~1,344,540 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .bak 1)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c6bb5830`
+- Built from commit: `1ee4d06a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -101,9 +101,9 @@
 4. `智慧经验与习惯塑形` - 40 edges
 5. `Pérez-Blanco & Salmerón (2025) Bayesian Classifier Study` - 19 edges
 6. `Sentiment Bias in Betting Odds` - 19 edges
-7. `智慧复盘论文索引` - 18 edges
-8. `Overall Accuracy & Real-time Scoreboard` - 18 edges
-9. `PlayeRank Framework` - 18 edges
+7. `Overall Accuracy & Real-time Scoreboard` - 18 edges
+8. `PlayeRank Framework` - 18 edges
+9. `智慧复盘论文索引` - 18 edges
 10. `已取代：智慧复盘论文索引` - 17 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -115,8 +115,8 @@
   分析复盘记录/2026-09-12_复盘.md → 温故而知新学习资料/2008_Sentiment_and_Bookmaker_Pricing_Bias.md
 - `一、 头号猎物【周六017 奥萨苏纳 0:2 西班牙人】崩盘根因深度剖析` --legacy_unverified_relation--> `PlayeRank Framework`  [AMBIGUOUS]
   分析复盘记录/2026-09-12_复盘.md → 温故而知新学习资料/2019_Nature_PlayeRank_Data_Driven_Framework.md
-- `已取代：项目规则与数据口径审计` --legacy_unverified_relation--> `智慧复盘论文索引`  [AMBIGUOUS]
-  分析复盘记录/README.md → 温故而知新学习资料/README.md
+- `历史待核查：二、 漏网盲区深度审计：【周五004 赫根 1:1 米亚尔比】` --legacy_unverified_relation--> `Asian Handicap (AH) Betting Market`  [AMBIGUOUS]
+  分析复盘记录/2026-09-11_复盘.md → 温故而知新学习资料/2003.09384_Asian_Handicap_Market_Efficiency_Bayesian_Networks.md
 
 ## Import Cycles
 - None detected.
@@ -317,7 +317,7 @@ Nodes (4): ADR 0014: 双引擎融合做实基建与防幻觉物理门禁 (Hybrid
 
 ### Community 61 - "三、 赔率分析推演十大公理（胜平负 + 让球联动）"
 Cohesion: 0.07
-Nodes (27): 1. 不变量一：初赔骨架定位律（Bone Invariant：初盘定能量场）, 2. 不变量二：让球盘成本刚性门禁（Gate Invariant：让球查真敞口）, 3. 不变量三：散户羊群心理逆向审查（Flow Invariant：诱饵反推正解）, 4. 不变量四：做市商通杀闭环解（Closing Invariant：最小赔付最优落点）, 5. 双盘联动统一博弈模型（与庄共舞：胜平负 × 让球盘条件概率矩阵与交叉破译）, 一、 盘口动力学统一智慧心法：超越个案死板记忆的四大物理不变量, 三、 赔率分析推演十大公理（胜平负 + 让球联动）, 五、 彻底杜绝推演反复犯错的三大定量物理门禁（根治二元钟摆与阴谋论妄想症） (+19 more)
+Nodes (27): 1. 不变量一：初赔骨架定位律（Bone Invariant：初盘定能量场）, 2. 不变量二：让球盘成本刚性门禁（Gate Invariant：让球查真敞口）, 3. 不变量三：散户羊群心理逆向审查（Flow Invariant：诱饵反推正解）, 4. 不变量四：做市商极小化损失与利润最大化闭环解（Minimax Liability & Optimal Payout Invariant）, 5. 双盘联动统一博弈模型（与庄共舞：胜平负 × 让球盘条件概率矩阵与交叉破译）, 一、 盘口动力学统一智慧心法：超越个案死板记忆的四大物理不变量, 三、 赔率分析推演十大公理（胜平负 + 让球联动）, 五、 彻底杜绝推演反复犯错的三大定量物理门禁（根治二元钟摆与阴谋论妄想症） (+19 more)
 
 ### Community 62 - "**ABSTRACT**"
 Cohesion: 0.40
@@ -404,14 +404,6 @@ Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板,
   分析复盘记录/2026-09-13_预测.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-11_预测.md` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
-- `已取代：项目规则与数据口径审计` → `智慧复盘论文索引`  [AMBIGUOUS]
-  温故而知新学习资料/README.md · relation: legacy_unverified_relation
-- `已取代：项目规则与数据口径审计` → `智慧经验与习惯塑形`  [AMBIGUOUS]
-  分析复盘记录/总复盘总结.md · relation: legacy_unverified_relation
-- `已取代：项目规则与数据口径审计` → `足球概率分析系统手册`  [AMBIGUOUS]
-  README.md · relation: legacy_unverified_relation
-- `已取代：项目规则与数据口径审计` → `预测记录与智慧复盘契约`  [AMBIGUOUS]
-  分析复盘记录/README.md · relation: legacy_unverified_relation
 - `历史待核查：1. 【周五012 科里蒂巴 1:3 巴拉纳竞技】—— 触犯自身红线 2 的致命“伪降水”失误` → `Skellam Distribution (Poisson-Difference)`  [AMBIGUOUS]
   分析复盘记录/2026-09-11_复盘.md · relation: legacy_unverified_relation
 - `历史待核查：2026-09-11（周五）中国体彩平局全要素深度复盘与盲区审计报告` → `历史待核查：2026-09-11 Post-Match Review`  [AMBIGUOUS]
@@ -424,6 +416,14 @@ Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板,
   分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
 - `历史待核查：二、 周四007【德尔瓦耶 0:2 弗拉门戈】单挑失手深度复盘` → `Sentiment Bias in Betting Odds`  [AMBIGUOUS]
   分析复盘记录/2026-09-10_复盘.md · relation: legacy_unverified_relation
+- `已取代：项目规则与数据口径审计` → `智慧复盘论文索引`  [AMBIGUOUS]
+  温故而知新学习资料/README.md · relation: legacy_unverified_relation
+- `已取代：项目规则与数据口径审计` → `智慧经验与习惯塑形`  [AMBIGUOUS]
+  分析复盘记录/总复盘总结.md · relation: legacy_unverified_relation
+- `已取代：项目规则与数据口径审计` → `足球概率分析系统手册`  [AMBIGUOUS]
+  README.md · relation: legacy_unverified_relation
+- `已取代：项目规则与数据口径审计` → `预测记录与智慧复盘契约`  [AMBIGUOUS]
+  分析复盘记录/README.md · relation: legacy_unverified_relation
 - `Hierarchical Bayesian Poisson Football Score Model` → `历史待核查：2026-09-06 Pre-Match Forecast`  [AMBIGUOUS]
   分析复盘记录/2026-09-06_预测.md · relation: legacy_unverified_relation
 - `Hierarchical Bayesian Poisson Football Score Model` → `历史待核查：2026-09-07 Pre-Match Forecast`  [AMBIGUOUS]
