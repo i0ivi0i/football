@@ -1,17 +1,17 @@
 # Graph Report - 足球预测  (2026-09-28)
 
 ## Corpus Check
-- 81 files · ~1,344,540 words
+- 81 files · ~1,344,604 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 3 file(s) not represented in the graph (top: (none) 2, .bak 1)
 
 ## Summary
-- 705 nodes · 967 edges · 77 communities (62 shown, 15 thin omitted)
+- 706 nodes · 968 edges · 72 communities (57 shown, 15 thin omitted)
 - Extraction: 84% EXTRACTED · 6% INFERRED · 10% AMBIGUOUS · INFERRED: 60 edges (avg confidence: 0.62)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1ee4d06a`
+- Built from commit: `fd82a921`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -86,16 +86,11 @@
 - ADR 0016: 全域微观战术指标集成与高位逼抢转化惩罚引擎 (Tactical Micro-Metrics Integration & Pressing Conversion Penalty Engine)
 - Outcomes Affect Evaluations of Decision Quality: Replication and Extensions of Baron and Hershey’s (1988) Outcome Bias Experiment 1
 - 二、 五大经典实战盘口复盘
-- 已取代：智慧复盘论文索引
-- 智慧复盘论文索引
-- Shin与比例归一化：方法说明及适用边界
-- 2026-09-13_复盘.md
-- 预测记录与智慧复盘契约
 - 2026-09-19（周六）中国体育彩票全量 30 场推演大看板
 - 2026-09-20（周日）中国体育彩票全量 30 场推演大看板
 
 ## God Nodes (most connected - your core abstractions)
-1. `二、 五大经典实战盘口复盘` - 68 edges
+1. `二、 五大经典实战盘口复盘` - 69 edges
 2. `足球概率分析现行规程` - 54 edges
 3. `**Forecast evaluation for data scientists: common pitfalls and best practices**` - 52 edges
 4. `智慧经验与习惯塑形` - 40 edges
@@ -129,15 +124,15 @@
 - **Betting Market Aggregate Information Framework** — 1710_02824_consensus_probability, 2018_plos_elo_odds, 2008_sentiment_sentiment_bias [INFERRED 0.85]
 - **Soccer Match Outcome Forecasting Frameworks** — egidi_hierarchical_poisson_model, constantinou_hybrid_bn_model, ordered_logit_regression, multinomial_logit_regression [INFERRED 0.85]
 
-## Communities (77 total, 15 thin omitted)
+## Communities (72 total, 15 thin omitted)
 
 ### Community 0 - "二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？"
 Cohesion: 0.25
 Nodes (8): 1. 【周日003 塞尔塔 1:1 马拉加】（平赔 3.50）, 2026-09-13（周日）中国体彩平局全要素深度复盘与 5 场漏网盲区审计报告, 2. 【周日006 海伦芬 0:0 特尔斯达】（平赔 4.55，冷门白卷）, 3. 【周日012 勒芒 2:2 朗斯】（平赔 4.15，对攻大冷平）, 4. 【周日022 法马利康 1:1 里斯本竞技】（平赔 4.30，豪门爆冷）, 一、 为什么【周日001 东京绿茵 1:1 千叶市原】被核心主推遗漏？, 三、 乔布斯产品思维的物理重构方案, 二、 为什么 003 / 006 / 012 / 022 四场平局全被一网打尽式遗漏？
 
 ### Community 1 - "足球概率分析现行规程"
-Cohesion: 0.15
-Nodes (25): 反例、适用范围与失效条件, 习惯塑形, 智慧经验与习惯塑形, 足球概率分析现行规程, 复盘防僵化检查实践, 七类条件复核, 有条件的经验调整、反例与撤回, 事实、计算、关联与待验证机制 (+17 more)
+Cohesion: 0.06
+Nodes (67): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, 反例、适用范围与失效条件, 习惯塑形 (+59 more)
 
 ### Community 2 - "Wheatcroft 论文 Markdown（附公式与图表）"
 Cohesion: 0.05
@@ -172,8 +167,8 @@ Cohesion: 0.17
 Nodes (12): Broader Importance of Outcome Bias, Constraints on Generality, **DISCUSSION**, **EXTENSIONS**, Limitations and Future Directions, PDF 第 12 页, PDF 第 13 页, PDF 第 14 页 (+4 more)
 
 ### Community 10 - "2023_Aiyer_结果偏见与决策评价.md"
-Cohesion: 0.08
-Nodes (22): 2026-09-17（周四）中国体育彩票量化排查与实盘交易决策报告, 决策结论：【全盘 10 场皆不合规，今日坚决空仓观察，绝不硬推！】, 2026-09-20（周日）深度复盘与对账报告, 🎯 核心失误血泪剖析：为什么周日006（佛罗伦萨 vs 那不勒斯）会严重误判？, **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION** (+14 more)
+Cohesion: 0.11
+Nodes (18): **ADDITIONAL FILES**, **AUTHOR AFFILIATIONS**, **AUTHOR CONTRIBUTIONS**, **AUTHOR INFORMATION**, **BACKGROUND**, **CHOSEN STUDY FOR REPLICATION: BARON AND HERSHEY (1988)**, **CITATION OF THE TARGET RESEARCH ARTICLE**, **COMPETING INTERESTS** (+10 more)
 
 ### Community 11 - "2026-09-12（周六）中国体彩平局全要素深度复盘与盲区审计报告"
 Cohesion: 0.15
@@ -349,27 +344,7 @@ Nodes (3): **GILAD FELDMAN**, Outcomes Affect Evaluations of Decision Quality: R
 
 ### Community 69 - "二、 五大经典实战盘口复盘"
 Cohesion: 0.03
-Nodes (68): 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】, 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】, 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】, 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】 (+60 more)
-
-### Community 70 - "已取代：智慧复盘论文索引"
-Cohesion: 0.24
-Nodes (9): 足球概率分析系统手册, Stable reliability diagrams for probabilistic classifiers, CORP 稳定可靠性图, CORP 校准与区分能力分解, 已取代：整改依据与验证边界, 已取代：项目规则与数据口径审计, Forecast evaluation for data scientists: common pitfalls and best practices, PDF 第 1 页 (+1 more)
-
-### Community 71 - "智慧复盘论文索引"
-Cohesion: 0.22
-Nodes (9): Choe与Ramdas：序贯预测者比较, Dimitriadis等：CORP稳定可靠性图, Giacomini与White：条件预测能力检验, Macrì-Demartino等：动态历史信息借用, 智慧复盘论文索引, 论文的方法角色与迁移边界, Comparing Sequential Forecasters, 随时有效的序贯预测检验 (+1 more)
-
-### Community 72 - "Shin与比例归一化：方法说明及适用边界"
-Cohesion: 0.33
-Nodes (8): 项目规则与数据口径审计, 比例归一化市场概率, Shin逆变换的平方与总和项, Shin潜在参数的解释边界, Shin与比例归一化：方法说明及适用边界, 历史待核查：2026-09-10_预测.md, 文献与项目方法笔记资料库, 资料关联不等于因果或效果认证
-
-### Community 73 - "2026-09-13_复盘.md"
-Cohesion: 0.25
-Nodes (6): Tests of Conditional Predictive Ability, 条件预测能力检验, 预测评估中的估计不确定性, Bayesian weighted discrete-time dynamic models for association football prediction, 自适应借用历史球队信息, 随时间变化的球队攻防能力
-
-### Community 74 - "预测记录与智慧复盘契约"
-Cohesion: 0.33
-Nodes (6): 概率评分、校准、命中率与收益分开, 赛前实际时间与版本封存, 先审过程再揭示赛果, 冻结假设与未来样本比较, 预测记录与智慧复盘契约, 温故而知新：论文与方法资料库
+Nodes (69): 二、 五大经典实战盘口复盘, 案例 10（慢跌诱强杀大冷）：客胜慢跌破1.80掩护主胜爆冷【多德勒支 3:2 阿尔梅勒城】, 案例 11（慢跌诱客杀闷平）：客让半球破1.75引流死胆杀平局【平赔稳守3.62通杀案】, 案例 12（降让胜诱大胜杀穿盘）：低赔破1.30引流穿盘暗杀让平【让平3.85通杀案】, 案例 13（低赔易主真崩盘）：主胜暴拉+0.39客胜加速破位【客胜 2.45 顺水推舟案】, 案例 14（二元盲区与让盘双弃案）：主升平降诱中路，让球双弃出客胜【客胜 3.13 爆冷通杀案】, 案例 15（三大门禁实战首捷）：主胜独跌破位+让盘双降穿盘【胜 1.65 与让胜 3.15 穿盘大捷案】, 案例 16（让胜跳水式暴跌穿盘案）：胜赔暴跌破1.55+让胜狂砍0.43【主胜与让胜穿盘通杀案】 (+61 more)
 
 ### Community 86 - "2026-09-19（周六）中国体育彩票全量 30 场推演大看板"
 Cohesion: 0.67
@@ -578,8 +553,8 @@ Nodes (3): 2026-09-20（周日）中国体育彩票全量 30 场推演大看板,
   分析复盘记录/2026-09-11_预测.md · relation: legacy_unverified_relation
 
 ## Knowledge Gaps
-- **414 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+409 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 449 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **415 isolated node(s):** `graphify`, `Workflow: graphify`, `目录结构`, `治理铁律`, `与其他文档的关系` (+410 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 450 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
